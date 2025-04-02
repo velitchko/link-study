@@ -8,7 +8,7 @@ A study to assess the impact of explicit edge drawing in node-link diagrams.
 ## Getting Started
 Clone the repository
 ```console
-foo@bar:~$ git clone https://github.com/velitchko/uncertainty-net-study.git
+foo@bar:~$ git clone https://github.com/velitchko/link-study.git
 ```
 
 ### Dependencies
