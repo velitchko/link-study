@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  uncertainty-net-backend:
+    build: ./backend
+    ports: 
+      - "8080:8080"
+    volumes:
+      - ./backend:/app
+      - ./backend/data:/app/data
+      - ./backend/logs:/app/logs
+    restart: on-failure
+    
+  uncertainty-net-frontend:
+    build: ./frontend
+    ports: 
+      - "4200:4200"
+    volumes:
+      - ./frontend:/app
+    depends_on:
+      - uncertainty-net-backend
+    restart: on-failure

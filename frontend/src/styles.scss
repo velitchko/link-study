@@ -1,0 +1,25 @@
+/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #f3f3f3;
+
+    #dthree > svg {
+        border: solid 1px black;
+    }
+}
+
+.sd-element__title span {
+    font-size: 1.5rem !important;
+    font-weight: bold !important;
+}
+
+.sd-body {
+    padding: 0 !important;
+}
+
+.sd-html > div > * {
+    font-size: 1.25rem !important;
+}
