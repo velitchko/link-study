@@ -1,6 +1,6 @@
-# Uncertainty in Networks
+# Impact of Explicit Edge Drawing
 
-A study of multiple node uncertainty encodings in network visualization.
+A study to assess the impact of explicit edge drawing in node-link diagrams.
 
 ## Description
 
