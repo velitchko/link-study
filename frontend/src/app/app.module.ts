@@ -6,6 +6,7 @@ import { RouterModule } from '@angular/router';
 import { AppRoutingModule } from './app-routing.module';
 import { SurveyModule } from "survey-angular-ui";
 import { NodeLinkModule } from '../modules/node-link.module';
+import { NoLinkModule } from 'src/modules/no-link.module';
 
 // handlers
 import { ErrorHandler } from '@angular/core';
@@ -29,7 +30,8 @@ import { ErrorComponent } from '../components/error/error.component';
     AppRoutingModule,
     HttpClientModule,
     SurveyModule,
-    NodeLinkModule
+    NodeLinkModule,
+    NoLinkModule
   ],
   providers: [{
     provide: ErrorHandler,

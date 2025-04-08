@@ -1,16 +1,12 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { EncloseComponent } from '../components/enclose/enclose.component';
-import { SaturateComponent } from '../components/node-link/node-link.component';
-import { WiggleComponent } from '../components/wiggle/wiggle.component';
-import { FuzzyComponent } from '../components/fuzzy/fuzzy.component';
 import { SurveyComponent } from '../components/survey/survey.component';
+import { NodeLinkComponent } from 'src/components/node-link/node-link.component';
+import { NoLinkComponent } from 'src/components/no-link/no-link.component';
 
 const routes: Routes = [
-  { path: 'enclose', component: EncloseComponent },
-  { path: 'saturate', component: SaturateComponent },
-  { path: 'wiggle', component: WiggleComponent },
-  { path: 'fuzzy', component: FuzzyComponent },
+  { path: 'nodelink', component: NodeLinkComponent },
+  { path: 'nolink', component: NoLinkComponent },
   { path: 'survey', component: SurveyComponent },
   { path: '**', redirectTo: 'survey' }
 ];
