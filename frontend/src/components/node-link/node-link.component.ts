@@ -3,6 +3,7 @@ import * as d3 from 'd3';
 import { Node, Edge, Aesth, DataService } from '../../services/data.service';
 import { GlobalErrorHandler } from '../../services/error.service';
 import { ResultsService } from '../../services/results.service';
+import { lesMis } from '../../assets/datasets/test.js';
 
 type NodeExt = Node & { x: number, y: number };
 type EdgeExt = Edge & { source: NodeExt, target: NodeExt };
@@ -29,66 +30,53 @@ export class NodeLinkComponent implements AfterViewInit {
     private labels: d3.Selection<SVGTextElement, NodeExt, SVGGElement, any>;
     private simulation: d3.Simulation<NodeExt, EdgeExt>;
     private aesthetics: Aesth;
+    private graph: { nodes: NodeExt[], edges: EdgeExt[] };
 
     constructor(private dataService: DataService, private errorHandler: GlobalErrorHandler, private resultsService: ResultsService) { 
     }
 
     async ngAfterViewInit(): Promise<void> {
-        const meta = d3.select('#metadata').text().trim();
-        const dataset = meta.split('-')[0];
-        const variant = meta.split('-')[1];
-        const level = meta.split('-')[2];
-        const task = meta.split('-')[3];
+        // const meta = d3.select('#metadata').text().trim();
+        // const dataset = meta.split('-')[0];
+        // const variant = meta.split('-')[1];
+        // const level = meta.split('-')[2];
+        // const task = meta.split('-')[3];
 
-        const finalLevel = this.resultsService.getFinalLevel(task, level);
-        const fileName = `${dataset}_${variant}.${finalLevel}.json`;
+        // const finalLevel = this.resultsService.getFinalLevel(task, level);
+        // const fileName = `${dataset}_${variant}.${finalLevel}.json`;
 
-        const graph = await this.dataService.loadFilename(fileName);
+        // const graph = await this.dataService.loadFilename(fileName);
 
-        this.aesthetics = graph.aesthetics;
+        // this.aesthetics = graph.aesthetics;
+        this.graph = lesMis as { nodes: NodeExt[], edges: EdgeExt[] };
 
-        this.drawGraph({
-            nodes: graph.nodes as NodeExt[],
-            edges: graph.edges as EdgeExt[]
-        });
+        this.drawGraph(this.graph);
     }
 
-    private nodeR(mean: number): number {
-        return 5 + Math.sqrt(1000*mean / Math.PI);
-    }
-
-    private saturate(variance: number): d3.RGBColor {
-        let c = d3.color('red');
-        if (c) {
-            c = d3.hsl(c);
-            c.s = 1 - variance;
-            return d3.rgb(c);
-        }
-        return d3.rgb('red');
-    }
-
-    private ticked(): void {
+    private layoutEnd(): void {
+        console.log('Layout ended');
+        
         this.edges
-            .attr('x1', (d: EdgeExt) => d.source.x + this.aesthetics.xoffset)
-            .attr('y1', (d: EdgeExt) => d.source.y + this.aesthetics.yoffset)
-            .attr('x2', (d: EdgeExt) => d.target.x + this.aesthetics.xoffset)
-            .attr('y2', (d: EdgeExt) => d.target.y + this.aesthetics.yoffset);
+            .attr('x1', (d: EdgeExt) => d.source.x)
+            .attr('y1', (d: EdgeExt) => d.source.y)
+            .attr('x2', (d: EdgeExt) => d.target.x)
+            .attr('y2', (d: EdgeExt) => d.target.y);
 
         this.buffer
-            .attr('cx', (d: NodeExt) => d.x + this.aesthetics.xoffset)
-            .attr('cy', (d: NodeExt) => d.y + this.aesthetics.yoffset);
+            .attr('cx', (d: NodeExt) => d.x)
+            .attr('cy', (d: NodeExt) => d.y);
 
         this.nodes
-            .attr('cx', (d: NodeExt) => d.x + this.aesthetics.xoffset)
-            .attr('cy', (d: NodeExt) => d.y + this.aesthetics.yoffset);
+            .attr('cx', (d: NodeExt) => d.x)
+            .attr('cy', (d: NodeExt) => d.y);
 
         this.labels
-            .attr('x', (d: NodeExt) => d.x + this.aesthetics.xoffset)
-            .attr('y', (d: NodeExt) => d.y + this.aesthetics.yoffset);
+            .attr('x', (d: NodeExt) => d.x)
+            .attr('y', (d: NodeExt) => d.y);
     }
 
     drawGraph(graph: { nodes: NodeExt[], edges: EdgeExt[] }): void {
-        const svg = d3.select('#saturate-container')
+        const svg = d3.select('#node-link-container')
             .attr('width', this.width + this.margin.left + this.margin.right)
             .attr('height', this.height + this.margin.top + this.margin.bottom)
             .append('g')
@@ -103,7 +91,8 @@ export class NodeLinkComponent implements AfterViewInit {
             .append('line')
                 .attr('stroke', 'black')
                 .attr('stroke-width', 2)
-                .attr('stroke-opacity', 0.5);
+                .attr('stroke-opacity', 0.5)
+                .style('opacity', 0);
 
         // initialize buffer
         this.buffer = svg.append('g')
@@ -113,8 +102,9 @@ export class NodeLinkComponent implements AfterViewInit {
             .enter()
             .append('circle')
                 .attr('class', 'buffer')
-                .attr('r', (d: NodeExt) => this.nodeR(d.mean) + 12)
-                .attr('fill', 'white');
+                .attr('r', (d: NodeExt) => 12)
+                .attr('fill', 'white')
+                .style('opacity', 0);
 
         // initialize nodes
         this.nodes = svg.append('g')
@@ -124,8 +114,9 @@ export class NodeLinkComponent implements AfterViewInit {
             .enter()
             .append('circle')
                 .attr('class', 'node')
-                .attr('r', (d: NodeExt) => this.nodeR(d.mean) + 10)
-                .attr('fill', (d: NodeExt) => this.saturate(d.variance).toString());
+                .attr('r', (d: NodeExt) => 10)
+                .attr('fill', (d: NodeExt) => 'black')
+                .style('opacity', 0);
 
         // initialize labels
         this.labels = svg.append('g')
@@ -140,12 +131,37 @@ export class NodeLinkComponent implements AfterViewInit {
                 .attr('fill', 'black')
                 .attr('dy', '0.35em')
                 .attr('text-anchor', 'middle')
-                .style('font-family', '\'Fira Mono\', monospace');
+                .style('font-family', '\'Fira Mono\', monospace')
+                .style('opacity', 0);
 
         this.simulation = d3.forceSimulation(graph.nodes)
-            .force('link', d3.forceLink(graph.edges).id((d: any) => (d as NodeExt).id).distance(this.aesthetics.distance).strength(this.aesthetics.strength).links(graph.edges))
-            .force('charge', d3.forceManyBody().strength(this.aesthetics.charge))
+            .force('link', d3.forceLink(graph.edges).id((d: any) => (d as NodeExt).id).links(graph.edges))
+            .force('charge', d3.forceManyBody().strength(-300))
             .force('center', d3.forceCenter(this.width / 2, this.height / 2))
-            .on('tick', this.ticked.bind(this));
+            .on('tick', () => {
+                this.edges
+                    .attr('x1', (d: EdgeExt) => d.source.x)
+                    .attr('y1', (d: EdgeExt) => d.source.y)
+                    .attr('x2', (d: EdgeExt) => d.target.x)
+                    .attr('y2', (d: EdgeExt) => d.target.y);
+
+                this.buffer
+                    .attr('cx', (d: NodeExt) => d.x)
+                    .attr('cy', (d: NodeExt) => d.y);
+
+                this.nodes
+                    .attr('cx', (d: NodeExt) => d.x)
+                    .attr('cy', (d: NodeExt) => d.y);
+
+                this.labels
+                    .attr('x', (d: NodeExt) => d.x)
+                    .attr('y', (d: NodeExt) => d.y);
+            })
+            .on('end', () => {
+                this.edges.style('opacity', 1);
+                this.nodes.style('opacity', 1);
+                this.buffer.style('opacity', 1);
+                this.labels.style('opacity', 1);
+            });
     }
 }
