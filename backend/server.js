@@ -6,7 +6,7 @@ const uuid = require('uuid');
 const cors = require('cors');
 
 const assignedEncoding = [ 'link', 'no-link',];
-const taskCodes = [ 't1', 't2', 't3', 't4', 't5', 't6', 't7', 't8' ];
+const taskCodes = [ 't1', 't2', 't3', 't4', 't5', 't6' ];
 
 const taskDescriptions = new Map([
     ['t1', ''],
@@ -15,8 +15,6 @@ const taskDescriptions = new Map([
     ['t4', ''],
     ['t5', ''],
     ['t6', ''],
-    ['t7', ''],
-    ['t8', '']
 ]);
 
 const threshold = 1;
@@ -44,9 +42,8 @@ app.get('/params', (req, res) => {
         message: '👍',
         params: {
             userId: user,
-            encoding: assignedEncoding,
-            dataset: assignedDataset,
-            level: assignedLevel,
+            encoding: '',
+            dataset: '',
             taskCodes: sortedTaskCodes,
             taskDescriptions: sortedTaskDescriptions,
         }
