@@ -99,7 +99,7 @@ export class NodeLinkComponent implements AfterViewInit {
 
         this.lassoLayer = container.append('g').attr('class', 'lasso-layer');
 
-    container
+        container
             .on('mousedown', (event: MouseEvent) => {
                 if (event.button !== 0) return; // only allow left click
 
