@@ -42,6 +42,8 @@ export class NodeLinkComponent implements AfterViewInit {
         task: '',
     };
 
+    private answerSet: (string | number)[] = [];
+
     constructor(private dataService: DataService, private errorHandler: GlobalErrorHandler, private resultsService: ResultsService) {
     }
 
@@ -137,6 +139,17 @@ export class NodeLinkComponent implements AfterViewInit {
                 this.buffer.classed('selected', d => d3.polygonContains(polygon, [d.x, d.y]))
                     .classed('unselected', d => !d3.polygonContains(polygon, [d.x, d.y]));
 
+                // add selected nodes to answer set
+                const selectedNodes = this.nodes.filter(function() {
+                    return d3.select(this).classed('selected');
+                }).data() as NodeExt[];
+                const selectedNodeIds = selectedNodes.map(node => node.id);
+                
+                // replace the answer set with the selected nodes
+                this.answerSet = selectedNodeIds;
+                console.log('Selected nodes:', this.answerSet);
+                // this.dataService.setAnswerSet(this.answerSet);
+
                 this.lassoPath.remove();
             })
 
@@ -175,6 +188,28 @@ export class NodeLinkComponent implements AfterViewInit {
             .attr('r', (d: NodeExt) => 10)
             .attr('fill', (d: NodeExt) => 'black')
             .style('opacity', 0)
+            .on('click', (event: MouseEvent, d: NodeExt) => {
+                // reset selected class to all nodes
+                this.nodes.classed('selected', false).classed('unselected', false);
+                this.labels.classed('selected', false).classed('unselected', false);
+                this.buffer.classed('selected', false).classed('unselected', false);
+
+                // add selected class to clicked node, label, and buffer
+                d3.select(event.currentTarget as SVGCircleElement).classed('selected', true).classed('unselected', false);
+                d3.selectAll<SVGTextElement, NodeExt>('.labels text.label').filter((label: NodeExt) => label.id === d.id).classed('selected', true).classed('unselected', false);
+                d3.selectAll<SVGCircleElement, NodeExt>('.buffers circle.buffer').filter((buffer: NodeExt) => buffer.id === d.id).classed('selected', true).classed('unselected', false);
+
+                // add selected node to answer set
+                const selectedNodes = this.nodes.filter(function() {
+                    return d3.select(this).classed('selected');
+                }).data() as NodeExt[];
+
+                const selectedNodeIds = selectedNodes.map(node => node.id);
+
+                // replace the answer set with the selected nodes
+                this.answerSet = selectedNodeIds;
+                console.log('Selected nodes:', this.answerSet);
+            })
             .on('mouseover', (event: MouseEvent, d: NodeExt) => {
                 if (this.config.variant !== 'interaction') return;
                 d3.select(event.currentTarget as SVGCircleElement).attr('r', 15).attr('fill', 'red');
@@ -188,8 +223,7 @@ export class NodeLinkComponent implements AfterViewInit {
                     .filter((node: NodeExt) => graph.edges.some(edge => (edge.source.id === d.id && edge.target.id === node.id) || (edge.target.id === d.id && edge.source.id === node.id)))
                     .attr('fill', 'red');
                 d3.selectAll<SVGTextElement, NodeExt>('.labels text.label').filter((label: NodeExt) => label.id === d.id).attr('stroke', 'red').attr('fill', 'red');
-            }
-            )
+            })
             .on('mouseout', (event: MouseEvent, d: NodeExt) => {
                 if (this.config.variant !== 'interaction') return;
                 d3.select(event.currentTarget as SVGCircleElement).attr('r', 10).attr('fill', 'black');
