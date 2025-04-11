@@ -16,14 +16,14 @@ type EdgeExt = Edge & { source: NodeExt, target: NodeExt };
 
 export class NodeLinkComponent implements AfterViewInit {
     private margin = {
-        top: 10, 
-        right: 10, 
-        bottom: 10, 
+        top: 10,
+        right: 10,
+        bottom: 10,
         left: 10
     };
     private width = 1400 - this.margin.left - this.margin.right;
     private height = 1200 - this.margin.top - this.margin.bottom;
-   
+
     private nodes: d3.Selection<SVGCircleElement, NodeExt, SVGGElement, any>;
     private edges: d3.Selection<SVGLineElement, EdgeExt, SVGGElement, any>;
     private buffer: d3.Selection<SVGCircleElement, NodeExt, SVGGElement, any>;
@@ -31,6 +31,10 @@ export class NodeLinkComponent implements AfterViewInit {
     private simulation: d3.Simulation<NodeExt, EdgeExt>;
     private aesthetics: Aesth;
     private graph: { nodes: NodeExt[], edges: EdgeExt[] };
+    private lassoStart = false;
+    private lassoPoints: [number, number][] = [];
+    private lassoPath: d3.Selection<SVGPathElement, unknown, HTMLElement, undefined>;
+    private lassoLayer: d3.Selection<SVGGElement, unknown, HTMLElement, any>;
     private config = {
         dataset: '',
         variant: '',
@@ -38,7 +42,7 @@ export class NodeLinkComponent implements AfterViewInit {
         task: '',
     };
 
-    constructor(private dataService: DataService, private errorHandler: GlobalErrorHandler, private resultsService: ResultsService) { 
+    constructor(private dataService: DataService, private errorHandler: GlobalErrorHandler, private resultsService: ResultsService) {
     }
 
     async ngAfterViewInit(): Promise<void> {
@@ -57,7 +61,7 @@ export class NodeLinkComponent implements AfterViewInit {
 
     private layoutEnd(): void {
         console.log('Layout ended');
-        
+
         this.edges
             .attr('x1', (d: EdgeExt) => d.source.x)
             .attr('y1', (d: EdgeExt) => d.source.y)
@@ -80,9 +84,61 @@ export class NodeLinkComponent implements AfterViewInit {
     drawGraph(graph: { nodes: NodeExt[], edges: EdgeExt[] }): void {
         const svg = d3.select('#node-link-container')
             .attr('width', this.width + this.margin.left + this.margin.right)
-            .attr('height', this.height + this.margin.top + this.margin.bottom)
+            .attr('height', this.height + this.margin.top + this.margin.bottom);
+
+        const container = svg
             .append('g')
             .attr('transform', `translate(${this.margin.left},${this.margin.top})`);
+
+        container.append('rect')
+            .attr('width', this.width)
+            .attr('height', this.height)
+            .attr('fill', 'transparent')
+            .style('cursor', 'crosshair')
+            .lower();
+
+        this.lassoLayer = container.append('g').attr('class', 'lasso-layer');
+
+    container
+            .on('mousedown', (event: MouseEvent) => {
+                if (event.button !== 0) return; // only allow left click
+
+                this.lassoStart = true;
+                this.lassoPoints = [];
+                if (this.lassoPath) this.lassoPath.remove();
+
+                this.lassoPath = this.lassoLayer.append('path')
+                    .attr('fill', 'rgba(0,0,255,0.1)')
+                    .attr('stroke', 'blue')
+                    .attr('stroke-width', 1);
+            })
+            .on('mousemove', (event: MouseEvent) => {
+                if (!this.lassoStart) return;
+
+                const [x, y] = d3.pointer(event);
+                this.lassoPoints.push([x, y]);
+
+                const pathData = `M${this.lassoPoints.map(p => p.join(',')).join('L')}Z`;
+                this.lassoPath.attr('d', pathData);
+            })
+            .on('mouseup', (event: MouseEvent) => {
+                if (!this.lassoStart) return;
+                this.lassoStart = false;
+
+                const polygon = this.lassoPoints;
+                if (polygon.length < 3) return;
+
+                this.nodes.classed('selected', d => d3.polygonContains(polygon, [d.x, d.y]))
+                    .classed('unselected', d => !d3.polygonContains(polygon, [d.x, d.y]));
+
+                this.labels.classed('selected', d => d3.polygonContains(polygon, [d.x, d.y]))
+                    .classed('unselected', d => !d3.polygonContains(polygon, [d.x, d.y]));
+
+                this.buffer.classed('selected', d => d3.polygonContains(polygon, [d.x, d.y]))
+                    .classed('unselected', d => !d3.polygonContains(polygon, [d.x, d.y]));
+
+                this.lassoPath.remove();
+            })
 
         // initialize links
         this.edges = svg.append('g')
@@ -91,10 +147,10 @@ export class NodeLinkComponent implements AfterViewInit {
             .data(graph.edges)
             .enter()
             .append('line')
-                .attr('stroke', 'black')
-                .attr('stroke-width', 2)
-                .attr('stroke-opacity', 0.5)
-                .style('opacity', 0);
+            .attr('stroke', 'black')
+            .attr('stroke-width', 2)
+            .attr('stroke-opacity', 0.5)
+            .style('opacity', 0);
 
         // initialize buffer
         this.buffer = svg.append('g')
@@ -103,10 +159,10 @@ export class NodeLinkComponent implements AfterViewInit {
             .data(graph.nodes)
             .enter()
             .append('circle')
-                .attr('class', 'buffer')
-                .attr('r', (d: NodeExt) => 12)
-                .attr('fill', 'white')
-                .style('opacity', 0);
+            .attr('class', 'buffer')
+            .attr('r', (d: NodeExt) => 12)
+            .attr('fill', 'white')
+            .style('opacity', 0);
 
         // initialize nodes
         this.nodes = svg.append('g')
@@ -115,41 +171,41 @@ export class NodeLinkComponent implements AfterViewInit {
             .data(graph.nodes)
             .enter()
             .append('circle')
-                .attr('class', 'node')
-                .attr('r', (d: NodeExt) => 10)
-                .attr('fill', (d: NodeExt) => 'black')
-                .style('opacity', 0)
-                .on('mouseover', (event: MouseEvent, d: NodeExt) => {
-                    if(this.config.variant !== 'interaction') return;
-                    d3.select(event.currentTarget as SVGCircleElement).attr('r', 15).attr('fill', 'red');
-                    d3.selectAll<SVGLineElement, EdgeExt>('.edges line')
-                        .filter((edge: EdgeExt) => edge.source.id === d.id || edge.target.id === d.id)
-                        .attr('stroke', 'red')
-                        .attr('stroke-width', 4)
-                        .style('opacity', 1);
+            .attr('class', 'node')
+            .attr('r', (d: NodeExt) => 10)
+            .attr('fill', (d: NodeExt) => 'black')
+            .style('opacity', 0)
+            .on('mouseover', (event: MouseEvent, d: NodeExt) => {
+                if (this.config.variant !== 'interaction') return;
+                d3.select(event.currentTarget as SVGCircleElement).attr('r', 15).attr('fill', 'red');
+                d3.selectAll<SVGLineElement, EdgeExt>('.edges line')
+                    .filter((edge: EdgeExt) => edge.source.id === d.id || edge.target.id === d.id)
+                    .attr('stroke', 'red')
+                    .attr('stroke-width', 4)
+                    .style('opacity', 1);
 
-                    d3.selectAll<SVGCircleElement, NodeExt>('.nodes circle')
-                        .filter((node: NodeExt) => graph.edges.some(edge => (edge.source.id === d.id && edge.target.id === node.id) || (edge.target.id === d.id && edge.source.id === node.id)))
-                        .attr('fill', 'red');
-                    d3.selectAll<SVGTextElement, NodeExt>('.labels text.label').filter((label: NodeExt) => label.id === d.id).attr('stroke', 'red').attr('fill', 'red');
-                }
-                )
-                .on('mouseout', (event: MouseEvent, d: NodeExt) => {
-                    if(this.config.variant !== 'interaction') return;
-                    d3.select(event.currentTarget as SVGCircleElement).attr('r', 10).attr('fill', 'black');
-                    d3.selectAll<SVGLineElement, EdgeExt>('.edges line')
-                        .attr('stroke', 'black')
-                        .attr('stroke-width', 2)
-                        .style('opacity', 0);
+                d3.selectAll<SVGCircleElement, NodeExt>('.nodes circle')
+                    .filter((node: NodeExt) => graph.edges.some(edge => (edge.source.id === d.id && edge.target.id === node.id) || (edge.target.id === d.id && edge.source.id === node.id)))
+                    .attr('fill', 'red');
+                d3.selectAll<SVGTextElement, NodeExt>('.labels text.label').filter((label: NodeExt) => label.id === d.id).attr('stroke', 'red').attr('fill', 'red');
+            }
+            )
+            .on('mouseout', (event: MouseEvent, d: NodeExt) => {
+                if (this.config.variant !== 'interaction') return;
+                d3.select(event.currentTarget as SVGCircleElement).attr('r', 10).attr('fill', 'black');
+                d3.selectAll<SVGLineElement, EdgeExt>('.edges line')
+                    .attr('stroke', 'black')
+                    .attr('stroke-width', 2)
+                    .style('opacity', 0);
 
-                    d3.selectAll<SVGCircleElement, NodeExt>('.nodes circle')
-                        .attr('fill', 'black');
+                d3.selectAll<SVGCircleElement, NodeExt>('.nodes circle')
+                    .attr('fill', 'black');
 
-                    d3.selectAll<SVGTextElement, NodeExt>('.labels text.label')
-                        .attr('stroke', 'black')
-                        .attr('fill', 'black');
-                }
-                );
+                d3.selectAll<SVGTextElement, NodeExt>('.labels text.label')
+                    .attr('stroke', 'black')
+                    .attr('fill', 'black');
+            }
+            );
 
         // initialize labels
         this.labels = svg.append('g')
@@ -158,15 +214,15 @@ export class NodeLinkComponent implements AfterViewInit {
             .data(graph.nodes)
             .enter()
             .append('text')
-                .attr('class', 'label')
-                .text((d: NodeExt) => `${d.id}`)
-                .attr('stroke', 'black')
-                .attr('fill', 'black')
-                .attr('dy', '0.35em')
-                .attr('text-anchor', 'middle')
-                .attr('pointer-events', 'none')
-                .style('font-family', '\'Fira Mono\', monospace')
-                .style('opacity', 0);
+            .attr('class', 'label')
+            .text((d: NodeExt) => `${d.id}`)
+            .attr('stroke', 'black')
+            .attr('fill', 'black')
+            .attr('dy', '0.35em')
+            .attr('text-anchor', 'middle')
+            .attr('pointer-events', 'none')
+            .style('font-family', '\'Fira Mono\', monospace')
+            .style('opacity', 0);
 
         this.simulation = d3.forceSimulation(graph.nodes)
             .force('link', d3.forceLink(graph.edges).id((d: any) => (d as NodeExt).id).links(graph.edges))
@@ -192,7 +248,7 @@ export class NodeLinkComponent implements AfterViewInit {
                     .attr('y', (d: NodeExt) => d.y + 16);
             })
             .on('end', () => {
-                if(this.config.variant === 'nodelink') {
+                if (this.config.variant === 'nodelink') {
                     this.edges.style('opacity', 1);
                 }
                 this.nodes.style('opacity', 1);

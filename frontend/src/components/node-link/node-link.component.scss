@@ -1,0 +1,8 @@
+::ng-deep .selected {
+    stroke: red !important;
+    fill: red !important;
+}
+
+::ng-deep .unselected {
+    opacity: 0.1;
+}
