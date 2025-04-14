@@ -21,15 +21,15 @@ export class NodeLinkComponent implements AfterViewInit {
         bottom: 10,
         left: 10
     };
-    private width = 1400 - this.margin.left - this.margin.right;
-    private height = 1200 - this.margin.top - this.margin.bottom;
+    private width = 0;
+    private height = 0;
 
     private nodes: d3.Selection<SVGCircleElement, NodeExt, SVGGElement, any>;
     private edges: d3.Selection<SVGLineElement, EdgeExt, SVGGElement, any>;
     private buffer: d3.Selection<SVGCircleElement, NodeExt, SVGGElement, any>;
     private labels: d3.Selection<SVGTextElement, NodeExt, SVGGElement, any>;
     private simulation: d3.Simulation<NodeExt, EdgeExt>;
-    private aesthetics: Aesth;
+
     private graph: { nodes: NodeExt[], edges: EdgeExt[] };
     private lassoStart = false;
     private lassoPoints: [number, number][] = [];
@@ -54,37 +54,22 @@ export class NodeLinkComponent implements AfterViewInit {
         this.config.level = meta.split('-')[2]; // complexity level (low, high)
         this.config.task = meta.split('-')[3]; // task code t1, t2, t3, t4, t5, t6
 
+        // grab container width & height
+        const container = d3.select('#dthree');
+        this.width = parseInt(container.style('width')) - this.margin.left - this.margin.right;
+        const containerNode = container.node() as HTMLElement;
+        const containerRect = containerNode.getBoundingClientRect();
+        const viewportHeight = window.innerHeight;
 
-        // this.aesthetics = graph.aesthetics;
+        this.height = viewportHeight - containerRect.top - this.margin.top - this.margin.bottom;
+
+
         this.graph = lesMis as { nodes: NodeExt[], edges: EdgeExt[] };
-
         this.drawGraph(this.graph);
     }
 
-    private layoutEnd(): void {
-        console.log('Layout ended');
-
-        this.edges
-            .attr('x1', (d: EdgeExt) => d.source.x)
-            .attr('y1', (d: EdgeExt) => d.source.y)
-            .attr('x2', (d: EdgeExt) => d.target.x)
-            .attr('y2', (d: EdgeExt) => d.target.y);
-
-        this.buffer
-            .attr('cx', (d: NodeExt) => d.x)
-            .attr('cy', (d: NodeExt) => d.y);
-
-        this.nodes
-            .attr('cx', (d: NodeExt) => d.x)
-            .attr('cy', (d: NodeExt) => d.y);
-
-        this.labels
-            .attr('x', (d: NodeExt) => d.x)
-            .attr('y', (d: NodeExt) => d.y);
-    }
-
     drawGraph(graph: { nodes: NodeExt[], edges: EdgeExt[] }): void {
-        const svg = d3.select('#node-link-container')
+        const svg: d3.Selection<SVGSVGElement, unknown, HTMLElement, any> = d3.select<SVGSVGElement, unknown>('#node-link-container')
             .attr('width', this.width + this.margin.left + this.margin.right)
             .attr('height', this.height + this.margin.top + this.margin.bottom);
 
@@ -103,7 +88,7 @@ export class NodeLinkComponent implements AfterViewInit {
 
         container
             .on('mousedown', (event: MouseEvent) => {
-                if (event.button !== 0) return; // only allow left click
+                if (event.button !== 0 || !event.ctrlKey) return; // only allow left click with control key
 
                 this.lassoStart = true;
                 this.lassoPoints = [];
@@ -113,6 +98,9 @@ export class NodeLinkComponent implements AfterViewInit {
                     .attr('fill', 'rgba(0,0,255,0.1)')
                     .attr('stroke', 'blue')
                     .attr('stroke-width', 1);
+
+                // Disable zoom during lasso interaction
+                svg.on('.zoom', null);
             })
             .on('mousemove', (event: MouseEvent) => {
                 if (!this.lassoStart) return;
@@ -123,7 +111,7 @@ export class NodeLinkComponent implements AfterViewInit {
                 const pathData = `M${this.lassoPoints.map(p => p.join(',')).join('L')}Z`;
                 this.lassoPath.attr('d', pathData);
             })
-            .on('mouseup', (event: MouseEvent) => {
+            .on('mouseup', () => {
                 if (!this.lassoStart) return;
                 this.lassoStart = false;
 
@@ -140,21 +128,35 @@ export class NodeLinkComponent implements AfterViewInit {
                     .classed('unselected', d => !d3.polygonContains(polygon, [d.x, d.y]));
 
                 // add selected nodes to answer set
-                const selectedNodes = this.nodes.filter(function() {
+                const selectedNodes = this.nodes.filter(function () {
                     return d3.select(this).classed('selected');
                 }).data() as NodeExt[];
                 const selectedNodeIds = selectedNodes.map(node => node.id);
-                
+
                 // replace the answer set with the selected nodes
                 this.answerSet = selectedNodeIds;
                 console.log('Selected nodes:', this.answerSet);
                 // this.dataService.setAnswerSet(this.answerSet);
 
                 this.lassoPath.remove();
-            })
+
+                // Re-enable zoom after lasso interaction
+                svg.call(zoom);
+            });
+
+        const graphContainer = container.append('g');
+
+        // Add zoom and pan functionality
+        const zoom = d3.zoom<SVGSVGElement, unknown>()
+            .scaleExtent([0.5, 5]) // Set zoom scale limits
+            .on('zoom', (event) => {
+                container.attr('transform', event.transform);
+            });
+
+        svg.call(zoom); // Apply zoom to the svg element
 
         // initialize links
-        this.edges = svg.append('g')
+        this.edges = graphContainer.append('g')
             .attr('class', 'edges')
             .selectAll('line')
             .data(graph.edges)
@@ -166,26 +168,26 @@ export class NodeLinkComponent implements AfterViewInit {
             .style('opacity', 0);
 
         // initialize buffer
-        this.buffer = svg.append('g')
+        this.buffer = graphContainer.append('g')
             .attr('class', 'buffers')
             .selectAll('circle.buffer')
             .data(graph.nodes)
             .enter()
             .append('circle')
             .attr('class', 'buffer')
-            .attr('r', (d: NodeExt) => 12)
+            .attr('r', (d: NodeExt) => 5)
             .attr('fill', 'white')
             .style('opacity', 0);
 
         // initialize nodes
-        this.nodes = svg.append('g')
+        this.nodes = graphContainer.append('g')
             .attr('class', 'nodes')
             .selectAll('circle.node')
             .data(graph.nodes)
             .enter()
             .append('circle')
             .attr('class', 'node')
-            .attr('r', (d: NodeExt) => 10)
+            .attr('r', (d: NodeExt) => 4)
             .attr('fill', (d: NodeExt) => 'black')
             .style('opacity', 0)
             .on('click', (event: MouseEvent, d: NodeExt) => {
@@ -200,7 +202,7 @@ export class NodeLinkComponent implements AfterViewInit {
                 d3.selectAll<SVGCircleElement, NodeExt>('.buffers circle.buffer').filter((buffer: NodeExt) => buffer.id === d.id).classed('selected', true).classed('unselected', false);
 
                 // add selected node to answer set
-                const selectedNodes = this.nodes.filter(function() {
+                const selectedNodes = this.nodes.filter(function () {
                     return d3.select(this).classed('selected');
                 }).data() as NodeExt[];
 
@@ -242,7 +244,7 @@ export class NodeLinkComponent implements AfterViewInit {
             );
 
         // initialize labels
-        this.labels = svg.append('g')
+        this.labels = graphContainer.append('g')
             .attr('class', 'labels')
             .selectAll('text.label')
             .data(graph.nodes)
@@ -252,14 +254,19 @@ export class NodeLinkComponent implements AfterViewInit {
             .text((d: NodeExt) => `${d.id}`)
             .attr('stroke', 'black')
             .attr('fill', 'black')
-            .attr('dy', '0.35em')
+            .attr('dy', '0.25em')
             .attr('text-anchor', 'middle')
             .attr('pointer-events', 'none')
             .style('font-family', '\'Fira Mono\', monospace')
+            .style('font-size', '12px')
+            .style('text-transform', 'uppercase')
             .style('opacity', 0);
 
         this.simulation = d3.forceSimulation(graph.nodes)
             .force('link', d3.forceLink(graph.edges).id((d: any) => (d as NodeExt).id).links(graph.edges))
+            .force('collide', d3.forceCollide().radius(4).iterations(16))
+            .force('x', d3.forceX().x(this.width / 2).strength(0.1))
+            .force('y', d3.forceY().y(this.height / 2).strength(0.1))
             .force('charge', d3.forceManyBody().strength(-600))
             .force('center', d3.forceCenter(this.width / 2, this.height / 2))
             .on('tick', () => {
