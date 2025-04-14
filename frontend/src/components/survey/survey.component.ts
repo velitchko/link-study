@@ -68,8 +68,6 @@ export class SurveyComponent {
             });
         });
 
-
-
         // update end time and record result
         this.timer.end = Date.now();
         const time = this.timer.end - this.timer.start;
