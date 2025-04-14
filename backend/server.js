@@ -5,16 +5,16 @@ const app = express();
 const uuid = require('uuid');
 const cors = require('cors');
 
-const assignedEncoding = [ 'link', 'no-link',];
-const taskCodes = [ 't1', 't2', 't3', 't4', 't5', 't6' ];
-
+const linkEncoding = ['nodelink', 'nolink', 'interactive'];
+const taskCodes = ['t1', 't2', 't3', 't4', 't5', 't6'];
+const graphComplexity = ['low', 'high'];
 const taskDescriptions = new Map([
-    ['t1', ''],
-    ['t2', ''],
-    ['t3', ''],
-    ['t4', ''],
-    ['t5', ''],
-    ['t6', ''],
+    ['t1', 'Which nodes (if removed) would break the network into separate parts?'], // Node
+    ['t2', 'Which nodes have the most links to other nodes?'], // Node
+    ['t3', 'Is there a way to get from A to B?'], // Link
+    ['t4', 'How far is A from B?'], // Link
+    ['t5', 'How many groups can you see?'], // Cluster
+    ['t6', 'Which nodes belong to the biggest connected group?'], // Cluster
 ]);
 
 const threshold = 1;
@@ -23,6 +23,12 @@ app.use(express.json());
 app.use(cors());
 
 app.get('/params', (req, res) => {
+    const userAssignments = {
+        nodelink: { low: 0, high: 0 },
+        nolink: { low: 0, high: 0 },
+        interactive: { low: 0, high: 0 }
+    };
+
     // keep track of each new user 
     let user = uuid.v4();
 
@@ -34,6 +40,28 @@ app.get('/params', (req, res) => {
 
     const subFiles = fs.readdirSync(subsDir);
 
+    subFiles.forEach(file => {
+        const params = file.split('#')[0];
+        const [encoding, complexity] = params.split('_');
+        userAssignments[encoding][complexity]++;
+    });
+
+    let assignedEncoding, assignedComplexity;
+
+    for (const encoding of linkEncoding) {
+        for (const complexity of graphComplexity) {
+            if (userAssignments[encoding][complexity] < threshold) {
+                assignedEncoding = encoding;
+                assignedComplexity = complexity;
+                userAssignments[encoding][complexity]++;
+
+                console.log('🔥 Assigned:', assignedEncoding, assignedComplexity);
+                break;
+            }
+        }
+        if (assignedEncoding) break;
+    }
+
     const sortedTaskCodes = taskCodes.sort(() => Math.random() - 0.5);
     const sortedTaskDescriptions = taskCodes.map(code => taskDescriptions.get(code));
 
@@ -42,8 +70,8 @@ app.get('/params', (req, res) => {
         message: '👍',
         params: {
             userId: user,
-            encoding: '',
-            dataset: '',
+            encoding: assignedEncoding,
+            level: assignedComplexity,
             taskCodes: sortedTaskCodes,
             taskDescriptions: sortedTaskDescriptions,
         }
