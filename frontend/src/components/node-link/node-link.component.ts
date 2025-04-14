@@ -50,7 +50,7 @@ export class NodeLinkComponent implements AfterViewInit {
     async ngAfterViewInit(): Promise<void> {
         const meta = d3.select('#metadata').text().trim();
         this.config.dataset = meta.split('-')[0]; // dataset name
-        this.config.variant = meta.split('-')[1]; // link, nolink, or interaction
+        this.config.variant = meta.split('-')[1]; // nodelink, nolink, or interactive
         this.config.level = meta.split('-')[2]; // complexity level (low, high)
         this.config.task = meta.split('-')[3]; // task code t1, t2, t3, t4, t5, t6
 
@@ -211,7 +211,7 @@ export class NodeLinkComponent implements AfterViewInit {
                 console.log('Selected nodes:', this.answerSet);
             })
             .on('mouseover', (event: MouseEvent, d: NodeExt) => {
-                if (this.config.variant !== 'interaction') return;
+                if (this.config.variant !== 'interactive') return;
                 d3.select(event.currentTarget as SVGCircleElement).attr('r', 15).attr('fill', 'red');
                 d3.selectAll<SVGLineElement, EdgeExt>('.edges line')
                     .filter((edge: EdgeExt) => edge.source.id === d.id || edge.target.id === d.id)
@@ -225,7 +225,7 @@ export class NodeLinkComponent implements AfterViewInit {
                 d3.selectAll<SVGTextElement, NodeExt>('.labels text.label').filter((label: NodeExt) => label.id === d.id).attr('stroke', 'red').attr('fill', 'red');
             })
             .on('mouseout', (event: MouseEvent, d: NodeExt) => {
-                if (this.config.variant !== 'interaction') return;
+                if (this.config.variant !== 'interactive') return;
                 d3.select(event.currentTarget as SVGCircleElement).attr('r', 10).attr('fill', 'black');
                 d3.selectAll<SVGLineElement, EdgeExt>('.edges line')
                     .attr('stroke', 'black')
