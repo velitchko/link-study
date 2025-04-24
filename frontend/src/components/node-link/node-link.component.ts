@@ -224,6 +224,7 @@ export class NodeLinkComponent implements AfterViewInit {
                 d3.selectAll<SVGCircleElement, NodeExt>('.nodes circle')
                     .filter((node: NodeExt) => graph.edges.some(edge => (edge.source.id === d.id && edge.target.id === node.id) || (edge.target.id === d.id && edge.source.id === node.id)))
                     .attr('fill', 'red');
+
                 d3.selectAll<SVGTextElement, NodeExt>('.labels text.label').filter((label: NodeExt) => label.id === d.id).attr('stroke', 'red').attr('fill', 'red');
             })
             .on('mouseout', (event: MouseEvent, d: NodeExt) => {
@@ -235,7 +236,8 @@ export class NodeLinkComponent implements AfterViewInit {
                     .style('opacity', 0);
 
                 d3.selectAll<SVGCircleElement, NodeExt>('.nodes circle')
-                    .attr('fill', 'black');
+                    .attr('fill', 'black')
+                    .attr('r', 4);
 
                 d3.selectAll<SVGTextElement, NodeExt>('.labels text.label')
                     .attr('stroke', 'black')
