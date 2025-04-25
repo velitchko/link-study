@@ -138,7 +138,7 @@ export class NodeLinkComponent implements AfterViewInit {
                     // replace the answer set with the selected nodes
                     this.answerSet = selectedNodeIds;
                     console.log('Selected nodes:', this.answerSet);
-                    // this.dataService.setAnswerSet(this.answerSet);
+                    this.resultsService.setAnswers(this.config.task, this.answerSet);
     
                     this.lassoPath.remove();
     
