@@ -48,7 +48,7 @@ foo@bar:~$ npm run start
 ```
 
 ### Docker
-A step-by-sdtep guide to setup the study with Docker: 
+A step-by-step guide to setup the study with Docker: 
 
 Note: Make sure you have [Docker](https://www.docker.com/) installed.
 
