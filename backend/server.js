@@ -42,7 +42,9 @@ app.get('/params', (req, res) => {
 
     subFiles.forEach(file => {
         const params = file.split('#')[0];
-        const [encoding, complexity] = params.split('_');
+        const [encoding, dataset, complexity] = params.split('_');
+        // console.log('📂 File:', file, 'Encoding:', encoding, 'Dataset:', dataset, 'Complexity:', complexity)
+        ;
         userAssignments[encoding][complexity]++;
     });
 
