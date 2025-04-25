@@ -77,7 +77,6 @@ export class NodeLinkComponent implements AfterViewInit {
             .append('g')
             .attr('transform', `translate(${this.margin.left},${this.margin.top})`);
 
-        // TODO: Lasso only on tasks that require it
         if(this.config.task === 't6') {
             container.append('rect')
                 .attr('width', this.width)
@@ -236,6 +235,8 @@ export class NodeLinkComponent implements AfterViewInit {
 
                 // Replace the answer set with the selected nodes
                 this.answerSet = selectedNodeIds;
+                this.resultsService.setAnswers(this.config.task, this.answerSet);
+
                 console.log('Selected nodes:', this.answerSet);
             })
             .on('mouseover', (event: MouseEvent, d: NodeExt) => {

@@ -65,6 +65,7 @@ export class ResultsService {
     private dataSets: Array<string>;
 
     private results: Array<Result> = new Array<Result>();
+    private answerSets: Map<string, Array<string | number>> = new Map<string, Array<string | number>>();
 
     constructor(private http: HttpClient, private dataService: DataService) {
         this.params = null;
@@ -91,6 +92,15 @@ export class ResultsService {
 
     getCurrentTask(): string {
         return this.params?.taskCodes[this.taskCounter] || '';
+    }
+
+    setAnswers(task: string, answers: Array<string | number>): void {
+        // set answers for task
+        if (this.answerSets.has(task)) {
+            this.answerSets.get(task)?.push(...answers);
+        } else {
+            this.answerSets.set(task, answers);
+        }
     }
 
     pushResult(result: Result, increment?: boolean): void {
