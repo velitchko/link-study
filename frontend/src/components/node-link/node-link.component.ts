@@ -36,9 +36,9 @@ export class NodeLinkComponent implements AfterViewInit {
     private lassoPath: d3.Selection<SVGPathElement, unknown, HTMLElement, undefined>;
     private lassoLayer: d3.Selection<SVGGElement, unknown, HTMLElement, any>;
     private config = {
+        encoding: '',
+        complexity: '',
         dataset: '',
-        variant: '',
-        level: '',
         task: '',
     };
 
@@ -49,9 +49,9 @@ export class NodeLinkComponent implements AfterViewInit {
 
     async ngAfterViewInit(): Promise<void> {
         const meta = d3.select('#metadata').text().trim();
-        this.config.dataset = meta.split('-')[0]; // dataset name
-        this.config.variant = meta.split('-')[1]; // nodelink, nolink, or interactive
-        this.config.level = meta.split('-')[2]; // complexity level (low, high)
+        this.config.encoding = meta.split('-')[0]; // nodelink, nolink, or interactive
+        this.config.complexity = meta.split('-')[1]; // complexity level (low, high)
+        this.config.dataset = meta.split('-')[2]; // dataset name
         this.config.task = meta.split('-')[3]; // task code t1, t2, t3, t4, t5, t6
 
         // grab container width & height
@@ -77,80 +77,88 @@ export class NodeLinkComponent implements AfterViewInit {
             .append('g')
             .attr('transform', `translate(${this.margin.left},${this.margin.top})`);
 
-        container.append('rect')
-            .attr('width', this.width)
-            .attr('height', this.height)
-            .attr('fill', 'transparent')
-            .style('cursor', 'crosshair')
-            .lower();
-
-        this.lassoLayer = container.append('g').attr('class', 'lasso-layer');
-
-        container
-            .on('mousedown', (event: MouseEvent) => {
-                if (event.button !== 0 || !event.ctrlKey) return; // only allow left click with control key
-
-                this.lassoStart = true;
-                this.lassoPoints = [];
-                if (this.lassoPath) this.lassoPath.remove();
-
-                this.lassoPath = this.lassoLayer.append('path')
-                    .attr('fill', 'rgba(0,0,255,0.1)')
-                    .attr('stroke', 'blue')
-                    .attr('stroke-width', 1);
-
-                // Disable zoom during lasso interaction
-                svg.on('.zoom', null);
-            })
-            .on('mousemove', (event: MouseEvent) => {
-                if (!this.lassoStart) return;
-
-                const [x, y] = d3.pointer(event);
-                this.lassoPoints.push([x, y]);
-
-                const pathData = `M${this.lassoPoints.map(p => p.join(',')).join('L')}Z`;
-                this.lassoPath.attr('d', pathData);
-            })
-            .on('mouseup', () => {
-                if (!this.lassoStart) return;
-                this.lassoStart = false;
-
-                const polygon = this.lassoPoints;
-                if (polygon.length < 3) return;
-
-                this.nodes.classed('selected', d => d3.polygonContains(polygon, [d.x, d.y]))
-                    .classed('unselected', d => !d3.polygonContains(polygon, [d.x, d.y]));
-
-                this.labels.classed('selected', d => d3.polygonContains(polygon, [d.x, d.y]))
-                    .classed('unselected', d => !d3.polygonContains(polygon, [d.x, d.y]));
-
-                this.buffer.classed('selected', d => d3.polygonContains(polygon, [d.x, d.y]))
-                    .classed('unselected', d => !d3.polygonContains(polygon, [d.x, d.y]));
-
-                // add selected nodes to answer set
-                const selectedNodes = this.nodes.filter(function () {
-                    return d3.select(this).classed('selected');
-                }).data() as NodeExt[];
-                const selectedNodeIds = selectedNodes.map(node => node.id);
-
-                // replace the answer set with the selected nodes
-                this.answerSet = selectedNodeIds;
-                console.log('Selected nodes:', this.answerSet);
-                // this.dataService.setAnswerSet(this.answerSet);
-
-                this.lassoPath.remove();
-
-                // Re-enable zoom after lasso interaction
-                svg.call(zoom);
-            });
+        // TODO: Lasso only on tasks that require it
+        if(this.config.task === 't6') {
+            container.append('rect')
+                .attr('width', this.width)
+                .attr('height', this.height)
+                .attr('fill', 'transparent')
+                .style('cursor', 'crosshair')
+                .lower();
+    
+        
+            this.lassoLayer = container.append('g').attr('class', 'lasso-layer');
+    
+            container
+                .on('mousedown', (event: MouseEvent) => {
+                    if (event.button !== 0 || !event.ctrlKey) return; // only allow left click with control key
+    
+                    this.lassoStart = true;
+                    this.lassoPoints = [];
+                    if (this.lassoPath) this.lassoPath.remove();
+    
+                    this.lassoPath = this.lassoLayer.append('path')
+                        .attr('fill', 'rgba(0,0,255,0.1)')
+                        .attr('stroke', 'blue')
+                        .attr('stroke-width', 1);
+    
+                    // Disable zoom during lasso interaction
+                    svg.on('.zoom', null);
+                })
+                .on('mousemove', (event: MouseEvent) => {
+                    if (!this.lassoStart) return;
+    
+                    const [x, y] = d3.pointer(event);
+                    this.lassoPoints.push([x, y]);
+    
+                    const pathData = `M${this.lassoPoints.map(p => p.join(',')).join('L')}Z`;
+                    this.lassoPath.attr('d', pathData);
+                })
+                .on('mouseup', () => {
+                    if (!this.lassoStart) return;
+                    this.lassoStart = false;
+    
+                    const polygon = this.lassoPoints;
+                    if (polygon.length < 3) return;
+    
+                    this.nodes.classed('selected', d => d3.polygonContains(polygon, [d.x, d.y]))
+                        .classed('unselected', d => !d3.polygonContains(polygon, [d.x, d.y]));
+    
+                    this.labels.classed('selected', d => d3.polygonContains(polygon, [d.x, d.y]))
+                        .classed('unselected', d => !d3.polygonContains(polygon, [d.x, d.y]));
+    
+                    this.buffer.classed('selected', d => d3.polygonContains(polygon, [d.x, d.y]))
+                        .classed('unselected', d => !d3.polygonContains(polygon, [d.x, d.y]));
+    
+                    // add selected nodes to answer set
+                    const selectedNodes = this.nodes.filter(function () {
+                        return d3.select(this).classed('selected');
+                    }).data() as NodeExt[];
+                    const selectedNodeIds = selectedNodes.map(node => node.id);
+    
+                    // replace the answer set with the selected nodes
+                    this.answerSet = selectedNodeIds;
+                    console.log('Selected nodes:', this.answerSet);
+                    // this.dataService.setAnswerSet(this.answerSet);
+    
+                    this.lassoPath.remove();
+    
+                    // Re-enable zoom after lasso interaction
+                    svg.call(zoom);
+                });
+        }
 
         const graphContainer = container.append('g');
 
         // Add zoom and pan functionality
         const zoom = d3.zoom<SVGSVGElement, unknown>()
             .scaleExtent([0.5, 5]) // Set zoom scale limits
+            .filter((event) => {
+            // Disable zoom on double click
+            return !(event.type === 'dblclick');
+            })
             .on('zoom', (event) => {
-                container.attr('transform', event.transform);
+            container.attr('transform', event.transform);
             });
 
         svg.call(zoom); // Apply zoom to the svg element
@@ -191,29 +199,47 @@ export class NodeLinkComponent implements AfterViewInit {
             .attr('fill', (d: NodeExt) => 'black')
             .style('opacity', 0)
             .on('click', (event: MouseEvent, d: NodeExt) => {
-                // reset selected class to all nodes
-                this.nodes.classed('selected', false).classed('unselected', false);
-                this.labels.classed('selected', false).classed('unselected', false);
-                this.buffer.classed('selected', false).classed('unselected', false);
+                if(this.config.task !== 't1' && this.config.task !== 't2') return; // only allow ctrl+click for t2 and t3 tasks
+                if (event.ctrlKey) {
+                    // Toggle selection for ctrl+click
+                    const isSelected = d3.select(event.currentTarget as SVGCircleElement).classed('selected');
+                    d3.select(event.currentTarget as SVGCircleElement).classed('selected', !isSelected).classed('unselected', isSelected);
+                    d3.selectAll<SVGTextElement, NodeExt>('.labels text.label').filter((label: NodeExt) => label.id === d.id).classed('selected', !isSelected).classed('unselected', isSelected);
+                    d3.selectAll<SVGCircleElement, NodeExt>('.buffers circle.buffer').filter((buffer: NodeExt) => buffer.id === d.id).classed('selected', !isSelected).classed('unselected', isSelected);
+                } else {
+                    // Check if the clicked node is already selected
+                    const isSelected = d3.select(event.currentTarget as SVGCircleElement).classed('selected');
+                    if (isSelected) {
+                        // Unselect the clicked node, label, and buffer
+                        d3.select(event.currentTarget as SVGCircleElement).classed('selected', false).classed('unselected', false);
+                        d3.selectAll<SVGTextElement, NodeExt>('.labels text.label').filter((label: NodeExt) => label.id === d.id).classed('selected', false).classed('unselected', false);
+                        d3.selectAll<SVGCircleElement, NodeExt>('.buffers circle.buffer').filter((buffer: NodeExt) => buffer.id === d.id).classed('selected', false).classed('unselected', false);
+                    } else {
+                        // Reset selection for normal click
+                        this.nodes.classed('selected', false).classed('unselected', false);
+                        this.labels.classed('selected', false).classed('unselected', false);
+                        this.buffer.classed('selected', false).classed('unselected', false);
 
-                // add selected class to clicked node, label, and buffer
-                d3.select(event.currentTarget as SVGCircleElement).classed('selected', true).classed('unselected', false);
-                d3.selectAll<SVGTextElement, NodeExt>('.labels text.label').filter((label: NodeExt) => label.id === d.id).classed('selected', true).classed('unselected', false);
-                d3.selectAll<SVGCircleElement, NodeExt>('.buffers circle.buffer').filter((buffer: NodeExt) => buffer.id === d.id).classed('selected', true).classed('unselected', false);
+                        // Add selected class to clicked node, label, and buffer
+                        d3.select(event.currentTarget as SVGCircleElement).classed('selected', true).classed('unselected', false);
+                        d3.selectAll<SVGTextElement, NodeExt>('.labels text.label').filter((label: NodeExt) => label.id === d.id).classed('selected', true).classed('unselected', false);
+                        d3.selectAll<SVGCircleElement, NodeExt>('.buffers circle.buffer').filter((buffer: NodeExt) => buffer.id === d.id).classed('selected', true).classed('unselected', false);
+                    }
+                }
 
-                // add selected node to answer set
+                // Update the answer set
                 const selectedNodes = this.nodes.filter(function () {
                     return d3.select(this).classed('selected');
                 }).data() as NodeExt[];
 
                 const selectedNodeIds = selectedNodes.map(node => node.id);
 
-                // replace the answer set with the selected nodes
+                // Replace the answer set with the selected nodes
                 this.answerSet = selectedNodeIds;
                 console.log('Selected nodes:', this.answerSet);
             })
             .on('mouseover', (event: MouseEvent, d: NodeExt) => {
-                if (this.config.variant !== 'interactive') return;
+                if (this.config.encoding !== 'interactive') return;
                 d3.select(event.currentTarget as SVGCircleElement).attr('r', 15).attr('fill', 'red');
                 d3.selectAll<SVGLineElement, EdgeExt>('.edges line')
                     .filter((edge: EdgeExt) => edge.source.id === d.id || edge.target.id === d.id)
@@ -228,7 +254,7 @@ export class NodeLinkComponent implements AfterViewInit {
                 d3.selectAll<SVGTextElement, NodeExt>('.labels text.label').filter((label: NodeExt) => label.id === d.id).attr('stroke', 'red').attr('fill', 'red');
             })
             .on('mouseout', (event: MouseEvent, d: NodeExt) => {
-                if (this.config.variant !== 'interactive') return;
+                if (this.config.encoding !== 'interactive') return;
                 d3.select(event.currentTarget as SVGCircleElement).attr('r', 10).attr('fill', 'black');
                 d3.selectAll<SVGLineElement, EdgeExt>('.edges line')
                     .attr('stroke', 'black')
@@ -242,8 +268,7 @@ export class NodeLinkComponent implements AfterViewInit {
                 d3.selectAll<SVGTextElement, NodeExt>('.labels text.label')
                     .attr('stroke', 'black')
                     .attr('fill', 'black');
-            }
-            );
+            });
 
         // initialize labels
         this.labels = graphContainer.append('g')
@@ -291,7 +316,7 @@ export class NodeLinkComponent implements AfterViewInit {
                     .attr('y', (d: NodeExt) => d.y + 16);
             })
             .on('end', () => {
-                if (this.config.variant === 'nodelink') {
+                if (this.config.encoding === 'nodelink') {
                     this.edges.style('opacity', 1);
                 }
                 this.nodes.style('opacity', 1);
