@@ -15,8 +15,7 @@ type AgreementAnswer = {
 export type Params = {
     user: string,
     encoding: string,
-    dataset: string,
-    level: string,
+    complexity: string,
     taskCodes: Array<string>,
     taskDescriptions: Array<string>
 };
@@ -26,11 +25,8 @@ export type Result = {
     time: number, 
     task: string, 
     encoding: string, 
-    variant: string,
-    dataset: string,
-    level: string,
-    uncertainty: number,
-    attribute: number,
+    dataset?: string,
+    complexity: string,
     answer: string | number | AgreementAnswer
 } | {
     index: number,
@@ -38,11 +34,7 @@ export type Result = {
     order: Array<string>,
     task?: string,
     encoding: string,
-    variant: string,
-    dataset: string,
-    level: string,
-    uncertainty: number,
-    attribute: number,
+    complexity: string,
 };
 @Injectable({
     providedIn: 'root'
@@ -89,11 +81,7 @@ export class ResultsService {
             time: 0,
             order: this.params.taskCodes,
             encoding: this.params.encoding,
-            variant: "",
-            dataset: this.params.dataset,
-            level: this.params.level,
-            uncertainty: -1,
-            attribute: -1
+            complexity: this.params.complexity
         });
     }
 
@@ -115,20 +103,19 @@ export class ResultsService {
         if (this.params === null) return;
         
         const approach = this.params.encoding;
-
-        // iterate over this.params.eogNetApproaches
-        let variant = 1;
+        const complexity = this.params.complexity;
+        const dataset = this.dataSets[0];
 
         this.params.taskCodes.forEach((task, i) => {
             // construct question
             const question = {
-                name: `${approach}-${task}-${variant}`,
+                name: `${approach}-${complexity}-${task}`,
                 elements: [
                     {
                         type: 'html',
                         html: `
                             <p id="metadata" style="display: none;">
-                                ${this.params?.dataset}-${variant}-${this.params?.level}-${task}
+                                <span id="encoding">${this.params?.encoding}-${this.params?.complexity}-${dataset}-${task}</span>
                             </p>
                         ` 
                     },
@@ -136,7 +123,7 @@ export class ResultsService {
                         type: 'node-link-question',
                         description: this.titleMap.get(approach) as string,
                         title: this.params?.taskDescriptions[i],
-                        name: `${approach}-${task}-${variant}`
+                        name: `${approach}-${task}`
                     },
                     {
                         type: 'text',
@@ -144,13 +131,13 @@ export class ResultsService {
                         inputType: this.taskInputType.get(task) as string,
                         isRequired: true,
                         title: 'Answer',
-                        name: `${approach}-${task}-${variant}-answer`
+                        name: `${approach}-${complexity}-${task}-answer`
                     }
                 ]
             };
 
             const feedback = {
-                name: `${approach}-${task}-feedback`,
+                name: `${approach}-${complexity}-${task}-feedback`,
                 elements: [
                     {
                         type: 'html',
@@ -161,7 +148,7 @@ export class ResultsService {
                     },
                     {
                         type: 'comment', 
-                        name: `${approach}-${task}-feedback`,
+                        name: `${approach}-${complexity}-${task}-feedback`,
                         isRequired: false,
                         title: '(Optional) How did this uncertainty visualization assist or hinder you in solving this particular task?',
                         placeHolder: 'Enter your feedback here'
@@ -171,8 +158,6 @@ export class ResultsService {
 
             SURVEY_JSON.pages.push(question);
             SURVEY_JSON.pages.push(feedback);
-
-            variant++;
         });
         this.surveySetup = true;
     }
