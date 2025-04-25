@@ -56,11 +56,7 @@ export class SurveyComponent {
                 time: 0,
                 task: 'intro',
                 encoding: '',
-                variant: '',
-                dataset: '',
-                level: '',
-                uncertainty: -1,
-                attribute: -1,
+                complexity: '',
                 answer: {
                     confirm: sender.data['question_intro_confirm'],
                     agreement: sender.data['question_intro_agree']
