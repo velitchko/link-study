@@ -20,11 +20,11 @@ export type Params = {
     taskDescriptions: Array<string>
 };
 
-export type Result = { 
+export type Result = {
     index: number,
-    time: number, 
-    task: string, 
-    encoding: string, 
+    time: number,
+    task: string,
+    encoding: string,
     dataset?: string,
     complexity: string,
     answer: string | number | AgreementAnswer
@@ -51,14 +51,12 @@ export class ResultsService {
     ]);
 
     protected taskInputType: Map<string, string> = new Map([
-        ['t1', 'text'],
-        ['t2', 'text'],
-        ['t3', 'text'],
-        ['t4', 'text'],
+        ['t1', 'custom'],
+        ['t2', 'custom'],
+        ['t3', 'boolean'],
+        ['t4', 'number'],
         ['t5', 'number'],
-        ['t6', 'number'],
-        ['t7', 'text'],
-        ['t8', 'text'],
+        ['t6', 'custom']
     ]);
 
     private surveySetup: boolean = false;
@@ -95,56 +93,105 @@ export class ResultsService {
     }
 
     setAnswers(task: string, answers: Array<string | number>): void {
-        // set answers for task
+        // always set or reset answers for the task
+        this.answerSets.set(task, answers);
+    }
+
+    getAnswers(task: string): Array<string | number> {
+        // get answers for task
         if (this.answerSets.has(task)) {
-            this.answerSets.get(task)?.push(...answers);
+            return this.answerSets.get(task) as Array<string | number>;
         } else {
-            this.answerSets.set(task, answers);
+            return new Array<string | number>();
         }
     }
+
 
     pushResult(result: Result, increment?: boolean): void {
         // pushes result to local array
         this.results.push(result);
-        if(increment) this.taskCounter++;
+        if (increment) this.taskCounter++;
+
+        console.log('Result pushed:', result);
+        console.log('Current task counter:', this.taskCounter);
+
+        console.log('Current results:', this.results);
     }
 
     setupSurvey(): void {
         if (this.params === null) return;
-        
+
         const approach = this.params.encoding;
         const complexity = this.params.complexity;
         const dataset = this.dataSets[0];
 
         this.params.taskCodes.forEach((task, i) => {
-            // construct question
-            const question = {
-                name: `${approach}-${complexity}-${task}`,
-                elements: [
-                    {
-                        type: 'html',
-                        html: `
-                            <p id="metadata" style="display: none;">
-                                <span id="encoding">${this.params?.encoding}-${this.params?.complexity}-${dataset}-${task}</span>
-                            </p>
-                        ` 
-                    },
-                    {
-                        type: 'node-link-question',
-                        description: this.titleMap.get(approach) as string,
-                        title: this.params?.taskDescriptions[i],
-                        name: `${approach}-${task}`
-                    },
-                    {
+            let question = {};
+
+            if (this.taskInputType.get(task) === 'custom') {
+                // construct question
+                question = {
+                    name: `${approach}-${complexity}-${task}`,
+                    elements: [
+                        {
+                            type: 'html',
+                            html: `
+                                <p id="metadata" style="display: none;">
+                                    <span id="encoding">${this.params?.encoding}-${this.params?.complexity}-${dataset}-${task}</span>
+                                </p>
+                            `
+                        },
+                        {
+                            type: 'node-link-question',
+                            description: this.titleMap.get(approach) as string,
+                            title: this.params?.taskDescriptions[i],
+                            name: `${approach}-${task}`
+                        }
+                    ]
+                };
+            } else {
+                // construct question
+                question = {
+                    name: `${approach}-${complexity}-${task}`,
+                    elements: [
+                        {
+                            type: 'html',
+                            html: `
+                                <p id="metadata" style="display: none;">
+                                    <span id="encoding">${this.params?.encoding}-${this.params?.complexity}-${dataset}-${task}</span>
+                                </p>
+                            `
+                        },
+                        {
+                            type: 'node-link-question',
+                            description: this.titleMap.get(approach) as string,
+                            title: this.params?.taskDescriptions[i],
+                            name: `${approach}-${task}`
+                        }
+                    ]
+                };
+
+                // if number push answer to  question.elements as number else as radiobutton
+                if (this.taskInputType.get(task) === 'number') {
+                    question['elements'].push({
                         type: 'text',
-                        placeholder: this.taskInputType.get(task) === 'number' ? 'Enter your answer (number)' : 'Enter your answer here',
-                        inputType: this.taskInputType.get(task) as string,
+                        placeholder: 'Enter your answer (number)',
+                        inputType: 'number',
                         isRequired: true,
                         title: 'Answer',
                         name: `${approach}-${complexity}-${task}-answer`
-                    }
-                ]
-            };
+                    });
+                } else {
+                    question['elements'].push({
+                        type: 'radiogroup',
+                        isRequired: true,
+                        title: 'Answer',
+                        colCount: 2,
+                        name: `${approach}-${complexity}-${task}-answer`,
+                        choices: ['Yes', 'No'],
+                    });
+                }
+            }
 
             const feedback = {
                 name: `${approach}-${complexity}-${task}-feedback`,
@@ -152,12 +199,12 @@ export class ResultsService {
                     {
                         type: 'html',
                         html: `
-                        <h3>The task was:</h3>
-                        <p style="font-size: 1.5rem;">${this.params?.taskDescriptions[i]}</p>
-                        `
+                    <h3>The task was:</h3>
+                    <p style="font-size: 1.5rem;">${this.params?.taskDescriptions[i]}</p>
+                    `
                     },
                     {
-                        type: 'comment', 
+                        type: 'comment',
                         name: `${approach}-${complexity}-${task}-feedback`,
                         isRequired: false,
                         title: '(Optional) How did this uncertainty visualization assist or hinder you in solving this particular task?',
@@ -165,10 +212,12 @@ export class ResultsService {
                     }
                 ]
             };
-
             SURVEY_JSON.pages.push(question);
             SURVEY_JSON.pages.push(feedback);
         });
+
+        console.log('Survey JSON:', SURVEY_JSON);
+
         this.surveySetup = true;
     }
 
