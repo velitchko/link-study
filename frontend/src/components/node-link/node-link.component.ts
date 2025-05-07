@@ -1,4 +1,4 @@
-import { AfterViewInit, Component } from '@angular/core';
+import { AfterViewInit, Component, ChangeDetectorRef } from '@angular/core';
 import * as d3 from 'd3';
 import { Node, Edge, DataService } from '../../services/data.service';
 import { GlobalErrorHandler } from '../../services/error.service';
@@ -42,9 +42,9 @@ export class NodeLinkComponent implements AfterViewInit {
         task: '',
     };
 
-    private answerSet: (string | number)[] = [];
+    answerSet: (string | number)[] = [];
 
-    constructor(private dataService: DataService, private errorHandler: GlobalErrorHandler, private resultsService: ResultsService) {
+    constructor(private dataService: DataService, private errorHandler: GlobalErrorHandler, private resultsService: ResultsService, private cdr: ChangeDetectorRef) {
     }
 
     async ngAfterViewInit(): Promise<void> {
@@ -141,7 +141,8 @@ export class NodeLinkComponent implements AfterViewInit {
     
                     // replace the answer set with the selected nodes
                     this.answerSet = selectedNodeIds;
-                    console.log('Selected nodes:', this.answerSet);
+                    this.cdr.detectChanges(); // Manually trigger change detection
+
                     this.resultsService.setAnswers(this.config.task, this.answerSet);
     
                     this.lassoPath.remove();
@@ -239,6 +240,7 @@ export class NodeLinkComponent implements AfterViewInit {
 
                 // Replace the answer set with the selected nodes
                 this.answerSet = selectedNodeIds;
+                this.cdr.detectChanges(); // Manually trigger change detection
                 this.resultsService.setAnswers(this.config.task, this.answerSet);
 
                 console.log('Selected nodes:', this.answerSet);
@@ -296,11 +298,11 @@ export class NodeLinkComponent implements AfterViewInit {
 
         this.simulation = d3.forceSimulation(graph.nodes)
             .force('link', d3.forceLink(graph.edges).id((d: any) => (d as NodeExt).id).links(graph.edges))
-            // .force('collide', d3.forceCollide().radius(4).iterations(16))
-            // .force('x', d3.forceX().x(this.width / 2).strength(0.1))
-            // .force('y', d3.forceY().y(this.height / 2).strength(0.1))
+            .force('collide', d3.forceCollide().radius(4).iterations(16))
+            .force('x', d3.forceX().x(this.width / 2).strength(0.1))
+            .force('y', d3.forceY().y(this.height / 2).strength(0.1))
             .force('charge', d3.forceManyBody().strength(-600))
-            // .force('center', d3.forceCenter(this.width / 2, this.height / 2))
+            .force('center', d3.forceCenter(this.width / 2, this.height / 2))
             .on('tick', () => {
             this.edges
                 .attr('x1', (d: EdgeExt) => d.source.x)

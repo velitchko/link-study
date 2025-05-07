@@ -1,3 +1,9 @@
 <div id="dthree" class="w-full">
+    <div style="position: absolute; top: 100px; left: 40px; border: 1px solid red; background-color: white; padding: 5px; max-width: 50vh; overflow-y: auto;">
+        <strong style="font-weight: bold; color: red">Selected Nodes:</strong>
+        <ul style="max-height: 50vh; overflow-y: auto;">
+            <li style="color: red" *ngFor="let node of answerSet">{{ node }}</li>
+        </ul>
+    </div>
     <svg id="node-link-container"></svg>
 </div>
