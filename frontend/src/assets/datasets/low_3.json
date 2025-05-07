@@ -1,0 +1,1051 @@
+{
+  "graph": {
+    "edgedefault": "undirected",
+    "nodes": [
+      {
+        "id": "1M",
+        "SEX": "MALE"
+      },
+      {
+        "id": "1F",
+        "SEX": "FEMALE"
+      },
+      {
+        "id": "2F",
+        "SEX": "FEMALE"
+      },
+      {
+        "id": "3F",
+        "SEX": "FEMALE"
+      },
+      {
+        "id": "2M",
+        "SEX": "MALE"
+      },
+      {
+        "id": "3M",
+        "SEX": "MALE"
+      },
+      {
+        "id": "4F",
+        "SEX": "FEMALE"
+      },
+      {
+        "id": "5F",
+        "SEX": "FEMALE"
+      },
+      {
+        "id": "4M",
+        "SEX": "MALE"
+      },
+      {
+        "id": "5M",
+        "SEX": "MALE"
+      },
+      {
+        "id": "6M",
+        "SEX": "MALE"
+      },
+      {
+        "id": "6F",
+        "SEX": "FEMALE"
+      },
+      {
+        "id": "7F",
+        "SEX": "FEMALE"
+      },
+      {
+        "id": "8F",
+        "SEX": "FEMALE"
+      },
+      {
+        "id": "7M",
+        "SEX": "MALE"
+      },
+      {
+        "id": "9F",
+        "SEX": "FEMALE"
+      },
+      {
+        "id": "8M",
+        "SEX": "MALE"
+      },
+      {
+        "id": "10F",
+        "SEX": "FEMALE"
+      },
+      {
+        "id": "9M",
+        "SEX": "MALE"
+      },
+      {
+        "id": "11F",
+        "SEX": "FEMALE"
+      },
+      {
+        "id": "12F",
+        "SEX": "FEMALE"
+      },
+      {
+        "id": "13F",
+        "SEX": "FEMALE"
+      },
+      {
+        "id": "10M",
+        "SEX": "MALE"
+      },
+      {
+        "id": "14F",
+        "SEX": "FEMALE"
+      },
+      {
+        "id": "11M",
+        "SEX": "MALE"
+      },
+      {
+        "id": "12M",
+        "SEX": "MALE"
+      },
+      {
+        "id": "15F",
+        "SEX": "FEMALE"
+      },
+      {
+        "id": "16F",
+        "SEX": "FEMALE"
+      },
+      {
+        "id": "13M",
+        "SEX": "MALE"
+      },
+      {
+        "id": "17F",
+        "SEX": "FEMALE"
+      },
+      {
+        "id": "18F",
+        "SEX": "FEMALE"
+      },
+      {
+        "id": "14M",
+        "SEX": "MALE"
+      },
+      {
+        "id": "15M",
+        "SEX": "MALE"
+      },
+      {
+        "id": "19F",
+        "SEX": "FEMALE"
+      },
+      {
+        "id": "20F",
+        "SEX": "FEMALE"
+      },
+      {
+        "id": "16M",
+        "SEX": "MALE"
+      },
+      {
+        "id": "21F",
+        "SEX": "FEMALE"
+      },
+      {
+        "id": "22F",
+        "SEX": "FEMALE"
+      },
+      {
+        "id": "23F",
+        "SEX": "FEMALE"
+      },
+      {
+        "id": "24F",
+        "SEX": "FEMALE"
+      },
+      {
+        "id": "17M",
+        "SEX": "MALE"
+      },
+      {
+        "id": "25F",
+        "SEX": "FEMALE"
+      },
+      {
+        "id": "26F",
+        "SEX": "FEMALE"
+      },
+      {
+        "id": "18M",
+        "SEX": "MALE"
+      },
+      {
+        "id": "19M",
+        "SEX": "MALE"
+      },
+      {
+        "id": "27F",
+        "SEX": "FEMALE"
+      },
+      {
+        "id": "28F",
+        "SEX": "FEMALE"
+      },
+      {
+        "id": "29F",
+        "SEX": "FEMALE"
+      },
+      {
+        "id": "30F",
+        "SEX": "FEMALE"
+      },
+      {
+        "id": "31F",
+        "SEX": "FEMALE"
+      },
+      {
+        "id": "20M",
+        "SEX": "MALE"
+      },
+      {
+        "id": "21M",
+        "SEX": "MALE"
+      },
+      {
+        "id": "32F",
+        "SEX": "FEMALE"
+      },
+      {
+        "id": "33F",
+        "SEX": "FEMALE"
+      },
+      {
+        "id": "22M",
+        "SEX": "MALE"
+      },
+      {
+        "id": "34F",
+        "SEX": "FEMALE"
+      },
+      {
+        "id": "35F",
+        "SEX": "FEMALE"
+      },
+      {
+        "id": "36F",
+        "SEX": "FEMALE"
+      },
+      {
+        "id": "37F",
+        "SEX": "FEMALE"
+      },
+      {
+        "id": "23M",
+        "SEX": "MALE"
+      },
+      {
+        "id": "38F",
+        "SEX": "FEMALE"
+      },
+      {
+        "id": "24M",
+        "SEX": "MALE"
+      },
+      {
+        "id": "39F",
+        "SEX": "FEMALE"
+      },
+      {
+        "id": "40F",
+        "SEX": "FEMALE"
+      },
+      {
+        "id": "25M",
+        "SEX": "MALE"
+      },
+      {
+        "id": "26M",
+        "SEX": "MALE"
+      },
+      {
+        "id": "41F",
+        "SEX": "FEMALE"
+      },
+      {
+        "id": "42F",
+        "SEX": "FEMALE"
+      },
+      {
+        "id": "27M",
+        "SEX": "MALE"
+      },
+      {
+        "id": "43F",
+        "SEX": "FEMALE"
+      },
+      {
+        "id": "44F",
+        "SEX": "FEMALE"
+      },
+      {
+        "id": "45F",
+        "SEX": "FEMALE"
+      },
+      {
+        "id": "28M",
+        "SEX": "MALE"
+      },
+      {
+        "id": "46F",
+        "SEX": "FEMALE"
+      },
+      {
+        "id": "47F",
+        "SEX": "FEMALE"
+      },
+      {
+        "id": "29M",
+        "SEX": "MALE"
+      },
+      {
+        "id": "48F",
+        "SEX": "FEMALE"
+      },
+      {
+        "id": "49F",
+        "SEX": "FEMALE"
+      },
+      {
+        "id": "50F",
+        "SEX": "FEMALE"
+      },
+      {
+        "id": "30M",
+        "SEX": "MALE"
+      },
+      {
+        "id": "51F",
+        "SEX": "FEMALE"
+      },
+      {
+        "id": "52F",
+        "SEX": "FEMALE"
+      },
+      {
+        "id": "31M",
+        "SEX": "MALE"
+      },
+      {
+        "id": "32M",
+        "SEX": "MALE"
+      },
+      {
+        "id": "33M",
+        "SEX": "MALE"
+      },
+      {
+        "id": "53F",
+        "SEX": "FEMALE"
+      },
+      {
+        "id": "54F",
+        "SEX": "FEMALE"
+      },
+      {
+        "id": "55F",
+        "SEX": "FEMALE"
+      },
+      {
+        "id": "34M",
+        "SEX": "MALE"
+      },
+      {
+        "id": "56F",
+        "SEX": "FEMALE"
+      },
+      {
+        "id": "57F",
+        "SEX": "FEMALE"
+      },
+      {
+        "id": "58F",
+        "SEX": "FEMALE"
+      },
+      {
+        "id": "35M",
+        "SEX": "MALE"
+      },
+      {
+        "id": "36M",
+        "SEX": "MALE"
+      },
+      {
+        "id": "37M",
+        "SEX": "MALE"
+      },
+      {
+        "id": "59F",
+        "SEX": "FEMALE"
+      },
+      {
+        "id": "60F",
+        "SEX": "FEMALE"
+      },
+      {
+        "id": "38M",
+        "SEX": "MALE"
+      },
+      {
+        "id": "39M",
+        "SEX": "MALE"
+      },
+      {
+        "id": "61F",
+        "SEX": "FEMALE"
+      },
+      {
+        "id": "40M",
+        "SEX": "MALE"
+      },
+      {
+        "id": "62F",
+        "SEX": "FEMALE"
+      },
+      {
+        "id": "63F",
+        "SEX": "FEMALE"
+      },
+      {
+        "id": "41M",
+        "SEX": "MALE"
+      },
+      {
+        "id": "42M",
+        "SEX": "MALE"
+      },
+      {
+        "id": "64F",
+        "SEX": "FEMALE"
+      },
+      {
+        "id": "65F",
+        "SEX": "FEMALE"
+      },
+      {
+        "id": "43M",
+        "SEX": "MALE"
+      },
+      {
+        "id": "44M",
+        "SEX": "MALE"
+      },
+      {
+        "id": "66F",
+        "SEX": "FEMALE"
+      },
+      {
+        "id": "67F",
+        "SEX": "FEMALE"
+      },
+      {
+        "id": "68F",
+        "SEX": "FEMALE"
+      },
+      {
+        "id": "45M",
+        "SEX": "MALE"
+      },
+      {
+        "id": "69F",
+        "SEX": "FEMALE"
+      },
+      {
+        "id": "46M",
+        "SEX": "MALE"
+      },
+      {
+        "id": "70F",
+        "SEX": "FEMALE"
+      },
+      {
+        "id": "71F",
+        "SEX": "FEMALE"
+      },
+      {
+        "id": "72F",
+        "SEX": "FEMALE"
+      }
+    ],
+    "edges": [
+      {
+        "source": "1M",
+        "target": "1F",
+        "weight": "nan"
+      },
+      {
+        "source": "1M",
+        "target": "2F",
+        "weight": "nan"
+      },
+      {
+        "source": "1M",
+        "target": "3F",
+        "weight": "nan"
+      },
+      {
+        "source": "3F",
+        "target": "2M",
+        "weight": "nan"
+      },
+      {
+        "source": "3F",
+        "target": "4M",
+        "weight": "nan"
+      },
+      {
+        "source": "3F",
+        "target": "5M",
+        "weight": "nan"
+      },
+      {
+        "source": "3M",
+        "target": "4F",
+        "weight": "nan"
+      },
+      {
+        "source": "3M",
+        "target": "5F",
+        "weight": "nan"
+      },
+      {
+        "source": "4F",
+        "target": "5M",
+        "weight": "nan"
+      },
+      {
+        "source": "6M",
+        "target": "6F",
+        "weight": "nan"
+      },
+      {
+        "source": "6M",
+        "target": "7F",
+        "weight": "nan"
+      },
+      {
+        "source": "6M",
+        "target": "8F",
+        "weight": "nan"
+      },
+      {
+        "source": "8F",
+        "target": "7M",
+        "weight": "nan"
+      },
+      {
+        "source": "7M",
+        "target": "9F",
+        "weight": "nan"
+      },
+      {
+        "source": "9F",
+        "target": "8M",
+        "weight": "nan"
+      },
+      {
+        "source": "8M",
+        "target": "10F",
+        "weight": "nan"
+      },
+      {
+        "source": "9M",
+        "target": "11F",
+        "weight": "nan"
+      },
+      {
+        "source": "9M",
+        "target": "12F",
+        "weight": "nan"
+      },
+      {
+        "source": "9M",
+        "target": "13F",
+        "weight": "nan"
+      },
+      {
+        "source": "13F",
+        "target": "10M",
+        "weight": "nan"
+      },
+      {
+        "source": "10M",
+        "target": "14F",
+        "weight": "nan"
+      },
+      {
+        "source": "14F",
+        "target": "11M",
+        "weight": "nan"
+      },
+      {
+        "source": "14F",
+        "target": "12M",
+        "weight": "nan"
+      },
+      {
+        "source": "12M",
+        "target": "15F",
+        "weight": "nan"
+      },
+      {
+        "source": "12M",
+        "target": "16F",
+        "weight": "nan"
+      },
+      {
+        "source": "13M",
+        "target": "17F",
+        "weight": "nan"
+      },
+      {
+        "source": "13M",
+        "target": "18F",
+        "weight": "nan"
+      },
+      {
+        "source": "17F",
+        "target": "14M",
+        "weight": "nan"
+      },
+      {
+        "source": "15M",
+        "target": "19F",
+        "weight": "nan"
+      },
+      {
+        "source": "15M",
+        "target": "20F",
+        "weight": "nan"
+      },
+      {
+        "source": "16M",
+        "target": "21F",
+        "weight": "nan"
+      },
+      {
+        "source": "16M",
+        "target": "22F",
+        "weight": "nan"
+      },
+      {
+        "source": "16M",
+        "target": "23F",
+        "weight": "nan"
+      },
+      {
+        "source": "16M",
+        "target": "24F",
+        "weight": "nan"
+      },
+      {
+        "source": "17M",
+        "target": "25F",
+        "weight": "nan"
+      },
+      {
+        "source": "17M",
+        "target": "26F",
+        "weight": "nan"
+      },
+      {
+        "source": "25F",
+        "target": "18M",
+        "weight": "nan"
+      },
+      {
+        "source": "26F",
+        "target": "18M",
+        "weight": "nan"
+      },
+      {
+        "source": "19M",
+        "target": "27F",
+        "weight": "nan"
+      },
+      {
+        "source": "19M",
+        "target": "28F",
+        "weight": "nan"
+      },
+      {
+        "source": "19M",
+        "target": "29F",
+        "weight": "nan"
+      },
+      {
+        "source": "19M",
+        "target": "30F",
+        "weight": "nan"
+      },
+      {
+        "source": "19M",
+        "target": "31F",
+        "weight": "nan"
+      },
+      {
+        "source": "30F",
+        "target": "20M",
+        "weight": "nan"
+      },
+      {
+        "source": "21M",
+        "target": "32F",
+        "weight": "nan"
+      },
+      {
+        "source": "21M",
+        "target": "33F",
+        "weight": "nan"
+      },
+      {
+        "source": "33F",
+        "target": "22M",
+        "weight": "nan"
+      },
+      {
+        "source": "22M",
+        "target": "34F",
+        "weight": "nan"
+      },
+      {
+        "source": "22M",
+        "target": "35F",
+        "weight": "nan"
+      },
+      {
+        "source": "22M",
+        "target": "36F",
+        "weight": "nan"
+      },
+      {
+        "source": "22M",
+        "target": "37F",
+        "weight": "nan"
+      },
+      {
+        "source": "34F",
+        "target": "23M",
+        "weight": "nan"
+      },
+      {
+        "source": "35F",
+        "target": "23M",
+        "weight": "nan"
+      },
+      {
+        "source": "23M",
+        "target": "38F",
+        "weight": "nan"
+      },
+      {
+        "source": "24M",
+        "target": "39F",
+        "weight": "nan"
+      },
+      {
+        "source": "24M",
+        "target": "40F",
+        "weight": "nan"
+      },
+      {
+        "source": "39F",
+        "target": "25M",
+        "weight": "nan"
+      },
+      {
+        "source": "26M",
+        "target": "41F",
+        "weight": "nan"
+      },
+      {
+        "source": "26M",
+        "target": "42F",
+        "weight": "nan"
+      },
+      {
+        "source": "42F",
+        "target": "27M",
+        "weight": "nan"
+      },
+      {
+        "source": "27M",
+        "target": "43F",
+        "weight": "nan"
+      },
+      {
+        "source": "27M",
+        "target": "44F",
+        "weight": "nan"
+      },
+      {
+        "source": "27M",
+        "target": "45F",
+        "weight": "nan"
+      },
+      {
+        "source": "43F",
+        "target": "28M",
+        "weight": "nan"
+      },
+      {
+        "source": "44F",
+        "target": "28M",
+        "weight": "nan"
+      },
+      {
+        "source": "45F",
+        "target": "28M",
+        "weight": "nan"
+      },
+      {
+        "source": "28M",
+        "target": "46F",
+        "weight": "nan"
+      },
+      {
+        "source": "28M",
+        "target": "47F",
+        "weight": "nan"
+      },
+      {
+        "source": "29M",
+        "target": "48F",
+        "weight": "nan"
+      },
+      {
+        "source": "29M",
+        "target": "49F",
+        "weight": "nan"
+      },
+      {
+        "source": "29M",
+        "target": "50F",
+        "weight": "nan"
+      },
+      {
+        "source": "50F",
+        "target": "30M",
+        "weight": "nan"
+      },
+      {
+        "source": "30M",
+        "target": "51F",
+        "weight": "nan"
+      },
+      {
+        "source": "30M",
+        "target": "52F",
+        "weight": "nan"
+      },
+      {
+        "source": "51F",
+        "target": "31M",
+        "weight": "nan"
+      },
+      {
+        "source": "52F",
+        "target": "32M",
+        "weight": "nan"
+      },
+      {
+        "source": "33M",
+        "target": "53F",
+        "weight": "nan"
+      },
+      {
+        "source": "33M",
+        "target": "54F",
+        "weight": "nan"
+      },
+      {
+        "source": "33M",
+        "target": "55F",
+        "weight": "nan"
+      },
+      {
+        "source": "53F",
+        "target": "34M",
+        "weight": "nan"
+      },
+      {
+        "source": "54F",
+        "target": "34M",
+        "weight": "nan"
+      },
+      {
+        "source": "55F",
+        "target": "34M",
+        "weight": "nan"
+      },
+      {
+        "source": "34M",
+        "target": "56F",
+        "weight": "nan"
+      },
+      {
+        "source": "34M",
+        "target": "57F",
+        "weight": "nan"
+      },
+      {
+        "source": "34M",
+        "target": "58F",
+        "weight": "nan"
+      },
+      {
+        "source": "56F",
+        "target": "35M",
+        "weight": "nan"
+      },
+      {
+        "source": "57F",
+        "target": "36M",
+        "weight": "nan"
+      },
+      {
+        "source": "58F",
+        "target": "36M",
+        "weight": "nan"
+      },
+      {
+        "source": "37M",
+        "target": "59F",
+        "weight": "nan"
+      },
+      {
+        "source": "37M",
+        "target": "60F",
+        "weight": "nan"
+      },
+      {
+        "source": "59F",
+        "target": "38M",
+        "weight": "nan"
+      },
+      {
+        "source": "59F",
+        "target": "39M",
+        "weight": "nan"
+      },
+      {
+        "source": "60F",
+        "target": "39M",
+        "weight": "nan"
+      },
+      {
+        "source": "39M",
+        "target": "61F",
+        "weight": "nan"
+      },
+      {
+        "source": "61F",
+        "target": "40M",
+        "weight": "nan"
+      },
+      {
+        "source": "61F",
+        "target": "41M",
+        "weight": "nan"
+      },
+      {
+        "source": "40M",
+        "target": "62F",
+        "weight": "nan"
+      },
+      {
+        "source": "40M",
+        "target": "63F",
+        "weight": "nan"
+      },
+      {
+        "source": "62F",
+        "target": "41M",
+        "weight": "nan"
+      },
+      {
+        "source": "63F",
+        "target": "41M",
+        "weight": "nan"
+      },
+      {
+        "source": "42M",
+        "target": "64F",
+        "weight": "nan"
+      },
+      {
+        "source": "42M",
+        "target": "65F",
+        "weight": "nan"
+      },
+      {
+        "source": "65F",
+        "target": "43M",
+        "weight": "nan"
+      },
+      {
+        "source": "65F",
+        "target": "44M",
+        "weight": "nan"
+      },
+      {
+        "source": "44M",
+        "target": "66F",
+        "weight": "nan"
+      },
+      {
+        "source": "44M",
+        "target": "67F",
+        "weight": "nan"
+      },
+      {
+        "source": "44M",
+        "target": "68F",
+        "weight": "nan"
+      },
+      {
+        "source": "66F",
+        "target": "45M",
+        "weight": "nan"
+      },
+      {
+        "source": "67F",
+        "target": "45M",
+        "weight": "nan"
+      },
+      {
+        "source": "68F",
+        "target": "45M",
+        "weight": "nan"
+      },
+      {
+        "source": "45M",
+        "target": "69F",
+        "weight": "nan"
+      },
+      {
+        "source": "46M",
+        "target": "70F",
+        "weight": "nan"
+      },
+      {
+        "source": "46M",
+        "target": "71F",
+        "weight": "nan"
+      },
+      {
+        "source": "46M",
+        "target": "72F",
+        "weight": "nan"
+      }
+    ]
+  }
+}
