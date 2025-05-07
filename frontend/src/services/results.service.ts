@@ -35,6 +35,17 @@ export type Result = {
     task?: string,
     encoding: string,
     complexity: string,
+} | {
+    index: number,
+    time: number,
+    encoding: string,
+    complexity: string,
+    overall: number,
+    effective: string,
+    suitable: string,
+    alternativeDisplay: string,
+    preference: string,
+    comments: string,
 };
 @Injectable({
     providedIn: 'root'
@@ -115,11 +126,12 @@ export class ResultsService {
         }
     }
 
-
     pushResult(result: Result, increment?: boolean): void {
         // pushes result to local array
         this.results.push(result);
         if (increment) this.taskCounter++;
+
+        console.log('Pushed result:', result);
     }
 
     async setupSurvey(): Promise<void> {
@@ -135,7 +147,7 @@ export class ResultsService {
             if (this.taskInputType.get(task) === 'custom') {
                 // construct question
                 question = {
-                    name: `${approach}-${complexity}-${task}`,
+                    name: `${approach}-${complexity}-${dataset}-${task}`,
                     elements: [
                         {
                             type: 'html',
@@ -219,26 +231,7 @@ export class ResultsService {
             SURVEY_JSON.pages.push(question);
             SURVEY_JSON.pages.push(feedback);
         });
-        // 2. Perceived Suitability
-        // 
-        // (Yes/No + Which ones and why?)
-        
-        // 3. Mental Model
-        // 
-        // (Open-ended — e.g., “Could you ‘see’ the graph as you imagined it?”)
-        
-        // 4. Missing Information
-        // Was there anything you wished had been shown differently or more clearly?
-        // (Open-ended)
-        
-        // 5. Preference (if applicable or in future within-subject study)
-        // 
-        // (Multiple Choice: Always Visible / Hidden / On-Demand + Why?)
-        
-        // 6. Final Thoughts
-        // Any other thoughts or feedback about your experience with the visualization?
-        // (Open-ended)
-        console.log(SURVEY_JSON);
+
         // final page
         const finalPage = {
             name: 'final-page',
@@ -250,7 +243,7 @@ export class ResultsService {
                 }, 
                 {
                     type: 'rating',
-                    name: 'overall-impression',
+                    name: 'overall-final',
                     isRequired: true,
                     title: 'How effective was the visualization in helping you perform the tasks?',
                     minRateDescription: 'Not at all effective',
@@ -265,7 +258,7 @@ export class ResultsService {
                 },
                 {
                     type: 'comment',
-                    name: 'effective-feedback',
+                    name: 'effective-final',
                     title: 'Comments:',
                     isRequired: true,
                     placeHolder: 'Enter your feedback here'
@@ -276,7 +269,7 @@ export class ResultsService {
                 }, 
                 {
                     type: 'comment',
-                    name: 'suitable-feedback',
+                    name: 'suitable-final',
                     title: 'Comments:',
                     isRequired: true,
                     placeHolder: 'Enter your feedback here'
@@ -287,7 +280,7 @@ export class ResultsService {
                 },
                 {
                     type: 'comment',
-                    name: 'alternative-display-feedback',
+                    name: 'alternativedisplay-final',
                     isRequired: true,
                     title: 'Comments:',
                     placeHolder: 'Enter your feedback here'
@@ -298,7 +291,7 @@ export class ResultsService {
                 }, 
                 {
                     type: 'comment',
-                    name: 'preference-feedback',
+                    name: 'preference-final',
                     isRequired: true,
                     title: 'Comments:',
                     placeHolder: 'Enter your feedback here'
@@ -309,7 +302,7 @@ export class ResultsService {
                 }, 
                 {
                     type: 'comment',
-                    name: 'comments-feedback',
+                    name: 'comments-final',
                     isRequired: false,
                     title: '(Optional) Please provide your experience.',
                     placeHolder: 'Enter your feedback here'

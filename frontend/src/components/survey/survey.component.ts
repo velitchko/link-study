@@ -69,15 +69,15 @@ export class SurveyComponent {
         this.timer.end = Date.now();
 
         this.survey.onCurrentPageChanged.add((sender, options) => {
-            console.log(options.oldCurrentPage.name)
-            if (options.oldCurrentPage.name.includes('feedback') && options.oldCurrentPage.name !== 'qualitative-feedback') {
+            if (options.oldCurrentPage.name.includes('feedback')) {
                 // push to results
                 this.resultsService.pushResult({
                     index: -99,
                     time: 0,
-                    task: options.oldCurrentPage.name.split('-')[2],
+                    task: options.oldCurrentPage.name.split('-')[3],
                     encoding: this.resultsService.getUserParams()?.encoding || 'unknown',
                     complexity: this.resultsService.getUserParams()?.complexity || 'unknown',
+                    dataset: options.oldCurrentPage.name.split('-')[2],
                     answer: sender.data[`${options.oldCurrentPage.name}`]
                 }, true);
 
@@ -90,22 +90,36 @@ export class SurveyComponent {
             this.timer.end = Date.now();
             const time = this.timer.end - this.timer.start;
 
-
             // push to results
             this.resultsService.pushResult({
                 index: options.oldCurrentPage.visibleIndex,
                 time: time,
-                task: options.oldCurrentPage.name.split('-')[2],
+                task: options.oldCurrentPage.name.split('-')[3],
                 // GET SUBSTRING FROM START TO options.newCurrentPage.name.split('-')[options.newCurrentPage.name.split('-').length - 1]
-                encoding: options.oldCurrentPage.name.split('-')[0],
+                encoding: this.resultsService.getUserParams()?.encoding || 'unknown',
                 complexity: this.resultsService.getUserParams()?.complexity || 'unknown',
-                answer: sender.data[`${options.oldCurrentPage.name}-answer`] || this.resultsService.getAnswers(options.oldCurrentPage.name.split('-')[2])
+                dataset: options.oldCurrentPage.name.split('-')[2],
+                answer: sender.data[`${options.oldCurrentPage.name}-answer`] || this.resultsService.getAnswers(options.oldCurrentPage.name.split('-')[3])
             });
         });
 
-
-
         this.survey.onComplete.add((sender) => {
+            console.log(sender);
+            // push to results
+            this.resultsService.pushResult({
+                index: -99,
+                time: 0,
+                // GET SUBSTRING FROM START TO options.newCurrentPage.name.split('-')[options.newCurrentPage.name.split('-').length - 1]
+                encoding: this.resultsService.getUserParams()?.encoding || 'unknown',
+                complexity: this.resultsService.getUserParams()?.complexity || 'unknown',
+                overall: sender.data['overall-final'],
+                effective: sender.data['effective-final'],
+                suitable: sender.data['suitable-final'],
+                alternativeDisplay: sender.data['alternativedisplay-final'],
+                preference: sender.data['preference-final'],
+                comments: sender.data['comments-final'],
+            });
+
             console.log('🏁 Survey completed');
 
             // post to backend
@@ -113,7 +127,6 @@ export class SurveyComponent {
                 if (res) {
                     console.log(res);
                     this.completed = true;
-                    window.open('https://app.prolific.com/submissions/complete?cc=C1FJUP0K', '_blank'); // TODO: Update with prolific link
                 } else {
                     console.error('🚒 Error: no response received from backend');
                 }
