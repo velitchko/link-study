@@ -12,7 +12,7 @@ export type Graph = { nodes: Array<Node>, edges: Array<Edge> };
 })
 
 export class DataService {
-    private dataDir = 'assets/datasets/';
+    private dataDir = '../assets/datasets/';
     private dataFiles = [
         'high_1.json',
         'high_2.json',
@@ -38,12 +38,12 @@ export class DataService {
     }
 
     private loadDataForDataset(dataset: string): void {
-        const fileName = this.dataDir + dataset + '.json';
+        const fileName = this.dataDir + dataset;
         fetch(fileName)
             .then(response => response.json())
             .then(data => {
-                const nodes = this.parseNodes(data.nodes);
-                const edges = this.parseEdges(data.edges);
+                const nodes = this.parseNodes(data.graph.nodes);
+                const edges = this.parseEdges(data.graph.edges);
 
                 this.parsedData.set(dataset, {
                     nodes: nodes.nodes,
