@@ -63,8 +63,12 @@ export class NodeLinkComponent implements AfterViewInit {
 
         this.height = viewportHeight - containerRect.top - this.margin.top - this.margin.bottom;
 
-
-        this.graph = lesMis as { nodes: NodeExt[], edges: EdgeExt[] };
+        const data = this.dataService.getGraph(this.config.dataset);
+        if (!data) {
+            console.error('🚒 Error: no data found for dataset', this.config.dataset);
+            return;
+        }
+        this.graph = { nodes: data.nodes as NodeExt[], edges: data.edges as EdgeExt[] };
         this.drawGraph(this.graph);
     }
 
@@ -151,7 +155,7 @@ export class NodeLinkComponent implements AfterViewInit {
 
         // Add zoom and pan functionality
         const zoom = d3.zoom<SVGSVGElement, unknown>()
-            .scaleExtent([0.5, 5]) // Set zoom scale limits
+            .scaleExtent([0.1, 5]) // Set zoom scale limits
             .filter((event) => {
             // Disable zoom on double click
             return !(event.type === 'dblclick');
@@ -292,37 +296,54 @@ export class NodeLinkComponent implements AfterViewInit {
 
         this.simulation = d3.forceSimulation(graph.nodes)
             .force('link', d3.forceLink(graph.edges).id((d: any) => (d as NodeExt).id).links(graph.edges))
-            .force('collide', d3.forceCollide().radius(4).iterations(16))
-            .force('x', d3.forceX().x(this.width / 2).strength(0.1))
-            .force('y', d3.forceY().y(this.height / 2).strength(0.1))
+            // .force('collide', d3.forceCollide().radius(4).iterations(16))
+            // .force('x', d3.forceX().x(this.width / 2).strength(0.1))
+            // .force('y', d3.forceY().y(this.height / 2).strength(0.1))
             .force('charge', d3.forceManyBody().strength(-600))
-            .force('center', d3.forceCenter(this.width / 2, this.height / 2))
+            // .force('center', d3.forceCenter(this.width / 2, this.height / 2))
             .on('tick', () => {
-                this.edges
-                    .attr('x1', (d: EdgeExt) => d.source.x)
-                    .attr('y1', (d: EdgeExt) => d.source.y)
-                    .attr('x2', (d: EdgeExt) => d.target.x)
-                    .attr('y2', (d: EdgeExt) => d.target.y);
+            this.edges
+                .attr('x1', (d: EdgeExt) => d.source.x)
+                .attr('y1', (d: EdgeExt) => d.source.y)
+                .attr('x2', (d: EdgeExt) => d.target.x)
+                .attr('y2', (d: EdgeExt) => d.target.y);
 
-                this.buffer
-                    .attr('cx', (d: NodeExt) => d.x)
-                    .attr('cy', (d: NodeExt) => d.y);
+            this.buffer
+                .attr('cx', (d: NodeExt) => d.x)
+                .attr('cy', (d: NodeExt) => d.y);
 
-                this.nodes
-                    .attr('cx', (d: NodeExt) => d.x)
-                    .attr('cy', (d: NodeExt) => d.y);
+            this.nodes
+                .attr('cx', (d: NodeExt) => d.x)
+                .attr('cy', (d: NodeExt) => d.y);
 
-                this.labels
-                    .attr('x', (d: NodeExt) => d.x)
-                    .attr('y', (d: NodeExt) => d.y + 16);
+            this.labels
+                .attr('x', (d: NodeExt) => d.x)
+                .attr('y', (d: NodeExt) => d.y + 16);
             })
             .on('end', () => {
-                if (this.config.encoding === 'nodelink') {
-                    this.edges.style('opacity', 1);
-                }
-                this.nodes.style('opacity', 1);
-                this.buffer.style('opacity', 1);
-                this.labels.style('opacity', 1);
+            if (this.config.encoding === 'nodelink') {
+                this.edges.style('opacity', 1);
+            }
+            this.nodes.style('opacity', 1);
+            this.buffer.style('opacity', 1);
+            this.labels.style('opacity', 1);
+
+            // Zoom to fit all nodes and edges
+            const bounds = svg.node()?.getBBox() || { x: 0, y: 0, width: this.width, height: this.height };
+            const fullWidth = bounds.width;
+            const fullHeight = bounds.height;
+            const centerX = bounds.x + fullWidth / 2;
+            const centerY = bounds.y + fullHeight / 2;
+
+            const scale = Math.min(this.width / fullWidth, this.height / fullHeight) * 0.9; // Add padding
+            const transform = d3.zoomIdentity
+                .translate(this.width / 2, this.height / 2)
+                .scale(scale)
+                .translate(-centerX, -centerY);
+
+            svg.transition()
+                .duration(750)
+                .call(zoom.transform, transform);
             });
     }
 }
