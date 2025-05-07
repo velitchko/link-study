@@ -1,6 +1,6 @@
 import { AfterViewInit, Component } from '@angular/core';
 import * as d3 from 'd3';
-import { Node, Edge, Aesth, DataService } from '../../services/data.service';
+import { Node, Edge, DataService } from '../../services/data.service';
 import { GlobalErrorHandler } from '../../services/error.service';
 import { ResultsService } from '../../services/results.service';
 import { lesMis } from '../../assets/datasets/test.js';
