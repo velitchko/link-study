@@ -46,7 +46,7 @@ export class DataService {
                 .then(data => {
                     const nodes = this.parseNodes(data.graph.nodes);
                     const edges = this.parseEdges(data.graph.edges);
-                    console.log('Parsed data:', dataset, nodes, edges);
+
                     this.parsedData.set(dataset, {
                         nodes: nodes.nodes,
                         edges: edges.edges,
