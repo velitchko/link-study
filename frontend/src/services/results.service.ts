@@ -216,8 +216,6 @@ export class ResultsService {
             SURVEY_JSON.pages.push(feedback);
         });
 
-        console.log('Survey JSON:', SURVEY_JSON);
-
         this.surveySetup = true;
     }
 
