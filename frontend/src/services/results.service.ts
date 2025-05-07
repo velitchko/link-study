@@ -59,6 +59,16 @@ export class ResultsService {
         ['t6', 'custom']
     ]);
 
+    private qualitativeQuestions: Map<string, string> = new Map([
+        ['t1', 'What made it easier or harder to find the bridge nodes in this graph?'],
+        ['t2', ' How did you recognize the hub nodes in this graph?'],
+        ['t3', 'What clues did you rely on to determine whether a path exists?'],
+        ['t4', 'How did you estimate the distance between A and B?'],
+        ['t5', 'What helped you decide how many distinct groups there are?'],
+        ['t6', 'How did you find the largest group in the network?'],
+
+    ]);
+
     protected randomTskOrder : Array<string> = new Array<string>();
 
     private surveySetup: boolean = false;
@@ -139,14 +149,14 @@ export class ResultsService {
                             type: 'node-link-question',
                             description: this.titleMap.get(approach) as string,
                             title: this.params?.taskDescriptions[i],
-                            name: `${approach}-${task}`
+                            name: `${approach}-${complexity}-${dataset}-${task}`
                         }
                     ]
                 };
             } else {
                 // construct question
                 question = {
-                    name: `${approach}-${complexity}-${task}`,
+                    name: `${approach}-${complexity}-${dataset}-${task}`,
                     elements: [
                         {
                             type: 'html',
@@ -160,7 +170,7 @@ export class ResultsService {
                             type: 'node-link-question',
                             description: this.titleMap.get(approach) as string,
                             title: this.params?.taskDescriptions[i],
-                            name: `${approach}-${task}`
+                            name: `${approach}-${complexity}-${dataset}-${task}`
                         }
                     ]
                 };
@@ -173,7 +183,7 @@ export class ResultsService {
                         inputType: 'number',
                         isRequired: true,
                         title: 'Answer',
-                        name: `${approach}-${complexity}-${task}-answer`
+                        name: `${approach}-${complexity}-${dataset}-${task}-answer`
                     });
                 } else {
                     question['elements'].push({
@@ -181,14 +191,14 @@ export class ResultsService {
                         isRequired: true,
                         title: 'Answer',
                         colCount: 2,
-                        name: `${approach}-${complexity}-${task}-answer`,
+                        name: `${approach}-${complexity}-${dataset}-${task}-answer`,
                         choices: ['Yes', 'No'],
                     });
                 }
             }
 
             const feedback = {
-                name: `${approach}-${complexity}-${task}-feedback`,
+                name: `${approach}-${complexity}-${dataset}-${task}-feedback`,
                 elements: [
                     {
                         type: 'html',
@@ -199,9 +209,9 @@ export class ResultsService {
                     },
                     {
                         type: 'comment',
-                        name: `${approach}-${complexity}-${task}-feedback`,
-                        isRequired: false,
-                        title: '(Optional) How did this uncertainty visualization assist or hinder you in solving this particular task?',
+                        name: `${approach}-${complexity}-${dataset}-${task}-feedback`,
+                        isRequired: true,
+                        title: this.qualitativeQuestions.get(task) as string,
                         placeHolder: 'Enter your feedback here'
                     }
                 ]
@@ -209,8 +219,107 @@ export class ResultsService {
             SURVEY_JSON.pages.push(question);
             SURVEY_JSON.pages.push(feedback);
         });
+        // 2. Perceived Suitability
+        // 
+        // (Yes/No + Which ones and why?)
+        
+        // 3. Mental Model
+        // 
+        // (Open-ended — e.g., “Could you ‘see’ the graph as you imagined it?”)
+        
+        // 4. Missing Information
+        // Was there anything you wished had been shown differently or more clearly?
+        // (Open-ended)
+        
+        // 5. Preference (if applicable or in future within-subject study)
+        // 
+        // (Multiple Choice: Always Visible / Hidden / On-Demand + Why?)
+        
+        // 6. Final Thoughts
+        // Any other thoughts or feedback about your experience with the visualization?
+        // (Open-ended)
+        console.log(SURVEY_JSON);
+        // final page
+        const finalPage = {
+            name: 'final-page',
+            title: 'Open Feedback',
+            elements: [
+                {
+                    type: 'html',
+                    html: `<h3>Overall Impression</h3>`
+                }, 
+                {
+                    type: 'rating',
+                    name: 'overall-impression',
+                    isRequired: true,
+                    title: 'How effective was the visualization in helping you perform the tasks?',
+                    minRateDescription: 'Not at all effective',
+                    maxRateDescription: 'Very effective',
+                    rateValues: [
+                        { value: 1, text: '1' },
+                        { value: 2, text: '2' },
+                        { value: 3, text: '3' },
+                        { value: 4, text: '4' },
+                        { value: 5, text: '5' }
+                    ]
+                },
+                {
+                    type: 'comment',
+                    name: 'effective-feedback',
+                    title: 'Comments:',
+                    isRequired: true,
+                    placeHolder: 'Enter your feedback here'
+                },
+                {
+                    type: 'html',
+                    html: `<h3>Do you think this type of visualization was better suited for some tasks than others?</h3>`
+                }, 
+                {
+                    type: 'comment',
+                    name: 'suitable-feedback',
+                    title: 'Comments:',
+                    isRequired: true,
+                    placeHolder: 'Enter your feedback here'
+                },
+                {
+                    type: 'html',
+                    html: `<h3>Was there anything you wished had been shown differently or more clearly?</h3>`
+                },
+                {
+                    type: 'comment',
+                    name: 'alternative-display-feedback',
+                    isRequired: true,
+                    title: 'Comments:',
+                    placeHolder: 'Enter your feedback here'
+                }, 
+                {
+                    type: 'html',
+                    html: `<h3>If you were to use this visualization to explore a similar network, would you prefer to have links shown, hidden, or shown on-demand?</h3>`
+                }, 
+                {
+                    type: 'comment',
+                    name: 'preference-feedback',
+                    isRequired: true,
+                    title: 'Comments:',
+                    placeHolder: 'Enter your feedback here'
+                },
+                {
+                    type: 'html',
+                    html: `<h3>Any other thoughts or feedback about your experience with the visualization?</h3>`
+                }, 
+                {
+                    type: 'comment',
+                    name: 'comments-feedback',
+                    isRequired: false,
+                    title: '(Optional) Please provide your experience.',
+                    placeHolder: 'Enter your feedback here'
+                },
 
-        console.log('Survey JSON:', SURVEY_JSON);
+            ]
+        };
+
+        SURVEY_JSON.pages.push(finalPage);
+
         this.surveySetup = true;
     }
 
