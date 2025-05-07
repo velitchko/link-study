@@ -29,60 +29,42 @@ export class DataService {
     ];
 
     private parsedData: Map<string, { nodes: Array<Node>, edges: Array<Edge> }>;
-    private unprocessedData: Map<string, { file: string }>;
 
     constructor() {
         this.parsedData = new Map<string, { nodes: Array<Node>, edges: Array<Edge> }>();
-        this.unprocessedData = new Map<string, { file: string }>();
-        this.loadAllData();
     }
 
-    private loadDataForDataset(dataset: string): void {
-        const fileName = this.dataDir + dataset;
-        fetch(fileName)
-            .then(response => response.json())
-            .then(data => {
-                const nodes = this.parseNodes(data.graph.nodes);
-                const edges = this.parseEdges(data.graph.edges);
-
-                this.parsedData.set(dataset, {
-                    nodes: nodes.nodes,
-                    edges: edges.edges,
+    async loadAllData(complexity: string = 'low'): Promise<void> {
+        await Promise.all(this.dataFiles.map((dataset: string) => {
+            if (!dataset.includes(complexity)) {
+                return Promise.resolve();
+            }
+            const fileName = this.dataDir + dataset;
+        
+            return fetch(fileName)
+                .then(response => response.json())
+                .then(data => {
+                    const nodes = this.parseNodes(data.graph.nodes);
+                    const edges = this.parseEdges(data.graph.edges);
+                    console.log('Parsed data:', dataset, nodes, edges);
+                    this.parsedData.set(dataset, {
+                        nodes: nodes.nodes,
+                        edges: edges.edges,
+                    });
                 });
-            })
-            .catch(error => console.error('Error loading data:', error));
+        }));
     }
 
-    loadAllData(): void {
-        for (const dataset of this.dataFiles) {
-            this.loadDataForDataset(dataset);
+    getGraph(dataset: string): { nodes: Array<Node>, edges: Array<Edge> } {
+        const graph = this.parsedData.get(dataset);
+        if (!graph) {
+            throw new Error(`Dataset not found: ${dataset}`);
         }
+        return graph;
     }
 
     getDatasetNames(): Array<string> {
-        return Array.from(this.unprocessedData.keys());
-    }
-
-    getGraph(key: string): Promise<{ nodes: Array<Node>, edges: Array<Edge> }> {
-        return new Promise((resolve, reject) => {
-            if (this.parsedData.has(key)) {
-                resolve({
-                    nodes: this.getDatasetNodes(key) || [],
-                    edges: this.getDatasetEdges(key) || []
-                });
-            } else {
-                reject('No data found for key: ' + key);
-            }
-        });
-    }
-
-    // get data per task type
-    getDatasetNodes(key: string): Array<Node> {
-        return this.parsedData.get(key)?.nodes.slice() || [];
-    }
-
-    getDatasetEdges(key: string): Array<Edge> {
-        return this.parsedData.get(key)?.edges.slice() || [];
+        return Array.from(this.dataFiles);
     }
 
     parseNodes(data: any): { nodes: Array<Node> } {
