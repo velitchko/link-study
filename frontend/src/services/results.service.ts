@@ -59,16 +59,15 @@ export class ResultsService {
         ['t6', 'custom']
     ]);
 
+    protected randomTskOrder : Array<string> = new Array<string>();
+
     private surveySetup: boolean = false;
-    private dataSets: Array<string>;
 
     private results: Array<Result> = new Array<Result>();
     private answerSets: Map<string, Array<string | number>> = new Map<string, Array<string | number>>();
 
     constructor(private http: HttpClient, private dataService: DataService) {
         this.params = null;
-
-        this.dataSets = this.dataService.getDatasetNames();
     }
 
     setUserParams(params: Params): void {
@@ -111,23 +110,18 @@ export class ResultsService {
         // pushes result to local array
         this.results.push(result);
         if (increment) this.taskCounter++;
-
-        console.log('Result pushed:', result);
-        console.log('Current task counter:', this.taskCounter);
-
-        console.log('Current results:', this.results);
     }
 
-    setupSurvey(): void {
+    async setupSurvey(): Promise<void> {
         if (this.params === null) return;
 
         const approach = this.params.encoding;
         const complexity = this.params.complexity;
-        const dataset = this.dataSets[0];
-
         this.params.taskCodes.forEach((task, i) => {
             let question = {};
-
+            
+            const dataset = this.dataService.getDatasetNames()
+                .filter(name => name.includes(this.params?.complexity || ''))[i % this.dataService.getDatasetNames().length];
             if (this.taskInputType.get(task) === 'custom') {
                 // construct question
                 question = {
@@ -216,6 +210,7 @@ export class ResultsService {
             SURVEY_JSON.pages.push(feedback);
         });
 
+        console.log('Survey JSON:', SURVEY_JSON);
         this.surveySetup = true;
     }
 
