@@ -4,6 +4,7 @@ import { Params, ResultsService } from '../services/results.service';
 import { GlobalErrorHandler } from '../services/error.service';
 import { retry } from 'rxjs';
 import { CONFIG } from '../assets/config';
+import { DataService } from 'src/services/data.service';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -12,7 +13,9 @@ import { CONFIG } from '../assets/config';
 export class AppComponent implements OnInit {
   public title = 'Uncertainty Network Study';
   
-  constructor(private http: HttpClient, protected resultsService: ResultsService, private errorService: GlobalErrorHandler) {}
+  constructor(private http: HttpClient, protected resultsService: ResultsService, private dataService: DataService, private errorService: GlobalErrorHandler) {
+    this.dataService.loadAllData(); // load all data from backend
+  }
 
   next(result: any) {
     if (result.status === 200) {
