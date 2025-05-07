@@ -11,7 +11,7 @@ const graphComplexity = ['low', 'high'];
 const taskDescriptions = new Map([
     ['t1', 'Which nodes (if removed) would break the network into separate parts?'], // Node
     ['t2', 'Which nodes have the most links to other nodes?'], // Node
-    ['t3', 'Is there a way to get from A to B?'], // Link
+    ['t3', 'Does a path of length X exist between A and B?'], // Link
     ['t4', 'How far is A from B?'], // Link
     ['t5', 'How many groups can you see?'], // Cluster
     ['t6', 'Which nodes belong to the biggest connected group?'], // Cluster
