@@ -14,12 +14,18 @@ export class AppComponent implements OnInit {
   public title = 'Uncertainty Network Study';
   
   constructor(private http: HttpClient, protected resultsService: ResultsService, private dataService: DataService, private errorService: GlobalErrorHandler) {
-    this.dataService.loadAllData(); // load all data from backend
+    
   }
 
   next(result: any) {
     if (result.status === 200) {
       this.resultsService.setUserParams(result.params);
+      // initialize data service
+    this.dataService.loadAllData(result.params.complexity).then(() => {
+      console.log('👌 All datasets loaded');
+    }).catch((error) => {
+      console.error('🚒 Error loading datasets:', error);
+    }); 
       this.resultsService.setupSurvey();
       console.log('👌Got survey params from backend');
       console.log(result);
