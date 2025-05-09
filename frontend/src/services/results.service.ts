@@ -151,7 +151,7 @@ export class ResultsService {
             console.log('Task input type:', this.taskInputType.get(task));
             console.log('Task description:', this.params?.taskDescriptions[i]);
             console.log('Task code:', this.params?.taskCodes[i]);
-            
+
             if (this.taskInputType.get(task) === 'custom') {
                 // construct question
                 question = {
@@ -320,6 +320,8 @@ export class ResultsService {
         };
 
         SURVEY_JSON.pages.push(finalPage);
+
+        console.log('Survey JSON:', SURVEY_JSON);
 
         this.surveySetup = true;
     }
