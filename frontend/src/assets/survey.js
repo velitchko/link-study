@@ -77,6 +77,16 @@ export const SURVEY_JSON = {
                     name: "question_tutorial",
                     html: `<h3>Tutorial</h3>
                     <div style="padding-top: 2em; padding-bottom: 2em; text-align: justify">
+                        <p><b>Study Conditions:</b></p>
+                    </div>
+                    <div style="padding-bottom: 2em; text-align: justify">
+                        <p>In this study, you will be shown one of the following types of node-link visualizations. You will experience only one of these conditions during the study. Each condition represents a different way of visually encoding the connections (or links) between nodes in a network:</p>
+                        <ul style="list-style-type: disc; padding-left: 2rem;">
+                            <li><b>Explicit Links (1):</b> All connections between nodes are shown as lines throughout the entire visualization.</li>
+                            <li><b>No Links (2):</b> Connections are not shown; only node positions and visual groupings may suggest structure.</li>
+                            <li><b>Links-On-Demand (3):</b> Connections are hidden by default but appear interactively when hovering over a node.</li>
+                    </div>
+                    <div style="padding-top: 2em; padding-bottom: 2em; text-align: justify">
                         <p><b>Tutorial 1: Entering Numeric Answers</b></p>
                     </div>
 
