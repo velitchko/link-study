@@ -4,7 +4,6 @@ import { SurveyComponent } from '../components/survey/survey.component';
 import { NodeLinkComponent } from 'src/components/node-link/node-link.component';
 
 const routes: Routes = [
-  { path: 'nodelink', component: NodeLinkComponent },
   { path: 'survey', component: SurveyComponent },
   { path: '**', redirectTo: 'survey' }
 ];
