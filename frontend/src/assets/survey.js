@@ -86,6 +86,22 @@ export const SURVEY_JSON = {
                             <li><b>No Links (2):</b> Connections are not shown; only node positions and visual groupings may suggest structure.</li>
                             <li><b>Links-On-Demand (3):</b> Connections are hidden by default but appear interactively when hovering over a node.</li>
                     </div>
+
+                    <div style="display: flex; gap: 1em; padding-top: 2em; padding-bottom: 2em;">
+                        <figure style="text-align: center;">
+                            <img src="./assets/nodelink.png" alt="Explicit Links" style="width: 200px; height: auto;">
+                            <figcaption>Figure 1: Explicit Links</figcaption>
+                        </figure>
+                        <figure style="text-align: center;">
+                            <img src="./assets/nolink.png" alt="No Links" style="width: 200px; height: auto;">
+                            <figcaption>Figure 2: No Links</figcaption>
+                        </figure>
+                        <figure style="text-align: center;">
+                            <img src="./assets/on-demand.gif" alt="Links-On-Demand" style="width: 200px; height: auto;">
+                            <figcaption>Figure 3: Links-On-Demand</figcaption>
+                        </figure>
+                    </div>
+
                     <div style="padding-top: 2em; padding-bottom: 2em; text-align: justify">
                         <p><b>Tutorial 1: Entering Numeric Answers</b></p>
                     </div>
