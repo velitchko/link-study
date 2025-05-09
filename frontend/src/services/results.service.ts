@@ -128,8 +128,6 @@ export class ResultsService {
         // pushes result to local array
         this.results.push(result);
         if (increment) this.taskCounter++;
-
-        console.log('Pushed result:', result);
     }
 
     async setupSurvey(): Promise<void> {
@@ -320,8 +318,6 @@ export class ResultsService {
         };
 
         SURVEY_JSON.pages.push(finalPage);
-
-        console.log('Survey JSON:', SURVEY_JSON);
 
         this.surveySetup = true;
     }

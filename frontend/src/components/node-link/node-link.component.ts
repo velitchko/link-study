@@ -68,14 +68,12 @@ export class NodeLinkComponent implements AfterViewInit {
             return;
         }
 
-        console.log(data);
 
         this.graph = { nodes: data.nodes as NodeExt[], edges: data.edges as EdgeExt[] };
         this.drawGraph(this.graph);
     }
 
     drawGraph(graph: { nodes: NodeExt[], edges: EdgeExt[] }): void {
-        console.log('Drawing graph');
         const svg: d3.Selection<SVGSVGElement, unknown, HTMLElement, any> = d3.select<SVGSVGElement, unknown>('#node-link-container')
             .attr('width', this.width + this.margin.left + this.margin.right)
             .attr('height', this.height + this.margin.top + this.margin.bottom);
@@ -245,8 +243,6 @@ export class NodeLinkComponent implements AfterViewInit {
                 this.answerSet = selectedNodeIds;
                 this.cdr.detectChanges(); // Manually trigger change detection
                 this.resultsService.setAnswers(this.config.task, this.answerSet);
-
-                console.log('Selected nodes:', this.answerSet);
             })
             .on('mouseover', (event: MouseEvent, d: NodeExt) => {
                 if (this.config.encoding !== 'interactive') return;

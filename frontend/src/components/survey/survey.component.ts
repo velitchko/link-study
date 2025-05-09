@@ -63,7 +63,7 @@ export class SurveyComponent {
 
         // update end time and record result
         this.timer.end = Date.now();
-        
+
         this.survey.onCurrentPageChanged.add((sender, options) => {
             if (options.oldCurrentPage.name.includes('feedback')) {
                 // push to results
@@ -100,7 +100,6 @@ export class SurveyComponent {
         });
 
         this.survey.onComplete.add((sender) => {
-            console.log(sender);
             // push to results
             this.resultsService.pushResult({
                 index: -99,
@@ -121,7 +120,6 @@ export class SurveyComponent {
             // post to backend
             this.resultsService.submitResults().subscribe((res: Response) => {
                 if (res) {
-                    console.log(res);
                     this.completed = true;
                 } else {
                     console.error('🚒 Error: no response received from backend');
