@@ -112,20 +112,6 @@ export const SURVEY_JSON = {
                         <img src="./assets/lasso.gif" alt="Dragging to select nodes" style="width: 100%; max-width: 600px; height: auto; padding-top: 1em; padding-bottom: 1em;">
                     </div>
                     `
-                },
-                {
-                    type: "checkbox",
-                    name: "question_intro_confirm",
-                    title: "I confirm that I understand what is expected from me.",
-                    choices: ["I confirm"],
-                    isRequired: true,
-                },
-                {
-                    type: "checkbox",
-                    name: "question_intro_agree",
-                    title: "I understand and agree with the data handling policy.",
-                    choices: ["I confirm"],
-                    isRequired: true,
                 }
             ]
         },
