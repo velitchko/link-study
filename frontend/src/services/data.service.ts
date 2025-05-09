@@ -12,7 +12,7 @@ export type Graph = { nodes: Array<Node>, edges: Array<Edge> };
 })
 
 export class DataService {
-    private dataDir = '../assets/datasets/';
+    private dataDir = 'assets/datasets/';
     private dataFiles = [
         'high_1.json',
         'high_2.json',
