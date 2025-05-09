@@ -44,7 +44,7 @@ foo@bar:~$ npm install --legacy-peer-deps
 ```
 Start the frontend:
 ```console
-foo@bar:~$ npm run start
+foo@bar:~$ npm run dev
 ```
 
 ### Docker
