@@ -40,11 +40,7 @@ export class SurveyComponent {
 
     init(): void {
         // check if survey is setup already if not try again in 1 second
-        if (!this.resultsService.isSetup()) {
-            console.log('Survey not setup yet, trying again in 1 second...');
-            setTimeout(() => this.init(), 1000);
-            return;
-        }
+        if (!this.resultsService.isSetup()) return;
 
         const survey = new Model(this.resultsService.getSurvey());
         // survey.applyTheme(LayeredDarkPanelless);       
