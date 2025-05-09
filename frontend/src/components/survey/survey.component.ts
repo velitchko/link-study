@@ -63,7 +63,7 @@ export class SurveyComponent {
 
         // update end time and record result
         this.timer.end = Date.now();
-        // TODO: Record qualitative feedback
+        
         this.survey.onCurrentPageChanged.add((sender, options) => {
             if (options.oldCurrentPage.name.includes('feedback')) {
                 // push to results

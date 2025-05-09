@@ -1,5 +1,6 @@
 // modules
 import { NgModule } from '@angular/core';
+import { AngularComponentFactory } from 'survey-angular-ui';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
 import { RouterModule } from '@angular/router';
@@ -37,4 +38,9 @@ import { ErrorComponent } from '../components/error/error.component';
   }],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule { 
+
+  ngOnInit() {
+    AngularComponentFactory.Instance.registerComponent('node-link-question', CustomNodeLinkQuestionComponent);
+  }
+}

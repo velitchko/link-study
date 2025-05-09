@@ -3,7 +3,6 @@ import * as d3 from 'd3';
 import { Node, Edge, DataService } from '../../services/data.service';
 import { GlobalErrorHandler } from '../../services/error.service';
 import { ResultsService } from '../../services/results.service';
-import { lesMis } from '../../assets/datasets/test.js';
 
 type NodeExt = Node & { x: number, y: number };
 type EdgeExt = Edge & { source: NodeExt, target: NodeExt };
