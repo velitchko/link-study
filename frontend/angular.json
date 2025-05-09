@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "uncertainty-net-survey": {
+    "link-study": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -18,7 +18,7 @@
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
             "baseHref": "/",
-            "outputPath": "dist/uncertainty-net-survey",
+            "outputPath": "dist/link-study",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -45,8 +45,8 @@
               "budgets": [
                 {
                   "type": "initial",
-                  "maximumWarning": "500kb",
-                  "maximumError": "1mb"
+                  "maximumWarning": "2mb",
+                  "maximumError": "4mb"
                 },
                 {
                   "type": "anyComponentStyle",
@@ -71,10 +71,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "uncertainty-net-survey:build:production"
+              "browserTarget": "link-study:build:production"
             },
             "development": {
-              "browserTarget": "uncertainty-net-survey:build:development"
+              "browserTarget": "link-study:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -82,7 +82,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "uncertainty-net-survey:build"
+            "browserTarget": "link-study:build"
           }
         },
         "test": {
