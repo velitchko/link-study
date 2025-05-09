@@ -3,6 +3,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 body {
     background-color: #f3f3f3;
 
@@ -22,4 +23,19 @@ body {
 
 .sd-html > div > * {
     font-size: 1.25rem !important;
+}
+
+.shortcut {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #d3d3d3;
+    border: 2px solid #555;
+    color: #333;
+    border-radius: 0.25rem;
+    transition: background-color 0.3s ease;
+    text-transform: uppercase;
+
+    &:hover {
+        background-color: #a9a9a9;
+    }
 }
