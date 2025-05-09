@@ -80,8 +80,6 @@ export class ResultsService {
 
     ]);
 
-    protected randomTskOrder : Array<string> = new Array<string>();
-
     private surveySetup: boolean = false;
 
     private results: Array<Result> = new Array<Result>();
@@ -139,11 +137,21 @@ export class ResultsService {
 
         const approach = this.params.encoding;
         const complexity = this.params.complexity;
+
         this.params.taskCodes.forEach((task, i) => {
             let question = {};
             
             const dataset = this.dataService.getDatasetNames()
                 .filter(name => name.includes(this.params?.complexity || ''))[i % this.dataService.getDatasetNames().length];
+
+            console.log('Dataset:', dataset);
+            console.log('Approach:', approach);
+            console.log('Complexity:', complexity);
+            console.log('Task:', task);
+            console.log('Task input type:', this.taskInputType.get(task));
+            console.log('Task description:', this.params?.taskDescriptions[i]);
+            console.log('Task code:', this.params?.taskCodes[i]);
+            
             if (this.taskInputType.get(task) === 'custom') {
                 // construct question
                 question = {

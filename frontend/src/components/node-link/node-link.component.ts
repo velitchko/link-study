@@ -68,11 +68,15 @@ export class NodeLinkComponent implements AfterViewInit {
             console.error('🚒 Error: no data found for dataset', this.config.dataset);
             return;
         }
+
+        console.log(data);
+
         this.graph = { nodes: data.nodes as NodeExt[], edges: data.edges as EdgeExt[] };
         this.drawGraph(this.graph);
     }
 
     drawGraph(graph: { nodes: NodeExt[], edges: EdgeExt[] }): void {
+        console.log('Drawing graph');
         const svg: d3.Selection<SVGSVGElement, unknown, HTMLElement, any> = d3.select<SVGSVGElement, unknown>('#node-link-container')
             .attr('width', this.width + this.margin.left + this.margin.right)
             .attr('height', this.height + this.margin.top + this.margin.bottom);
