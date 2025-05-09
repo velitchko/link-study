@@ -69,5 +69,65 @@ export const SURVEY_JSON = {
                 }
             ]
         },
+        {
+            name: "tutorial",
+            elements: [
+                {
+                    type: "html",
+                    name: "question_tutorial",
+                    html: `<h3>Tutorial</h3>
+                    <div style="padding-top: 2em; padding-bottom: 2em; text-align: justify">
+                        <p>
+                            <b>Tutorial 1: Entering Numeric Answers</b>
+                        </p>
+                    </div>
+
+                    <div style="padding-bottom: 2em; text-align: justify">
+                        <p>
+                            For tasks that ask for a number, just type your answer into the text box provided below the question.
+                        </p>
+                    </div>
+
+                    <div style="padding-bottom: 2em; text-align: justify">
+                        <p>
+                            <b>Tutorial 2: Selecting Nodes
+                            </b>
+                        </p>
+                    </div>
+
+                    <div style="padding-bottom: 2em; text-align: justify">
+                        <p>For tasks that ask you to select one or more nodes, Left Click selects a single node and Ctrl (or Cmd)+Click can be used to select multiple nodes.</p>
+                        <img src="./assets/click.gif" alt="Clicking on nodes" style="width: 100%; max-width: 600px; height: auto; padding-top: 1em; padding-bottom: 1em;">
+                    </div>
+
+                    <div style="text-align: justify">
+                        <p>
+                            <b>Tutorial 3: Selecting the Largest Cluster
+                            </b>
+                        </p>
+                    </div>
+
+                    <div style="padding-bottom: 2em; text-align: justify">
+                        <p>For tasks that ask you to find the largest cluster, use Ctrl + Drag to select or deselect groups of nodes.</p>
+                        <img src="./assets/lasso.gif" alt="Dragging to select nodes" style="width: 100%; max-width: 600px; height: auto; padding-top: 1em; padding-bottom: 1em;">
+                    </div>
+                    `
+                },
+                {
+                    type: "checkbox",
+                    name: "question_intro_confirm",
+                    title: "I confirm that I understand what is expected from me.",
+                    choices: ["I confirm"],
+                    isRequired: true,
+                },
+                {
+                    type: "checkbox",
+                    name: "question_intro_agree",
+                    title: "I understand and agree with the data handling policy.",
+                    choices: ["I confirm"],
+                    isRequired: true,
+                }
+            ]
+        },
     ]
 };
