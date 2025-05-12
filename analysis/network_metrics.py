@@ -7,7 +7,7 @@ from collections import Counter
 from itertools import combinations
 # Specify Input Parameter
 fileNames= [515, 629, 1086, 670, 616, 545, 1012, 583, 516, 518, 584, 551]
-highlightIDs={
+pathExistsIds={
 	629: ["096376795", "096371032"],  # low_1
     1086: ["079626113", "079776038"], # low_2
 	670: ["61F", "62F"],              # low_3
@@ -22,14 +22,57 @@ highlightIDs={
 	551: ["062104553", "062336070"]  # high_6
 }
 
+commonNeighborIds={
+    629: ["096376795", "096371032"],  # low_1
+    1086: ["079626113", "079776038"], # low_2
+	670: ["61F", "62F"],              # low_3
+	616: ["053616858", "062298895"],  # low_4
+	515: ["055542033", "052866845"],  # low_5
+	545: ["055804021", "047030601"],  # low_6
+	1012: ["nina", "pippa"],          # high_1
+	583: ["053359026", "052543127"],  # high_2
+	516: ["053370622", "053344784"],  # high_3 
+	518: ["062333624", "062322357"],  # high_4
+	584: ["052864516", "053560558"],  # high_5
+	551: ["062104553", "062336070"]  # high_6
+}
+
+
 # Outputs
 medians={}
 
+def checkIfExactCommonNeighborsExists(target_common_neighbors: int):
+    for fileName in fileNames:
+        G = nx.read_graphml(path="datasets/Network_" + str(fileName) + ".graphml")
+        sources_targets = pathExistsIds.get(fileName, [])
+        for source, target in combinations(sources_targets, 2):
+            try:
+                common_neighbors = list(nx.common_neighbors(G, source, target))
+                if len(common_neighbors) == target_common_neighbors:
+                    print(f"Exact number of common neighbors ({target_common_neighbors}) exists between {source} and {target} in file {fileName}: {common_neighbors}")
+                else:
+                    print(f"Number of common neighbors between {source} and {target} in file {fileName} is {len(common_neighbors)}, not {target_common_neighbors}")
+            except nx.NodeNotFound as e:
+                print(f"Node not found: {e} in file {fileName}")
+
+def checkCommonNeightbors() -> bool:
+    for fileName in fileNames:
+        G = nx.read_graphml(path="datasets/Network_" + str(fileName) + ".graphml")
+        sources_targets = pathExistsIds.get(fileName, [])
+        for source, target in combinations(sources_targets, 2):
+            try:
+                common_neighbors = list(nx.common_neighbors(G, source, target))
+                if common_neighbors:
+                    print(f"Common neighbors exist between {source} and {target} in file {fileName}: {common_neighbors}")
+                else:
+                    print(f"No common neighbors between {source} and {target} in file {fileName}")
+            except nx.NodeNotFound as e:
+                print(f"Node not found: {e} in file {fileName}")
 
 def checkIfExactLengthPathExists(target_length: int):
     for fileName in fileNames:
         G = nx.read_graphml(path="datasets/Network_" + str(fileName) + ".graphml")
-        sources_targets = highlightIDs.get(fileName, [])
+        sources_targets = pathExistsIds.get(fileName, [])
         for source, target in combinations(sources_targets, 2):
             try:
                 found = False
@@ -47,7 +90,7 @@ def checkIfExactLengthPathExists(target_length: int):
 def checkIfPathExists() -> bool:
     for fileName in fileNames:
         G = nx.read_graphml(path="datasets/Network_" + str(fileName) + ".graphml")
-        sources_targets = highlightIDs.get(fileName, [])
+        sources_targets = pathExistsIds.get(fileName, [])
         for source, target in combinations(sources_targets, 2):
             try:
                 path_length = nx.shortest_path_length(G, source=source, target=target)
@@ -135,7 +178,7 @@ def getAllPathLengths() -> None:
         
         # Plot Graph Drawing
         positions=nx.forceatlas2_layout(G)
-        nodeColors = ["red" if nodeID in highlightIDs[fileName] else "blue" for nodeID in sorted(G.nodes())]
+        nodeColors = ["red" if nodeID in pathExistsIds[fileName] else "blue" for nodeID in sorted(G.nodes())]
         plt.figure()
         drawing=nx.draw(G, positions, node_size=10, node_color=nodeColors)
         plt.draw()
@@ -159,5 +202,10 @@ def getAllPathLengths() -> None:
 if __name__ == "__main__":
     getAllCommonNeighbors()
     getAllPathLengths()
+    # Path Analysis
     checkIfPathExists()
     checkIfExactLengthPathExists(4)
+    # Common Neighbors Analysis
+    checkCommonNeightbors()
+    checkIfExactCommonNeighborsExists(4)
+    
