@@ -9,15 +9,15 @@ const linkEncoding = ['nodelink', 'nolink', 'interactive'];
 const taskCodes = ['t1', 't2', 't3', 't4', 't5', 't6'];
 const graphComplexity = ['low', 'high'];
 const taskDescriptions = new Map([
-    ['t1', 'Which nodes (if removed) would break the network into separate parts?'], // Node
-    ['t2', 'Which nodes have the most links to other nodes?'], // Node
-    ['t3', 'Does a path of length X exist between A and B?'], // Link
-    ['t4', 'How far is A from B?'], // Link
-    ['t5', 'How many groups can you see?'], // Cluster
-    ['t6', 'Which nodes belong to the biggest connected group?'], // Cluster
+    ['t1', 'Which nodes (if removed) would break the network into separate parts?'], // Node / Topology Task
+    ['t2', 'Which nodes have the most links to other nodes?'], // Node / Topology Task
+    ['t3', 'Does a path of length 4 exist between ${A} and ${B}?'], // Link / Browsing Task
+    ['t4', 'Identify the common neighbors between ${A} and ${B}?'], // Link / Browsing Task
+    ['t5', 'How many groups can you see?'], // Cluster / Overview Task
+    ['t6', 'Which nodes belong to the biggest connected group?'], // Cluster / Overview Task
 ]);
 
-const threshold = 1;
+const threshold = 15; // est. 90 participants in total
 
 app.use(express.json());
 app.use(cors());
@@ -48,6 +48,8 @@ app.get('/params', (req, res) => {
         userAssignments[encoding][complexity]++;
     });
 
+
+    // TODO: Once the threshold is reached start looping through the encodings and complexities
     let assignedEncoding, assignedComplexity;
 
     for (const encoding of linkEncoding) {
