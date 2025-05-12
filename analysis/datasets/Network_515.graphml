@@ -114,960 +114,641 @@
 <node id="053259336"/>
 <node id="053270309"/>
 <edge source="053568529" target="053574289">
-  <data key="d0">1</data>
 </edge>
 <edge source="053568529" target="052840081">
-  <data key="d0">3</data>
 </edge>
 <edge source="053568529" target="053087768">
-  <data key="d0">4</data>
 </edge>
 <edge source="053568529" target="052878374">
-  <data key="d0">1</data>
 </edge>
 <edge source="053568529" target="053066790">
-  <data key="d0">3</data>
 </edge>
 <edge source="053568529" target="055534020">
-  <data key="d0">3</data>
 </edge>
 <edge source="053568529" target="053259336">
-  <data key="d0">3</data>
 </edge>
 <edge source="053286269" target="053617791">
-  <data key="d0">1</data>
 </edge>
 <edge source="053286269" target="052566522">
-  <data key="d0">2</data>
 </edge>
 <edge source="053286269" target="052574514">
-  <data key="d0">1</data>
 </edge>
 <edge source="053286269" target="053528891">
-  <data key="d0">3</data>
 </edge>
 <edge source="053286269" target="052813052">
-  <data key="d0">1</data>
 </edge>
 <edge source="053286269" target="052889777">
-  <data key="d0">2</data>
 </edge>
 <edge source="053286269" target="052885381">
-  <data key="d0">3</data>
 </edge>
 <edge source="053286269" target="053066790">
-  <data key="d0">1</data>
 </edge>
 <edge source="053286269" target="055551081">
-  <data key="d0">1</data>
 </edge>
 <edge source="053054615" target="053634616">
-  <data key="d0">3</data>
 </edge>
 <edge source="053054615" target="053540258">
-  <data key="d0">3</data>
 </edge>
 <edge source="053054615" target="053073006">
-  <data key="d0">1</data>
 </edge>
 <edge source="053054615" target="053377269">
-  <data key="d0">1</data>
 </edge>
 <edge source="053054615" target="052615372">
-  <data key="d0">8</data>
 </edge>
 <edge source="052878374" target="052872635">
-  <data key="d0">2</data>
 </edge>
 <edge source="052878374" target="053617770">
-  <data key="d0">3</data>
 </edge>
 <edge source="052878374" target="053087768">
-  <data key="d0">3</data>
 </edge>
 <edge source="052878374" target="053548113">
-  <data key="d0">19</data>
 </edge>
 <edge source="052878374" target="053066790">
-  <data key="d0">3</data>
 </edge>
 <edge source="052878374" target="053347625">
-  <data key="d0">2</data>
 </edge>
 <edge source="052878374" target="052839038">
-  <data key="d0">2</data>
 </edge>
 <edge source="053066790" target="052862278">
-  <data key="d0">1</data>
 </edge>
 <edge source="053066790" target="053045604">
-  <data key="d0">8</data>
 </edge>
 <edge source="053066790" target="052885381">
-  <data key="d0">3</data>
 </edge>
 <edge source="053066790" target="043832868">
-  <data key="d0">1</data>
 </edge>
 <edge source="053066790" target="053087768">
-  <data key="d0">3</data>
 </edge>
 <edge source="053066790" target="053320844">
-  <data key="d0">10</data>
 </edge>
 <edge source="053066790" target="052840537">
-  <data key="d0">4</data>
 </edge>
 <edge source="053066790" target="052566522">
-  <data key="d0">2</data>
 </edge>
 <edge source="053066790" target="052889777">
-  <data key="d0">2</data>
 </edge>
 <edge source="053066790" target="053259336">
-  <data key="d0">1</data>
 </edge>
 <edge source="047045785" target="056014070">
-  <data key="d0">2</data>
 </edge>
 <edge source="047045785" target="053574289">
-  <data key="d0">1</data>
 </edge>
 <edge source="047045785" target="053027282">
-  <data key="d0">1</data>
 </edge>
 <edge source="047045785" target="053109282">
-  <data key="d0">18</data>
 </edge>
 <edge source="047045785" target="053259336">
-  <data key="d0">2</data>
 </edge>
 <edge source="053515834" target="052588107">
-  <data key="d0">1</data>
 </edge>
 <edge source="053515834" target="052862278">
-  <data key="d0">1</data>
 </edge>
 <edge source="053515834" target="052885381">
-  <data key="d0">3</data>
 </edge>
 <edge source="053515834" target="055542033">
-  <data key="d0">1</data>
 </edge>
 <edge source="053515834" target="052610029">
-  <data key="d0">3</data>
 </edge>
 <edge source="053515834" target="053064327">
-  <data key="d0">4</data>
 </edge>
 <edge source="053515834" target="052551043">
-  <data key="d0">1</data>
 </edge>
 <edge source="053515834" target="054086083">
-  <data key="d0">1</data>
 </edge>
 <edge source="052775842" target="052862278">
-  <data key="d0">1</data>
 </edge>
 <edge source="052775842" target="053617770">
-  <data key="d0">22</data>
 </edge>
 <edge source="052775842" target="052551043">
-  <data key="d0">1</data>
 </edge>
 <edge source="052588107" target="053301536">
-  <data key="d0">5</data>
 </edge>
 <edge source="052588107" target="053540258">
-  <data key="d0">1</data>
 </edge>
 <edge source="052588107" target="053541829">
-  <data key="d0">1</data>
 </edge>
 <edge source="052588107" target="052610029">
-  <data key="d0">2</data>
 </edge>
 <edge source="052588107" target="053064327">
-  <data key="d0">4</data>
 </edge>
 <edge source="052588107" target="053067008">
-  <data key="d0">1</data>
 </edge>
 <edge source="052588107" target="053813867">
-  <data key="d0">2</data>
 </edge>
 <edge source="052588107" target="052885381">
-  <data key="d0">3</data>
 </edge>
 <edge source="052836595" target="053000795">
-  <data key="d0">14</data>
 </edge>
 <edge source="052836595" target="053299076">
-  <data key="d0">5</data>
 </edge>
 <edge source="052836595" target="052548372">
-  <data key="d0">3</data>
 </edge>
 <edge source="052836595" target="052813052">
-  <data key="d0">1</data>
 </edge>
 <edge source="052836595" target="053617791">
-  <data key="d0">2</data>
 </edge>
 <edge source="053043360" target="053079039">
-  <data key="d0">1</data>
 </edge>
 <edge source="052888524" target="056014070">
-  <data key="d0">1</data>
 </edge>
 <edge source="053813867" target="053067008">
-  <data key="d0">2</data>
 </edge>
 <edge source="053813867" target="053301536">
-  <data key="d0">6</data>
 </edge>
 <edge source="053344516" target="052534596">
-  <data key="d0">2</data>
 </edge>
 <edge source="053344516" target="053827282">
-  <data key="d0">5</data>
 </edge>
 <edge source="053344516" target="053116367">
-  <data key="d0">1</data>
 </edge>
 <edge source="053344516" target="052594114">
-  <data key="d0">4</data>
 </edge>
 <edge source="053344516" target="047107258">
-  <data key="d0">5</data>
 </edge>
 <edge source="053344516" target="052889777">
-  <data key="d0">5</data>
 </edge>
 <edge source="053344516" target="053035777">
-  <data key="d0">7</data>
 </edge>
 <edge source="053632564" target="053540258">
-  <data key="d0">8</data>
 </edge>
 <edge source="053632564" target="053541829">
-  <data key="d0">2</data>
 </edge>
 <edge source="053632564" target="053087768">
-  <data key="d0">1</data>
 </edge>
 <edge source="053632564" target="053548113">
-  <data key="d0">2</data>
 </edge>
 <edge source="053632564" target="053347625">
-  <data key="d0">2</data>
 </edge>
 <edge source="053632564" target="052839038">
-  <data key="d0">1</data>
 </edge>
 <edge source="053000795" target="053299076">
-  <data key="d0">7</data>
 </edge>
 <edge source="053000795" target="052548372">
-  <data key="d0">2</data>
 </edge>
 <edge source="053000795" target="056295098">
-  <data key="d0">2</data>
 </edge>
 <edge source="052589043" target="053073006">
-  <data key="d0">1</data>
 </edge>
 <edge source="052589043" target="052773346">
-  <data key="d0">4</data>
 </edge>
 <edge source="052589043" target="053601029">
-  <data key="d0">3</data>
 </edge>
 <edge source="052589043" target="053027771">
-  <data key="d0">1</data>
 </edge>
 <edge source="052589043" target="053027282">
-  <data key="d0">1</data>
 </edge>
 <edge source="052589043" target="053519839">
-  <data key="d0">1</data>
 </edge>
 <edge source="052610029" target="053064327">
-  <data key="d0">8</data>
 </edge>
 <edge source="052610029" target="052885381">
-  <data key="d0">6</data>
 </edge>
 <edge source="052620092" target="052866845">
-  <data key="d0">4</data>
 </edge>
 <edge source="052620092" target="053367580">
-  <data key="d0">6</data>
 </edge>
 <edge source="052620092" target="053116367">
-  <data key="d0">1</data>
 </edge>
 <edge source="052620092" target="053001335">
-  <data key="d0">1</data>
 </edge>
 <edge source="052620092" target="053378609">
-  <data key="d0">11</data>
 </edge>
 <edge source="052620092" target="052858299">
-  <data key="d0">3</data>
 </edge>
 <edge source="052620092" target="053617791">
-  <data key="d0">5</data>
 </edge>
 <edge source="052620092" target="053616097">
-  <data key="d0">6</data>
 </edge>
 <edge source="052620092" target="052891623">
-  <data key="d0">2</data>
 </edge>
 <edge source="052620092" target="053026526">
-  <data key="d0">3</data>
 </edge>
 <edge source="052620092" target="055551081">
-  <data key="d0">1</data>
 </edge>
 <edge source="053027282" target="056014070">
-  <data key="d0">2</data>
 </edge>
 <edge source="053027282" target="055561093">
-  <data key="d0">1</data>
 </edge>
 <edge source="053027282" target="052868539">
-  <data key="d0">3</data>
 </edge>
 <edge source="053027282" target="053352577">
-  <data key="d0">2</data>
 </edge>
 <edge source="053027282" target="043832868">
-  <data key="d0">3</data>
 </edge>
 <edge source="053027282" target="052773346">
-  <data key="d0">4</data>
 </edge>
 <edge source="053027282" target="052858299">
-  <data key="d0">3</data>
 </edge>
 <edge source="053027282" target="053027771">
-  <data key="d0">1</data>
 </edge>
 <edge source="053027282" target="053600619">
-  <data key="d0">1</data>
 </edge>
 <edge source="053027282" target="053519839">
-  <data key="d0">1</data>
 </edge>
 <edge source="053027282" target="046890272">
-  <data key="d0">3</data>
 </edge>
 <edge source="053027282" target="053576892">
-  <data key="d0">2</data>
 </edge>
 <edge source="053027282" target="053109282">
-  <data key="d0">12</data>
 </edge>
 <edge source="052782574" target="053299076">
-  <data key="d0">3</data>
 </edge>
 <edge source="052782574" target="052866845">
-  <data key="d0">2</data>
 </edge>
 <edge source="052782574" target="052858299">
-  <data key="d0">2</data>
 </edge>
 <edge source="052782574" target="052891623">
-  <data key="d0">3</data>
 </edge>
 <edge source="052782574" target="052548372">
-  <data key="d0">3</data>
 </edge>
 <edge source="053347625" target="052872635">
-  <data key="d0">1</data>
 </edge>
 <edge source="053347625" target="053087768">
-  <data key="d0">3</data>
 </edge>
 <edge source="053347625" target="053259336">
-  <data key="d0">1</data>
 </edge>
 <edge source="053347625" target="053548113">
-  <data key="d0">6</data>
 </edge>
 <edge source="053347625" target="052839038">
-  <data key="d0">3</data>
 </edge>
 <edge source="053560518" target="052852546">
-  <data key="d0">4</data>
 </edge>
 <edge source="053560518" target="053079039">
-  <data key="d0">1</data>
 </edge>
 <edge source="053560518" target="053320305">
-  <data key="d0">12</data>
 </edge>
 <edge source="053560518" target="052578362">
-  <data key="d0">13</data>
 </edge>
 <edge source="052551043" target="052862278">
-  <data key="d0">2</data>
 </edge>
 <edge source="052551043" target="053617770">
-  <data key="d0">4</data>
 </edge>
 <edge source="052551043" target="055542033">
-  <data key="d0">1</data>
 </edge>
 <edge source="052551043" target="054086083">
-  <data key="d0">1</data>
 </edge>
 <edge source="052773346" target="052803587">
-  <data key="d0">4</data>
 </edge>
 <edge source="052773346" target="053073006">
-  <data key="d0">1</data>
 </edge>
 <edge source="052773346" target="053027771">
-  <data key="d0">8</data>
 </edge>
 <edge source="052773346" target="053519839">
-  <data key="d0">10</data>
 </edge>
 <edge source="052773346" target="053571533">
-  <data key="d0">1</data>
 </edge>
 <edge source="053586528" target="043832868">
-  <data key="d0">1</data>
 </edge>
 <edge source="053586528" target="053378609">
-  <data key="d0">3</data>
 </edge>
 <edge source="053586528" target="053834348">
-  <data key="d0">3</data>
 </edge>
 <edge source="053586528" target="046890272">
-  <data key="d0">2</data>
 </edge>
 <edge source="053586528" target="053109282">
-  <data key="d0">3</data>
 </edge>
 <edge source="053320844" target="053035777">
-  <data key="d0">1</data>
 </edge>
 <edge source="053320844" target="052889777">
-  <data key="d0">1</data>
 </edge>
 <edge source="053320844" target="053045604">
-  <data key="d0">25</data>
 </edge>
 <edge source="053035777" target="052534596">
-  <data key="d0">4</data>
 </edge>
 <edge source="053035777" target="053541568">
-  <data key="d0">2</data>
 </edge>
 <edge source="053035777" target="053827282">
-  <data key="d0">5</data>
 </edge>
 <edge source="053035777" target="053116367">
-  <data key="d0">2</data>
 </edge>
 <edge source="053035777" target="052566522">
-  <data key="d0">4</data>
 </edge>
 <edge source="053035777" target="052594114">
-  <data key="d0">9</data>
 </edge>
 <edge source="053035777" target="047107258">
-  <data key="d0">3</data>
 </edge>
 <edge source="053035777" target="052533027">
-  <data key="d0">1</data>
 </edge>
 <edge source="053035777" target="052889777">
-  <data key="d0">2</data>
 </edge>
 <edge source="053571533" target="053073006">
-  <data key="d0">2</data>
 </edge>
 <edge source="053571533" target="053601029">
-  <data key="d0">1</data>
 </edge>
 <edge source="053571533" target="053618872">
-  <data key="d0">3</data>
 </edge>
 <edge source="053571533" target="052803587">
-  <data key="d0">2</data>
 </edge>
 <edge source="046890272" target="043832868">
-  <data key="d0">3</data>
 </edge>
 <edge source="046890272" target="052858299">
-  <data key="d0">1</data>
 </edge>
 <edge source="046890272" target="053109282">
-  <data key="d0">4</data>
 </edge>
 <edge source="055534020" target="052840081">
-  <data key="d0">9</data>
 </edge>
 <edge source="055534020" target="053574289">
-  <data key="d0">3</data>
 </edge>
 <edge source="053541829" target="053540258">
-  <data key="d0">1</data>
 </edge>
 <edge source="053541829" target="053301536">
-  <data key="d0">2</data>
 </edge>
 <edge source="055551081" target="053528891">
-  <data key="d0">3</data>
 </edge>
 <edge source="055551081" target="053001335">
-  <data key="d0">5</data>
 </edge>
 <edge source="055551081" target="052574514">
-  <data key="d0">9</data>
 </edge>
 <edge source="055551081" target="052813052">
-  <data key="d0">1</data>
 </edge>
 <edge source="055551081" target="053617791">
-  <data key="d0">10</data>
 </edge>
 <edge source="056068783" target="052620572">
-  <data key="d0">4</data>
 </edge>
 <edge source="056068783" target="053634616">
-  <data key="d0">10</data>
 </edge>
 <edge source="053116367" target="052534596">
-  <data key="d0">2</data>
 </edge>
 <edge source="053116367" target="052866845">
-  <data key="d0">6</data>
 </edge>
 <edge source="053116367" target="052594114">
-  <data key="d0">4</data>
 </edge>
 <edge source="053027771" target="053580565">
-  <data key="d0">1</data>
 </edge>
 <edge source="053027771" target="053600619">
-  <data key="d0">1</data>
 </edge>
 <edge source="053027771" target="052538383">
-  <data key="d0">2</data>
 </edge>
 <edge source="053027771" target="053073006">
-  <data key="d0">6</data>
 </edge>
 <edge source="053027771" target="052803587">
-  <data key="d0">22</data>
 </edge>
 <edge source="053027771" target="053519839">
-  <data key="d0">8</data>
 </edge>
 <edge source="053027771" target="053559555">
-  <data key="d0">2</data>
 </edge>
 <edge source="053027771" target="055561093">
-  <data key="d0">1</data>
 </edge>
 <edge source="053320305" target="052852546">
-  <data key="d0">4</data>
 </edge>
 <edge source="053320305" target="052536009">
-  <data key="d0">2</data>
 </edge>
 <edge source="053320305" target="053374851">
-  <data key="d0">2</data>
 </edge>
 <edge source="053320305" target="052774614">
-  <data key="d0">1</data>
 </edge>
 <edge source="053320305" target="052578362">
-  <data key="d0">12</data>
 </edge>
 <edge source="053067008" target="053301536">
-  <data key="d0">3</data>
 </edge>
 <edge source="055895006" target="056014070">
-  <data key="d0">3</data>
 </edge>
 <edge source="055895006" target="052774614">
-  <data key="d0">9</data>
 </edge>
 <edge source="055895006" target="053353331">
-  <data key="d0">3</data>
 </edge>
 <edge source="055895006" target="052868539">
-  <data key="d0">1</data>
 </edge>
 <edge source="055895006" target="047005846">
-  <data key="d0">3</data>
 </edge>
 <edge source="052868539" target="053600619">
-  <data key="d0">2</data>
 </edge>
 <edge source="052868539" target="053352577">
-  <data key="d0">2</data>
 </edge>
 <edge source="052868539" target="053353331">
-  <data key="d0">3</data>
 </edge>
 <edge source="052868539" target="055561093">
-  <data key="d0">1</data>
 </edge>
 <edge source="052868539" target="047005846">
-  <data key="d0">1</data>
 </edge>
 <edge source="053299076" target="056295098">
-  <data key="d0">2</data>
 </edge>
 <edge source="053299076" target="053001335">
-  <data key="d0">1</data>
 </edge>
 <edge source="053299076" target="052891623">
-  <data key="d0">1</data>
 </edge>
 <edge source="053299076" target="052548372">
-  <data key="d0">4</data>
 </edge>
 <edge source="053299076" target="052585821">
-  <data key="d0">1</data>
 </edge>
 <edge source="053352577" target="053576892">
-  <data key="d0">4</data>
 </edge>
 <edge source="053087768" target="052872635">
-  <data key="d0">1</data>
 </edge>
 <edge source="053087768" target="053259336">
-  <data key="d0">1</data>
 </edge>
 <edge source="053087768" target="053548113">
-  <data key="d0">5</data>
 </edge>
 <edge source="053087768" target="052840537">
-  <data key="d0">1</data>
 </edge>
 <edge source="053087768" target="052839038">
-  <data key="d0">2</data>
 </edge>
 <edge source="052594114" target="052534596">
-  <data key="d0">8</data>
 </edge>
 <edge source="052594114" target="053827282">
-  <data key="d0">4</data>
 </edge>
 <edge source="052594114" target="047107258">
-  <data key="d0">2</data>
 </edge>
 <edge source="052594114" target="053541568">
-  <data key="d0">2</data>
 </edge>
 <edge source="053079039" target="052852546">
-  <data key="d0">1</data>
 </edge>
 <edge source="053079039" target="052578362">
-  <data key="d0">4</data>
 </edge>
 <edge source="055561093" target="053580565">
-  <data key="d0">3</data>
 </edge>
 <edge source="055561093" target="053600619">
-  <data key="d0">3</data>
 </edge>
 <edge source="055561093" target="052782315">
-  <data key="d0">2</data>
 </edge>
 <edge source="055561093" target="053519839">
-  <data key="d0">1</data>
 </edge>
 <edge source="055561093" target="053559555">
-  <data key="d0">8</data>
 </edge>
 <edge source="053618872" target="053073006">
-  <data key="d0">3</data>
 </edge>
 <edge source="053618872" target="053601029">
-  <data key="d0">3</data>
 </edge>
 <edge source="053600619" target="053580565">
-  <data key="d0">2</data>
 </edge>
 <edge source="053600619" target="052782315">
-  <data key="d0">3</data>
 </edge>
 <edge source="053600619" target="053519839">
-  <data key="d0">1</data>
 </edge>
 <edge source="053600619" target="053559555">
-  <data key="d0">9</data>
 </edge>
 <edge source="053574289" target="043832868">
-  <data key="d0">3</data>
 </edge>
 <edge source="053574289" target="053834348">
-  <data key="d0">2</data>
 </edge>
 <edge source="053574289" target="052840081">
-  <data key="d0">3</data>
 </edge>
 <edge source="053574289" target="053259336">
-  <data key="d0">2</data>
 </edge>
 <edge source="052782315" target="053580565">
-  <data key="d0">1</data>
 </edge>
 <edge source="052782315" target="053559555">
-  <data key="d0">11</data>
 </edge>
 <edge source="052891623" target="052866845">
-  <data key="d0">2</data>
 </edge>
 <edge source="052891623" target="053378609">
-  <data key="d0">1</data>
 </edge>
 <edge source="052891623" target="052858299">
-  <data key="d0">1</data>
 </edge>
 <edge source="052891623" target="052548372">
-  <data key="d0">3</data>
 </edge>
 <edge source="052840537" target="052862278">
-  <data key="d0">4</data>
 </edge>
 <edge source="052840537" target="053548113">
-  <data key="d0">1</data>
 </edge>
 <edge source="054086083" target="055542033">
-  <data key="d0">2</data>
 </edge>
 <edge source="054086083" target="052862278">
-  <data key="d0">5</data>
 </edge>
 <edge source="052774614" target="056014070">
-  <data key="d0">6</data>
 </edge>
 <edge source="052774614" target="052536009">
-  <data key="d0">2</data>
 </edge>
 <edge source="052774614" target="053374851">
-  <data key="d0">2</data>
 </edge>
 <edge source="053834348" target="043832868">
-  <data key="d0">2</data>
 </edge>
 <edge source="052620572" target="053634616">
-  <data key="d0">15</data>
 </edge>
 <edge source="052620572" target="053301536">
-  <data key="d0">3</data>
 </edge>
 <edge source="052620572" target="053540258">
-  <data key="d0">5</data>
 </edge>
 <edge source="052620572" target="052545088">
-  <data key="d0">5</data>
 </edge>
 <edge source="052620572" target="053270309">
-  <data key="d0">2</data>
 </edge>
 <edge source="053617791" target="052574514">
-  <data key="d0">9</data>
 </edge>
 <edge source="053617791" target="053001335">
-  <data key="d0">9</data>
 </edge>
 <edge source="053617791" target="053528891">
-  <data key="d0">3</data>
 </edge>
 <edge source="053617791" target="052813052">
-  <data key="d0">3</data>
 </edge>
 <edge source="053073006" target="053634616">
-  <data key="d0">3</data>
 </edge>
 <edge source="053073006" target="052538383">
-  <data key="d0">6</data>
 </edge>
 <edge source="053073006" target="052803587">
-  <data key="d0">7</data>
 </edge>
 <edge source="053073006" target="053377269">
-  <data key="d0">1</data>
 </edge>
 <edge source="053073006" target="053601029">
-  <data key="d0">4</data>
 </edge>
 <edge source="053616097" target="053367580">
-  <data key="d0">4</data>
 </edge>
 <edge source="053616097" target="053378609">
-  <data key="d0">6</data>
 </edge>
 <edge source="053616097" target="052858299">
-  <data key="d0">2</data>
 </edge>
 <edge source="053616097" target="053026526">
-  <data key="d0">2</data>
 </edge>
 <edge source="052585821" target="053001335">
-  <data key="d0">1</data>
 </edge>
 <edge source="053617770" target="052862278">
-  <data key="d0">4</data>
 </edge>
 <edge source="053617770" target="053548113">
-  <data key="d0">5</data>
 </edge>
 <edge source="052803587" target="053519839">
-  <data key="d0">3</data>
 </edge>
 <edge source="055542033" target="052862278">
-  <data key="d0">9</data>
 </edge>
 <edge source="053001335" target="052574514">
-  <data key="d0">8</data>
 </edge>
 <edge source="052858299" target="052866845">
-  <data key="d0">1</data>
 </edge>
 <edge source="052858299" target="053367580">
-  <data key="d0">2</data>
 </edge>
 <edge source="052858299" target="043832868">
-  <data key="d0">1</data>
 </edge>
 <edge source="052858299" target="053378609">
-  <data key="d0">3</data>
 </edge>
 <edge source="052858299" target="053026526">
-  <data key="d0">1</data>
 </edge>
 <edge source="052858299" target="053109282">
-  <data key="d0">4</data>
 </edge>
 <edge source="052889777" target="052885381">
-  <data key="d0">6</data>
 </edge>
 <edge source="052889777" target="053827282">
-  <data key="d0">7</data>
 </edge>
 <edge source="052889777" target="053541568">
-  <data key="d0">9</data>
 </edge>
 <edge source="052889777" target="052566522">
-  <data key="d0">4</data>
 </edge>
 <edge source="052889777" target="047107258">
-  <data key="d0">1</data>
 </edge>
 <edge source="052852546" target="052578362">
-  <data key="d0">7</data>
 </edge>
 <edge source="052839038" target="052872635">
-  <data key="d0">1</data>
 </edge>
 <edge source="052839038" target="053259336">
-  <data key="d0">1</data>
 </edge>
 <edge source="052839038" target="053548113">
-  <data key="d0">4</data>
 </edge>
 <edge source="053064327" target="052885381">
-  <data key="d0">12</data>
 </edge>
 <edge source="052536009" target="053374851">
-  <data key="d0">4</data>
 </edge>
 <edge source="053519839" target="053580565">
-  <data key="d0">1</data>
 </edge>
 <edge source="053519839" target="053559555">
-  <data key="d0">2</data>
 </edge>
 <edge source="053827282" target="047107258">
-  <data key="d0">9</data>
 </edge>
 <edge source="053827282" target="053541568">
-  <data key="d0">14</data>
 </edge>
 <edge source="053540258" target="053634616">
-  <data key="d0">2</data>
 </edge>
 <edge source="053540258" target="053301536">
-  <data key="d0">2</data>
 </edge>
 <edge source="053540258" target="052545088">
-  <data key="d0">1</data>
 </edge>
 <edge source="053540258" target="053377269">
-  <data key="d0">1</data>
 </edge>
 <edge source="053540258" target="052615372">
-  <data key="d0">6</data>
 </edge>
 <edge source="053528891" target="052574514">
-  <data key="d0">3</data>
 </edge>
 <edge source="053528891" target="052813052">
-  <data key="d0">3</data>
 </edge>
 <edge source="053548113" target="052872635">
-  <data key="d0">2</data>
 </edge>
 <edge source="052813052" target="052574514">
-  <data key="d0">1</data>
 </edge>
 <edge source="053367580" target="053378609">
-  <data key="d0">6</data>
 </edge>
 <edge source="053367580" target="053026526">
-  <data key="d0">2</data>
 </edge>
 <edge source="052545088" target="053634616">
-  <data key="d0">1</data>
 </edge>
 <edge source="043832868" target="053259336">
-  <data key="d0">1</data>
 </edge>
 <edge source="043832868" target="053109282">
-  <data key="d0">4</data>
 </edge>
 <edge source="052533027" target="052566522">
-  <data key="d0">4</data>
 </edge>
 <edge source="053541568" target="047107258">
-  <data key="d0">4</data>
 </edge>
 <edge source="053559555" target="053580565">
-  <data key="d0">5</data>
 </edge>
 <edge source="053026526" target="053378609">
-  <data key="d0">3</data>
 </edge>
 <edge source="053109282" target="053378609">
-  <data key="d0">1</data>
 </edge>
 <edge source="053353331" target="047005846">
-  <data key="d0">3</data>
 </edge>
 <edge source="052885381" target="052566522">
-  <data key="d0">6</data>
 </edge>
 <edge source="053378609" target="052866845">
-  <data key="d0">1</data>
 </edge>
 <edge source="053377269" target="053634616">
-  <data key="d0">4</data>
 </edge>
 <edge source="053301536" target="053270309">
-  <data key="d0">6</data>
 </edge>
 </graph></graphml>

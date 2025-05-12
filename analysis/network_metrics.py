@@ -3,17 +3,18 @@ import statistics
 import csv
 from collections import defaultdict
 import matplotlib.pyplot as plt
-
+from collections import Counter
+from itertools import combinations
 # Specify Input Parameter
-fileNames=[515, 629, 661, 670, 616, 545, 519, 583, 516, 518, 584, 551]
+fileNames= [515, 629, 1086, 670, 616, 545, 1012, 583, 516, 518, 584, 551]
 highlightIDs={
 	515: [], 
 	629: [], 
-	661: [], 
-	670: ["4F"], 
+	670: [], 
+    1086: [],
 	616: [], 
 	545: [],
-	519: [], 
+	1012: [], 
 	583: [], 
 	516: [], 
 	518: [], 
@@ -28,40 +29,51 @@ medians={}
 def getAllCommonNeighbors() -> None:
     # Iteratve over all files
     for fileName in fileNames:
-
-        # Import Data and Calculate All Common Neighbors
+        print("datasets/Network_" + str(fileName) + ".graphml")
         G = nx.read_graphml(path="datasets/Network_" + str(fileName) + ".graphml")
-        commonNeighbors=defaultdict(int)
-        for source, targets in G.adjacency():
-            for target in targets:
-                if source == target:
-                    continue
-                commonNeighbors[(source, target)] += len(list(nx.common_neighbors(G, source, target)))
-        
-        # Print Number of Common Neighbors and Frequency (Sorted by Number of Common Neighbors)
-        print(f"Dataset {fileName}:")
-        neighbor_counts = defaultdict(int)
-        for value in commonNeighbors.values():
-            neighbor_counts[value] += 1
 
-        median_neighbors = statistics.median_low(neighbor_counts.keys())
-        print(f"Median number of common neighbors (rounded down): {median_neighbors}")
-        # for count, occurrences in sorted(neighbor_counts.items()):
-        #     print(f"{count} common neighbors: {occurrences} occurrences")
+        # Dictionary to count common neighbors for each node pair
+        pair_common = Counter()
+
+        # For each node, process all pairs of its neighbors
+        for u in G:
+            neighbors = list(G[u])  # neighbors of u
+            for v, w in combinations(sorted(neighbors), 2):  # sort to avoid duplicate unordered pairs
+                pair_common[(v, w)] += 1
+
+        # Build histogram: number of pairs with k common neighbors
+        histogram = Counter(pair_common.values())
+
+        # Exclude 0 common neighbors
+        # histogram = {k: v for k, v in histogram.items() if k > 0}
+        # Sort histogram
+        # histogram = dict(sorted(histogram.items()))
+        # Calculate Median
+        common_neighbors = []
+        for key, item in histogram.items():
+            for index in range(0, item):
+                common_neighbors.append(key)
+        medians[fileName] = statistics.median(common_neighbors)
+        # Save Medians to File
+        with open('output/medians.common_neighbors.csv', 'w') as csv_file:  
+            writer = csv.writer(csv_file)
+            for key, value in medians.items():
+                writer.writerow([key, value])
 
         # Plot Histogram
         plt.figure()
-        plt.bar(neighbor_counts.keys(), neighbor_counts.values())
+        plt.bar(histogram.keys(), histogram.values())
         plt.xlabel("Number of Common Neighbors")
         plt.ylabel("Frequency")
-        plt.xlim(min(neighbor_counts.keys()), max(neighbor_counts.keys()))
+        plt.xlim(min(histogram.keys()), max(histogram.keys()))
         plt.savefig("output/figures/" + str(fileName) + "common_neighbors.histogram.png")
+        plt.close()
 
-        # Save Common Neighbors to File
+        # Write to CSV
         with open('output/common_neighbors.csv', 'w') as csv_file:  
             writer = csv.writer(csv_file)
-            for key, value in commonNeighbors.items():
-                writer.writerow([key[0], key[1], value])
+            for key, value in histogram.items():
+                writer.writerow([key, value])
 
 
 def getAllPathLengths() -> None: 
