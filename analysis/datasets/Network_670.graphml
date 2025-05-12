@@ -1,0 +1,239 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key attr.name="weight" attr.type="double" for="edge" id="d1"/>
+<key attr.name="SEX" attr.type="string" for="node" id="d0"/>
+<graph edgedefault="undirected">
+<node id="1M"></node>
+<node id="1F"></node>
+<node id="2F"></node>
+<node id="3F"></node>
+<node id="2M"></node>
+<node id="3M"></node>
+<node id="4F"></node>
+<node id="5F"></node>
+<node id="4M"></node>
+<node id="5M"></node>
+<node id="6M"></node>
+<node id="6F"></node>
+<node id="7F"></node>
+<node id="8F"></node>
+<node id="7M"></node>
+<node id="9F"></node>
+<node id="8M"></node>
+<node id="10F"></node>
+<node id="9M"></node>
+<node id="11F"></node>
+<node id="12F"></node>
+<node id="13F"></node>
+<node id="10M"></node>
+<node id="14F"></node>
+<node id="11M"></node>
+<node id="12M"></node>
+<node id="15F"></node>
+<node id="16F"></node>
+<node id="13M"></node>
+<node id="17F"></node>
+<node id="18F"></node>
+<node id="14M"></node>
+<node id="15M"></node>
+<node id="19F"></node>
+<node id="20F"></node>
+<node id="16M"></node>
+<node id="21F"></node>
+<node id="22F"></node>
+<node id="23F"></node>
+<node id="24F"></node>
+<node id="17M"></node>
+<node id="25F"></node>
+<node id="26F"></node>
+<node id="18M"></node>
+<node id="19M"></node>
+<node id="27F"></node>
+<node id="28F"></node>
+<node id="29F"></node>
+<node id="30F"></node>
+<node id="31F"></node>
+<node id="20M"></node>
+<node id="21M"></node>
+<node id="32F"></node>
+<node id="33F"></node>
+<node id="22M"></node>
+<node id="34F"></node>
+<node id="35F"></node>
+<node id="36F"></node>
+<node id="37F"></node>
+<node id="23M"></node>
+<node id="38F"></node>
+<node id="24M"></node>
+<node id="39F"></node>
+<node id="40F"></node>
+<node id="25M"></node>
+<node id="26M"></node>
+<node id="41F"></node>
+<node id="42F"></node>
+<node id="27M"></node>
+<node id="43F"></node>
+<node id="44F"></node>
+<node id="45F"></node>
+<node id="28M"></node>
+<node id="46F"></node>
+<node id="47F"></node>
+<node id="29M"></node>
+<node id="48F"></node>
+<node id="49F"></node>
+<node id="50F"></node>
+<node id="30M"></node>
+<node id="51F"></node>
+<node id="52F"></node>
+<node id="31M"></node>
+<node id="32M"></node>
+<node id="33M"></node>
+<node id="53F"></node>
+<node id="54F"></node>
+<node id="55F"></node>
+<node id="34M"></node>
+<node id="56F"></node>
+<node id="57F"></node>
+<node id="58F"></node>
+<node id="35M"></node>
+<node id="36M"></node>
+<node id="37M"></node>
+<node id="59F"></node>
+<node id="60F"></node>
+<node id="38M"></node>
+<node id="39M"></node>
+<node id="61F"></node>
+<node id="40M"></node>
+<node id="62F"></node>
+<node id="63F"></node>
+<node id="41M"></node>
+<node id="42M"></node>
+<node id="64F"></node>
+<node id="65F"></node>
+<node id="43M"></node>
+<node id="44M"></node>
+<node id="66F"></node>
+<node id="67F"></node>
+<node id="68F"></node>
+<node id="45M"></node>
+<node id="69F"></node>
+<node id="46M"></node>
+<node id="70F"></node>
+<node id="71F"></node>
+<node id="72F"></node>
+<edge source="1M" target="1F"></edge>
+<edge source="1M" target="2F"></edge>
+<edge source="1M" target="3F"></edge>
+<edge source="3F" target="2M"></edge>
+<edge source="3F" target="4M"></edge>
+<edge source="3F" target="5M"></edge>
+<edge source="3M" target="4F"></edge>
+<edge source="3M" target="5F"></edge>
+<edge source="4F" target="5M"></edge>
+<edge source="6M" target="6F"></edge>
+<edge source="6M" target="7F"></edge>
+<edge source="6M" target="8F"></edge>
+<edge source="8F" target="7M"></edge>
+<edge source="7M" target="9F"></edge>
+<edge source="9F" target="8M"></edge>
+<edge source="8M" target="10F"></edge>
+<edge source="9M" target="11F"></edge>
+<edge source="9M" target="12F"></edge>
+<edge source="9M" target="13F"></edge>
+<edge source="13F" target="10M"></edge>
+<edge source="10M" target="14F"></edge>
+<edge source="14F" target="11M"></edge>
+<edge source="14F" target="12M"></edge>
+<edge source="12M" target="15F"></edge>
+<edge source="12M" target="16F"></edge>
+<edge source="13M" target="17F"></edge>
+<edge source="13M" target="18F"></edge>
+<edge source="17F" target="14M"></edge>
+<edge source="15M" target="19F"></edge>
+<edge source="15M" target="20F"></edge>
+<edge source="16M" target="21F"></edge>
+<edge source="16M" target="22F"></edge>
+<edge source="16M" target="23F"></edge>
+<edge source="16M" target="24F"></edge>
+<edge source="17M" target="25F"></edge>
+<edge source="17M" target="26F"></edge>
+<edge source="25F" target="18M"></edge>
+<edge source="26F" target="18M"></edge>
+<edge source="19M" target="27F"></edge>
+<edge source="19M" target="28F"></edge>
+<edge source="19M" target="29F"></edge>
+<edge source="19M" target="30F"></edge>
+<edge source="19M" target="31F"></edge>
+<edge source="30F" target="20M"></edge>
+<edge source="21M" target="32F"></edge>
+<edge source="21M" target="33F"></edge>
+<edge source="33F" target="22M"></edge>
+<edge source="22M" target="34F"></edge>
+<edge source="22M" target="35F"></edge>
+<edge source="22M" target="36F"></edge>
+<edge source="22M" target="37F"></edge>
+<edge source="34F" target="23M"></edge>
+<edge source="35F" target="23M"></edge>
+<edge source="23M" target="38F"></edge>
+<edge source="24M" target="39F"></edge>
+<edge source="24M" target="40F"></edge>
+<edge source="39F" target="25M"></edge>
+<edge source="26M" target="41F"></edge>
+<edge source="26M" target="42F"></edge>
+<edge source="42F" target="27M"></edge>
+<edge source="27M" target="43F"></edge>
+<edge source="27M" target="44F"></edge>
+<edge source="27M" target="45F"></edge>
+<edge source="43F" target="28M"></edge>
+<edge source="44F" target="28M"></edge>
+<edge source="45F" target="28M"></edge>
+<edge source="28M" target="46F"></edge>
+<edge source="28M" target="47F"></edge>
+<edge source="29M" target="48F"></edge>
+<edge source="29M" target="49F"></edge>
+<edge source="29M" target="50F"></edge>
+<edge source="50F" target="30M"></edge>
+<edge source="30M" target="51F"></edge>
+<edge source="30M" target="52F"></edge>
+<edge source="51F" target="31M"></edge>
+<edge source="52F" target="32M"></edge>
+<edge source="33M" target="53F"></edge>
+<edge source="33M" target="54F"></edge>
+<edge source="33M" target="55F"></edge>
+<edge source="53F" target="34M"></edge>
+<edge source="54F" target="34M"></edge>
+<edge source="55F" target="34M"></edge>
+<edge source="34M" target="56F"></edge>
+<edge source="34M" target="57F"></edge>
+<edge source="34M" target="58F"></edge>
+<edge source="56F" target="35M"></edge>
+<edge source="57F" target="36M"></edge>
+<edge source="58F" target="36M"></edge>
+<edge source="37M" target="59F"></edge>
+<edge source="37M" target="60F"></edge>
+<edge source="59F" target="38M"></edge>
+<edge source="59F" target="39M"></edge>
+<edge source="60F" target="39M"></edge>
+<edge source="39M" target="61F"></edge>
+<edge source="61F" target="40M"></edge>
+<edge source="61F" target="41M"></edge>
+<edge source="40M" target="62F"></edge>
+<edge source="40M" target="63F"></edge>
+<edge source="62F" target="41M"></edge>
+<edge source="63F" target="41M"></edge>
+<edge source="42M" target="64F"></edge>
+<edge source="42M" target="65F"></edge>
+<edge source="65F" target="43M"></edge>
+<edge source="65F" target="44M"></edge>
+<edge source="44M" target="66F"></edge>
+<edge source="44M" target="67F"></edge>
+<edge source="44M" target="68F"></edge>
+<edge source="66F" target="45M"></edge>
+<edge source="67F" target="45M"></edge>
+<edge source="68F" target="45M"></edge>
+<edge source="45M" target="69F"></edge>
+<edge source="46M" target="70F"></edge>
+<edge source="46M" target="71F"></edge>
+<edge source="46M" target="72F"></edge>
+</graph>
+</graphml>
+</graph></graphml>
