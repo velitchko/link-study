@@ -44,7 +44,7 @@ medians={}
 def checkIfExactCommonNeighborsExists(target_common_neighbors: int):
     for fileName in fileNames:
         G = nx.read_graphml(path="datasets/Network_" + str(fileName) + ".graphml")
-        sources_targets = pathExistsIds.get(fileName, [])
+        sources_targets = commonNeighborIds.get(fileName, [])
         for source, target in combinations(sources_targets, 2):
             try:
                 common_neighbors = list(nx.common_neighbors(G, source, target))
@@ -58,7 +58,7 @@ def checkIfExactCommonNeighborsExists(target_common_neighbors: int):
 def checkCommonNeightbors() -> bool:
     for fileName in fileNames:
         G = nx.read_graphml(path="datasets/Network_" + str(fileName) + ".graphml")
-        sources_targets = pathExistsIds.get(fileName, [])
+        sources_targets = commonNeighborIds.get(fileName, [])
         for source, target in combinations(sources_targets, 2):
             try:
                 common_neighbors = list(nx.common_neighbors(G, source, target))
