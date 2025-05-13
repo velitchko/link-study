@@ -1,4 +1,4 @@
-{
+export const mapping = {
   "high_1": {
     "pathExists": [
       {
