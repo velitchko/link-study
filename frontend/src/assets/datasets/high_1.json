@@ -3,652 +3,868 @@
     "edgedefault": "undirected",
     "nodes": [
       {
-        "id": "bj"
+        "id": "01A",
+        "oldID": "bj"
       },
       {
-        "id": "0.129032258"
+        "id": "01B",
+        "oldID": "0.129032258"
       },
       {
-        "id": "0.0"
+        "id": "01C",
+        "oldID": "0.0"
       },
       {
-        "id": "0.032258065"
+        "id": "01D",
+        "oldID": "0.032258065"
       },
       {
-        "id": "0.03125"
+        "id": "01E",
+        "oldID": "0.03125"
       },
       {
-        "id": "0.142857143"
+        "id": "01F",
+        "oldID": "0.142857143"
       },
       {
-        "id": "0.090909091"
+        "id": "01G",
+        "oldID": "0.090909091"
       },
       {
-        "id": "0.074074074"
+        "id": "01H",
+        "oldID": "0.074074074"
       },
       {
-        "id": "0.133333333"
+        "id": "01I",
+        "oldID": "0.133333333"
       },
       {
-        "id": "0.068965517"
+        "id": "01J",
+        "oldID": "0.068965517"
       },
       {
-        "id": "0.323529412"
+        "id": "01K",
+        "oldID": "0.323529412"
       },
       {
-        "id": "0.1"
+        "id": "01L",
+        "oldID": "0.1"
       },
       {
-        "id": "0.166666667"
+        "id": "01M",
+        "oldID": "0.166666667"
       },
       {
-        "id": "0.064516129"
+        "id": "01N",
+        "oldID": "0.064516129"
       },
       {
-        "id": "0.09375"
+        "id": "01O",
+        "oldID": "0.09375"
       },
       {
-        "id": "bob"
+        "id": "01P",
+        "oldID": "bob"
       },
       {
-        "id": "0.176470588"
+        "id": "01Q",
+        "oldID": "0.176470588"
       },
       {
-        "id": "0.0625"
+        "id": "01R",
+        "oldID": "0.0625"
       },
       {
-        "id": "0.21875"
+        "id": "01S",
+        "oldID": "0.21875"
       },
       {
-        "id": "0.125"
+        "id": "01T",
+        "oldID": "0.125"
       },
       {
-        "id": "0.147058824"
+        "id": "01U",
+        "oldID": "0.147058824"
       },
       {
-        "id": "0.035714286"
+        "id": "01V",
+        "oldID": "0.035714286"
       },
       {
-        "id": "0.096774194"
+        "id": "01W",
+        "oldID": "0.096774194"
       },
       {
-        "id": "0.058823529"
+        "id": "01X",
+        "oldID": "0.058823529"
       },
       {
-        "id": "0.171428571"
+        "id": "01Y",
+        "oldID": "0.171428571"
       },
       {
-        "id": "0.121212121"
+        "id": "01Z",
+        "oldID": "0.121212121"
       },
       {
-        "id": "0.060606061"
+        "id": "02A",
+        "oldID": "0.060606061"
       },
       {
-        "id": "booboo"
+        "id": "02B",
+        "oldID": "booboo"
       },
       {
-        "id": "0.029411765"
+        "id": "02C",
+        "oldID": "0.029411765"
       },
       {
-        "id": "0.057142857"
+        "id": "02D",
+        "oldID": "0.057142857"
       },
       {
-        "id": "0.235294118"
+        "id": "02E",
+        "oldID": "0.235294118"
       },
       {
-        "id": "0.088235294"
+        "id": "02F",
+        "oldID": "0.088235294"
       },
       {
-        "id": "0.225806452"
+        "id": "02G",
+        "oldID": "0.225806452"
       },
       {
-        "id": "0.305555556"
+        "id": "02H",
+        "oldID": "0.305555556"
       },
       {
-        "id": "0.052631579"
+        "id": "02I",
+        "oldID": "0.052631579"
       },
       {
-        "id": "0.054054054"
+        "id": "02J",
+        "oldID": "0.054054054"
       },
       {
-        "id": "0.181818182"
+        "id": "02K",
+        "oldID": "0.181818182"
       },
       {
-        "id": "0.242424242"
+        "id": "02L",
+        "oldID": "0.242424242"
       },
       {
-        "id": "0.2"
+        "id": "02M",
+        "oldID": "0.2"
       },
       {
-        "id": "0.388888889"
+        "id": "02N",
+        "oldID": "0.388888889"
       },
       {
-        "id": "0.15625"
+        "id": "02O",
+        "oldID": "0.15625"
       },
       {
-        "id": "brandon"
+        "id": "02P",
+        "oldID": "brandon"
       },
       {
-        "id": "0.103448276"
+        "id": "02Q",
+        "oldID": "0.103448276"
       },
       {
-        "id": "0.161290323"
+        "id": "02R",
+        "oldID": "0.161290323"
       },
       {
-        "id": "0.028571429"
+        "id": "02S",
+        "oldID": "0.028571429"
       },
       {
-        "id": "0.28125"
+        "id": "02T",
+        "oldID": "0.28125"
       },
       {
-        "id": "0.066666667"
+        "id": "02U",
+        "oldID": "0.066666667"
       },
       {
-        "id": "brenda"
+        "id": "02V",
+        "oldID": "brenda"
       },
       {
-        "id": "0.085714286"
+        "id": "02W",
+        "oldID": "0.085714286"
       },
       {
-        "id": "0.111111111"
+        "id": "02X",
+        "oldID": "0.111111111"
       },
       {
-        "id": "0.027777778"
+        "id": "02Y",
+        "oldID": "0.027777778"
       },
       {
-        "id": "0.363636364"
+        "id": "02Z",
+        "oldID": "0.363636364"
       },
       {
-        "id": "0.352941176"
+        "id": "03A",
+        "oldID": "0.352941176"
       },
       {
-        "id": "0.205882353"
+        "id": "03B",
+        "oldID": "0.205882353"
       },
       {
-        "id": "0.117647059"
+        "id": "03C",
+        "oldID": "0.117647059"
       },
       {
-        "id": "0.114285714"
+        "id": "03D",
+        "oldID": "0.114285714"
       },
       {
-        "id": "genny"
+        "id": "03E",
+        "oldID": "genny"
       },
       {
-        "id": "0.310344828"
+        "id": "03F",
+        "oldID": "0.310344828"
       },
       {
-        "id": "0.264705882"
+        "id": "03G",
+        "oldID": "0.264705882"
       },
       {
-        "id": "0.321428571"
+        "id": "03H",
+        "oldID": "0.321428571"
       },
       {
-        "id": "0.258064516"
+        "id": "03I",
+        "oldID": "0.258064516"
       },
       {
-        "id": "0.033333333"
+        "id": "03J",
+        "oldID": "0.033333333"
       },
       {
-        "id": "gerard"
+        "id": "03K",
+        "oldID": "gerard"
       },
       {
-        "id": "0.137931034"
+        "id": "03L",
+        "oldID": "0.137931034"
       },
       {
-        "id": "0.151515152"
+        "id": "03M",
+        "oldID": "0.151515152"
       },
       {
-        "id": "girly"
+        "id": "03N",
+        "oldID": "girly"
       },
       {
-        "id": "0.107142857"
+        "id": "03O",
+        "oldID": "0.107142857"
       },
       {
-        "id": "0.178571429"
+        "id": "03P",
+        "oldID": "0.178571429"
       },
       {
-        "id": "0.384615385"
+        "id": "03Q",
+        "oldID": "0.384615385"
       },
       {
-        "id": "0.193548387"
+        "id": "03R",
+        "oldID": "0.193548387"
       },
       {
-        "id": "0.148148148"
+        "id": "03S",
+        "oldID": "0.148148148"
       },
       {
-        "id": "goliath"
+        "id": "03T",
+        "oldID": "goliath"
       },
       {
-        "id": "0.210526316"
+        "id": "03U",
+        "oldID": "0.210526316"
       },
       {
-        "id": "0.189189189"
+        "id": "03V",
+        "oldID": "0.189189189"
       },
       {
-        "id": "0.272727273"
+        "id": "03W",
+        "oldID": "0.272727273"
       },
       {
-        "id": "0.333333333"
+        "id": "03X",
+        "oldID": "0.333333333"
       },
       {
-        "id": "gonzaga"
+        "id": "03Y",
+        "oldID": "gonzaga"
       },
       {
-        "id": "0.076923077"
+        "id": "03Z",
+        "oldID": "0.076923077"
       },
       {
-        "id": "0.071428571"
+        "id": "04A",
+        "oldID": "0.071428571"
       },
       {
-        "id": "0.083333333"
+        "id": "04B",
+        "oldID": "0.083333333"
       },
       {
-        "id": "0.038461538"
+        "id": "04C",
+        "oldID": "0.038461538"
       },
       {
-        "id": "ilse"
+        "id": "04D",
+        "oldID": "ilse"
       },
       {
-        "id": "0.517241379"
+        "id": "04E",
+        "oldID": "0.517241379"
       },
       {
-        "id": "0.6875"
+        "id": "04F",
+        "oldID": "0.6875"
       },
       {
-        "id": "0.266666667"
+        "id": "04G",
+        "oldID": "0.266666667"
       },
       {
-        "id": "0.1875"
+        "id": "04H",
+        "oldID": "0.1875"
       },
       {
-        "id": "ingrid"
+        "id": "04I",
+        "oldID": "ingrid"
       },
       {
-        "id": "0.03030303"
+        "id": "04J",
+        "oldID": "0.03030303"
       },
       {
-        "id": "0.172413793"
+        "id": "04K",
+        "oldID": "0.172413793"
       },
       {
-        "id": "0.214285714"
+        "id": "04L",
+        "oldID": "0.214285714"
       },
       {
-        "id": "innocentia"
+        "id": "04M",
+        "oldID": "innocentia"
       },
       {
-        "id": "irene"
+        "id": "04N",
+        "oldID": "irene"
       },
       {
-        "id": "0.05"
+        "id": "04O",
+        "oldID": "0.05"
       },
       {
-        "id": "0.25"
+        "id": "04P",
+        "oldID": "0.25"
       },
       {
-        "id": "1.0"
+        "id": "04Q",
+        "oldID": "1.0"
       },
       {
-        "id": "0.055555556"
+        "id": "04R",
+        "oldID": "0.055555556"
       },
       {
-        "id": "0.157894737"
+        "id": "04S",
+        "oldID": "0.157894737"
       },
       {
-        "id": "josephine"
+        "id": "04T",
+        "oldID": "josephine"
       },
       {
-        "id": "0.108108108"
+        "id": "04U",
+        "oldID": "0.108108108"
       },
       {
-        "id": "lionel"
+        "id": "04V",
+        "oldID": "lionel"
       },
       {
-        "id": "pal"
+        "id": "04W",
+        "oldID": "pal"
       },
       {
-        "id": "0.206896552"
+        "id": "04X",
+        "oldID": "0.206896552"
       },
       {
-        "id": "regina"
+        "id": "04Y",
+        "oldID": "regina"
       },
       {
-        "id": "0.375"
+        "id": "04Z",
+        "oldID": "0.375"
       },
       {
-        "id": "renata"
+        "id": "05A",
+        "oldID": "renata"
       },
       {
-        "id": "rita"
+        "id": "05B",
+        "oldID": "rita"
       },
       {
-        "id": "rusty"
+        "id": "05C",
+        "oldID": "rusty"
       },
       {
-        "id": "tara"
+        "id": "05D",
+        "oldID": "tara"
       },
       {
-        "id": "carol"
+        "id": "05E",
+        "oldID": "carol"
       },
       {
-        "id": "0.131578947"
+        "id": "05F",
+        "oldID": "0.131578947"
       },
       {
-        "id": "0.081081081"
+        "id": "05G",
+        "oldID": "0.081081081"
       },
       {
-        "id": "0.162162162"
+        "id": "05H",
+        "oldID": "0.162162162"
       },
       {
-        "id": "0.025"
+        "id": "05I",
+        "oldID": "0.025"
       },
       {
-        "id": "0.051282051"
+        "id": "05J",
+        "oldID": "0.051282051"
       },
       {
-        "id": "0.024390244"
+        "id": "05K",
+        "oldID": "0.024390244"
       },
       {
-        "id": "0.078947368"
+        "id": "05L",
+        "oldID": "0.078947368"
       },
       {
-        "id": "0.025641026"
+        "id": "05M",
+        "oldID": "0.025641026"
       },
       {
-        "id": "0.153846154"
+        "id": "05N",
+        "oldID": "0.153846154"
       },
       {
-        "id": "0.12195122"
+        "id": "05O",
+        "oldID": "0.12195122"
       },
       {
-        "id": "0.026315789"
+        "id": "05P",
+        "oldID": "0.026315789"
       },
       {
-        "id": "0.048780488"
+        "id": "05Q",
+        "oldID": "0.048780488"
       },
       {
-        "id": "0.146341463"
+        "id": "05R",
+        "oldID": "0.146341463"
       },
       {
-        "id": "charity"
+        "id": "05S",
+        "oldID": "charity"
       },
       {
-        "id": "0.097560976"
+        "id": "05T",
+        "oldID": "0.097560976"
       },
       {
-        "id": "0.105263158"
+        "id": "05U",
+        "oldID": "0.105263158"
       },
       {
-        "id": "0.102564103"
+        "id": "05V",
+        "oldID": "0.102564103"
       },
       {
-        "id": "0.128205128"
+        "id": "05W",
+        "oldID": "0.128205128"
       },
       {
-        "id": "0.073170732"
+        "id": "05X",
+        "oldID": "0.073170732"
       },
       {
-        "id": "claire"
+        "id": "05Y",
+        "oldID": "claire"
       },
       {
-        "id": "0.075"
+        "id": "05Z",
+        "oldID": "0.075"
       },
       {
-        "id": "coco"
+        "id": "06A",
+        "oldID": "coco"
       },
       {
-        "id": "0.027027027"
+        "id": "06B",
+        "oldID": "0.027027027"
       },
       {
-        "id": "daisy"
+        "id": "06C",
+        "oldID": "daisy"
       },
       {
-        "id": "0.139534884"
+        "id": "06D",
+        "oldID": "0.139534884"
       },
       {
-        "id": "0.119047619"
+        "id": "06E",
+        "oldID": "0.119047619"
       },
       {
-        "id": "0.046511628"
+        "id": "06F",
+        "oldID": "0.046511628"
       },
       {
-        "id": "0.069767442"
+        "id": "06G",
+        "oldID": "0.069767442"
       },
       {
-        "id": "0.023255814"
+        "id": "06H",
+        "oldID": "0.023255814"
       },
       {
-        "id": "0.11627907"
+        "id": "06I",
+        "oldID": "0.11627907"
       },
       {
-        "id": "0.093023256"
+        "id": "06J",
+        "oldID": "0.093023256"
       },
       {
-        "id": "darwin"
+        "id": "06K",
+        "oldID": "darwin"
       },
       {
-        "id": "0.047619048"
+        "id": "06L",
+        "oldID": "0.047619048"
       },
       {
-        "id": "0.186046512"
+        "id": "06M",
+        "oldID": "0.186046512"
       },
       {
-        "id": "0.195121951"
+        "id": "06N",
+        "oldID": "0.195121951"
       },
       {
-        "id": "0.179487179"
+        "id": "06O",
+        "oldID": "0.179487179"
       },
       {
-        "id": "0.15"
+        "id": "06P",
+        "oldID": "0.15"
       },
       {
-        "id": "0.19047619"
+        "id": "06Q",
+        "oldID": "0.19047619"
       },
       {
-        "id": "0.170731707"
+        "id": "06R",
+        "oldID": "0.170731707"
       },
       {
-        "id": "0.225"
+        "id": "06S",
+        "oldID": "0.225"
       },
       {
-        "id": "0.184210526"
+        "id": "06T",
+        "oldID": "0.184210526"
       },
       {
-        "id": "david"
+        "id": "06U",
+        "oldID": "david"
       },
       {
-        "id": "0.095238095"
+        "id": "06V",
+        "oldID": "0.095238095"
       },
       {
-        "id": "0.243902439"
+        "id": "06W",
+        "oldID": "0.243902439"
       },
       {
-        "id": "debbie"
+        "id": "06X",
+        "oldID": "debbie"
       },
       {
-        "id": "0.238095238"
+        "id": "06Y",
+        "oldID": "0.238095238"
       },
       {
-        "id": "0.261904762"
+        "id": "06Z",
+        "oldID": "0.261904762"
       },
       {
-        "id": "diana"
+        "id": "07A",
+        "oldID": "diana"
       },
       {
-        "id": "diz"
+        "id": "07B",
+        "oldID": "diz"
       },
       {
-        "id": "0.162790698"
+        "id": "07C",
+        "oldID": "0.162790698"
       },
       {
-        "id": "0.068181818"
+        "id": "07D",
+        "oldID": "0.068181818"
       },
       {
-        "id": "0.113636364"
+        "id": "07E",
+        "oldID": "0.113636364"
       },
       {
-        "id": "0.045454545"
+        "id": "07F",
+        "oldID": "0.045454545"
       },
       {
-        "id": "dolly"
+        "id": "07G",
+        "oldID": "dolly"
       },
       {
-        "id": "0.175"
+        "id": "07H",
+        "oldID": "0.175"
       },
       {
-        "id": "0.135135135"
+        "id": "07I",
+        "oldID": "0.135135135"
       },
       {
-        "id": "donna"
+        "id": "07J",
+        "oldID": "donna"
       },
       {
-        "id": "0.275"
+        "id": "07K",
+        "oldID": "0.275"
       },
       {
-        "id": "dora"
+        "id": "07L",
+        "oldID": "dora"
       },
       {
-        "id": "0.30952381"
+        "id": "07M",
+        "oldID": "0.30952381"
       },
       {
-        "id": "doug"
+        "id": "07N",
+        "oldID": "doug"
       },
       {
-        "id": "0.255813953"
+        "id": "07O",
+        "oldID": "0.255813953"
       },
       {
-        "id": "0.317073171"
+        "id": "07P",
+        "oldID": "0.317073171"
       },
       {
-        "id": "0.23255814"
+        "id": "07Q",
+        "oldID": "0.23255814"
       },
       {
-        "id": "littlejane"
+        "id": "07R",
+        "oldID": "littlejane"
       },
       {
-        "id": "0.342105263"
+        "id": "07S",
+        "oldID": "0.342105263"
       },
       {
-        "id": "0.447368421"
+        "id": "07T",
+        "oldID": "0.447368421"
       },
       {
-        "id": "littlejenkins"
+        "id": "07U",
+        "oldID": "littlejenkins"
       },
       {
-        "id": "0.4"
+        "id": "07V",
+        "oldID": "0.4"
       },
       {
-        "id": "0.285714286"
+        "id": "07W",
+        "oldID": "0.285714286"
       },
       {
-        "id": "0.205128205"
+        "id": "07X",
+        "oldID": "0.205128205"
       },
       {
-        "id": "littlejudy"
+        "id": "07Y",
+        "oldID": "littlejudy"
       },
       {
-        "id": "0.380952381"
+        "id": "07Z",
+        "oldID": "0.380952381"
       },
       {
-        "id": "longjohn"
+        "id": "08A",
+        "oldID": "longjohn"
       },
       {
-        "id": "0.159090909"
+        "id": "08B",
+        "oldID": "0.159090909"
       },
       {
-        "id": "maggie"
+        "id": "08C",
+        "oldID": "maggie"
       },
       {
-        "id": "0.289473684"
+        "id": "08D",
+        "oldID": "0.289473684"
       },
       {
-        "id": "mary"
+        "id": "08E",
+        "oldID": "mary"
       },
       {
-        "id": "0.3"
+        "id": "08F",
+        "oldID": "0.3"
       },
       {
-        "id": "0.023809524"
+        "id": "08G",
+        "oldID": "0.023809524"
       },
       {
-        "id": "masya"
+        "id": "08H",
+        "oldID": "masya"
       },
       {
-        "id": "max"
+        "id": "08I",
+        "oldID": "max"
       },
       {
-        "id": "0.282051282"
+        "id": "08J",
+        "oldID": "0.282051282"
       },
       {
-        "id": "0.219512195"
+        "id": "08K",
+        "oldID": "0.219512195"
       },
       {
-        "id": "maxine"
+        "id": "08L",
+        "oldID": "maxine"
       },
       {
-        "id": "0.256410256"
+        "id": "08M",
+        "oldID": "0.256410256"
       },
       {
-        "id": "mike"
+        "id": "08N",
+        "oldID": "mike"
       },
       {
-        "id": "0.136363636"
+        "id": "08O",
+        "oldID": "0.136363636"
       },
       {
-        "id": "0.279069767"
+        "id": "08P",
+        "oldID": "0.279069767"
       },
       {
-        "id": "misha"
+        "id": "08Q",
+        "oldID": "misha"
       },
       {
-        "id": "moyo"
+        "id": "08R",
+        "oldID": "moyo"
       },
       {
-        "id": "0.138888889"
+        "id": "08S",
+        "oldID": "0.138888889"
       },
       {
-        "id": "nikkie"
+        "id": "08T",
+        "oldID": "nikkie"
       },
       {
-        "id": "nina"
+        "id": "08U",
+        "oldID": "nina"
       },
       {
-        "id": "0.302325581"
+        "id": "08V",
+        "oldID": "0.302325581"
       },
       {
-        "id": "noel"
+        "id": "08W",
+        "oldID": "noel"
       },
       {
-        "id": "pan"
+        "id": "08X",
+        "oldID": "pan"
       },
       {
-        "id": "pippa"
+        "id": "08Y",
+        "oldID": "pippa"
       },
       {
-        "id": "0.209302326"
+        "id": "08Z",
+        "oldID": "0.209302326"
       },
       {
-        "id": "taylor"
+        "id": "09A",
+        "oldID": "taylor"
       },
       {
-        "id": "tess"
+        "id": "09B",
+        "oldID": "tess"
       },
       {
-        "id": "0.394736842"
+        "id": "09C",
+        "oldID": "0.394736842"
       },
       {
-        "id": "tilly"
+        "id": "09D",
+        "oldID": "tilly"
       },
       {
-        "id": "toni"
+        "id": "09E",
+        "oldID": "toni"
       },
       {
-        "id": "trixie"
+        "id": "09F",
+        "oldID": "trixie"
       },
       {
-        "id": "violet"
+        "id": "09G",
+        "oldID": "violet"
       },
       {
-        "id": "vis"
+        "id": "09H",
+        "oldID": "vis"
       }
     ],
     "edges": [
@@ -656,4531 +872,6041 @@
         "source": "bj",
         "target": "0.129032258",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "bj",
+        "oldTargetID": "0.129032258"
       },
       {
         "source": "bj",
         "target": "0.0",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "bj",
+        "oldTargetID": "0.0"
       },
       {
         "source": "bj",
         "target": "0.032258065",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "bj",
+        "oldTargetID": "0.032258065"
       },
       {
         "source": "bj",
         "target": "0.03125",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "bj",
+        "oldTargetID": "0.03125"
       },
       {
         "source": "bj",
         "target": "0.142857143",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "bj",
+        "oldTargetID": "0.142857143"
       },
       {
         "source": "bj",
         "target": "0.090909091",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "bj",
+        "oldTargetID": "0.090909091"
       },
       {
         "source": "bj",
         "target": "0.074074074",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "bj",
+        "oldTargetID": "0.074074074"
       },
       {
         "source": "bj",
         "target": "0.133333333",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "bj",
+        "oldTargetID": "0.133333333"
       },
       {
         "source": "bj",
         "target": "0.068965517",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "bj",
+        "oldTargetID": "0.068965517"
       },
       {
         "source": "bj",
         "target": "0.323529412",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "bj",
+        "oldTargetID": "0.323529412"
       },
       {
         "source": "bj",
         "target": "0.1",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "bj",
+        "oldTargetID": "0.1"
       },
       {
         "source": "bj",
         "target": "0.166666667",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "bj",
+        "oldTargetID": "0.166666667"
       },
       {
         "source": "bj",
         "target": "0.064516129",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "bj",
+        "oldTargetID": "0.064516129"
       },
       {
         "source": "bj",
         "target": "0.09375",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "bj",
+        "oldTargetID": "0.09375"
       },
       {
         "source": "0.129032258",
         "target": "bob",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.129032258",
+        "oldTargetID": "bob"
       },
       {
         "source": "0.129032258",
         "target": "brenda",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.129032258",
+        "oldTargetID": "brenda"
       },
       {
         "source": "0.129032258",
         "target": "genny",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.129032258",
+        "oldTargetID": "genny"
       },
       {
         "source": "0.129032258",
         "target": "gerard",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.129032258",
+        "oldTargetID": "gerard"
       },
       {
         "source": "0.0",
         "target": "bob",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.0",
+        "oldTargetID": "bob"
       },
       {
         "source": "0.0",
         "target": "booboo",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.0",
+        "oldTargetID": "booboo"
       },
       {
         "source": "0.0",
         "target": "gerard",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.0",
+        "oldTargetID": "gerard"
       },
       {
         "source": "0.0",
         "target": "girly",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.0",
+        "oldTargetID": "girly"
       },
       {
         "source": "0.0",
         "target": "gonzaga",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.0",
+        "oldTargetID": "gonzaga"
       },
       {
         "source": "0.0",
         "target": "innocentia",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.0",
+        "oldTargetID": "innocentia"
       },
       {
         "source": "0.0",
         "target": "renata",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.0",
+        "oldTargetID": "renata"
       },
       {
         "source": "0.0",
         "target": "rusty",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.0",
+        "oldTargetID": "rusty"
       },
       {
         "source": "0.0",
         "target": "carol",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.0",
+        "oldTargetID": "carol"
       },
       {
         "source": "0.0",
         "target": "charity",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.0",
+        "oldTargetID": "charity"
       },
       {
         "source": "0.0",
         "target": "coco",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.0",
+        "oldTargetID": "coco"
       },
       {
         "source": "0.0",
         "target": "daisy",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.0",
+        "oldTargetID": "daisy"
       },
       {
         "source": "0.0",
         "target": "david",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.0",
+        "oldTargetID": "david"
       },
       {
         "source": "0.0",
         "target": "debbie",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.0",
+        "oldTargetID": "debbie"
       },
       {
         "source": "0.0",
         "target": "diana",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.0",
+        "oldTargetID": "diana"
       },
       {
         "source": "0.0",
         "target": "diz",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.0",
+        "oldTargetID": "diz"
       },
       {
         "source": "0.0",
         "target": "dolly",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.0",
+        "oldTargetID": "dolly"
       },
       {
         "source": "0.0",
         "target": "longjohn",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.0",
+        "oldTargetID": "longjohn"
       },
       {
         "source": "0.0",
         "target": "max",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.0",
+        "oldTargetID": "max"
       },
       {
         "source": "0.0",
         "target": "maxine",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.0",
+        "oldTargetID": "maxine"
       },
       {
         "source": "0.0",
         "target": "noel",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.0",
+        "oldTargetID": "noel"
       },
       {
         "source": "0.0",
         "target": "pan",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.0",
+        "oldTargetID": "pan"
       },
       {
         "source": "0.0",
         "target": "pippa",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.0",
+        "oldTargetID": "pippa"
       },
       {
         "source": "0.032258065",
         "target": "lionel",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.032258065",
+        "oldTargetID": "lionel"
       },
       {
         "source": "0.03125",
         "target": "brandon",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.03125",
+        "oldTargetID": "brandon"
       },
       {
         "source": "0.03125",
         "target": "genny",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.03125",
+        "oldTargetID": "genny"
       },
       {
         "source": "0.142857143",
         "target": "booboo",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.142857143",
+        "oldTargetID": "booboo"
       },
       {
         "source": "0.142857143",
         "target": "gerard",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.142857143",
+        "oldTargetID": "gerard"
       },
       {
         "source": "0.142857143",
         "target": "girly",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.142857143",
+        "oldTargetID": "girly"
       },
       {
         "source": "0.142857143",
         "target": "goliath",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.142857143",
+        "oldTargetID": "goliath"
       },
       {
         "source": "0.142857143",
         "target": "rusty",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.142857143",
+        "oldTargetID": "rusty"
       },
       {
         "source": "0.142857143",
         "target": "daisy",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.142857143",
+        "oldTargetID": "daisy"
       },
       {
         "source": "0.142857143",
         "target": "darwin",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.142857143",
+        "oldTargetID": "darwin"
       },
       {
         "source": "0.142857143",
         "target": "dora",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.142857143",
+        "oldTargetID": "dora"
       },
       {
         "source": "0.142857143",
         "target": "doug",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.142857143",
+        "oldTargetID": "doug"
       },
       {
         "source": "0.142857143",
         "target": "littlejudy",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.142857143",
+        "oldTargetID": "littlejudy"
       },
       {
         "source": "0.142857143",
         "target": "masya",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.142857143",
+        "oldTargetID": "masya"
       },
       {
         "source": "0.142857143",
         "target": "nina",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.142857143",
+        "oldTargetID": "nina"
       },
       {
         "source": "0.090909091",
         "target": "bob",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.090909091",
+        "oldTargetID": "bob"
       },
       {
         "source": "0.090909091",
         "target": "brandon",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.090909091",
+        "oldTargetID": "brandon"
       },
       {
         "source": "0.090909091",
         "target": "brenda",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.090909091",
+        "oldTargetID": "brenda"
       },
       {
         "source": "0.090909091",
         "target": "innocentia",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.090909091",
+        "oldTargetID": "innocentia"
       },
       {
         "source": "0.090909091",
         "target": "diz",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.090909091",
+        "oldTargetID": "diz"
       },
       {
         "source": "0.090909091",
         "target": "longjohn",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.090909091",
+        "oldTargetID": "longjohn"
       },
       {
         "source": "0.090909091",
         "target": "mike",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.090909091",
+        "oldTargetID": "mike"
       },
       {
         "source": "0.074074074",
         "target": "gonzaga",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.074074074",
+        "oldTargetID": "gonzaga"
       },
       {
         "source": "0.133333333",
         "target": "booboo",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.133333333",
+        "oldTargetID": "booboo"
       },
       {
         "source": "0.133333333",
         "target": "girly",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.133333333",
+        "oldTargetID": "girly"
       },
       {
         "source": "0.133333333",
         "target": "goliath",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.133333333",
+        "oldTargetID": "goliath"
       },
       {
         "source": "0.133333333",
         "target": "ingrid",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.133333333",
+        "oldTargetID": "ingrid"
       },
       {
         "source": "0.133333333",
         "target": "lionel",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.133333333",
+        "oldTargetID": "lionel"
       },
       {
         "source": "0.068965517",
         "target": "bob",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.068965517",
+        "oldTargetID": "bob"
       },
       {
         "source": "0.068965517",
         "target": "brenda",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.068965517",
+        "oldTargetID": "brenda"
       },
       {
         "source": "0.068965517",
         "target": "girly",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.068965517",
+        "oldTargetID": "girly"
       },
       {
         "source": "0.068965517",
         "target": "ilse",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.068965517",
+        "oldTargetID": "ilse"
       },
       {
         "source": "0.068965517",
         "target": "ingrid",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.068965517",
+        "oldTargetID": "ingrid"
       },
       {
         "source": "0.323529412",
         "target": "rita",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.323529412",
+        "oldTargetID": "rita"
       },
       {
         "source": "0.1",
         "target": "brandon",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.1",
+        "oldTargetID": "brandon"
       },
       {
         "source": "0.1",
         "target": "genny",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.1",
+        "oldTargetID": "genny"
       },
       {
         "source": "0.1",
         "target": "gerard",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.1",
+        "oldTargetID": "gerard"
       },
       {
         "source": "0.1",
         "target": "gonzaga",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.1",
+        "oldTargetID": "gonzaga"
       },
       {
         "source": "0.1",
         "target": "ilse",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.1",
+        "oldTargetID": "ilse"
       },
       {
         "source": "0.1",
         "target": "charity",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.1",
+        "oldTargetID": "charity"
       },
       {
         "source": "0.1",
         "target": "claire",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.1",
+        "oldTargetID": "claire"
       },
       {
         "source": "0.1",
         "target": "coco",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.1",
+        "oldTargetID": "coco"
       },
       {
         "source": "0.1",
         "target": "daisy",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.1",
+        "oldTargetID": "daisy"
       },
       {
         "source": "0.1",
         "target": "darwin",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.1",
+        "oldTargetID": "darwin"
       },
       {
         "source": "0.1",
         "target": "debbie",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.1",
+        "oldTargetID": "debbie"
       },
       {
         "source": "0.1",
         "target": "diana",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.1",
+        "oldTargetID": "diana"
       },
       {
         "source": "0.1",
         "target": "dolly",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.1",
+        "oldTargetID": "dolly"
       },
       {
         "source": "0.1",
         "target": "donna",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.1",
+        "oldTargetID": "donna"
       },
       {
         "source": "0.1",
         "target": "dora",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.1",
+        "oldTargetID": "dora"
       },
       {
         "source": "0.1",
         "target": "doug",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.1",
+        "oldTargetID": "doug"
       },
       {
         "source": "0.1",
         "target": "littlejane",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.1",
+        "oldTargetID": "littlejane"
       },
       {
         "source": "0.1",
         "target": "littlejenkins",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.1",
+        "oldTargetID": "littlejenkins"
       },
       {
         "source": "0.1",
         "target": "littlejudy",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.1",
+        "oldTargetID": "littlejudy"
       },
       {
         "source": "0.1",
         "target": "maggie",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.1",
+        "oldTargetID": "maggie"
       },
       {
         "source": "0.1",
         "target": "mary",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.1",
+        "oldTargetID": "mary"
       },
       {
         "source": "0.1",
         "target": "masya",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.1",
+        "oldTargetID": "masya"
       },
       {
         "source": "0.1",
         "target": "max",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.1",
+        "oldTargetID": "max"
       },
       {
         "source": "0.1",
         "target": "tess",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.1",
+        "oldTargetID": "tess"
       },
       {
         "source": "0.1",
         "target": "toni",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.1",
+        "oldTargetID": "toni"
       },
       {
         "source": "0.166666667",
         "target": "bob",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.166666667",
+        "oldTargetID": "bob"
       },
       {
         "source": "0.166666667",
         "target": "brenda",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.166666667",
+        "oldTargetID": "brenda"
       },
       {
         "source": "0.166666667",
         "target": "goliath",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.166666667",
+        "oldTargetID": "goliath"
       },
       {
         "source": "0.166666667",
         "target": "ingrid",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.166666667",
+        "oldTargetID": "ingrid"
       },
       {
         "source": "0.166666667",
         "target": "irene",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.166666667",
+        "oldTargetID": "irene"
       },
       {
         "source": "0.166666667",
         "target": "daisy",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.166666667",
+        "oldTargetID": "daisy"
       },
       {
         "source": "0.166666667",
         "target": "debbie",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.166666667",
+        "oldTargetID": "debbie"
       },
       {
         "source": "0.166666667",
         "target": "dolly",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.166666667",
+        "oldTargetID": "dolly"
       },
       {
         "source": "0.166666667",
         "target": "dora",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.166666667",
+        "oldTargetID": "dora"
       },
       {
         "source": "0.166666667",
         "target": "littlejenkins",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.166666667",
+        "oldTargetID": "littlejenkins"
       },
       {
         "source": "0.064516129",
         "target": "brandon",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.064516129",
+        "oldTargetID": "brandon"
       },
       {
         "source": "0.064516129",
         "target": "brenda",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.064516129",
+        "oldTargetID": "brenda"
       },
       {
         "source": "0.064516129",
         "target": "gerard",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.064516129",
+        "oldTargetID": "gerard"
       },
       {
         "source": "0.064516129",
         "target": "gonzaga",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.064516129",
+        "oldTargetID": "gonzaga"
       },
       {
         "source": "0.064516129",
         "target": "rita",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.064516129",
+        "oldTargetID": "rita"
       },
       {
         "source": "0.09375",
         "target": "bob",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.09375",
+        "oldTargetID": "bob"
       },
       {
         "source": "0.09375",
         "target": "brandon",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.09375",
+        "oldTargetID": "brandon"
       },
       {
         "source": "0.09375",
         "target": "brenda",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.09375",
+        "oldTargetID": "brenda"
       },
       {
         "source": "0.09375",
         "target": "genny",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.09375",
+        "oldTargetID": "genny"
       },
       {
         "source": "0.09375",
         "target": "goliath",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.09375",
+        "oldTargetID": "goliath"
       },
       {
         "source": "bob",
         "target": "0.176470588",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "bob",
+        "oldTargetID": "0.176470588"
       },
       {
         "source": "bob",
         "target": "0.0625",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "bob",
+        "oldTargetID": "0.0625"
       },
       {
         "source": "bob",
         "target": "0.21875",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "bob",
+        "oldTargetID": "0.21875"
       },
       {
         "source": "bob",
         "target": "0.125",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "bob",
+        "oldTargetID": "0.125"
       },
       {
         "source": "bob",
         "target": "0.147058824",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "bob",
+        "oldTargetID": "0.147058824"
       },
       {
         "source": "bob",
         "target": "0.035714286",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "bob",
+        "oldTargetID": "0.035714286"
       },
       {
         "source": "bob",
         "target": "0.096774194",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "bob",
+        "oldTargetID": "0.096774194"
       },
       {
         "source": "bob",
         "target": "0.058823529",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "bob",
+        "oldTargetID": "0.058823529"
       },
       {
         "source": "bob",
         "target": "0.171428571",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "bob",
+        "oldTargetID": "0.171428571"
       },
       {
         "source": "bob",
         "target": "0.121212121",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "bob",
+        "oldTargetID": "0.121212121"
       },
       {
         "source": "bob",
         "target": "0.060606061",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "bob",
+        "oldTargetID": "0.060606061"
       },
       {
         "source": "0.176470588",
         "target": "genny",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.176470588",
+        "oldTargetID": "genny"
       },
       {
         "source": "0.176470588",
         "target": "innocentia",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.176470588",
+        "oldTargetID": "innocentia"
       },
       {
         "source": "0.176470588",
         "target": "renata",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.176470588",
+        "oldTargetID": "renata"
       },
       {
         "source": "0.0625",
         "target": "booboo",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.0625",
+        "oldTargetID": "booboo"
       },
       {
         "source": "0.0625",
         "target": "brandon",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.0625",
+        "oldTargetID": "brandon"
       },
       {
         "source": "0.0625",
         "target": "genny",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.0625",
+        "oldTargetID": "genny"
       },
       {
         "source": "0.0625",
         "target": "gerard",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.0625",
+        "oldTargetID": "gerard"
       },
       {
         "source": "0.0625",
         "target": "irene",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.0625",
+        "oldTargetID": "irene"
       },
       {
         "source": "0.0625",
         "target": "lionel",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.0625",
+        "oldTargetID": "lionel"
       },
       {
         "source": "0.21875",
         "target": "pal",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.21875",
+        "oldTargetID": "pal"
       },
       {
         "source": "0.125",
         "target": "brenda",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.125",
+        "oldTargetID": "brenda"
       },
       {
         "source": "0.125",
         "target": "gerard",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.125",
+        "oldTargetID": "gerard"
       },
       {
         "source": "0.125",
         "target": "goliath",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.125",
+        "oldTargetID": "goliath"
       },
       {
         "source": "0.125",
         "target": "innocentia",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.125",
+        "oldTargetID": "innocentia"
       },
       {
         "source": "0.125",
         "target": "charity",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.125",
+        "oldTargetID": "charity"
       },
       {
         "source": "0.125",
         "target": "daisy",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.125",
+        "oldTargetID": "daisy"
       },
       {
         "source": "0.125",
         "target": "david",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.125",
+        "oldTargetID": "david"
       },
       {
         "source": "0.125",
         "target": "debbie",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.125",
+        "oldTargetID": "debbie"
       },
       {
         "source": "0.125",
         "target": "dolly",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.125",
+        "oldTargetID": "dolly"
       },
       {
         "source": "0.125",
         "target": "donna",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.125",
+        "oldTargetID": "donna"
       },
       {
         "source": "0.125",
         "target": "doug",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.125",
+        "oldTargetID": "doug"
       },
       {
         "source": "0.125",
         "target": "littlejane",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.125",
+        "oldTargetID": "littlejane"
       },
       {
         "source": "0.125",
         "target": "littlejenkins",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.125",
+        "oldTargetID": "littlejenkins"
       },
       {
         "source": "0.125",
         "target": "maggie",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.125",
+        "oldTargetID": "maggie"
       },
       {
         "source": "0.125",
         "target": "masya",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.125",
+        "oldTargetID": "masya"
       },
       {
         "source": "0.125",
         "target": "maxine",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.125",
+        "oldTargetID": "maxine"
       },
       {
         "source": "0.125",
         "target": "nina",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.125",
+        "oldTargetID": "nina"
       },
       {
         "source": "0.125",
         "target": "taylor",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.125",
+        "oldTargetID": "taylor"
       },
       {
         "source": "0.147058824",
         "target": "gerard",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.147058824",
+        "oldTargetID": "gerard"
       },
       {
         "source": "0.035714286",
         "target": "brandon",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.035714286",
+        "oldTargetID": "brandon"
       },
       {
         "source": "0.035714286",
         "target": "gonzaga",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.035714286",
+        "oldTargetID": "gonzaga"
       },
       {
         "source": "0.035714286",
         "target": "ingrid",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.035714286",
+        "oldTargetID": "ingrid"
       },
       {
         "source": "0.096774194",
         "target": "brandon",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.096774194",
+        "oldTargetID": "brandon"
       },
       {
         "source": "0.096774194",
         "target": "genny",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.096774194",
+        "oldTargetID": "genny"
       },
       {
         "source": "0.096774194",
         "target": "girly",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.096774194",
+        "oldTargetID": "girly"
       },
       {
         "source": "0.096774194",
         "target": "pal",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.096774194",
+        "oldTargetID": "pal"
       },
       {
         "source": "0.058823529",
         "target": "booboo",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.058823529",
+        "oldTargetID": "booboo"
       },
       {
         "source": "0.058823529",
         "target": "brandon",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.058823529",
+        "oldTargetID": "brandon"
       },
       {
         "source": "0.058823529",
         "target": "gerard",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.058823529",
+        "oldTargetID": "gerard"
       },
       {
         "source": "0.058823529",
         "target": "renata",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.058823529",
+        "oldTargetID": "renata"
       },
       {
         "source": "0.171428571",
         "target": "genny",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.171428571",
+        "oldTargetID": "genny"
       },
       {
         "source": "0.121212121",
         "target": "booboo",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.121212121",
+        "oldTargetID": "booboo"
       },
       {
         "source": "0.121212121",
         "target": "genny",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.121212121",
+        "oldTargetID": "genny"
       },
       {
         "source": "0.121212121",
         "target": "goliath",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.121212121",
+        "oldTargetID": "goliath"
       },
       {
         "source": "0.060606061",
         "target": "brandon",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.060606061",
+        "oldTargetID": "brandon"
       },
       {
         "source": "0.060606061",
         "target": "genny",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.060606061",
+        "oldTargetID": "genny"
       },
       {
         "source": "0.060606061",
         "target": "gerard",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.060606061",
+        "oldTargetID": "gerard"
       },
       {
         "source": "booboo",
         "target": "0.029411765",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "booboo",
+        "oldTargetID": "0.029411765"
       },
       {
         "source": "booboo",
         "target": "0.057142857",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "booboo",
+        "oldTargetID": "0.057142857"
       },
       {
         "source": "booboo",
         "target": "0.235294118",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "booboo",
+        "oldTargetID": "0.235294118"
       },
       {
         "source": "booboo",
         "target": "0.088235294",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "booboo",
+        "oldTargetID": "0.088235294"
       },
       {
         "source": "booboo",
         "target": "0.225806452",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "booboo",
+        "oldTargetID": "0.225806452"
       },
       {
         "source": "booboo",
         "target": "0.305555556",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "booboo",
+        "oldTargetID": "0.305555556"
       },
       {
         "source": "booboo",
         "target": "0.052631579",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "booboo",
+        "oldTargetID": "0.052631579"
       },
       {
         "source": "booboo",
         "target": "0.054054054",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "booboo",
+        "oldTargetID": "0.054054054"
       },
       {
         "source": "booboo",
         "target": "0.181818182",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "booboo",
+        "oldTargetID": "0.181818182"
       },
       {
         "source": "booboo",
         "target": "0.242424242",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "booboo",
+        "oldTargetID": "0.242424242"
       },
       {
         "source": "booboo",
         "target": "0.2",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "booboo",
+        "oldTargetID": "0.2"
       },
       {
         "source": "booboo",
         "target": "0.388888889",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "booboo",
+        "oldTargetID": "0.388888889"
       },
       {
         "source": "booboo",
         "target": "0.15625",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "booboo",
+        "oldTargetID": "0.15625"
       },
       {
         "source": "0.029411765",
         "target": "regina",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.029411765",
+        "oldTargetID": "regina"
       },
       {
         "source": "0.057142857",
         "target": "gerard",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.057142857",
+        "oldTargetID": "gerard"
       },
       {
         "source": "0.057142857",
         "target": "innocentia",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.057142857",
+        "oldTargetID": "innocentia"
       },
       {
         "source": "0.057142857",
         "target": "claire",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.057142857",
+        "oldTargetID": "claire"
       },
       {
         "source": "0.088235294",
         "target": "brandon",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.088235294",
+        "oldTargetID": "brandon"
       },
       {
         "source": "0.088235294",
         "target": "goliath",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.088235294",
+        "oldTargetID": "goliath"
       },
       {
         "source": "0.088235294",
         "target": "ilse",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.088235294",
+        "oldTargetID": "ilse"
       },
       {
         "source": "0.088235294",
         "target": "innocentia",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.088235294",
+        "oldTargetID": "innocentia"
       },
       {
         "source": "0.052631579",
         "target": "carol",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.052631579",
+        "oldTargetID": "carol"
       },
       {
         "source": "0.052631579",
         "target": "claire",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.052631579",
+        "oldTargetID": "claire"
       },
       {
         "source": "0.052631579",
         "target": "coco",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.052631579",
+        "oldTargetID": "coco"
       },
       {
         "source": "0.052631579",
         "target": "david",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.052631579",
+        "oldTargetID": "david"
       },
       {
         "source": "0.052631579",
         "target": "dolly",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.052631579",
+        "oldTargetID": "dolly"
       },
       {
         "source": "0.052631579",
         "target": "max",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.052631579",
+        "oldTargetID": "max"
       },
       {
         "source": "0.052631579",
         "target": "misha",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.052631579",
+        "oldTargetID": "misha"
       },
       {
         "source": "0.052631579",
         "target": "nina",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.052631579",
+        "oldTargetID": "nina"
       },
       {
         "source": "0.052631579",
         "target": "pippa",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.052631579",
+        "oldTargetID": "pippa"
       },
       {
         "source": "0.054054054",
         "target": "claire",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.054054054",
+        "oldTargetID": "claire"
       },
       {
         "source": "0.054054054",
         "target": "coco",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.054054054",
+        "oldTargetID": "coco"
       },
       {
         "source": "0.054054054",
         "target": "david",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.054054054",
+        "oldTargetID": "david"
       },
       {
         "source": "0.054054054",
         "target": "littlejane",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.054054054",
+        "oldTargetID": "littlejane"
       },
       {
         "source": "0.054054054",
         "target": "littlejudy",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.054054054",
+        "oldTargetID": "littlejudy"
       },
       {
         "source": "0.054054054",
         "target": "maxine",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.054054054",
+        "oldTargetID": "maxine"
       },
       {
         "source": "0.054054054",
         "target": "pan",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.054054054",
+        "oldTargetID": "pan"
       },
       {
         "source": "0.181818182",
         "target": "brandon",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.181818182",
+        "oldTargetID": "brandon"
       },
       {
         "source": "0.181818182",
         "target": "brenda",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.181818182",
+        "oldTargetID": "brenda"
       },
       {
         "source": "0.181818182",
         "target": "ilse",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.181818182",
+        "oldTargetID": "ilse"
       },
       {
         "source": "0.181818182",
         "target": "nikkie",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.181818182",
+        "oldTargetID": "nikkie"
       },
       {
         "source": "0.2",
         "target": "girly",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.2",
+        "oldTargetID": "girly"
       },
       {
         "source": "0.2",
         "target": "pal",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.2",
+        "oldTargetID": "pal"
       },
       {
         "source": "0.2",
         "target": "rita",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.2",
+        "oldTargetID": "rita"
       },
       {
         "source": "0.2",
         "target": "darwin",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.2",
+        "oldTargetID": "darwin"
       },
       {
         "source": "0.2",
         "target": "david",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.2",
+        "oldTargetID": "david"
       },
       {
         "source": "0.2",
         "target": "debbie",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.2",
+        "oldTargetID": "debbie"
       },
       {
         "source": "0.2",
         "target": "dolly",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.2",
+        "oldTargetID": "dolly"
       },
       {
         "source": "0.2",
         "target": "doug",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.2",
+        "oldTargetID": "doug"
       },
       {
         "source": "0.2",
         "target": "nina",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.2",
+        "oldTargetID": "nina"
       },
       {
         "source": "0.15625",
         "target": "genny",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.15625",
+        "oldTargetID": "genny"
       },
       {
         "source": "0.15625",
         "target": "girly",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.15625",
+        "oldTargetID": "girly"
       },
       {
         "source": "brandon",
         "target": "0.103448276",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "brandon",
+        "oldTargetID": "0.103448276"
       },
       {
         "source": "brandon",
         "target": "0.161290323",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "brandon",
+        "oldTargetID": "0.161290323"
       },
       {
         "source": "brandon",
         "target": "0.028571429",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "brandon",
+        "oldTargetID": "0.028571429"
       },
       {
         "source": "brandon",
         "target": "0.28125",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "brandon",
+        "oldTargetID": "0.28125"
       },
       {
         "source": "brandon",
         "target": "0.066666667",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "brandon",
+        "oldTargetID": "0.066666667"
       },
       {
         "source": "0.103448276",
         "target": "girly",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.103448276",
+        "oldTargetID": "girly"
       },
       {
         "source": "0.103448276",
         "target": "gonzaga",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.103448276",
+        "oldTargetID": "gonzaga"
       },
       {
         "source": "0.161290323",
         "target": "gerard",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.161290323",
+        "oldTargetID": "gerard"
       },
       {
         "source": "0.161290323",
         "target": "innocentia",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.161290323",
+        "oldTargetID": "innocentia"
       },
       {
         "source": "0.28125",
         "target": "ilse",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.28125",
+        "oldTargetID": "ilse"
       },
       {
         "source": "0.28125",
         "target": "tara",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.28125",
+        "oldTargetID": "tara"
       },
       {
         "source": "0.066666667",
         "target": "ilse",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.066666667",
+        "oldTargetID": "ilse"
       },
       {
         "source": "0.066666667",
         "target": "irene",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.066666667",
+        "oldTargetID": "irene"
       },
       {
         "source": "0.066666667",
         "target": "regina",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.066666667",
+        "oldTargetID": "regina"
       },
       {
         "source": "brenda",
         "target": "0.085714286",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "brenda",
+        "oldTargetID": "0.085714286"
       },
       {
         "source": "brenda",
         "target": "0.111111111",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "brenda",
+        "oldTargetID": "0.111111111"
       },
       {
         "source": "brenda",
         "target": "0.027777778",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "brenda",
+        "oldTargetID": "0.027777778"
       },
       {
         "source": "brenda",
         "target": "0.363636364",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "brenda",
+        "oldTargetID": "0.363636364"
       },
       {
         "source": "brenda",
         "target": "0.352941176",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "brenda",
+        "oldTargetID": "0.352941176"
       },
       {
         "source": "brenda",
         "target": "0.205882353",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "brenda",
+        "oldTargetID": "0.205882353"
       },
       {
         "source": "brenda",
         "target": "0.117647059",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "brenda",
+        "oldTargetID": "0.117647059"
       },
       {
         "source": "brenda",
         "target": "0.114285714",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "brenda",
+        "oldTargetID": "0.114285714"
       },
       {
         "source": "0.085714286",
         "target": "goliath",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.085714286",
+        "oldTargetID": "goliath"
       },
       {
         "source": "0.085714286",
         "target": "coco",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.085714286",
+        "oldTargetID": "coco"
       },
       {
         "source": "0.085714286",
         "target": "littlejane",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.085714286",
+        "oldTargetID": "littlejane"
       },
       {
         "source": "0.111111111",
         "target": "gonzaga",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.111111111",
+        "oldTargetID": "gonzaga"
       },
       {
         "source": "0.111111111",
         "target": "josephine",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.111111111",
+        "oldTargetID": "josephine"
       },
       {
         "source": "0.111111111",
         "target": "claire",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.111111111",
+        "oldTargetID": "claire"
       },
       {
         "source": "0.111111111",
         "target": "coco",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.111111111",
+        "oldTargetID": "coco"
       },
       {
         "source": "0.111111111",
         "target": "tess",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.111111111",
+        "oldTargetID": "tess"
       },
       {
         "source": "0.027777778",
         "target": "carol",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.027777778",
+        "oldTargetID": "carol"
       },
       {
         "source": "0.027777778",
         "target": "charity",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.027777778",
+        "oldTargetID": "charity"
       },
       {
         "source": "0.027777778",
         "target": "misha",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.027777778",
+        "oldTargetID": "misha"
       },
       {
         "source": "0.352941176",
         "target": "irene",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.352941176",
+        "oldTargetID": "irene"
       },
       {
         "source": "0.117647059",
         "target": "genny",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.117647059",
+        "oldTargetID": "genny"
       },
       {
         "source": "0.117647059",
         "target": "gerard",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.117647059",
+        "oldTargetID": "gerard"
       },
       {
         "source": "0.117647059",
         "target": "goliath",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.117647059",
+        "oldTargetID": "goliath"
       },
       {
         "source": "0.117647059",
         "target": "josephine",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.117647059",
+        "oldTargetID": "josephine"
       },
       {
         "source": "0.114285714",
         "target": "josephine",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.114285714",
+        "oldTargetID": "josephine"
       },
       {
         "source": "genny",
         "target": "0.310344828",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "genny",
+        "oldTargetID": "0.310344828"
       },
       {
         "source": "genny",
         "target": "0.264705882",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "genny",
+        "oldTargetID": "0.264705882"
       },
       {
         "source": "genny",
         "target": "0.321428571",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "genny",
+        "oldTargetID": "0.321428571"
       },
       {
         "source": "genny",
         "target": "0.258064516",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "genny",
+        "oldTargetID": "0.258064516"
       },
       {
         "source": "genny",
         "target": "0.033333333",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "genny",
+        "oldTargetID": "0.033333333"
       },
       {
         "source": "0.258064516",
         "target": "ilse",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.258064516",
+        "oldTargetID": "ilse"
       },
       {
         "source": "0.258064516",
         "target": "ingrid",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.258064516",
+        "oldTargetID": "ingrid"
       },
       {
         "source": "gerard",
         "target": "0.137931034",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "gerard",
+        "oldTargetID": "0.137931034"
       },
       {
         "source": "gerard",
         "target": "0.151515152",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "gerard",
+        "oldTargetID": "0.151515152"
       },
       {
         "source": "0.137931034",
         "target": "lionel",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.137931034",
+        "oldTargetID": "lionel"
       },
       {
         "source": "girly",
         "target": "0.107142857",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "girly",
+        "oldTargetID": "0.107142857"
       },
       {
         "source": "girly",
         "target": "0.178571429",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "girly",
+        "oldTargetID": "0.178571429"
       },
       {
         "source": "girly",
         "target": "0.384615385",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "girly",
+        "oldTargetID": "0.384615385"
       },
       {
         "source": "girly",
         "target": "0.193548387",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "girly",
+        "oldTargetID": "0.193548387"
       },
       {
         "source": "girly",
         "target": "0.148148148",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "girly",
+        "oldTargetID": "0.148148148"
       },
       {
         "source": "0.193548387",
         "target": "ilse",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.193548387",
+        "oldTargetID": "ilse"
       },
       {
         "source": "0.193548387",
         "target": "ingrid",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.193548387",
+        "oldTargetID": "ingrid"
       },
       {
         "source": "goliath",
         "target": "0.210526316",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "goliath",
+        "oldTargetID": "0.210526316"
       },
       {
         "source": "goliath",
         "target": "0.189189189",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "goliath",
+        "oldTargetID": "0.189189189"
       },
       {
         "source": "goliath",
         "target": "0.272727273",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "goliath",
+        "oldTargetID": "0.272727273"
       },
       {
         "source": "goliath",
         "target": "0.333333333",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "goliath",
+        "oldTargetID": "0.333333333"
       },
       {
         "source": "0.272727273",
         "target": "lionel",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.272727273",
+        "oldTargetID": "lionel"
       },
       {
         "source": "0.272727273",
         "target": "mike",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.272727273",
+        "oldTargetID": "mike"
       },
       {
         "source": "0.333333333",
         "target": "ingrid",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.333333333",
+        "oldTargetID": "ingrid"
       },
       {
         "source": "0.333333333",
         "target": "pal",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.333333333",
+        "oldTargetID": "pal"
       },
       {
         "source": "0.333333333",
         "target": "regina",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.333333333",
+        "oldTargetID": "regina"
       },
       {
         "source": "0.333333333",
         "target": "darwin",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.333333333",
+        "oldTargetID": "darwin"
       },
       {
         "source": "0.333333333",
         "target": "pan",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.333333333",
+        "oldTargetID": "pan"
       },
       {
         "source": "gonzaga",
         "target": "0.076923077",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "gonzaga",
+        "oldTargetID": "0.076923077"
       },
       {
         "source": "gonzaga",
         "target": "0.071428571",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "gonzaga",
+        "oldTargetID": "0.071428571"
       },
       {
         "source": "gonzaga",
         "target": "0.083333333",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "gonzaga",
+        "oldTargetID": "0.083333333"
       },
       {
         "source": "gonzaga",
         "target": "0.038461538",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "gonzaga",
+        "oldTargetID": "0.038461538"
       },
       {
         "source": "0.076923077",
         "target": "charity",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.076923077",
+        "oldTargetID": "charity"
       },
       {
         "source": "0.076923077",
         "target": "david",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.076923077",
+        "oldTargetID": "david"
       },
       {
         "source": "0.076923077",
         "target": "debbie",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.076923077",
+        "oldTargetID": "debbie"
       },
       {
         "source": "0.076923077",
         "target": "diz",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.076923077",
+        "oldTargetID": "diz"
       },
       {
         "source": "0.076923077",
         "target": "donna",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.076923077",
+        "oldTargetID": "donna"
       },
       {
         "source": "0.076923077",
         "target": "littlejane",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.076923077",
+        "oldTargetID": "littlejane"
       },
       {
         "source": "0.076923077",
         "target": "littlejenkins",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.076923077",
+        "oldTargetID": "littlejenkins"
       },
       {
         "source": "0.076923077",
         "target": "maggie",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.076923077",
+        "oldTargetID": "maggie"
       },
       {
         "source": "0.076923077",
         "target": "masya",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.076923077",
+        "oldTargetID": "masya"
       },
       {
         "source": "0.076923077",
         "target": "nikkie",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.076923077",
+        "oldTargetID": "nikkie"
       },
       {
         "source": "0.071428571",
         "target": "daisy",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.071428571",
+        "oldTargetID": "daisy"
       },
       {
         "source": "0.071428571",
         "target": "david",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.071428571",
+        "oldTargetID": "david"
       },
       {
         "source": "0.071428571",
         "target": "debbie",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.071428571",
+        "oldTargetID": "debbie"
       },
       {
         "source": "0.071428571",
         "target": "diana",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.071428571",
+        "oldTargetID": "diana"
       },
       {
         "source": "0.071428571",
         "target": "diz",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.071428571",
+        "oldTargetID": "diz"
       },
       {
         "source": "0.071428571",
         "target": "donna",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.071428571",
+        "oldTargetID": "donna"
       },
       {
         "source": "0.071428571",
         "target": "littlejenkins",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.071428571",
+        "oldTargetID": "littlejenkins"
       },
       {
         "source": "0.071428571",
         "target": "littlejudy",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.071428571",
+        "oldTargetID": "littlejudy"
       },
       {
         "source": "0.071428571",
         "target": "longjohn",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.071428571",
+        "oldTargetID": "longjohn"
       },
       {
         "source": "0.071428571",
         "target": "mary",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.071428571",
+        "oldTargetID": "mary"
       },
       {
         "source": "0.071428571",
         "target": "masya",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.071428571",
+        "oldTargetID": "masya"
       },
       {
         "source": "0.071428571",
         "target": "maxine",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.071428571",
+        "oldTargetID": "maxine"
       },
       {
         "source": "0.071428571",
         "target": "tilly",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.071428571",
+        "oldTargetID": "tilly"
       },
       {
         "source": "0.083333333",
         "target": "maggie",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.083333333",
+        "oldTargetID": "maggie"
       },
       {
         "source": "0.083333333",
         "target": "toni",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.083333333",
+        "oldTargetID": "toni"
       },
       {
         "source": "ilse",
         "target": "0.517241379",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "ilse",
+        "oldTargetID": "0.517241379"
       },
       {
         "source": "ilse",
         "target": "0.6875",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "ilse",
+        "oldTargetID": "0.6875"
       },
       {
         "source": "ilse",
         "target": "0.266666667",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "ilse",
+        "oldTargetID": "0.266666667"
       },
       {
         "source": "ilse",
         "target": "0.1875",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "ilse",
+        "oldTargetID": "0.1875"
       },
       {
         "source": "0.1875",
         "target": "ingrid",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.1875",
+        "oldTargetID": "ingrid"
       },
       {
         "source": "ingrid",
         "target": "0.03030303",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "ingrid",
+        "oldTargetID": "0.03030303"
       },
       {
         "source": "ingrid",
         "target": "0.172413793",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "ingrid",
+        "oldTargetID": "0.172413793"
       },
       {
         "source": "ingrid",
         "target": "0.214285714",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "ingrid",
+        "oldTargetID": "0.214285714"
       },
       {
         "source": "0.03030303",
         "target": "josephine",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.03030303",
+        "oldTargetID": "josephine"
       },
       {
         "source": "0.214285714",
         "target": "darwin",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.214285714",
+        "oldTargetID": "darwin"
       },
       {
         "source": "0.214285714",
         "target": "david",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.214285714",
+        "oldTargetID": "david"
       },
       {
         "source": "0.214285714",
         "target": "donna",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.214285714",
+        "oldTargetID": "donna"
       },
       {
         "source": "0.214285714",
         "target": "doug",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.214285714",
+        "oldTargetID": "doug"
       },
       {
         "source": "0.214285714",
         "target": "littlejudy",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.214285714",
+        "oldTargetID": "littlejudy"
       },
       {
         "source": "irene",
         "target": "0.05",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "irene",
+        "oldTargetID": "0.05"
       },
       {
         "source": "irene",
         "target": "0.25",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "irene",
+        "oldTargetID": "0.25"
       },
       {
         "source": "irene",
         "target": "1.0",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "irene",
+        "oldTargetID": "1.0"
       },
       {
         "source": "irene",
         "target": "0.055555556",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "irene",
+        "oldTargetID": "0.055555556"
       },
       {
         "source": "irene",
         "target": "0.157894737",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "irene",
+        "oldTargetID": "0.157894737"
       },
       {
         "source": "0.05",
         "target": "carol",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.05",
+        "oldTargetID": "carol"
       },
       {
         "source": "0.05",
         "target": "charity",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.05",
+        "oldTargetID": "charity"
       },
       {
         "source": "0.05",
         "target": "claire",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.05",
+        "oldTargetID": "claire"
       },
       {
         "source": "0.05",
         "target": "daisy",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.05",
+        "oldTargetID": "daisy"
       },
       {
         "source": "0.05",
         "target": "darwin",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.05",
+        "oldTargetID": "darwin"
       },
       {
         "source": "0.05",
         "target": "david",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.05",
+        "oldTargetID": "david"
       },
       {
         "source": "0.05",
         "target": "debbie",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.05",
+        "oldTargetID": "debbie"
       },
       {
         "source": "0.05",
         "target": "diana",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.05",
+        "oldTargetID": "diana"
       },
       {
         "source": "0.05",
         "target": "donna",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.05",
+        "oldTargetID": "donna"
       },
       {
         "source": "0.05",
         "target": "dora",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.05",
+        "oldTargetID": "dora"
       },
       {
         "source": "0.05",
         "target": "littlejane",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.05",
+        "oldTargetID": "littlejane"
       },
       {
         "source": "0.05",
         "target": "littlejenkins",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.05",
+        "oldTargetID": "littlejenkins"
       },
       {
         "source": "0.05",
         "target": "littlejudy",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.05",
+        "oldTargetID": "littlejudy"
       },
       {
         "source": "0.05",
         "target": "mary",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.05",
+        "oldTargetID": "mary"
       },
       {
         "source": "0.05",
         "target": "masya",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.05",
+        "oldTargetID": "masya"
       },
       {
         "source": "0.05",
         "target": "max",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.05",
+        "oldTargetID": "max"
       },
       {
         "source": "0.25",
         "target": "darwin",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.25",
+        "oldTargetID": "darwin"
       },
       {
         "source": "0.25",
         "target": "max",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.25",
+        "oldTargetID": "max"
       },
       {
         "source": "0.25",
         "target": "violet",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.25",
+        "oldTargetID": "violet"
       },
       {
         "source": "0.055555556",
         "target": "renata",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.055555556",
+        "oldTargetID": "renata"
       },
       {
         "source": "0.157894737",
         "target": "josephine",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.157894737",
+        "oldTargetID": "josephine"
       },
       {
         "source": "0.157894737",
         "target": "claire",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.157894737",
+        "oldTargetID": "claire"
       },
       {
         "source": "0.157894737",
         "target": "dolly",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.157894737",
+        "oldTargetID": "dolly"
       },
       {
         "source": "0.157894737",
         "target": "doug",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.157894737",
+        "oldTargetID": "doug"
       },
       {
         "source": "0.157894737",
         "target": "maggie",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.157894737",
+        "oldTargetID": "maggie"
       },
       {
         "source": "0.157894737",
         "target": "moyo",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.157894737",
+        "oldTargetID": "moyo"
       },
       {
         "source": "josephine",
         "target": "0.108108108",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "josephine",
+        "oldTargetID": "0.108108108"
       },
       {
         "source": "0.108108108",
         "target": "carol",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.108108108",
+        "oldTargetID": "carol"
       },
       {
         "source": "0.108108108",
         "target": "charity",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.108108108",
+        "oldTargetID": "charity"
       },
       {
         "source": "0.108108108",
         "target": "claire",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.108108108",
+        "oldTargetID": "claire"
       },
       {
         "source": "0.108108108",
         "target": "mary",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.108108108",
+        "oldTargetID": "mary"
       },
       {
         "source": "0.108108108",
         "target": "taylor",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.108108108",
+        "oldTargetID": "taylor"
       },
       {
         "source": "0.108108108",
         "target": "tilly",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.108108108",
+        "oldTargetID": "tilly"
       },
       {
         "source": "pal",
         "target": "0.206896552",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "pal",
+        "oldTargetID": "0.206896552"
       },
       {
         "source": "regina",
         "target": "0.375",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "regina",
+        "oldTargetID": "0.375"
       },
       {
         "source": "0.375",
         "target": "debbie",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.375",
+        "oldTargetID": "debbie"
       },
       {
         "source": "0.375",
         "target": "littlejane",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.375",
+        "oldTargetID": "littlejane"
       },
       {
         "source": "carol",
         "target": "0.131578947",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "carol",
+        "oldTargetID": "0.131578947"
       },
       {
         "source": "carol",
         "target": "0.081081081",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "carol",
+        "oldTargetID": "0.081081081"
       },
       {
         "source": "carol",
         "target": "0.162162162",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "carol",
+        "oldTargetID": "0.162162162"
       },
       {
         "source": "carol",
         "target": "0.025",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "carol",
+        "oldTargetID": "0.025"
       },
       {
         "source": "carol",
         "target": "0.051282051",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "carol",
+        "oldTargetID": "0.051282051"
       },
       {
         "source": "carol",
         "target": "0.024390244",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "carol",
+        "oldTargetID": "0.024390244"
       },
       {
         "source": "carol",
         "target": "0.078947368",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "carol",
+        "oldTargetID": "0.078947368"
       },
       {
         "source": "carol",
         "target": "0.025641026",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "carol",
+        "oldTargetID": "0.025641026"
       },
       {
         "source": "carol",
         "target": "0.153846154",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "carol",
+        "oldTargetID": "0.153846154"
       },
       {
         "source": "carol",
         "target": "0.12195122",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "carol",
+        "oldTargetID": "0.12195122"
       },
       {
         "source": "carol",
         "target": "0.026315789",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "carol",
+        "oldTargetID": "0.026315789"
       },
       {
         "source": "carol",
         "target": "0.048780488",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "carol",
+        "oldTargetID": "0.048780488"
       },
       {
         "source": "carol",
         "target": "0.146341463",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "carol",
+        "oldTargetID": "0.146341463"
       },
       {
         "source": "0.131578947",
         "target": "dolly",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.131578947",
+        "oldTargetID": "dolly"
       },
       {
         "source": "0.131578947",
         "target": "maggie",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.131578947",
+        "oldTargetID": "maggie"
       },
       {
         "source": "0.131578947",
         "target": "misha",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.131578947",
+        "oldTargetID": "misha"
       },
       {
         "source": "0.131578947",
         "target": "moyo",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.131578947",
+        "oldTargetID": "moyo"
       },
       {
         "source": "0.081081081",
         "target": "charity",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.081081081",
+        "oldTargetID": "charity"
       },
       {
         "source": "0.081081081",
         "target": "claire",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.081081081",
+        "oldTargetID": "claire"
       },
       {
         "source": "0.081081081",
         "target": "coco",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.081081081",
+        "oldTargetID": "coco"
       },
       {
         "source": "0.081081081",
         "target": "debbie",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.081081081",
+        "oldTargetID": "debbie"
       },
       {
         "source": "0.081081081",
         "target": "donna",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.081081081",
+        "oldTargetID": "donna"
       },
       {
         "source": "0.081081081",
         "target": "littlejane",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.081081081",
+        "oldTargetID": "littlejane"
       },
       {
         "source": "0.162162162",
         "target": "claire",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.162162162",
+        "oldTargetID": "claire"
       },
       {
         "source": "0.162162162",
         "target": "littlejane",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.162162162",
+        "oldTargetID": "littlejane"
       },
       {
         "source": "0.025",
         "target": "charity",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.025",
+        "oldTargetID": "charity"
       },
       {
         "source": "0.025",
         "target": "coco",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.025",
+        "oldTargetID": "coco"
       },
       {
         "source": "0.025",
         "target": "david",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.025",
+        "oldTargetID": "david"
       },
       {
         "source": "0.025",
         "target": "debbie",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.025",
+        "oldTargetID": "debbie"
       },
       {
         "source": "0.025",
         "target": "diana",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.025",
+        "oldTargetID": "diana"
       },
       {
         "source": "0.025",
         "target": "donna",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.025",
+        "oldTargetID": "donna"
       },
       {
         "source": "0.025",
         "target": "dora",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.025",
+        "oldTargetID": "dora"
       },
       {
         "source": "0.025",
         "target": "littlejane",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.025",
+        "oldTargetID": "littlejane"
       },
       {
         "source": "0.025",
         "target": "littlejudy",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.025",
+        "oldTargetID": "littlejudy"
       },
       {
         "source": "0.025",
         "target": "mary",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.025",
+        "oldTargetID": "mary"
       },
       {
         "source": "0.025",
         "target": "pan",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.025",
+        "oldTargetID": "pan"
       },
       {
         "source": "0.051282051",
         "target": "charity",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.051282051",
+        "oldTargetID": "charity"
       },
       {
         "source": "0.051282051",
         "target": "claire",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.051282051",
+        "oldTargetID": "claire"
       },
       {
         "source": "0.051282051",
         "target": "coco",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.051282051",
+        "oldTargetID": "coco"
       },
       {
         "source": "0.051282051",
         "target": "daisy",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.051282051",
+        "oldTargetID": "daisy"
       },
       {
         "source": "0.051282051",
         "target": "david",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.051282051",
+        "oldTargetID": "david"
       },
       {
         "source": "0.051282051",
         "target": "debbie",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.051282051",
+        "oldTargetID": "debbie"
       },
       {
         "source": "0.051282051",
         "target": "dolly",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.051282051",
+        "oldTargetID": "dolly"
       },
       {
         "source": "0.051282051",
         "target": "doug",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.051282051",
+        "oldTargetID": "doug"
       },
       {
         "source": "0.051282051",
         "target": "littlejudy",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.051282051",
+        "oldTargetID": "littlejudy"
       },
       {
         "source": "0.051282051",
         "target": "mary",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.051282051",
+        "oldTargetID": "mary"
       },
       {
         "source": "0.051282051",
         "target": "masya",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.051282051",
+        "oldTargetID": "masya"
       },
       {
         "source": "0.051282051",
         "target": "misha",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.051282051",
+        "oldTargetID": "misha"
       },
       {
         "source": "0.051282051",
         "target": "tess",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.051282051",
+        "oldTargetID": "tess"
       },
       {
         "source": "0.051282051",
         "target": "trixie",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.051282051",
+        "oldTargetID": "trixie"
       },
       {
         "source": "0.024390244",
         "target": "charity",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.024390244",
+        "oldTargetID": "charity"
       },
       {
         "source": "0.024390244",
         "target": "diana",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.024390244",
+        "oldTargetID": "diana"
       },
       {
         "source": "0.024390244",
         "target": "dora",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.024390244",
+        "oldTargetID": "dora"
       },
       {
         "source": "0.024390244",
         "target": "doug",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.024390244",
+        "oldTargetID": "doug"
       },
       {
         "source": "0.024390244",
         "target": "masya",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.024390244",
+        "oldTargetID": "masya"
       },
       {
         "source": "0.024390244",
         "target": "nina",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.024390244",
+        "oldTargetID": "nina"
       },
       {
         "source": "0.024390244",
         "target": "pippa",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.024390244",
+        "oldTargetID": "pippa"
       },
       {
         "source": "0.078947368",
         "target": "charity",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.078947368",
+        "oldTargetID": "charity"
       },
       {
         "source": "0.078947368",
         "target": "claire",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.078947368",
+        "oldTargetID": "claire"
       },
       {
         "source": "0.078947368",
         "target": "coco",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.078947368",
+        "oldTargetID": "coco"
       },
       {
         "source": "0.078947368",
         "target": "dolly",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.078947368",
+        "oldTargetID": "dolly"
       },
       {
         "source": "0.078947368",
         "target": "dora",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.078947368",
+        "oldTargetID": "dora"
       },
       {
         "source": "0.078947368",
         "target": "littlejane",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.078947368",
+        "oldTargetID": "littlejane"
       },
       {
         "source": "0.078947368",
         "target": "maggie",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.078947368",
+        "oldTargetID": "maggie"
       },
       {
         "source": "0.078947368",
         "target": "max",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.078947368",
+        "oldTargetID": "max"
       },
       {
         "source": "0.025641026",
         "target": "charity",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.025641026",
+        "oldTargetID": "charity"
       },
       {
         "source": "0.025641026",
         "target": "claire",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.025641026",
+        "oldTargetID": "claire"
       },
       {
         "source": "0.025641026",
         "target": "coco",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.025641026",
+        "oldTargetID": "coco"
       },
       {
         "source": "0.025641026",
         "target": "david",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.025641026",
+        "oldTargetID": "david"
       },
       {
         "source": "0.025641026",
         "target": "diana",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.025641026",
+        "oldTargetID": "diana"
       },
       {
         "source": "0.025641026",
         "target": "dolly",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.025641026",
+        "oldTargetID": "dolly"
       },
       {
         "source": "0.025641026",
         "target": "littlejane",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.025641026",
+        "oldTargetID": "littlejane"
       },
       {
         "source": "0.025641026",
         "target": "maggie",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.025641026",
+        "oldTargetID": "maggie"
       },
       {
         "source": "0.025641026",
         "target": "mary",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.025641026",
+        "oldTargetID": "mary"
       },
       {
         "source": "0.025641026",
         "target": "max",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.025641026",
+        "oldTargetID": "max"
       },
       {
         "source": "0.025641026",
         "target": "misha",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.025641026",
+        "oldTargetID": "misha"
       },
       {
         "source": "0.025641026",
         "target": "moyo",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.025641026",
+        "oldTargetID": "moyo"
       },
       {
         "source": "0.153846154",
         "target": "claire",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.153846154",
+        "oldTargetID": "claire"
       },
       {
         "source": "0.153846154",
         "target": "debbie",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.153846154",
+        "oldTargetID": "debbie"
       },
       {
         "source": "0.153846154",
         "target": "dolly",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.153846154",
+        "oldTargetID": "dolly"
       },
       {
         "source": "0.153846154",
         "target": "donna",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.153846154",
+        "oldTargetID": "donna"
       },
       {
         "source": "0.153846154",
         "target": "littlejudy",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.153846154",
+        "oldTargetID": "littlejudy"
       },
       {
         "source": "0.153846154",
         "target": "masya",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.153846154",
+        "oldTargetID": "masya"
       },
       {
         "source": "0.153846154",
         "target": "maxine",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.153846154",
+        "oldTargetID": "maxine"
       },
       {
         "source": "0.153846154",
         "target": "noel",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.153846154",
+        "oldTargetID": "noel"
       },
       {
         "source": "0.12195122",
         "target": "charity",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.12195122",
+        "oldTargetID": "charity"
       },
       {
         "source": "0.12195122",
         "target": "darwin",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.12195122",
+        "oldTargetID": "darwin"
       },
       {
         "source": "0.12195122",
         "target": "debbie",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.12195122",
+        "oldTargetID": "debbie"
       },
       {
         "source": "0.12195122",
         "target": "diz",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.12195122",
+        "oldTargetID": "diz"
       },
       {
         "source": "0.12195122",
         "target": "dolly",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.12195122",
+        "oldTargetID": "dolly"
       },
       {
         "source": "0.12195122",
         "target": "doug",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.12195122",
+        "oldTargetID": "doug"
       },
       {
         "source": "0.12195122",
         "target": "littlejudy",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.12195122",
+        "oldTargetID": "littlejudy"
       },
       {
         "source": "0.12195122",
         "target": "maggie",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.12195122",
+        "oldTargetID": "maggie"
       },
       {
         "source": "0.12195122",
         "target": "mary",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.12195122",
+        "oldTargetID": "mary"
       },
       {
         "source": "0.12195122",
         "target": "mike",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.12195122",
+        "oldTargetID": "mike"
       },
       {
         "source": "0.12195122",
         "target": "misha",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.12195122",
+        "oldTargetID": "misha"
       },
       {
         "source": "0.12195122",
         "target": "moyo",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.12195122",
+        "oldTargetID": "moyo"
       },
       {
         "source": "0.12195122",
         "target": "nikkie",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.12195122",
+        "oldTargetID": "nikkie"
       },
       {
         "source": "0.12195122",
         "target": "nina",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.12195122",
+        "oldTargetID": "nina"
       },
       {
         "source": "0.12195122",
         "target": "tilly",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.12195122",
+        "oldTargetID": "tilly"
       },
       {
         "source": "0.12195122",
         "target": "toni",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.12195122",
+        "oldTargetID": "toni"
       },
       {
         "source": "0.026315789",
         "target": "charity",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.026315789",
+        "oldTargetID": "charity"
       },
       {
         "source": "0.026315789",
         "target": "claire",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.026315789",
+        "oldTargetID": "claire"
       },
       {
         "source": "0.026315789",
         "target": "coco",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.026315789",
+        "oldTargetID": "coco"
       },
       {
         "source": "0.026315789",
         "target": "daisy",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.026315789",
+        "oldTargetID": "daisy"
       },
       {
         "source": "0.026315789",
         "target": "diana",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.026315789",
+        "oldTargetID": "diana"
       },
       {
         "source": "0.026315789",
         "target": "littlejane",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.026315789",
+        "oldTargetID": "littlejane"
       },
       {
         "source": "0.048780488",
         "target": "daisy",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.048780488",
+        "oldTargetID": "daisy"
       },
       {
         "source": "0.048780488",
         "target": "darwin",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.048780488",
+        "oldTargetID": "darwin"
       },
       {
         "source": "0.048780488",
         "target": "david",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.048780488",
+        "oldTargetID": "david"
       },
       {
         "source": "0.048780488",
         "target": "debbie",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.048780488",
+        "oldTargetID": "debbie"
       },
       {
         "source": "0.048780488",
         "target": "diana",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.048780488",
+        "oldTargetID": "diana"
       },
       {
         "source": "0.048780488",
         "target": "diz",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.048780488",
+        "oldTargetID": "diz"
       },
       {
         "source": "0.048780488",
         "target": "dolly",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.048780488",
+        "oldTargetID": "dolly"
       },
       {
         "source": "0.048780488",
         "target": "dora",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.048780488",
+        "oldTargetID": "dora"
       },
       {
         "source": "0.048780488",
         "target": "doug",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.048780488",
+        "oldTargetID": "doug"
       },
       {
         "source": "0.048780488",
         "target": "littlejenkins",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.048780488",
+        "oldTargetID": "littlejenkins"
       },
       {
         "source": "0.048780488",
         "target": "longjohn",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.048780488",
+        "oldTargetID": "longjohn"
       },
       {
         "source": "0.048780488",
         "target": "maggie",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.048780488",
+        "oldTargetID": "maggie"
       },
       {
         "source": "0.048780488",
         "target": "noel",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.048780488",
+        "oldTargetID": "noel"
       },
       {
         "source": "0.048780488",
         "target": "tess",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.048780488",
+        "oldTargetID": "tess"
       },
       {
         "source": "0.146341463",
         "target": "daisy",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.146341463",
+        "oldTargetID": "daisy"
       },
       {
         "source": "0.146341463",
         "target": "darwin",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.146341463",
+        "oldTargetID": "darwin"
       },
       {
         "source": "0.146341463",
         "target": "diana",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.146341463",
+        "oldTargetID": "diana"
       },
       {
         "source": "0.146341463",
         "target": "donna",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.146341463",
+        "oldTargetID": "donna"
       },
       {
         "source": "0.146341463",
         "target": "littlejenkins",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.146341463",
+        "oldTargetID": "littlejenkins"
       },
       {
         "source": "0.146341463",
         "target": "longjohn",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.146341463",
+        "oldTargetID": "longjohn"
       },
       {
         "source": "0.146341463",
         "target": "maggie",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.146341463",
+        "oldTargetID": "maggie"
       },
       {
         "source": "0.146341463",
         "target": "max",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.146341463",
+        "oldTargetID": "max"
       },
       {
         "source": "0.146341463",
         "target": "mike",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.146341463",
+        "oldTargetID": "mike"
       },
       {
         "source": "0.146341463",
         "target": "misha",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.146341463",
+        "oldTargetID": "misha"
       },
       {
         "source": "charity",
         "target": "0.097560976",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "charity",
+        "oldTargetID": "0.097560976"
       },
       {
         "source": "charity",
         "target": "0.105263158",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "charity",
+        "oldTargetID": "0.105263158"
       },
       {
         "source": "charity",
         "target": "0.102564103",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "charity",
+        "oldTargetID": "0.102564103"
       },
       {
         "source": "charity",
         "target": "0.128205128",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "charity",
+        "oldTargetID": "0.128205128"
       },
       {
         "source": "charity",
         "target": "0.073170732",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "charity",
+        "oldTargetID": "0.073170732"
       },
       {
         "source": "0.097560976",
         "target": "daisy",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.097560976",
+        "oldTargetID": "daisy"
       },
       {
         "source": "0.097560976",
         "target": "darwin",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.097560976",
+        "oldTargetID": "darwin"
       },
       {
         "source": "0.097560976",
         "target": "david",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.097560976",
+        "oldTargetID": "david"
       },
       {
         "source": "0.097560976",
         "target": "debbie",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.097560976",
+        "oldTargetID": "debbie"
       },
       {
         "source": "0.097560976",
         "target": "diz",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.097560976",
+        "oldTargetID": "diz"
       },
       {
         "source": "0.097560976",
         "target": "dolly",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.097560976",
+        "oldTargetID": "dolly"
       },
       {
         "source": "0.097560976",
         "target": "dora",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.097560976",
+        "oldTargetID": "dora"
       },
       {
         "source": "0.097560976",
         "target": "longjohn",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.097560976",
+        "oldTargetID": "longjohn"
       },
       {
         "source": "0.097560976",
         "target": "maggie",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.097560976",
+        "oldTargetID": "maggie"
       },
       {
         "source": "0.097560976",
         "target": "mary",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.097560976",
+        "oldTargetID": "mary"
       },
       {
         "source": "0.097560976",
         "target": "max",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.097560976",
+        "oldTargetID": "max"
       },
       {
         "source": "0.097560976",
         "target": "misha",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.097560976",
+        "oldTargetID": "misha"
       },
       {
         "source": "0.097560976",
         "target": "noel",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.097560976",
+        "oldTargetID": "noel"
       },
       {
         "source": "0.097560976",
         "target": "pan",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.097560976",
+        "oldTargetID": "pan"
       },
       {
         "source": "0.105263158",
         "target": "claire",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.105263158",
+        "oldTargetID": "claire"
       },
       {
         "source": "0.105263158",
         "target": "debbie",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.105263158",
+        "oldTargetID": "debbie"
       },
       {
         "source": "0.105263158",
         "target": "donna",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.105263158",
+        "oldTargetID": "donna"
       },
       {
         "source": "0.105263158",
         "target": "littlejane",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.105263158",
+        "oldTargetID": "littlejane"
       },
       {
         "source": "0.105263158",
         "target": "max",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.105263158",
+        "oldTargetID": "max"
       },
       {
         "source": "0.105263158",
         "target": "misha",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.105263158",
+        "oldTargetID": "misha"
       },
       {
         "source": "0.102564103",
         "target": "claire",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.102564103",
+        "oldTargetID": "claire"
       },
       {
         "source": "0.102564103",
         "target": "david",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.102564103",
+        "oldTargetID": "david"
       },
       {
         "source": "0.102564103",
         "target": "debbie",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.102564103",
+        "oldTargetID": "debbie"
       },
       {
         "source": "0.102564103",
         "target": "dolly",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.102564103",
+        "oldTargetID": "dolly"
       },
       {
         "source": "0.102564103",
         "target": "donna",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.102564103",
+        "oldTargetID": "donna"
       },
       {
         "source": "0.102564103",
         "target": "littlejenkins",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.102564103",
+        "oldTargetID": "littlejenkins"
       },
       {
         "source": "0.102564103",
         "target": "maggie",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.102564103",
+        "oldTargetID": "maggie"
       },
       {
         "source": "0.102564103",
         "target": "mary",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.102564103",
+        "oldTargetID": "mary"
       },
       {
         "source": "0.102564103",
         "target": "maxine",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.102564103",
+        "oldTargetID": "maxine"
       },
       {
         "source": "0.102564103",
         "target": "mike",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.102564103",
+        "oldTargetID": "mike"
       },
       {
         "source": "0.102564103",
         "target": "moyo",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.102564103",
+        "oldTargetID": "moyo"
       },
       {
         "source": "0.102564103",
         "target": "taylor",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.102564103",
+        "oldTargetID": "taylor"
       },
       {
         "source": "0.102564103",
         "target": "tilly",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.102564103",
+        "oldTargetID": "tilly"
       },
       {
         "source": "0.128205128",
         "target": "david",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.128205128",
+        "oldTargetID": "david"
       },
       {
         "source": "0.128205128",
         "target": "dolly",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.128205128",
+        "oldTargetID": "dolly"
       },
       {
         "source": "0.128205128",
         "target": "dora",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.128205128",
+        "oldTargetID": "dora"
       },
       {
         "source": "0.128205128",
         "target": "littlejenkins",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.128205128",
+        "oldTargetID": "littlejenkins"
       },
       {
         "source": "0.128205128",
         "target": "littlejudy",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.128205128",
+        "oldTargetID": "littlejudy"
       },
       {
         "source": "0.128205128",
         "target": "masya",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.128205128",
+        "oldTargetID": "masya"
       },
       {
         "source": "0.128205128",
         "target": "maxine",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.128205128",
+        "oldTargetID": "maxine"
       },
       {
         "source": "0.128205128",
         "target": "misha",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.128205128",
+        "oldTargetID": "misha"
       },
       {
         "source": "0.128205128",
         "target": "moyo",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.128205128",
+        "oldTargetID": "moyo"
       },
       {
         "source": "0.128205128",
         "target": "pan",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.128205128",
+        "oldTargetID": "pan"
       },
       {
         "source": "0.073170732",
         "target": "daisy",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.073170732",
+        "oldTargetID": "daisy"
       },
       {
         "source": "0.073170732",
         "target": "darwin",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.073170732",
+        "oldTargetID": "darwin"
       },
       {
         "source": "0.073170732",
         "target": "debbie",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.073170732",
+        "oldTargetID": "debbie"
       },
       {
         "source": "0.073170732",
         "target": "diana",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.073170732",
+        "oldTargetID": "diana"
       },
       {
         "source": "0.073170732",
         "target": "diz",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.073170732",
+        "oldTargetID": "diz"
       },
       {
         "source": "0.073170732",
         "target": "dolly",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.073170732",
+        "oldTargetID": "dolly"
       },
       {
         "source": "0.073170732",
         "target": "donna",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.073170732",
+        "oldTargetID": "donna"
       },
       {
         "source": "0.073170732",
         "target": "dora",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.073170732",
+        "oldTargetID": "dora"
       },
       {
         "source": "0.073170732",
         "target": "doug",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.073170732",
+        "oldTargetID": "doug"
       },
       {
         "source": "0.073170732",
         "target": "littlejudy",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.073170732",
+        "oldTargetID": "littlejudy"
       },
       {
         "source": "0.073170732",
         "target": "longjohn",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.073170732",
+        "oldTargetID": "longjohn"
       },
       {
         "source": "0.073170732",
         "target": "masya",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.073170732",
+        "oldTargetID": "masya"
       },
       {
         "source": "0.073170732",
         "target": "max",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.073170732",
+        "oldTargetID": "max"
       },
       {
         "source": "0.073170732",
         "target": "maxine",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.073170732",
+        "oldTargetID": "maxine"
       },
       {
         "source": "0.073170732",
         "target": "mike",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.073170732",
+        "oldTargetID": "mike"
       },
       {
         "source": "0.073170732",
         "target": "moyo",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.073170732",
+        "oldTargetID": "moyo"
       },
       {
         "source": "0.073170732",
         "target": "taylor",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.073170732",
+        "oldTargetID": "taylor"
       },
       {
         "source": "0.073170732",
         "target": "tess",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.073170732",
+        "oldTargetID": "tess"
       },
       {
         "source": "0.073170732",
         "target": "toni",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.073170732",
+        "oldTargetID": "toni"
       },
       {
         "source": "claire",
         "target": "0.075",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "claire",
+        "oldTargetID": "0.075"
       },
       {
         "source": "0.075",
         "target": "coco",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.075",
+        "oldTargetID": "coco"
       },
       {
         "source": "0.075",
         "target": "daisy",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.075",
+        "oldTargetID": "daisy"
       },
       {
         "source": "0.075",
         "target": "david",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.075",
+        "oldTargetID": "david"
       },
       {
         "source": "0.075",
         "target": "diz",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.075",
+        "oldTargetID": "diz"
       },
       {
         "source": "0.075",
         "target": "donna",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.075",
+        "oldTargetID": "donna"
       },
       {
         "source": "0.075",
         "target": "dora",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.075",
+        "oldTargetID": "dora"
       },
       {
         "source": "0.075",
         "target": "doug",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.075",
+        "oldTargetID": "doug"
       },
       {
         "source": "0.075",
         "target": "littlejenkins",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.075",
+        "oldTargetID": "littlejenkins"
       },
       {
         "source": "0.075",
         "target": "littlejudy",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.075",
+        "oldTargetID": "littlejudy"
       },
       {
         "source": "0.075",
         "target": "maggie",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.075",
+        "oldTargetID": "maggie"
       },
       {
         "source": "0.075",
         "target": "mary",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.075",
+        "oldTargetID": "mary"
       },
       {
         "source": "0.075",
         "target": "masya",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.075",
+        "oldTargetID": "masya"
       },
       {
         "source": "0.075",
         "target": "maxine",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.075",
+        "oldTargetID": "maxine"
       },
       {
         "source": "0.075",
         "target": "misha",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.075",
+        "oldTargetID": "misha"
       },
       {
         "source": "coco",
         "target": "0.027027027",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "coco",
+        "oldTargetID": "0.027027027"
       },
       {
         "source": "0.027027027",
         "target": "littlejenkins",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.027027027",
+        "oldTargetID": "littlejenkins"
       },
       {
         "source": "daisy",
         "target": "0.139534884",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "daisy",
+        "oldTargetID": "0.139534884"
       },
       {
         "source": "daisy",
         "target": "0.119047619",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "daisy",
+        "oldTargetID": "0.119047619"
       },
       {
         "source": "daisy",
         "target": "0.046511628",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "daisy",
+        "oldTargetID": "0.046511628"
       },
       {
         "source": "daisy",
         "target": "0.069767442",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "daisy",
+        "oldTargetID": "0.069767442"
       },
       {
         "source": "daisy",
         "target": "0.023255814",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "daisy",
+        "oldTargetID": "0.023255814"
       },
       {
         "source": "daisy",
         "target": "0.11627907",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "daisy",
+        "oldTargetID": "0.11627907"
       },
       {
         "source": "daisy",
         "target": "0.093023256",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "daisy",
+        "oldTargetID": "0.093023256"
       },
       {
         "source": "0.139534884",
         "target": "darwin",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.139534884",
+        "oldTargetID": "darwin"
       },
       {
         "source": "0.139534884",
         "target": "diz",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.139534884",
+        "oldTargetID": "diz"
       },
       {
         "source": "0.139534884",
         "target": "dora",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.139534884",
+        "oldTargetID": "dora"
       },
       {
         "source": "0.119047619",
         "target": "diana",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.119047619",
+        "oldTargetID": "diana"
       },
       {
         "source": "0.119047619",
         "target": "diz",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.119047619",
+        "oldTargetID": "diz"
       },
       {
         "source": "0.119047619",
         "target": "littlejenkins",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.119047619",
+        "oldTargetID": "littlejenkins"
       },
       {
         "source": "0.119047619",
         "target": "longjohn",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.119047619",
+        "oldTargetID": "longjohn"
       },
       {
         "source": "0.119047619",
         "target": "mary",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.119047619",
+        "oldTargetID": "mary"
       },
       {
         "source": "0.119047619",
         "target": "masya",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.119047619",
+        "oldTargetID": "masya"
       },
       {
         "source": "0.119047619",
         "target": "nikkie",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.119047619",
+        "oldTargetID": "nikkie"
       },
       {
         "source": "0.119047619",
         "target": "nina",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.119047619",
+        "oldTargetID": "nina"
       },
       {
         "source": "0.119047619",
         "target": "pippa",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.119047619",
+        "oldTargetID": "pippa"
       },
       {
         "source": "0.046511628",
         "target": "darwin",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.046511628",
+        "oldTargetID": "darwin"
       },
       {
         "source": "0.046511628",
         "target": "diana",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.046511628",
+        "oldTargetID": "diana"
       },
       {
         "source": "0.046511628",
         "target": "longjohn",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.046511628",
+        "oldTargetID": "longjohn"
       },
       {
         "source": "0.046511628",
         "target": "mike",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.046511628",
+        "oldTargetID": "mike"
       },
       {
         "source": "0.069767442",
         "target": "diana",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.069767442",
+        "oldTargetID": "diana"
       },
       {
         "source": "0.069767442",
         "target": "dora",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.069767442",
+        "oldTargetID": "dora"
       },
       {
         "source": "0.069767442",
         "target": "doug",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.069767442",
+        "oldTargetID": "doug"
       },
       {
         "source": "0.023255814",
         "target": "diana",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.023255814",
+        "oldTargetID": "diana"
       },
       {
         "source": "0.023255814",
         "target": "longjohn",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.023255814",
+        "oldTargetID": "longjohn"
       },
       {
         "source": "0.023255814",
         "target": "nina",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.023255814",
+        "oldTargetID": "nina"
       },
       {
         "source": "0.11627907",
         "target": "darwin",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.11627907",
+        "oldTargetID": "darwin"
       },
       {
         "source": "0.11627907",
         "target": "diana",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.11627907",
+        "oldTargetID": "diana"
       },
       {
         "source": "0.11627907",
         "target": "diz",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.11627907",
+        "oldTargetID": "diz"
       },
       {
         "source": "0.11627907",
         "target": "noel",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.11627907",
+        "oldTargetID": "noel"
       },
       {
         "source": "0.093023256",
         "target": "diana",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.093023256",
+        "oldTargetID": "diana"
       },
       {
         "source": "0.093023256",
         "target": "diz",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.093023256",
+        "oldTargetID": "diz"
       },
       {
         "source": "0.093023256",
         "target": "dora",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.093023256",
+        "oldTargetID": "dora"
       },
       {
         "source": "0.093023256",
         "target": "doug",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.093023256",
+        "oldTargetID": "doug"
       },
       {
         "source": "0.093023256",
         "target": "mike",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.093023256",
+        "oldTargetID": "mike"
       },
       {
         "source": "0.093023256",
         "target": "nikkie",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.093023256",
+        "oldTargetID": "nikkie"
       },
       {
         "source": "0.093023256",
         "target": "nina",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.093023256",
+        "oldTargetID": "nina"
       },
       {
         "source": "darwin",
         "target": "0.047619048",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "darwin",
+        "oldTargetID": "0.047619048"
       },
       {
         "source": "darwin",
         "target": "0.186046512",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "darwin",
+        "oldTargetID": "0.186046512"
       },
       {
         "source": "darwin",
         "target": "0.195121951",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "darwin",
+        "oldTargetID": "0.195121951"
       },
       {
         "source": "darwin",
         "target": "0.179487179",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "darwin",
+        "oldTargetID": "0.179487179"
       },
       {
         "source": "darwin",
         "target": "0.15",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "darwin",
+        "oldTargetID": "0.15"
       },
       {
         "source": "darwin",
         "target": "0.19047619",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "darwin",
+        "oldTargetID": "0.19047619"
       },
       {
         "source": "darwin",
         "target": "0.170731707",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "darwin",
+        "oldTargetID": "0.170731707"
       },
       {
         "source": "darwin",
         "target": "0.225",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "darwin",
+        "oldTargetID": "0.225"
       },
       {
         "source": "darwin",
         "target": "0.184210526",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "darwin",
+        "oldTargetID": "0.184210526"
       },
       {
         "source": "0.047619048",
         "target": "david",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.047619048",
+        "oldTargetID": "david"
       },
       {
         "source": "0.047619048",
         "target": "debbie",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.047619048",
+        "oldTargetID": "debbie"
       },
       {
         "source": "0.047619048",
         "target": "diana",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.047619048",
+        "oldTargetID": "diana"
       },
       {
         "source": "0.047619048",
         "target": "diz",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.047619048",
+        "oldTargetID": "diz"
       },
       {
         "source": "0.047619048",
         "target": "donna",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.047619048",
+        "oldTargetID": "donna"
       },
       {
         "source": "0.047619048",
         "target": "littlejenkins",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.047619048",
+        "oldTargetID": "littlejenkins"
       },
       {
         "source": "0.047619048",
         "target": "littlejudy",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.047619048",
+        "oldTargetID": "littlejudy"
       },
       {
         "source": "0.047619048",
         "target": "longjohn",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.047619048",
+        "oldTargetID": "longjohn"
       },
       {
         "source": "0.047619048",
         "target": "maxine",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.047619048",
+        "oldTargetID": "maxine"
       },
       {
         "source": "0.047619048",
         "target": "nikkie",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.047619048",
+        "oldTargetID": "nikkie"
       },
       {
         "source": "0.047619048",
         "target": "noel",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.047619048",
+        "oldTargetID": "noel"
       },
       {
         "source": "0.047619048",
         "target": "taylor",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.047619048",
+        "oldTargetID": "taylor"
       },
       {
         "source": "0.047619048",
         "target": "tilly",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.047619048",
+        "oldTargetID": "tilly"
       },
       {
         "source": "0.186046512",
         "target": "doug",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.186046512",
+        "oldTargetID": "doug"
       },
       {
         "source": "0.186046512",
         "target": "longjohn",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.186046512",
+        "oldTargetID": "longjohn"
       },
       {
         "source": "0.186046512",
         "target": "nikkie",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.186046512",
+        "oldTargetID": "nikkie"
       },
       {
         "source": "0.186046512",
         "target": "noel",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.186046512",
+        "oldTargetID": "noel"
       },
       {
         "source": "0.186046512",
         "target": "vis",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.186046512",
+        "oldTargetID": "vis"
       },
       {
         "source": "0.195121951",
         "target": "debbie",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.195121951",
+        "oldTargetID": "debbie"
       },
       {
         "source": "0.195121951",
         "target": "donna",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.195121951",
+        "oldTargetID": "donna"
       },
       {
         "source": "0.195121951",
         "target": "pan",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.195121951",
+        "oldTargetID": "pan"
       },
       {
         "source": "0.179487179",
         "target": "littlejane",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.179487179",
+        "oldTargetID": "littlejane"
       },
       {
         "source": "0.179487179",
         "target": "littlejenkins",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.179487179",
+        "oldTargetID": "littlejenkins"
       },
       {
         "source": "0.179487179",
         "target": "mary",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.179487179",
+        "oldTargetID": "mary"
       },
       {
         "source": "0.179487179",
         "target": "masya",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.179487179",
+        "oldTargetID": "masya"
       },
       {
         "source": "0.179487179",
         "target": "max",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.179487179",
+        "oldTargetID": "max"
       },
       {
         "source": "0.15",
         "target": "david",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.15",
+        "oldTargetID": "david"
       },
       {
         "source": "0.15",
         "target": "dora",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.15",
+        "oldTargetID": "dora"
       },
       {
         "source": "0.15",
         "target": "misha",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.15",
+        "oldTargetID": "misha"
       },
       {
         "source": "0.15",
         "target": "moyo",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.15",
+        "oldTargetID": "moyo"
       },
       {
         "source": "0.15",
         "target": "pippa",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.15",
+        "oldTargetID": "pippa"
       },
       {
         "source": "0.19047619",
         "target": "david",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.19047619",
+        "oldTargetID": "david"
       },
       {
         "source": "0.170731707",
         "target": "david",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.170731707",
+        "oldTargetID": "david"
       },
       {
         "source": "0.170731707",
         "target": "diz",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.170731707",
+        "oldTargetID": "diz"
       },
       {
         "source": "0.170731707",
         "target": "dolly",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.170731707",
+        "oldTargetID": "dolly"
       },
       {
         "source": "0.170731707",
         "target": "doug",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.170731707",
+        "oldTargetID": "doug"
       },
       {
         "source": "0.170731707",
         "target": "masya",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.170731707",
+        "oldTargetID": "masya"
       },
       {
         "source": "0.170731707",
         "target": "mike",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.170731707",
+        "oldTargetID": "mike"
       },
       {
         "source": "0.170731707",
         "target": "moyo",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.170731707",
+        "oldTargetID": "moyo"
       },
       {
         "source": "0.170731707",
         "target": "nikkie",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.170731707",
+        "oldTargetID": "nikkie"
       },
       {
         "source": "0.184210526",
         "target": "trixie",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.184210526",
+        "oldTargetID": "trixie"
       },
       {
         "source": "david",
         "target": "0.095238095",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "david",
+        "oldTargetID": "0.095238095"
       },
       {
         "source": "david",
         "target": "0.243902439",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "david",
+        "oldTargetID": "0.243902439"
       },
       {
         "source": "0.095238095",
         "target": "debbie",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.095238095",
+        "oldTargetID": "debbie"
       },
       {
         "source": "0.095238095",
         "target": "diz",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.095238095",
+        "oldTargetID": "diz"
       },
       {
         "source": "0.095238095",
         "target": "donna",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.095238095",
+        "oldTargetID": "donna"
       },
       {
         "source": "0.095238095",
         "target": "littlejenkins",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.095238095",
+        "oldTargetID": "littlejenkins"
       },
       {
         "source": "0.095238095",
         "target": "longjohn",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.095238095",
+        "oldTargetID": "longjohn"
       },
       {
         "source": "0.095238095",
         "target": "mary",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.095238095",
+        "oldTargetID": "mary"
       },
       {
         "source": "0.095238095",
         "target": "masya",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.095238095",
+        "oldTargetID": "masya"
       },
       {
         "source": "0.095238095",
         "target": "mike",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.095238095",
+        "oldTargetID": "mike"
       },
       {
         "source": "0.095238095",
         "target": "noel",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.095238095",
+        "oldTargetID": "noel"
       },
       {
         "source": "debbie",
         "target": "0.238095238",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "debbie",
+        "oldTargetID": "0.238095238"
       },
       {
         "source": "debbie",
         "target": "0.261904762",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "debbie",
+        "oldTargetID": "0.261904762"
       },
       {
         "source": "0.238095238",
         "target": "donna",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.238095238",
+        "oldTargetID": "donna"
       },
       {
         "source": "0.238095238",
         "target": "doug",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.238095238",
+        "oldTargetID": "doug"
       },
       {
         "source": "0.261904762",
         "target": "diana",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.261904762",
+        "oldTargetID": "diana"
       },
       {
         "source": "diz",
         "target": "0.162790698",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "diz",
+        "oldTargetID": "0.162790698"
       },
       {
         "source": "diz",
         "target": "0.068181818",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "diz",
+        "oldTargetID": "0.068181818"
       },
       {
         "source": "diz",
         "target": "0.113636364",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "diz",
+        "oldTargetID": "0.113636364"
       },
       {
         "source": "diz",
         "target": "0.045454545",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "diz",
+        "oldTargetID": "0.045454545"
       },
       {
         "source": "0.162790698",
         "target": "doug",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.162790698",
+        "oldTargetID": "doug"
       },
       {
         "source": "0.068181818",
         "target": "nikkie",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.068181818",
+        "oldTargetID": "nikkie"
       },
       {
         "source": "0.068181818",
         "target": "noel",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.068181818",
+        "oldTargetID": "noel"
       },
       {
         "source": "0.113636364",
         "target": "mike",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.113636364",
+        "oldTargetID": "mike"
       },
       {
         "source": "0.045454545",
         "target": "longjohn",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.045454545",
+        "oldTargetID": "longjohn"
       },
       {
         "source": "0.045454545",
         "target": "noel",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.045454545",
+        "oldTargetID": "noel"
       },
       {
         "source": "dolly",
         "target": "0.175",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "dolly",
+        "oldTargetID": "0.175"
       },
       {
         "source": "dolly",
         "target": "0.135135135",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "dolly",
+        "oldTargetID": "0.135135135"
       },
       {
         "source": "0.175",
         "target": "dora",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.175",
+        "oldTargetID": "dora"
       },
       {
         "source": "0.175",
         "target": "littlejane",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.175",
+        "oldTargetID": "littlejane"
       },
       {
         "source": "0.175",
         "target": "littlejenkins",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.175",
+        "oldTargetID": "littlejenkins"
       },
       {
         "source": "0.175",
         "target": "littlejudy",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.175",
+        "oldTargetID": "littlejudy"
       },
       {
         "source": "0.175",
         "target": "misha",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.175",
+        "oldTargetID": "misha"
       },
       {
         "source": "0.135135135",
         "target": "masya",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.135135135",
+        "oldTargetID": "masya"
       },
       {
         "source": "donna",
         "target": "0.275",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "donna",
+        "oldTargetID": "0.275"
       },
       {
         "source": "dora",
         "target": "0.30952381",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "dora",
+        "oldTargetID": "0.30952381"
       },
       {
         "source": "0.30952381",
         "target": "mike",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.30952381",
+        "oldTargetID": "mike"
       },
       {
         "source": "0.30952381",
         "target": "pan",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.30952381",
+        "oldTargetID": "pan"
       },
       {
         "source": "doug",
         "target": "0.255813953",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "doug",
+        "oldTargetID": "0.255813953"
       },
       {
         "source": "doug",
         "target": "0.317073171",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "doug",
+        "oldTargetID": "0.317073171"
       },
       {
         "source": "doug",
         "target": "0.23255814",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "doug",
+        "oldTargetID": "0.23255814"
       },
       {
         "source": "0.23255814",
         "target": "nikkie",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.23255814",
+        "oldTargetID": "nikkie"
       },
       {
         "source": "0.23255814",
         "target": "pippa",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.23255814",
+        "oldTargetID": "pippa"
       },
       {
         "source": "littlejane",
         "target": "0.342105263",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "littlejane",
+        "oldTargetID": "0.342105263"
       },
       {
         "source": "littlejane",
         "target": "0.447368421",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "littlejane",
+        "oldTargetID": "0.447368421"
       },
       {
         "source": "0.342105263",
         "target": "max",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.342105263",
+        "oldTargetID": "max"
       },
       {
         "source": "littlejenkins",
         "target": "0.4",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "littlejenkins",
+        "oldTargetID": "0.4"
       },
       {
         "source": "littlejenkins",
         "target": "0.285714286",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "littlejenkins",
+        "oldTargetID": "0.285714286"
       },
       {
         "source": "littlejenkins",
         "target": "0.205128205",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "littlejenkins",
+        "oldTargetID": "0.205128205"
       },
       {
         "source": "0.205128205",
         "target": "littlejudy",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.205128205",
+        "oldTargetID": "littlejudy"
       },
       {
         "source": "0.205128205",
         "target": "pan",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "0.205128205",
+        "oldTargetID": "pan"
       },
       {
         "source": "littlejudy",
         "target": "0.380952381",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "littlejudy",
+        "oldTargetID": "0.380952381"
       },
       {
         "source": "longjohn",
         "target": "0.159090909",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "longjohn",
+        "oldTargetID": "0.159090909"
       },
       {
         "source": "maggie",
         "target": "0.289473684",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "maggie",
+        "oldTargetID": "0.289473684"
       },
       {
         "source": "mary",
         "target": "0.3",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "mary",
+        "oldTargetID": "0.3"
       },
       {
         "source": "mary",
         "target": "0.023809524",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "mary",
+        "oldTargetID": "0.023809524"
       },
       {
         "source": "0.023809524",
         "target": "maxine",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.023809524",
+        "oldTargetID": "maxine"
       },
       {
         "source": "0.023809524",
         "target": "taylor",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.023809524",
+        "oldTargetID": "taylor"
       },
       {
         "source": "max",
         "target": "0.282051282",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "max",
+        "oldTargetID": "0.282051282"
       },
       {
         "source": "max",
         "target": "0.219512195",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "max",
+        "oldTargetID": "0.219512195"
       },
       {
         "source": "maxine",
         "target": "0.256410256",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "maxine",
+        "oldTargetID": "0.256410256"
       },
       {
         "source": "mike",
         "target": "0.136363636",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "mike",
+        "oldTargetID": "0.136363636"
       },
       {
         "source": "mike",
         "target": "0.279069767",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "mike",
+        "oldTargetID": "0.279069767"
       },
       {
         "source": "0.279069767",
         "target": "violet",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "0.279069767",
+        "oldTargetID": "violet"
       },
       {
         "source": "moyo",
         "target": "0.138888889",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "moyo",
+        "oldTargetID": "0.138888889"
       },
       {
         "source": "nina",
         "target": "0.302325581",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "nina",
+        "oldTargetID": "0.302325581"
       },
       {
         "source": "pippa",
         "target": "0.209302326",
         "weight": "1",
-        "focal.sex": "male"
+        "focal.sex": "male",
+        "oldSourceID": "pippa",
+        "oldTargetID": "0.209302326"
       },
       {
         "source": "tess",
         "target": "0.394736842",
         "weight": "1",
-        "focal.sex": "female"
+        "focal.sex": "female",
+        "oldSourceID": "tess",
+        "oldTargetID": "0.394736842"
       }
     ]
   }
