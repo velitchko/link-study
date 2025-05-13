@@ -95,7 +95,7 @@ export class NodeLinkComponent implements AfterViewInit {
     
             container
                 .on('mousedown', (event: MouseEvent) => {
-                    if (event.button !== 0 || !event.ctrlKey) return; // only allow left click with control key
+                    if (event.button !== 0 || !event.ctrlKey || !event.metaKey) return; // only allow left click with control key
     
                     this.lassoStart = true;
                     this.lassoPoints = [];
@@ -205,7 +205,7 @@ export class NodeLinkComponent implements AfterViewInit {
             .style('opacity', 0)
             .on('click', (event: MouseEvent, d: NodeExt) => {
                 if(this.config.task !== 't1' && this.config.task !== 't2') return; // only allow ctrl+click for t2 and t3 tasks
-                if (event.ctrlKey) {
+                if (event.ctrlKey || event.metaKey) {
                     // Toggle selection for ctrl+click
                     const isSelected = d3.select(event.currentTarget as SVGCircleElement).classed('selected');
                     d3.select(event.currentTarget as SVGCircleElement).classed('selected', !isSelected).classed('unselected', isSelected);
