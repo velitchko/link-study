@@ -12,7 +12,7 @@ const taskDescriptions = new Map([
     ['t1', 'Which nodes (if removed) would break the network into separate parts?'], // Node / Topology Task
     ['t2', 'Which nodes have the most links to other nodes?'], // Node / Topology Task
     ['t3', 'Does a path of length 4 exist between ${A} and ${B}?'], // Link / Browsing Task
-    ['t4', 'Identify the common neighbors between ${A} and ${B}?'], // Link / Browsing Task
+    ['t4', 'How many common neighbors are there between ${A} and ${B}?'], // Link / Browsing Task
     ['t5', 'How many groups can you see?'], // Cluster / Overview Task
     ['t6', 'Which nodes belong to the biggest connected group?'], // Cluster / Overview Task
 ]);

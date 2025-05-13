@@ -22,9 +22,9 @@ export const SURVEY_JSON = {
                     </div>
 
                     <div style="padding-bottom: 2em; text-align: justify">
-                        <p>Overall, we estimate the study to require 45-60 minutes of your time. Your participation is voluntary, and you can decide to cancel your participation at any time. In order to participate in this study, please ensure that:</p>
+                        <p>Overall, we estimate the study to require around 30 minutes of your time. Your participation is voluntary, and you can decide to cancel your participation at any time. In order to participate in this study, please ensure that:</p>
                     <ul style="list-style-type: disc; padding-left: 2rem;">
-                        <li>You are using a large desktop or laptop monitor, i.e. not a smartphone or tablet.</li>
+                        <li>You are using a laptop or desktop (preferable 1920x1080 resolution). Please do not perform this on a smartphone or tablet.</li>
                         <li>You do not navigate forth and back using the browser controls or refresh the page.</li>
                     <ul>
                     </div>
