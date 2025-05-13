@@ -87,7 +87,7 @@ fs.readdir(directoryPath, (err, files) => {
                         if (edge.source) {
                             // Store the old ID for reference
                             edge.oldSourceID = edge.source; // Store the old ID for reference
-                            const sourceNode = nodes.find((node) => node.id === edge.source);
+                            const sourceNode = nodes.find((node) => node.oldID === edge.oldSourceID);
                             if (sourceNode) {
                                 edge.source = sourceNode.id;
                             }
@@ -95,7 +95,7 @@ fs.readdir(directoryPath, (err, files) => {
                         if (edge.target) {
                             // Store the old ID for reference
                             edge.oldTargetID = edge.target; // Store the old ID for reference
-                            const targetNode = nodes.find((node) => node.id === edge.target);
+                            const targetNode = nodes.find((node) => node.oldID === edge.oldTargetID);
                             if (targetNode) {
                                 edge.target = targetNode.id;
                             }
