@@ -5,6 +5,7 @@ import { Observable } from 'rxjs';
 import { SURVEY_JSON } from '../assets/survey.js';
 import { DataService } from './data.service';
 import { CONFIG } from '../assets/config';
+import { mapping } from '../assets/datasets/mapping';
 
 
 type AgreementAnswer = {
@@ -72,7 +73,7 @@ export class ResultsService {
 
     private qualitativeQuestions: Map<string, string> = new Map([
         ['t1', 'What made it easier or harder to find the bridge nodes in this graph?'],
-        ['t2', ' How did you recognize the hub nodes in this graph?'],
+        ['t2', 'How did you recognize the hub nodes in this graph?'],
         ['t3', 'What clues did you rely on to determine whether a path exists?'],
         ['t4', 'How did you estimate the distance between A and B?'],
         ['t5', 'What helped you decide how many distinct groups there are?'],
@@ -142,13 +143,29 @@ export class ResultsService {
             const dataset = this.dataService.getDatasetNames()
                 .filter(name => name.includes(this.params?.complexity || ''))[i % this.dataService.getDatasetNames().length];
 
-            console.log('Dataset:', dataset);
-            console.log('Approach:', approach);
-            console.log('Complexity:', complexity);
-            console.log('Task:', task);
-            console.log('Task input type:', this.taskInputType.get(task));
-            console.log('Task description:', this.params?.taskDescriptions[i]);
-            console.log('Task code:', this.params?.taskCodes[i]);
+            let taskDescription = "";
+
+            if (task === 't3') {
+                const datasetMapping = mapping[dataset.replace('.json', '')];
+                    if (this.params) {
+                        taskDescription = this.params.taskDescriptions[i]
+                            .replace('${A}', datasetMapping["pathExists"][0]["newId"])
+                            .replace('${B}', datasetMapping["pathExists"][1]["newId"]);
+                    }
+            }
+
+            if (task === 't4') {
+                const datasetMapping = mapping[dataset.replace('.json', '')];
+                console.log('Dataset mapping:', datasetMapping);
+                    if (this.params) {
+                        taskDescription = this.params.taskDescriptions[i]
+                            .replace('${A}', datasetMapping["commonNeighbors"][0]["newId"])
+                            .replace('${B}', datasetMapping["commonNeighbors"][1]["newId"]);
+                    }
+            } else {
+                taskDescription = this.params?.taskDescriptions[i] || '';
+            }
+
 
             if (this.taskInputType.get(task) === 'custom') {
                 // construct question
@@ -166,7 +183,7 @@ export class ResultsService {
                         {
                             type: 'node-link-question',
                             description: this.titleMap.get(approach) as string,
-                            title: this.params?.taskDescriptions[i],
+                            title: taskDescription,
                             name: `${approach}-${complexity}-${dataset}-${task}`
                         }
                     ]
@@ -187,7 +204,7 @@ export class ResultsService {
                         {
                             type: 'node-link-question',
                             description: this.titleMap.get(approach) as string,
-                            title: this.params?.taskDescriptions[i],
+                            title: taskDescription,
                             name: `${approach}-${complexity}-${dataset}-${task}`
                         }
                     ]
