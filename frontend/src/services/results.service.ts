@@ -72,13 +72,12 @@ export class ResultsService {
     ]);
 
     private qualitativeQuestions: Map<string, string> = new Map([
-        ['t1', 'What made it easier or harder to find the bridge nodes in this graph?'],
+        ['t1', 'What made it easier or harder to find the connecting nodes in this graph?'],
         ['t2', 'How did you recognize the hub nodes in this graph?'],
         ['t3', 'What clues did you rely on to determine whether a path exists?'],
-        ['t4', 'How did you estimate the distance between A and B?'],
+        ['t4', 'How did you estimate the number of common neighbors between the two nodes?'],
         ['t5', 'What helped you decide how many distinct groups there are?'],
         ['t6', 'How did you find the largest group in the network?'],
-
     ]);
 
     private surveySetup: boolean = false;
@@ -162,7 +161,9 @@ export class ResultsService {
                             .replace('${A}', datasetMapping["commonNeighbors"][0]["newId"])
                             .replace('${B}', datasetMapping["commonNeighbors"][1]["newId"]);
                     }
-            } else {
+            } 
+            
+            if (task === 't5' || task === 't6' || task === 't1' || task === 't2') {
                 taskDescription = this.params?.taskDescriptions[i] || '';
             }
 
@@ -238,7 +239,7 @@ export class ResultsService {
                     {
                         type: 'html',
                         html: `
-                    <h3>The task was:</h3>
+                    <p style="font-size: 1.5rem !important; font-weight: bold !important;">The task was:/pb>
                     <p style="font-size: 1.5rem;">${this.params?.taskDescriptions[i]}</p>
                     `
                     },
@@ -260,76 +261,89 @@ export class ResultsService {
             name: 'final-page',
             title: 'Open Feedback',
             elements: [
-                {
-                    type: 'html',
-                    html: `<h3>Overall Impression</h3>`
-                }, 
-                {
-                    type: 'rating',
-                    name: 'overall-final',
-                    isRequired: true,
-                    title: 'How effective was the visualization in helping you perform the tasks?',
-                    minRateDescription: 'Not at all effective',
-                    maxRateDescription: 'Very effective',
-                    rateValues: [
-                        { value: 1, text: '1' },
-                        { value: 2, text: '2' },
-                        { value: 3, text: '3' },
-                        { value: 4, text: '4' },
-                        { value: 5, text: '5' }
-                    ]
-                },
-                {
-                    type: 'comment',
-                    name: 'effective-final',
-                    title: 'Comments:',
-                    isRequired: true,
-                    placeHolder: 'Enter your feedback here'
-                },
-                {
-                    type: 'html',
-                    html: `<h3>Do you think this type of visualization was better suited for some tasks than others?</h3>`
-                }, 
-                {
-                    type: 'comment',
-                    name: 'suitable-final',
-                    title: 'Comments:',
-                    isRequired: true,
-                    placeHolder: 'Enter your feedback here'
-                },
-                {
-                    type: 'html',
-                    html: `<h3>Was there anything you wished had been shown differently or more clearly?</h3>`
-                },
-                {
-                    type: 'comment',
-                    name: 'alternativedisplay-final',
-                    isRequired: true,
-                    title: 'Comments:',
-                    placeHolder: 'Enter your feedback here'
-                }, 
-                {
-                    type: 'html',
-                    html: `<h3>If you were to use this visualization to explore a similar network, would you prefer to have links shown, hidden, or shown on-demand?</h3>`
-                }, 
-                {
-                    type: 'comment',
-                    name: 'preference-final',
-                    isRequired: true,
-                    title: 'Comments:',
-                    placeHolder: 'Enter your feedback here'
-                },
-                {
-                    type: 'html',
-                    html: `<h3>Any other thoughts or feedback about your experience with the visualization?</h3>`
-                }, 
-                {
-                    type: 'comment',
-                    name: 'comments-final',
-                    isRequired: false,
-                    title: '(Optional) Please provide your experience.',
-                    placeHolder: 'Enter your feedback here'
-                },
+            {
+                type: 'html',
+                html: `<p style="font-size: 1.5rem !important; font-weight: bold !important;">Overall Impression</p>`
+            }, 
+            {
+                type: 'rating',
+                name: 'overall-final',
+                isRequired: true,
+                title: 'Did this visualization support you in understanding and performing the tasks?',
+                minRateDescription: 'Not at all',
+                maxRateDescription: 'Extremely',
+                rateValues: [
+                { value: 1, text: '1' },
+                { value: 2, text: '2' },
+                { value: 3, text: '3' },
+                { value: 4, text: '4' },
+                { value: 5, text: '5' },
+                { value: 6, text: '6' },
+                { value: 7, text: '7' }
+                ]
+            },
+            {
+                type: 'comment',
+                name: 'effective-final',
+                title: 'Comments:',
+                isRequired: true,
+                placeHolder: 'Enter your feedback here'
+            },
+            {
+                type: 'html',
+                html: `<p style="font-size: 1.5rem !important; font-weight: bold !important;">Do you think this type of visualization was better suited for some of the tasks than others?</p>
+                <p style="font-size: 1.25rem;">Please explain your reasoning. For example:</p>
+                <ul style="font-size: 1.25rem; list-style-type: disc; padding-left: 20px;">
+                    <li>Finding connecting nodes in a graph</li>
+                    <li>Recognizing hub nodes</li>
+                    <li>Determining whether a path exists</li>
+                    <li>Estimating the number of common neighbors</li>
+                    <li>Identifying distinct groups</li>
+                    <li>Finding the largest group in the network</li>
+                </ul>`
+            }, 
+            {
+                type: 'comment',
+                name: 'suitable-final',
+                title: 'Comments:',
+                isRequired: true,
+                placeHolder: 'Enter your feedback here'
+            },
+            {
+                type: 'html',
+                html: `<p style="font-size: 1.5rem !important; font-weight: bold !important;">Was there anything you wished had been shown differently or more clearly?</p>
+                <p style="font-size: 1.25rem;">Think about the tasks that you found the hardest to solve. How would you change the visualization to make the task easier?</p>`
+            },
+            {
+                type: 'comment',
+                name: 'alternativedisplay-final',
+                isRequired: true,
+                title: 'Comments:',
+                placeHolder: 'Enter your feedback here'
+            }, 
+            {
+                type: 'html',
+                html: `<p style="font-size: 1.5rem !important; font-weight: bold !important;">In your experience with this visualization, how did the way links were encoded affect your ability to explore the network? Would you have preferred a different approach?/pb>
+                <p style="font-size: 1.25rem;">Did the way links were presented in the visualization support your exploration effectively? Why or why not?</p>`
+            }, 
+            {
+                type: 'comment',
+                name: 'preference-final',
+                isRequired: true,
+                title: 'Comments:',
+                placeHolder: 'Enter your feedback here'
+            },  
+            {
+                type: 'html',
+                html: `<p style="font-size: 1.5rem !important; font-weight: bold !important;">Any other thoughts or feedback about your experience with the visualization?</p>`
+            }, 
+            {
+                type: 'comment',
+                name: 'comments-final',
+                isRequired: false,
+                title: '(Optional) Please provide your experience.',
+                placeHolder: 'Enter your feedback here'
+            },
 
             ]
         };
