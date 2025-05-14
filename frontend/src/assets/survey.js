@@ -116,7 +116,7 @@ export const SURVEY_JSON = {
                     </div>
 
                     <div style="padding-bottom: 2em; text-align: justify">
-                        <p>For tasks that ask you to select one or more nodes, <span class="shortcut">LEFT CLICK</span> selects a single node and <span class="shortcut">CTRL</span> (or <span class="shortcut">CMD</span>)+<span class="shortcut">CLICK</span> can be used to select multiple nodes.</p>
+                        <p>For tasks that ask you to select one or more nodes, <span class="shortcut">LEFT CLICK</span> selects a single node and <span class="shortcut">CTRL</span> (or <span class="shortcut">CMD</span>) + <span class="shortcut">CLICK</span> can be used to select multiple nodes.</p>
                         <img src="./assets/click.gif" alt="Clicking on nodes" style="width: 100%; max-width: 600px; height: auto; padding-top: 1em; padding-bottom: 1em;">
                     </div>
 
@@ -125,7 +125,7 @@ export const SURVEY_JSON = {
                     </div>
 
                     <div style="padding-bottom: 2em; text-align: justify">
-                        <p>For tasks that ask you to find the largest cluster, use <span class="shortcut">CTRL</span> + <span class="shortcut">DRAG</span> to select or deselect groups of nodes.</p>
+                        <p>For tasks that ask you to find the largest cluster, use <span class="shortcut">CTRL</span> (or <span class="shortcut">CMD</span>) + <span class="shortcut">DRAG</span> to select or deselect groups of nodes.</p>
                         <img src="./assets/lasso.gif" alt="Dragging to select nodes" style="width: 100%; max-width: 600px; height: auto; padding-top: 1em; padding-bottom: 1em;">
                     </div>
                     `
