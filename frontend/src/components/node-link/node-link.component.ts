@@ -26,7 +26,7 @@ export class NodeLinkComponent implements AfterViewInit {
     private nodes: d3.Selection<SVGCircleElement, NodeExt, SVGGElement, any>;
     private edges: d3.Selection<SVGLineElement, EdgeExt, SVGGElement, any>;
     private buffer: d3.Selection<SVGCircleElement, NodeExt, SVGGElement, any>;
-    private labels: d3.Selection<SVGTextElement, NodeExt, SVGGElement, any>;
+    private labels: d3.Selection<SVGGElement, NodeExt, SVGGElement, any>;
     private simulation: d3.Simulation<NodeExt, EdgeExt>;
 
     private graph: { nodes: NodeExt[], edges: EdgeExt[] };
@@ -84,18 +84,19 @@ export class NodeLinkComponent implements AfterViewInit {
 
         if(this.config.task === 't6') {
             container.append('rect')
-                .attr('width', this.width)
-                .attr('height', this.height)
+                .attr('class', 'lasso-rect')
+                .attr('width', 1920)
+                .attr('height', 1080)
                 .attr('fill', 'transparent')
                 .style('cursor', 'crosshair')
                 .lower();
-    
+            
         
             this.lassoLayer = container.append('g').attr('class', 'lasso-layer');
     
             container
                 .on('mousedown', (event: MouseEvent) => {
-                    if (event.button !== 0 || !event.ctrlKey || !event.metaKey) return; // only allow left click with control key
+                    if (event.button !== 0 || !(event.ctrlKey || event.metaKey)) return; // only allow left click with control key
     
                     this.lassoStart = true;
                     this.lassoPoints = [];
@@ -178,7 +179,8 @@ export class NodeLinkComponent implements AfterViewInit {
             .attr('stroke', 'black')
             .attr('stroke-width', 2)
             .attr('stroke-opacity', 0.5)
-            .style('opacity', 0);
+            .style('pointer-events', 'none')
+            // .style('opacity', 0);
 
         // initialize buffer
         this.buffer = graphContainer.append('g')
@@ -190,7 +192,7 @@ export class NodeLinkComponent implements AfterViewInit {
             .attr('class', 'buffer')
             .attr('r', (d: NodeExt) => 5)
             .attr('fill', 'white')
-            .style('opacity', 0);
+            // .style('opacity', 0);
 
         // initialize nodes
         this.nodes = graphContainer.append('g')
@@ -202,7 +204,7 @@ export class NodeLinkComponent implements AfterViewInit {
             .attr('class', 'node')
             .attr('r', (d: NodeExt) => 4)
             .attr('fill', (d: NodeExt) => 'black')
-            .style('opacity', 0)
+            // .style('opacity', 0)
             .on('click', (event: MouseEvent, d: NodeExt) => {
                 if(this.config.task !== 't1' && this.config.task !== 't2') return; // only allow ctrl+click for t2 and t3 tasks
                 if (event.ctrlKey || event.metaKey) {
@@ -245,7 +247,25 @@ export class NodeLinkComponent implements AfterViewInit {
                 this.resultsService.setAnswers(this.config.task, this.answerSet);
             })
             .on('mouseover', (event: MouseEvent, d: NodeExt) => {
+                d3.selectAll<SVGCircleElement, NodeExt>('.nodes circle')
+                    .filter((node: NodeExt) => node.id === d.id)
+                    .attr('fill', 'red')
+                    .attr('r', 10);
+                d3.selectAll<SVGCircleElement, NodeExt>('.labels text.label')
+                    .filter((label: NodeExt) => label.id === d.id)
+                    .attr('stroke', 'red')
+                    .attr('fill', 'red')
+                    .style('opacity', 1);
+                                        
+                    
                 if (this.config.encoding !== 'interactive') return;
+                
+                d3.selectAll<SVGCircleElement, NodeExt>('.nodes circle')
+                .filter((node: NodeExt) => graph.edges.some(edge => (edge.source.id === d.id && edge.target.id === node.id) || (edge.target.id === d.id && edge.source.id === node.id)))
+                .attr('fill', 'red');
+                
+                d3.selectAll<SVGTextElement, NodeExt>('.labels text.label').filter((label: NodeExt) => label.id === d.id).attr('stroke', 'red').attr('fill', 'red');
+
                 d3.select(event.currentTarget as SVGCircleElement).attr('r', 15).attr('fill', 'red');
                 d3.selectAll<SVGLineElement, EdgeExt>('.edges line')
                     .filter((edge: EdgeExt) => edge.source.id === d.id || edge.target.id === d.id)
@@ -253,20 +273,8 @@ export class NodeLinkComponent implements AfterViewInit {
                     .attr('stroke-width', 4)
                     .style('opacity', 1);
 
-                d3.selectAll<SVGCircleElement, NodeExt>('.nodes circle')
-                    .filter((node: NodeExt) => graph.edges.some(edge => (edge.source.id === d.id && edge.target.id === node.id) || (edge.target.id === d.id && edge.source.id === node.id)))
-                    .attr('fill', 'red');
-
-                d3.selectAll<SVGTextElement, NodeExt>('.labels text.label').filter((label: NodeExt) => label.id === d.id).attr('stroke', 'red').attr('fill', 'red');
             })
             .on('mouseout', (event: MouseEvent, d: NodeExt) => {
-                if (this.config.encoding !== 'interactive') return;
-                d3.select(event.currentTarget as SVGCircleElement).attr('r', 10).attr('fill', 'black');
-                d3.selectAll<SVGLineElement, EdgeExt>('.edges line')
-                    .attr('stroke', 'black')
-                    .attr('stroke-width', 2)
-                    .style('opacity', 0);
-
                 d3.selectAll<SVGCircleElement, NodeExt>('.nodes circle')
                     .attr('fill', 'black')
                     .attr('r', 4);
@@ -274,26 +282,49 @@ export class NodeLinkComponent implements AfterViewInit {
                 d3.selectAll<SVGTextElement, NodeExt>('.labels text.label')
                     .attr('stroke', 'black')
                     .attr('fill', 'black');
-            });
 
-        // initialize labels
-        this.labels = graphContainer.append('g')
-            .attr('class', 'labels')
-            .selectAll('text.label')
-            .data(graph.nodes)
-            .enter()
-            .append('text')
-            .attr('class', 'label')
-            .text((d: NodeExt) => `${d.id}`)
-            .attr('stroke', 'black')
-            .attr('fill', 'black')
-            .attr('dy', '0.25em')
-            .attr('text-anchor', 'middle')
-            .attr('pointer-events', 'none')
-            .style('font-family', '\'Fira Mono\', monospace')
-            .style('font-size', '12px')
-            .style('text-transform', 'uppercase')
-            .style('opacity', 0);
+                if (this.config.encoding !== 'interactive') return;
+                
+                d3.select(event.currentTarget as SVGCircleElement).attr('r', 10).attr('fill', 'black');
+                d3.selectAll<SVGLineElement, EdgeExt>('.edges line')
+                    .attr('stroke', 'black')
+                    .attr('stroke-width', 2)
+                    .style('opacity', 0);
+
+            });
+            // initialize labels
+            this.labels = graphContainer.append('g')
+                .attr('class', 'labels')
+                .selectAll('g.label-group')
+                .data(graph.nodes)
+                .enter()
+                .append('g')
+                .attr('class', 'label-group');
+
+            // Append a rectangle as a background for the text
+            this.labels.append('rect')
+                .attr('class', 'label-bg')
+                .attr('width', 24) // Adjust width based on text length
+                .attr('height', 14) // Fixed height for the background
+                .attr('fill', 'white')
+                .attr('rx', 4) // Rounded corners
+                .attr('ry', 4) // Rounded corners
+                // .style('opacity', 0);
+
+            // Append the text on top of the rectangle
+            this.labels.append('text')
+                .attr('class', 'label')
+                .text((d: NodeExt) => `${d.id}`)
+                .attr('dy', '0.25em')
+                .attr('text-anchor', 'middle')
+                .attr('pointer-events', 'none')
+                .style('font-family', '\'Fira Mono\', monospace')
+                .style('font-size', '12px')
+                .style('text-transform', 'uppercase')
+                .attr('fill', 'black')
+                .attr('stroke', 'black')
+
+                // .style('opacity', 0);
 
         this.simulation = d3.forceSimulation(graph.nodes)
             .force('link', d3.forceLink(graph.edges).id((d: any) => (d as NodeExt).id).links(graph.edges))
@@ -318,8 +349,15 @@ export class NodeLinkComponent implements AfterViewInit {
                 .attr('cy', (d: NodeExt) => d.y);
 
             this.labels
+                .select('rect.label-bg')
+                .attr('x', (d: NodeExt) => d.x - 12)
+                .attr('y', (d: NodeExt) => d.y + 8)
+                .style('opacity', 0.75);
+            this.labels
+                .select('text.label')
                 .attr('x', (d: NodeExt) => d.x)
-                .attr('y', (d: NodeExt) => d.y + 16);
+                .attr('y', (d: NodeExt) => d.y + 16)
+                .style('opacity', 1);
             })
             .on('end', () => {
             if (this.config.encoding === 'nodelink') {
@@ -329,12 +367,23 @@ export class NodeLinkComponent implements AfterViewInit {
             this.buffer.style('opacity', 1);
             this.labels.style('opacity', 1);
 
+            const graphBounds = graphContainer.node()?.getBBox();
+            if (graphBounds) {
+                console.log('Graph bounds:', graphBounds);
+                const margin = 100; // Add margin on both sides
+                container.select('.lasso-rect')
+                    .attr('width', graphBounds.width + margin * 2)
+                    .attr('height', graphBounds.height + margin * 2)
+                    .attr('x', graphBounds.x - margin)
+                    .attr('y', graphBounds.y - margin);
+            }
+
             // Zoom to fit all nodes and edges
             const bounds = svg.node()?.getBBox() || { x: 0, y: 0, width: this.width, height: this.height };
             const fullWidth = bounds.width;
             const fullHeight = bounds.height;
             const centerX = bounds.x + fullWidth / 2;
-            const centerY = bounds.y + fullHeight / 2;
+            const centerY = bounds.y + fullHeight / 2;            
 
             const scale = Math.min(this.width / fullWidth, this.height / fullHeight) * 0.9; // Add padding
             const transform = d3.zoomIdentity

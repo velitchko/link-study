@@ -1,6 +1,13 @@
 ::ng-deep .selected {
-    stroke: red !important;
     fill: red !important;
+    & rect {
+        stroke: red !important;
+        fill: white !important;
+    }
+    & text {
+        fill: red !important;
+        stroke: red !important;
+    }
 }
 
 ::ng-deep .unselected {
