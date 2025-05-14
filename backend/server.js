@@ -49,21 +49,33 @@ app.get('/params', (req, res) => {
     });
 
 
-    // TODO: Once the threshold is reached start looping through the encodings and complexities
     let assignedEncoding, assignedComplexity;
 
-    for (const encoding of linkEncoding) {
-        for (const complexity of graphComplexity) {
-            if (userAssignments[encoding][complexity] < threshold) {
-                assignedEncoding = encoding;
-                assignedComplexity = complexity;
-                userAssignments[encoding][complexity]++;
+    let allThresholdReached = Object.values(userAssignments).every(encoding =>
+        Object.values(encoding).every(count => count >= threshold)
+    );
 
-                console.log('🔥 Assigned:', assignedEncoding, assignedComplexity);
-                break;
+    if (allThresholdReached) {
+        // Loop over each condition once for every next request
+        const currentIndex = subFiles.length % (linkEncoding.length * graphComplexity.length);
+        assignedEncoding = linkEncoding[Math.floor(currentIndex / graphComplexity.length)];
+        assignedComplexity = graphComplexity[currentIndex % graphComplexity.length];
+
+        console.log('🔄 Cycling assignment:', assignedEncoding, assignedComplexity);
+    } else {
+        for (const encoding of linkEncoding) {
+            for (const complexity of graphComplexity) {
+                if (userAssignments[encoding][complexity] < threshold) {
+                    assignedEncoding = encoding;
+                    assignedComplexity = complexity;
+                    userAssignments[encoding][complexity]++;
+
+                    console.log('🔥 Assigned:', assignedEncoding, assignedComplexity);
+                    break;
+                }
             }
+            if (assignedEncoding) break;
         }
-        if (assignedEncoding) break;
     }
 
     const sortedTaskCodes = taskCodes.sort(() => Math.random() - 0.5);
