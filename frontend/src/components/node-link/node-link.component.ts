@@ -180,7 +180,12 @@ export class NodeLinkComponent implements AfterViewInit {
             .attr('stroke-width', 2)
             .attr('stroke-opacity', 0.5)
             .style('pointer-events', 'none')
-            // .style('opacity', 0);
+            .style('opacity', () => {
+                if (this.config.encoding === 'nodelink') {
+                    return 1;
+                }
+                return 0;
+            });
 
         // initialize buffer
         this.buffer = graphContainer.append('g')
@@ -208,19 +213,26 @@ export class NodeLinkComponent implements AfterViewInit {
             .on('click', (event: MouseEvent, d: NodeExt) => {
                 if(this.config.task !== 't1' && this.config.task !== 't2') return; // only allow ctrl+click for t2 and t3 tasks
                 if (event.ctrlKey || event.metaKey) {
-                    // Toggle selection for ctrl+click
-                    const isSelected = d3.select(event.currentTarget as SVGCircleElement).classed('selected');
-                    d3.select(event.currentTarget as SVGCircleElement).classed('selected', !isSelected).classed('unselected', isSelected);
-                    d3.selectAll<SVGTextElement, NodeExt>('.labels text.label').filter((label: NodeExt) => label.id === d.id).classed('selected', !isSelected).classed('unselected', isSelected);
-                    d3.selectAll<SVGCircleElement, NodeExt>('.buffers circle.buffer').filter((buffer: NodeExt) => buffer.id === d.id).classed('selected', !isSelected).classed('unselected', isSelected);
+                    // Set the selected nodes based on the clicked node
+                    const selectedNodes = this.nodes.filter(function () {
+                        return d3.select(this).classed('selected');
+                    }).data() as NodeExt[];
+
+                    const selectedNodeIds = selectedNodes.map(node => node.id);
+
+
+                    this.nodes.classed('selected', node => node.id === d.id || selectedNodeIds.includes(node.id));
+                    this.labels.classed('selected', label => label.id === d.id || selectedNodeIds.includes(label.id));
+                    this.buffer.classed('selected', buffer => buffer.id === d.id || selectedNodeIds.includes(buffer.id));
                 } else {
                     // Check if the clicked node is already selected
                     const isSelected = d3.select(event.currentTarget as SVGCircleElement).classed('selected');
                     if (isSelected) {
-                        // Unselect the clicked node, label, and buffer
-                        d3.select(event.currentTarget as SVGCircleElement).classed('selected', false).classed('unselected', false);
-                        d3.selectAll<SVGTextElement, NodeExt>('.labels text.label').filter((label: NodeExt) => label.id === d.id).classed('selected', false).classed('unselected', false);
-                        d3.selectAll<SVGCircleElement, NodeExt>('.buffers circle.buffer').filter((buffer: NodeExt) => buffer.id === d.id).classed('selected', false).classed('unselected', false);
+                            // Add selected class to clicked node, label, and buffer
+                            this.nodes.classed('selected', false).classed('unselected', node => node.id === d.id);
+                            this.labels.classed('selected', false).classed('unselected', label => label.id === d.id);
+                            this.buffer.classed('selected', false).classed('unselected', buffer => buffer.id === d.id);
+                               // Add selected class to clicked node, label, and buffer
                     } else {
                         // Reset selection for normal click
                         this.nodes.classed('selected', false).classed('unselected', false);
@@ -228,9 +240,9 @@ export class NodeLinkComponent implements AfterViewInit {
                         this.buffer.classed('selected', false).classed('unselected', false);
 
                         // Add selected class to clicked node, label, and buffer
-                        d3.select(event.currentTarget as SVGCircleElement).classed('selected', true).classed('unselected', false);
-                        d3.selectAll<SVGTextElement, NodeExt>('.labels text.label').filter((label: NodeExt) => label.id === d.id).classed('selected', true).classed('unselected', false);
-                        d3.selectAll<SVGCircleElement, NodeExt>('.buffers circle.buffer').filter((buffer: NodeExt) => buffer.id === d.id).classed('selected', true).classed('unselected', false);
+                        this.nodes.classed('selected', node => node.id === d.id);
+                        this.labels.classed('selected', label => label.id === d.id);
+                        this.buffer.classed('selected', buffer => buffer.id === d.id);
                     }
                 }
 
@@ -251,12 +263,17 @@ export class NodeLinkComponent implements AfterViewInit {
                     .filter((node: NodeExt) => node.id === d.id)
                     .attr('fill', 'red')
                     .attr('r', 10);
-                d3.selectAll<SVGCircleElement, NodeExt>('.labels text.label')
+
+                d3.selectAll<SVGTextElement, NodeExt>('.labels text.label')
+                    .filter((label: NodeExt) => label.id === d.id)
+                    .style('stroke', 'red')
+                    .style('fill', 'red')
+                    .style('opacity', 1);                    
+
+                d3.selectAll<SVGRectElement, NodeExt>('.labels rect.label-bg')
                     .filter((label: NodeExt) => label.id === d.id)
                     .attr('stroke', 'red')
-                    .attr('fill', 'red')
-                    .style('opacity', 1);
-                                        
+                    .style('opacity', 1);     
                     
                 if (this.config.encoding !== 'interactive') return;
                 
@@ -280,12 +297,16 @@ export class NodeLinkComponent implements AfterViewInit {
                     .attr('r', 4);
 
                 d3.selectAll<SVGTextElement, NodeExt>('.labels text.label')
+                    .style('stroke', 'black')
+                    .style('fill', 'black');
+
+                d3.selectAll<SVGRectElement, NodeExt>('.labels rect.label-bg')
                     .attr('stroke', 'black')
-                    .attr('fill', 'black');
+                    .style('opacity', 0.75);
 
                 if (this.config.encoding !== 'interactive') return;
                 
-                d3.select(event.currentTarget as SVGCircleElement).attr('r', 10).attr('fill', 'black');
+                // d3.select(event.currentTarget as SVGCircleElement).attr('r', 10).attr('fill', 'black');
                 d3.selectAll<SVGLineElement, EdgeExt>('.edges line')
                     .attr('stroke', 'black')
                     .attr('stroke-width', 2)
@@ -321,8 +342,8 @@ export class NodeLinkComponent implements AfterViewInit {
                 .style('font-family', '\'Fira Mono\', monospace')
                 .style('font-size', '12px')
                 .style('text-transform', 'uppercase')
-                .attr('fill', 'black')
-                .attr('stroke', 'black')
+                .style('fill', 'black')
+                .style('stroke', 'black')
 
                 // .style('opacity', 0);
 
@@ -378,22 +399,22 @@ export class NodeLinkComponent implements AfterViewInit {
                     .attr('y', graphBounds.y - margin);
             }
 
-            // Zoom to fit all nodes and edges
-            const bounds = svg.node()?.getBBox() || { x: 0, y: 0, width: this.width, height: this.height };
-            const fullWidth = bounds.width;
-            const fullHeight = bounds.height;
-            const centerX = bounds.x + fullWidth / 2;
-            const centerY = bounds.y + fullHeight / 2;            
+            // // Zoom to fit all nodes and edges
+            // const bounds = svg.node()?.getBBox() || { x: 0, y: 0, width: this.width, height: this.height };
+            // const fullWidth = bounds.width;
+            // const fullHeight = bounds.height;
+            // const centerX = bounds.x + fullWidth / 2;
+            // const centerY = bounds.y + fullHeight / 2;            
 
-            const scale = Math.min(this.width / fullWidth, this.height / fullHeight) * 0.9; // Add padding
-            const transform = d3.zoomIdentity
-                .translate(this.width / 2, this.height / 2)
-                .scale(scale)
-                .translate(-centerX, -centerY);
+            // const scale = Math.min(this.width / fullWidth, this.height / fullHeight) * 0.9; // Add padding
+            // const transform = d3.zoomIdentity
+            //     .translate(this.width / 2, this.height / 2)
+            //     .scale(scale)
+            //     .translate(-centerX, -centerY);
 
-            svg.transition()
-                .duration(750)
-                .call(zoom.transform, transform);
+            // svg.transition()
+            //     .duration(750)
+            //     .call(zoom.transform, transform);
             });
     }
 }

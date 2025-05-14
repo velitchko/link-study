@@ -1,11 +1,17 @@
 ::ng-deep .selected {
     fill: red !important;
+
     & rect {
         stroke: red !important;
         fill: white !important;
     }
+
     & text {
         fill: red !important;
+        stroke: red !important;
+    }
+
+    & circle {
         stroke: red !important;
     }
 }
