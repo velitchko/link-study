@@ -239,8 +239,8 @@ export class ResultsService {
                     {
                         type: 'html',
                         html: `
-                    <p style="font-size: 1.5rem !important; font-weight: bold !important;">The task was:/pb>
-                    <p style="font-size: 1.5rem;">${this.params?.taskDescriptions[i]}</p>
+                    <p style="font-size: 1.5rem !important; font-weight: bold !important;">The task was:</p>
+                    <p style="font-size: 1.5rem;">${taskDescription}</p>
                     `
                     },
                     {
@@ -323,7 +323,7 @@ export class ResultsService {
             }, 
             {
                 type: 'html',
-                html: `<p style="font-size: 1.5rem !important; font-weight: bold !important;">In your experience with this visualization, how did the way links were encoded affect your ability to explore the network? Would you have preferred a different approach?/pb>
+                html: `<p style="font-size: 1.5rem !important; font-weight: bold !important;">In your experience with this visualization, how did the way links were encoded affect your ability to explore the network? Would you have preferred a different approach?</p>
                 <p style="font-size: 1.25rem;">Did the way links were presented in the visualization support your exploration effectively? Why or why not?</p>`
             }, 
             {
