@@ -17,7 +17,7 @@ const taskDescriptions = new Map([
     ['t6', 'Which nodes belong to the biggest connected group?'], // Cluster / Overview Task
 ]);
 
-const threshold = 15; // est. 90 participants in total
+const threshold = 7; // est. 90 participants in total
 
 app.use(express.json());
 app.use(cors());
