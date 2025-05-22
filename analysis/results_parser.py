@@ -2,11 +2,12 @@ import os
 import json
 import re
 import pandas as pd
+import csv
 
 
-qualitativeIDs = [];
-quantativeIDS = [];
-
+qualitativeIDs = [4 ,6, 8, 10, 12, 14];
+quantativeIDS = [3, 5, 7, 9, 11, 13];
+endQuestionFeedback = 15
 # Custom Functions ------------------------------------------------------------
 def load_quantitative(userJSON, userID):
     answers = []
@@ -37,25 +38,86 @@ def load_qualitative(userJSON, userID):
             "answer": str(taskData["answer"])
         })
     # Final comment
-    answers.append({
-        "userID": userID,
-        "encoding": userJSON[0]["encoding"],
-        "dataset": userJSON[0]["dataset"],
-        "complexity": userJSON[0]["complexity"],
-        "task": 9,
-        "answer": userJSON[21]["answer"]["comments"]
-    })
+    # answers.append({
+    #     "userID": userID,
+    #     "encoding": userJSON[0]["encoding"],
+    #     "dataset": userJSON[0]["dataset"],
+    #     "complexity": userJSON[0]["complexity"],
+    #     "task": 9,
+    #     "answer": userJSON[21]["answer"]["comments"]
+    # })
     return pd.DataFrame(answers)
 
+def load_end_question_feedback(userJSON, userID):
+    answers = []
+    taskData = userJSON[endQuestionFeedback]
+
+    answers.append({
+        "userID": userID,
+        "encoding": taskData["encoding"],
+        "dataset": "End Question Feedback",
+        "complexity": taskData["complexity"],
+        "task": "overall",
+        "answer": str(taskData["overall"]),
+    })
+
+    answers.append({
+        "userID": userID,
+        "encoding": taskData["encoding"],
+        "dataset": "End Question Feedback",
+        "complexity": taskData["complexity"],
+        "task": "effective",
+        "answer": str(taskData["effective"]),
+    })
+
+    answers.append({
+        "userID": userID,
+        "encoding": taskData["encoding"],
+        "dataset": "End Question Feedback",
+        "complexity": taskData["complexity"],
+        "task": "suitable",
+        "answer": str(taskData["suitable"]),
+    })
+
+    answers.append({
+        "userID": userID,
+        "encoding": taskData["encoding"],
+        "dataset": "End Question Feedback",
+        "complexity": taskData["complexity"],
+        "task": "alternativeDisplay",
+        "answer": str(taskData["alternativeDisplay"]),
+    })
+
+    answers.append({
+        "userID": userID,
+        "encoding": taskData["encoding"],
+        "dataset": "End Question Feedback",
+        "complexity": taskData["complexity"],
+        "task": "preference",
+        "answer": str(taskData["preference"]),
+    })
+
+    comments = taskData["comments"] if "comments" in taskData else ""
+
+    answers.append({
+        "userID": userID,
+        "encoding": taskData["encoding"],
+        "dataset": "End Question Feedback",
+        "complexity": taskData["complexity"],
+        "task": "comments",
+        "answer": str(comments) ,
+    })
+    
+    return pd.DataFrame(answers)
 # Main Execution --------------------------------------------------------------
 
 rootDir = "./results"
 outDir = "./results/parsed"
 pattern = r"(nodelink|nolink|interactive)_(low|high)#(.+).json"
 
-quantitatives = []
-qualitatives = []
-correctCount = 0
+quantitatives = pd.DataFrame()
+qualitatives = pd.DataFrame()
+correctCount, inCorrectCount = 0, 0
 
 for file in os.listdir(rootDir):
     if not re.match(pattern, file):
@@ -72,10 +134,23 @@ for file in os.listdir(rootDir):
 
     if len(userJSON) == 16:
         correctCount += 1
-        print(f"{file}: {len(userJSON)} items")
-    # quantitatives.append(load_quantitative(userJSON, userID))
-    # qualitatives.append(load_qualitative(userJSON, userID))
-print(f"Correct count: {correctCount}")
-# # Combine dataframes if needed:
-# df_quantitatives = pd.concat(quantitatives, ignore_index=True)
-# df_qualitatives = pd.concat(qualitatives, ignore_index=True)
+
+        qual = load_qualitative(userJSON, userID)
+        quant = load_quantitative(userJSON, userID)
+        endFeedback = load_end_question_feedback(userJSON, userID)
+
+        quantitatives = pd.concat([quantitatives, quant], ignore_index=True)
+        qualitatives = pd.concat([qualitatives, qual], ignore_index=True)
+        qualitatives = pd.concat([qualitatives, endFeedback], ignore_index=True)
+    else:
+        print(f"User {userID} has an incorrect number of questions: {len(userJSON)}")
+        print(f"File: {file}")
+        print(f"Expected: 16, Found: {len(userJSON)}")
+        inCorrectCount += 1
+        continue
+        
+print(f"Correct count: {correctCount}; Incorrect count: {inCorrectCount}")
+quantitatives.to_csv(os.path.join(outDir, "quantitative.csv"), index=False)
+qualitatives.to_csv(os.path.join(outDir, "qualitatives.csv"), index=False)
+
+    
