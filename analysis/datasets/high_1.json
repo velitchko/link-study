@@ -1,0 +1,6913 @@
+{
+  "graph": {
+    "edgedefault": "undirected",
+    "nodes": [
+      {
+        "id": "01A",
+        "oldID": "bj"
+      },
+      {
+        "id": "01B",
+        "oldID": "0.129032258"
+      },
+      {
+        "id": "01C",
+        "oldID": "0.0"
+      },
+      {
+        "id": "01D",
+        "oldID": "0.032258065"
+      },
+      {
+        "id": "01E",
+        "oldID": "0.03125"
+      },
+      {
+        "id": "01F",
+        "oldID": "0.142857143"
+      },
+      {
+        "id": "01G",
+        "oldID": "0.090909091"
+      },
+      {
+        "id": "01H",
+        "oldID": "0.074074074"
+      },
+      {
+        "id": "01I",
+        "oldID": "0.133333333"
+      },
+      {
+        "id": "01J",
+        "oldID": "0.068965517"
+      },
+      {
+        "id": "01K",
+        "oldID": "0.323529412"
+      },
+      {
+        "id": "01L",
+        "oldID": "0.1"
+      },
+      {
+        "id": "01M",
+        "oldID": "0.166666667"
+      },
+      {
+        "id": "01N",
+        "oldID": "0.064516129"
+      },
+      {
+        "id": "01O",
+        "oldID": "0.09375"
+      },
+      {
+        "id": "01P",
+        "oldID": "bob"
+      },
+      {
+        "id": "01Q",
+        "oldID": "0.176470588"
+      },
+      {
+        "id": "01R",
+        "oldID": "0.0625"
+      },
+      {
+        "id": "01S",
+        "oldID": "0.21875"
+      },
+      {
+        "id": "01T",
+        "oldID": "0.125"
+      },
+      {
+        "id": "01U",
+        "oldID": "0.147058824"
+      },
+      {
+        "id": "01V",
+        "oldID": "0.035714286"
+      },
+      {
+        "id": "01W",
+        "oldID": "0.096774194"
+      },
+      {
+        "id": "01X",
+        "oldID": "0.058823529"
+      },
+      {
+        "id": "01Y",
+        "oldID": "0.171428571"
+      },
+      {
+        "id": "01Z",
+        "oldID": "0.121212121"
+      },
+      {
+        "id": "02A",
+        "oldID": "0.060606061"
+      },
+      {
+        "id": "02B",
+        "oldID": "booboo"
+      },
+      {
+        "id": "02C",
+        "oldID": "0.029411765"
+      },
+      {
+        "id": "02D",
+        "oldID": "0.057142857"
+      },
+      {
+        "id": "02E",
+        "oldID": "0.235294118"
+      },
+      {
+        "id": "02F",
+        "oldID": "0.088235294"
+      },
+      {
+        "id": "02G",
+        "oldID": "0.225806452"
+      },
+      {
+        "id": "02H",
+        "oldID": "0.305555556"
+      },
+      {
+        "id": "02I",
+        "oldID": "0.052631579"
+      },
+      {
+        "id": "02J",
+        "oldID": "0.054054054"
+      },
+      {
+        "id": "02K",
+        "oldID": "0.181818182"
+      },
+      {
+        "id": "02L",
+        "oldID": "0.242424242"
+      },
+      {
+        "id": "02M",
+        "oldID": "0.2"
+      },
+      {
+        "id": "02N",
+        "oldID": "0.388888889"
+      },
+      {
+        "id": "02O",
+        "oldID": "0.15625"
+      },
+      {
+        "id": "02P",
+        "oldID": "brandon"
+      },
+      {
+        "id": "02Q",
+        "oldID": "0.103448276"
+      },
+      {
+        "id": "02R",
+        "oldID": "0.161290323"
+      },
+      {
+        "id": "02S",
+        "oldID": "0.028571429"
+      },
+      {
+        "id": "02T",
+        "oldID": "0.28125"
+      },
+      {
+        "id": "02U",
+        "oldID": "0.066666667"
+      },
+      {
+        "id": "02V",
+        "oldID": "brenda"
+      },
+      {
+        "id": "02W",
+        "oldID": "0.085714286"
+      },
+      {
+        "id": "02X",
+        "oldID": "0.111111111"
+      },
+      {
+        "id": "02Y",
+        "oldID": "0.027777778"
+      },
+      {
+        "id": "02Z",
+        "oldID": "0.363636364"
+      },
+      {
+        "id": "03A",
+        "oldID": "0.352941176"
+      },
+      {
+        "id": "03B",
+        "oldID": "0.205882353"
+      },
+      {
+        "id": "03C",
+        "oldID": "0.117647059"
+      },
+      {
+        "id": "03D",
+        "oldID": "0.114285714"
+      },
+      {
+        "id": "03E",
+        "oldID": "genny"
+      },
+      {
+        "id": "03F",
+        "oldID": "0.310344828"
+      },
+      {
+        "id": "03G",
+        "oldID": "0.264705882"
+      },
+      {
+        "id": "03H",
+        "oldID": "0.321428571"
+      },
+      {
+        "id": "03I",
+        "oldID": "0.258064516"
+      },
+      {
+        "id": "03J",
+        "oldID": "0.033333333"
+      },
+      {
+        "id": "03K",
+        "oldID": "gerard"
+      },
+      {
+        "id": "03L",
+        "oldID": "0.137931034"
+      },
+      {
+        "id": "03M",
+        "oldID": "0.151515152"
+      },
+      {
+        "id": "03N",
+        "oldID": "girly"
+      },
+      {
+        "id": "03O",
+        "oldID": "0.107142857"
+      },
+      {
+        "id": "03P",
+        "oldID": "0.178571429"
+      },
+      {
+        "id": "03Q",
+        "oldID": "0.384615385"
+      },
+      {
+        "id": "03R",
+        "oldID": "0.193548387"
+      },
+      {
+        "id": "03S",
+        "oldID": "0.148148148"
+      },
+      {
+        "id": "03T",
+        "oldID": "goliath"
+      },
+      {
+        "id": "03U",
+        "oldID": "0.210526316"
+      },
+      {
+        "id": "03V",
+        "oldID": "0.189189189"
+      },
+      {
+        "id": "03W",
+        "oldID": "0.272727273"
+      },
+      {
+        "id": "03X",
+        "oldID": "0.333333333"
+      },
+      {
+        "id": "03Y",
+        "oldID": "gonzaga"
+      },
+      {
+        "id": "03Z",
+        "oldID": "0.076923077"
+      },
+      {
+        "id": "04A",
+        "oldID": "0.071428571"
+      },
+      {
+        "id": "04B",
+        "oldID": "0.083333333"
+      },
+      {
+        "id": "04C",
+        "oldID": "0.038461538"
+      },
+      {
+        "id": "04D",
+        "oldID": "ilse"
+      },
+      {
+        "id": "04E",
+        "oldID": "0.517241379"
+      },
+      {
+        "id": "04F",
+        "oldID": "0.6875"
+      },
+      {
+        "id": "04G",
+        "oldID": "0.266666667"
+      },
+      {
+        "id": "04H",
+        "oldID": "0.1875"
+      },
+      {
+        "id": "04I",
+        "oldID": "ingrid"
+      },
+      {
+        "id": "04J",
+        "oldID": "0.03030303"
+      },
+      {
+        "id": "04K",
+        "oldID": "0.172413793"
+      },
+      {
+        "id": "04L",
+        "oldID": "0.214285714"
+      },
+      {
+        "id": "04M",
+        "oldID": "innocentia"
+      },
+      {
+        "id": "04N",
+        "oldID": "irene"
+      },
+      {
+        "id": "04O",
+        "oldID": "0.05"
+      },
+      {
+        "id": "04P",
+        "oldID": "0.25"
+      },
+      {
+        "id": "04Q",
+        "oldID": "1.0"
+      },
+      {
+        "id": "04R",
+        "oldID": "0.055555556"
+      },
+      {
+        "id": "04S",
+        "oldID": "0.157894737"
+      },
+      {
+        "id": "04T",
+        "oldID": "josephine"
+      },
+      {
+        "id": "04U",
+        "oldID": "0.108108108"
+      },
+      {
+        "id": "04V",
+        "oldID": "lionel"
+      },
+      {
+        "id": "04W",
+        "oldID": "pal"
+      },
+      {
+        "id": "04X",
+        "oldID": "0.206896552"
+      },
+      {
+        "id": "04Y",
+        "oldID": "regina"
+      },
+      {
+        "id": "04Z",
+        "oldID": "0.375"
+      },
+      {
+        "id": "05A",
+        "oldID": "renata"
+      },
+      {
+        "id": "05B",
+        "oldID": "rita"
+      },
+      {
+        "id": "05C",
+        "oldID": "rusty"
+      },
+      {
+        "id": "05D",
+        "oldID": "tara"
+      },
+      {
+        "id": "05E",
+        "oldID": "carol"
+      },
+      {
+        "id": "05F",
+        "oldID": "0.131578947"
+      },
+      {
+        "id": "05G",
+        "oldID": "0.081081081"
+      },
+      {
+        "id": "05H",
+        "oldID": "0.162162162"
+      },
+      {
+        "id": "05I",
+        "oldID": "0.025"
+      },
+      {
+        "id": "05J",
+        "oldID": "0.051282051"
+      },
+      {
+        "id": "05K",
+        "oldID": "0.024390244"
+      },
+      {
+        "id": "05L",
+        "oldID": "0.078947368"
+      },
+      {
+        "id": "05M",
+        "oldID": "0.025641026"
+      },
+      {
+        "id": "05N",
+        "oldID": "0.153846154"
+      },
+      {
+        "id": "05O",
+        "oldID": "0.12195122"
+      },
+      {
+        "id": "05P",
+        "oldID": "0.026315789"
+      },
+      {
+        "id": "05Q",
+        "oldID": "0.048780488"
+      },
+      {
+        "id": "05R",
+        "oldID": "0.146341463"
+      },
+      {
+        "id": "05S",
+        "oldID": "charity"
+      },
+      {
+        "id": "05T",
+        "oldID": "0.097560976"
+      },
+      {
+        "id": "05U",
+        "oldID": "0.105263158"
+      },
+      {
+        "id": "05V",
+        "oldID": "0.102564103"
+      },
+      {
+        "id": "05W",
+        "oldID": "0.128205128"
+      },
+      {
+        "id": "05X",
+        "oldID": "0.073170732"
+      },
+      {
+        "id": "05Y",
+        "oldID": "claire"
+      },
+      {
+        "id": "05Z",
+        "oldID": "0.075"
+      },
+      {
+        "id": "06A",
+        "oldID": "coco"
+      },
+      {
+        "id": "06B",
+        "oldID": "0.027027027"
+      },
+      {
+        "id": "06C",
+        "oldID": "daisy"
+      },
+      {
+        "id": "06D",
+        "oldID": "0.139534884"
+      },
+      {
+        "id": "06E",
+        "oldID": "0.119047619"
+      },
+      {
+        "id": "06F",
+        "oldID": "0.046511628"
+      },
+      {
+        "id": "06G",
+        "oldID": "0.069767442"
+      },
+      {
+        "id": "06H",
+        "oldID": "0.023255814"
+      },
+      {
+        "id": "06I",
+        "oldID": "0.11627907"
+      },
+      {
+        "id": "06J",
+        "oldID": "0.093023256"
+      },
+      {
+        "id": "06K",
+        "oldID": "darwin"
+      },
+      {
+        "id": "06L",
+        "oldID": "0.047619048"
+      },
+      {
+        "id": "06M",
+        "oldID": "0.186046512"
+      },
+      {
+        "id": "06N",
+        "oldID": "0.195121951"
+      },
+      {
+        "id": "06O",
+        "oldID": "0.179487179"
+      },
+      {
+        "id": "06P",
+        "oldID": "0.15"
+      },
+      {
+        "id": "06Q",
+        "oldID": "0.19047619"
+      },
+      {
+        "id": "06R",
+        "oldID": "0.170731707"
+      },
+      {
+        "id": "06S",
+        "oldID": "0.225"
+      },
+      {
+        "id": "06T",
+        "oldID": "0.184210526"
+      },
+      {
+        "id": "06U",
+        "oldID": "david"
+      },
+      {
+        "id": "06V",
+        "oldID": "0.095238095"
+      },
+      {
+        "id": "06W",
+        "oldID": "0.243902439"
+      },
+      {
+        "id": "06X",
+        "oldID": "debbie"
+      },
+      {
+        "id": "06Y",
+        "oldID": "0.238095238"
+      },
+      {
+        "id": "06Z",
+        "oldID": "0.261904762"
+      },
+      {
+        "id": "07A",
+        "oldID": "diana"
+      },
+      {
+        "id": "07B",
+        "oldID": "diz"
+      },
+      {
+        "id": "07C",
+        "oldID": "0.162790698"
+      },
+      {
+        "id": "07D",
+        "oldID": "0.068181818"
+      },
+      {
+        "id": "07E",
+        "oldID": "0.113636364"
+      },
+      {
+        "id": "07F",
+        "oldID": "0.045454545"
+      },
+      {
+        "id": "07G",
+        "oldID": "dolly"
+      },
+      {
+        "id": "07H",
+        "oldID": "0.175"
+      },
+      {
+        "id": "07I",
+        "oldID": "0.135135135"
+      },
+      {
+        "id": "07J",
+        "oldID": "donna"
+      },
+      {
+        "id": "07K",
+        "oldID": "0.275"
+      },
+      {
+        "id": "07L",
+        "oldID": "dora"
+      },
+      {
+        "id": "07M",
+        "oldID": "0.30952381"
+      },
+      {
+        "id": "07N",
+        "oldID": "doug"
+      },
+      {
+        "id": "07O",
+        "oldID": "0.255813953"
+      },
+      {
+        "id": "07P",
+        "oldID": "0.317073171"
+      },
+      {
+        "id": "07Q",
+        "oldID": "0.23255814"
+      },
+      {
+        "id": "07R",
+        "oldID": "littlejane"
+      },
+      {
+        "id": "07S",
+        "oldID": "0.342105263"
+      },
+      {
+        "id": "07T",
+        "oldID": "0.447368421"
+      },
+      {
+        "id": "07U",
+        "oldID": "littlejenkins"
+      },
+      {
+        "id": "07V",
+        "oldID": "0.4"
+      },
+      {
+        "id": "07W",
+        "oldID": "0.285714286"
+      },
+      {
+        "id": "07X",
+        "oldID": "0.205128205"
+      },
+      {
+        "id": "07Y",
+        "oldID": "littlejudy"
+      },
+      {
+        "id": "07Z",
+        "oldID": "0.380952381"
+      },
+      {
+        "id": "08A",
+        "oldID": "longjohn"
+      },
+      {
+        "id": "08B",
+        "oldID": "0.159090909"
+      },
+      {
+        "id": "08C",
+        "oldID": "maggie"
+      },
+      {
+        "id": "08D",
+        "oldID": "0.289473684"
+      },
+      {
+        "id": "08E",
+        "oldID": "mary"
+      },
+      {
+        "id": "08F",
+        "oldID": "0.3"
+      },
+      {
+        "id": "08G",
+        "oldID": "0.023809524"
+      },
+      {
+        "id": "08H",
+        "oldID": "masya"
+      },
+      {
+        "id": "08I",
+        "oldID": "max"
+      },
+      {
+        "id": "08J",
+        "oldID": "0.282051282"
+      },
+      {
+        "id": "08K",
+        "oldID": "0.219512195"
+      },
+      {
+        "id": "08L",
+        "oldID": "maxine"
+      },
+      {
+        "id": "08M",
+        "oldID": "0.256410256"
+      },
+      {
+        "id": "08N",
+        "oldID": "mike"
+      },
+      {
+        "id": "08O",
+        "oldID": "0.136363636"
+      },
+      {
+        "id": "08P",
+        "oldID": "0.279069767"
+      },
+      {
+        "id": "08Q",
+        "oldID": "misha"
+      },
+      {
+        "id": "08R",
+        "oldID": "moyo"
+      },
+      {
+        "id": "08S",
+        "oldID": "0.138888889"
+      },
+      {
+        "id": "08T",
+        "oldID": "nikkie"
+      },
+      {
+        "id": "08U",
+        "oldID": "nina"
+      },
+      {
+        "id": "08V",
+        "oldID": "0.302325581"
+      },
+      {
+        "id": "08W",
+        "oldID": "noel"
+      },
+      {
+        "id": "08X",
+        "oldID": "pan"
+      },
+      {
+        "id": "08Y",
+        "oldID": "pippa"
+      },
+      {
+        "id": "08Z",
+        "oldID": "0.209302326"
+      },
+      {
+        "id": "09A",
+        "oldID": "taylor"
+      },
+      {
+        "id": "09B",
+        "oldID": "tess"
+      },
+      {
+        "id": "09C",
+        "oldID": "0.394736842"
+      },
+      {
+        "id": "09D",
+        "oldID": "tilly"
+      },
+      {
+        "id": "09E",
+        "oldID": "toni"
+      },
+      {
+        "id": "09F",
+        "oldID": "trixie"
+      },
+      {
+        "id": "09G",
+        "oldID": "violet"
+      },
+      {
+        "id": "09H",
+        "oldID": "vis"
+      }
+    ],
+    "edges": [
+      {
+        "source": "01A",
+        "target": "01B",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "bj",
+        "oldTargetID": "0.129032258"
+      },
+      {
+        "source": "01A",
+        "target": "01C",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "bj",
+        "oldTargetID": "0.0"
+      },
+      {
+        "source": "01A",
+        "target": "01D",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "bj",
+        "oldTargetID": "0.032258065"
+      },
+      {
+        "source": "01A",
+        "target": "01E",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "bj",
+        "oldTargetID": "0.03125"
+      },
+      {
+        "source": "01A",
+        "target": "01F",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "bj",
+        "oldTargetID": "0.142857143"
+      },
+      {
+        "source": "01A",
+        "target": "01G",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "bj",
+        "oldTargetID": "0.090909091"
+      },
+      {
+        "source": "01A",
+        "target": "01H",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "bj",
+        "oldTargetID": "0.074074074"
+      },
+      {
+        "source": "01A",
+        "target": "01I",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "bj",
+        "oldTargetID": "0.133333333"
+      },
+      {
+        "source": "01A",
+        "target": "01J",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "bj",
+        "oldTargetID": "0.068965517"
+      },
+      {
+        "source": "01A",
+        "target": "01K",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "bj",
+        "oldTargetID": "0.323529412"
+      },
+      {
+        "source": "01A",
+        "target": "01L",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "bj",
+        "oldTargetID": "0.1"
+      },
+      {
+        "source": "01A",
+        "target": "01M",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "bj",
+        "oldTargetID": "0.166666667"
+      },
+      {
+        "source": "01A",
+        "target": "01N",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "bj",
+        "oldTargetID": "0.064516129"
+      },
+      {
+        "source": "01A",
+        "target": "01O",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "bj",
+        "oldTargetID": "0.09375"
+      },
+      {
+        "source": "01B",
+        "target": "01P",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.129032258",
+        "oldTargetID": "bob"
+      },
+      {
+        "source": "01B",
+        "target": "02V",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.129032258",
+        "oldTargetID": "brenda"
+      },
+      {
+        "source": "01B",
+        "target": "03E",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.129032258",
+        "oldTargetID": "genny"
+      },
+      {
+        "source": "01B",
+        "target": "03K",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.129032258",
+        "oldTargetID": "gerard"
+      },
+      {
+        "source": "01C",
+        "target": "01P",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.0",
+        "oldTargetID": "bob"
+      },
+      {
+        "source": "01C",
+        "target": "02B",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.0",
+        "oldTargetID": "booboo"
+      },
+      {
+        "source": "01C",
+        "target": "03K",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.0",
+        "oldTargetID": "gerard"
+      },
+      {
+        "source": "01C",
+        "target": "03N",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.0",
+        "oldTargetID": "girly"
+      },
+      {
+        "source": "01C",
+        "target": "03Y",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.0",
+        "oldTargetID": "gonzaga"
+      },
+      {
+        "source": "01C",
+        "target": "04M",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.0",
+        "oldTargetID": "innocentia"
+      },
+      {
+        "source": "01C",
+        "target": "05A",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.0",
+        "oldTargetID": "renata"
+      },
+      {
+        "source": "01C",
+        "target": "05C",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.0",
+        "oldTargetID": "rusty"
+      },
+      {
+        "source": "01C",
+        "target": "05E",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.0",
+        "oldTargetID": "carol"
+      },
+      {
+        "source": "01C",
+        "target": "05S",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.0",
+        "oldTargetID": "charity"
+      },
+      {
+        "source": "01C",
+        "target": "06A",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.0",
+        "oldTargetID": "coco"
+      },
+      {
+        "source": "01C",
+        "target": "06C",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.0",
+        "oldTargetID": "daisy"
+      },
+      {
+        "source": "01C",
+        "target": "06U",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.0",
+        "oldTargetID": "david"
+      },
+      {
+        "source": "01C",
+        "target": "06X",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.0",
+        "oldTargetID": "debbie"
+      },
+      {
+        "source": "01C",
+        "target": "07A",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.0",
+        "oldTargetID": "diana"
+      },
+      {
+        "source": "01C",
+        "target": "07B",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.0",
+        "oldTargetID": "diz"
+      },
+      {
+        "source": "01C",
+        "target": "07G",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.0",
+        "oldTargetID": "dolly"
+      },
+      {
+        "source": "01C",
+        "target": "08A",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.0",
+        "oldTargetID": "longjohn"
+      },
+      {
+        "source": "01C",
+        "target": "08I",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.0",
+        "oldTargetID": "max"
+      },
+      {
+        "source": "01C",
+        "target": "08L",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.0",
+        "oldTargetID": "maxine"
+      },
+      {
+        "source": "01C",
+        "target": "08W",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.0",
+        "oldTargetID": "noel"
+      },
+      {
+        "source": "01C",
+        "target": "08X",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.0",
+        "oldTargetID": "pan"
+      },
+      {
+        "source": "01C",
+        "target": "08Y",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.0",
+        "oldTargetID": "pippa"
+      },
+      {
+        "source": "01D",
+        "target": "04V",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.032258065",
+        "oldTargetID": "lionel"
+      },
+      {
+        "source": "01E",
+        "target": "02P",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.03125",
+        "oldTargetID": "brandon"
+      },
+      {
+        "source": "01E",
+        "target": "03E",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.03125",
+        "oldTargetID": "genny"
+      },
+      {
+        "source": "01F",
+        "target": "02B",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.142857143",
+        "oldTargetID": "booboo"
+      },
+      {
+        "source": "01F",
+        "target": "03K",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.142857143",
+        "oldTargetID": "gerard"
+      },
+      {
+        "source": "01F",
+        "target": "03N",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.142857143",
+        "oldTargetID": "girly"
+      },
+      {
+        "source": "01F",
+        "target": "03T",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.142857143",
+        "oldTargetID": "goliath"
+      },
+      {
+        "source": "01F",
+        "target": "05C",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.142857143",
+        "oldTargetID": "rusty"
+      },
+      {
+        "source": "01F",
+        "target": "06C",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.142857143",
+        "oldTargetID": "daisy"
+      },
+      {
+        "source": "01F",
+        "target": "06K",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.142857143",
+        "oldTargetID": "darwin"
+      },
+      {
+        "source": "01F",
+        "target": "07L",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.142857143",
+        "oldTargetID": "dora"
+      },
+      {
+        "source": "01F",
+        "target": "07N",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.142857143",
+        "oldTargetID": "doug"
+      },
+      {
+        "source": "01F",
+        "target": "07Y",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.142857143",
+        "oldTargetID": "littlejudy"
+      },
+      {
+        "source": "01F",
+        "target": "08H",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.142857143",
+        "oldTargetID": "masya"
+      },
+      {
+        "source": "01F",
+        "target": "08U",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.142857143",
+        "oldTargetID": "nina"
+      },
+      {
+        "source": "01G",
+        "target": "01P",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.090909091",
+        "oldTargetID": "bob"
+      },
+      {
+        "source": "01G",
+        "target": "02P",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.090909091",
+        "oldTargetID": "brandon"
+      },
+      {
+        "source": "01G",
+        "target": "02V",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.090909091",
+        "oldTargetID": "brenda"
+      },
+      {
+        "source": "01G",
+        "target": "04M",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.090909091",
+        "oldTargetID": "innocentia"
+      },
+      {
+        "source": "01G",
+        "target": "07B",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.090909091",
+        "oldTargetID": "diz"
+      },
+      {
+        "source": "01G",
+        "target": "08A",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.090909091",
+        "oldTargetID": "longjohn"
+      },
+      {
+        "source": "01G",
+        "target": "08N",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.090909091",
+        "oldTargetID": "mike"
+      },
+      {
+        "source": "01H",
+        "target": "03Y",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.074074074",
+        "oldTargetID": "gonzaga"
+      },
+      {
+        "source": "01I",
+        "target": "02B",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.133333333",
+        "oldTargetID": "booboo"
+      },
+      {
+        "source": "01I",
+        "target": "03N",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.133333333",
+        "oldTargetID": "girly"
+      },
+      {
+        "source": "01I",
+        "target": "03T",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.133333333",
+        "oldTargetID": "goliath"
+      },
+      {
+        "source": "01I",
+        "target": "04I",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.133333333",
+        "oldTargetID": "ingrid"
+      },
+      {
+        "source": "01I",
+        "target": "04V",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.133333333",
+        "oldTargetID": "lionel"
+      },
+      {
+        "source": "01J",
+        "target": "01P",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.068965517",
+        "oldTargetID": "bob"
+      },
+      {
+        "source": "01J",
+        "target": "02V",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.068965517",
+        "oldTargetID": "brenda"
+      },
+      {
+        "source": "01J",
+        "target": "03N",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.068965517",
+        "oldTargetID": "girly"
+      },
+      {
+        "source": "01J",
+        "target": "04D",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.068965517",
+        "oldTargetID": "ilse"
+      },
+      {
+        "source": "01J",
+        "target": "04I",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.068965517",
+        "oldTargetID": "ingrid"
+      },
+      {
+        "source": "01K",
+        "target": "05B",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.323529412",
+        "oldTargetID": "rita"
+      },
+      {
+        "source": "01L",
+        "target": "02P",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.1",
+        "oldTargetID": "brandon"
+      },
+      {
+        "source": "01L",
+        "target": "03E",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.1",
+        "oldTargetID": "genny"
+      },
+      {
+        "source": "01L",
+        "target": "03K",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.1",
+        "oldTargetID": "gerard"
+      },
+      {
+        "source": "01L",
+        "target": "03Y",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.1",
+        "oldTargetID": "gonzaga"
+      },
+      {
+        "source": "01L",
+        "target": "04D",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.1",
+        "oldTargetID": "ilse"
+      },
+      {
+        "source": "01L",
+        "target": "05S",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.1",
+        "oldTargetID": "charity"
+      },
+      {
+        "source": "01L",
+        "target": "05Y",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.1",
+        "oldTargetID": "claire"
+      },
+      {
+        "source": "01L",
+        "target": "06A",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.1",
+        "oldTargetID": "coco"
+      },
+      {
+        "source": "01L",
+        "target": "06C",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.1",
+        "oldTargetID": "daisy"
+      },
+      {
+        "source": "01L",
+        "target": "06K",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.1",
+        "oldTargetID": "darwin"
+      },
+      {
+        "source": "01L",
+        "target": "06X",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.1",
+        "oldTargetID": "debbie"
+      },
+      {
+        "source": "01L",
+        "target": "07A",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.1",
+        "oldTargetID": "diana"
+      },
+      {
+        "source": "01L",
+        "target": "07G",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.1",
+        "oldTargetID": "dolly"
+      },
+      {
+        "source": "01L",
+        "target": "07J",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.1",
+        "oldTargetID": "donna"
+      },
+      {
+        "source": "01L",
+        "target": "07L",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.1",
+        "oldTargetID": "dora"
+      },
+      {
+        "source": "01L",
+        "target": "07N",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.1",
+        "oldTargetID": "doug"
+      },
+      {
+        "source": "01L",
+        "target": "07R",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.1",
+        "oldTargetID": "littlejane"
+      },
+      {
+        "source": "01L",
+        "target": "07U",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.1",
+        "oldTargetID": "littlejenkins"
+      },
+      {
+        "source": "01L",
+        "target": "07Y",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.1",
+        "oldTargetID": "littlejudy"
+      },
+      {
+        "source": "01L",
+        "target": "08C",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.1",
+        "oldTargetID": "maggie"
+      },
+      {
+        "source": "01L",
+        "target": "08E",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.1",
+        "oldTargetID": "mary"
+      },
+      {
+        "source": "01L",
+        "target": "08H",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.1",
+        "oldTargetID": "masya"
+      },
+      {
+        "source": "01L",
+        "target": "08I",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.1",
+        "oldTargetID": "max"
+      },
+      {
+        "source": "01L",
+        "target": "09B",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.1",
+        "oldTargetID": "tess"
+      },
+      {
+        "source": "01L",
+        "target": "09E",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.1",
+        "oldTargetID": "toni"
+      },
+      {
+        "source": "01M",
+        "target": "01P",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.166666667",
+        "oldTargetID": "bob"
+      },
+      {
+        "source": "01M",
+        "target": "02V",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.166666667",
+        "oldTargetID": "brenda"
+      },
+      {
+        "source": "01M",
+        "target": "03T",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.166666667",
+        "oldTargetID": "goliath"
+      },
+      {
+        "source": "01M",
+        "target": "04I",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.166666667",
+        "oldTargetID": "ingrid"
+      },
+      {
+        "source": "01M",
+        "target": "04N",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.166666667",
+        "oldTargetID": "irene"
+      },
+      {
+        "source": "01M",
+        "target": "06C",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.166666667",
+        "oldTargetID": "daisy"
+      },
+      {
+        "source": "01M",
+        "target": "06X",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.166666667",
+        "oldTargetID": "debbie"
+      },
+      {
+        "source": "01M",
+        "target": "07G",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.166666667",
+        "oldTargetID": "dolly"
+      },
+      {
+        "source": "01M",
+        "target": "07L",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.166666667",
+        "oldTargetID": "dora"
+      },
+      {
+        "source": "01M",
+        "target": "07U",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.166666667",
+        "oldTargetID": "littlejenkins"
+      },
+      {
+        "source": "01N",
+        "target": "02P",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.064516129",
+        "oldTargetID": "brandon"
+      },
+      {
+        "source": "01N",
+        "target": "02V",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.064516129",
+        "oldTargetID": "brenda"
+      },
+      {
+        "source": "01N",
+        "target": "03K",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.064516129",
+        "oldTargetID": "gerard"
+      },
+      {
+        "source": "01N",
+        "target": "03Y",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.064516129",
+        "oldTargetID": "gonzaga"
+      },
+      {
+        "source": "01N",
+        "target": "05B",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.064516129",
+        "oldTargetID": "rita"
+      },
+      {
+        "source": "01O",
+        "target": "01P",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.09375",
+        "oldTargetID": "bob"
+      },
+      {
+        "source": "01O",
+        "target": "02P",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.09375",
+        "oldTargetID": "brandon"
+      },
+      {
+        "source": "01O",
+        "target": "02V",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.09375",
+        "oldTargetID": "brenda"
+      },
+      {
+        "source": "01O",
+        "target": "03E",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.09375",
+        "oldTargetID": "genny"
+      },
+      {
+        "source": "01O",
+        "target": "03T",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.09375",
+        "oldTargetID": "goliath"
+      },
+      {
+        "source": "01P",
+        "target": "01Q",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "bob",
+        "oldTargetID": "0.176470588"
+      },
+      {
+        "source": "01P",
+        "target": "01R",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "bob",
+        "oldTargetID": "0.0625"
+      },
+      {
+        "source": "01P",
+        "target": "01S",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "bob",
+        "oldTargetID": "0.21875"
+      },
+      {
+        "source": "01P",
+        "target": "01T",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "bob",
+        "oldTargetID": "0.125"
+      },
+      {
+        "source": "01P",
+        "target": "01U",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "bob",
+        "oldTargetID": "0.147058824"
+      },
+      {
+        "source": "01P",
+        "target": "01V",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "bob",
+        "oldTargetID": "0.035714286"
+      },
+      {
+        "source": "01P",
+        "target": "01W",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "bob",
+        "oldTargetID": "0.096774194"
+      },
+      {
+        "source": "01P",
+        "target": "01X",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "bob",
+        "oldTargetID": "0.058823529"
+      },
+      {
+        "source": "01P",
+        "target": "01Y",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "bob",
+        "oldTargetID": "0.171428571"
+      },
+      {
+        "source": "01P",
+        "target": "01Z",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "bob",
+        "oldTargetID": "0.121212121"
+      },
+      {
+        "source": "01P",
+        "target": "02A",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "bob",
+        "oldTargetID": "0.060606061"
+      },
+      {
+        "source": "01Q",
+        "target": "03E",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.176470588",
+        "oldTargetID": "genny"
+      },
+      {
+        "source": "01Q",
+        "target": "04M",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.176470588",
+        "oldTargetID": "innocentia"
+      },
+      {
+        "source": "01Q",
+        "target": "05A",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.176470588",
+        "oldTargetID": "renata"
+      },
+      {
+        "source": "01R",
+        "target": "02B",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.0625",
+        "oldTargetID": "booboo"
+      },
+      {
+        "source": "01R",
+        "target": "02P",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.0625",
+        "oldTargetID": "brandon"
+      },
+      {
+        "source": "01R",
+        "target": "03E",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.0625",
+        "oldTargetID": "genny"
+      },
+      {
+        "source": "01R",
+        "target": "03K",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.0625",
+        "oldTargetID": "gerard"
+      },
+      {
+        "source": "01R",
+        "target": "04N",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.0625",
+        "oldTargetID": "irene"
+      },
+      {
+        "source": "01R",
+        "target": "04V",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.0625",
+        "oldTargetID": "lionel"
+      },
+      {
+        "source": "01S",
+        "target": "04W",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.21875",
+        "oldTargetID": "pal"
+      },
+      {
+        "source": "01T",
+        "target": "02V",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.125",
+        "oldTargetID": "brenda"
+      },
+      {
+        "source": "01T",
+        "target": "03K",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.125",
+        "oldTargetID": "gerard"
+      },
+      {
+        "source": "01T",
+        "target": "03T",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.125",
+        "oldTargetID": "goliath"
+      },
+      {
+        "source": "01T",
+        "target": "04M",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.125",
+        "oldTargetID": "innocentia"
+      },
+      {
+        "source": "01T",
+        "target": "05S",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.125",
+        "oldTargetID": "charity"
+      },
+      {
+        "source": "01T",
+        "target": "06C",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.125",
+        "oldTargetID": "daisy"
+      },
+      {
+        "source": "01T",
+        "target": "06U",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.125",
+        "oldTargetID": "david"
+      },
+      {
+        "source": "01T",
+        "target": "06X",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.125",
+        "oldTargetID": "debbie"
+      },
+      {
+        "source": "01T",
+        "target": "07G",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.125",
+        "oldTargetID": "dolly"
+      },
+      {
+        "source": "01T",
+        "target": "07J",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.125",
+        "oldTargetID": "donna"
+      },
+      {
+        "source": "01T",
+        "target": "07N",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.125",
+        "oldTargetID": "doug"
+      },
+      {
+        "source": "01T",
+        "target": "07R",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.125",
+        "oldTargetID": "littlejane"
+      },
+      {
+        "source": "01T",
+        "target": "07U",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.125",
+        "oldTargetID": "littlejenkins"
+      },
+      {
+        "source": "01T",
+        "target": "08C",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.125",
+        "oldTargetID": "maggie"
+      },
+      {
+        "source": "01T",
+        "target": "08H",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.125",
+        "oldTargetID": "masya"
+      },
+      {
+        "source": "01T",
+        "target": "08L",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.125",
+        "oldTargetID": "maxine"
+      },
+      {
+        "source": "01T",
+        "target": "08U",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.125",
+        "oldTargetID": "nina"
+      },
+      {
+        "source": "01T",
+        "target": "09A",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.125",
+        "oldTargetID": "taylor"
+      },
+      {
+        "source": "01U",
+        "target": "03K",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.147058824",
+        "oldTargetID": "gerard"
+      },
+      {
+        "source": "01V",
+        "target": "02P",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.035714286",
+        "oldTargetID": "brandon"
+      },
+      {
+        "source": "01V",
+        "target": "03Y",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.035714286",
+        "oldTargetID": "gonzaga"
+      },
+      {
+        "source": "01V",
+        "target": "04I",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.035714286",
+        "oldTargetID": "ingrid"
+      },
+      {
+        "source": "01W",
+        "target": "02P",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.096774194",
+        "oldTargetID": "brandon"
+      },
+      {
+        "source": "01W",
+        "target": "03E",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.096774194",
+        "oldTargetID": "genny"
+      },
+      {
+        "source": "01W",
+        "target": "03N",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.096774194",
+        "oldTargetID": "girly"
+      },
+      {
+        "source": "01W",
+        "target": "04W",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.096774194",
+        "oldTargetID": "pal"
+      },
+      {
+        "source": "01X",
+        "target": "02B",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.058823529",
+        "oldTargetID": "booboo"
+      },
+      {
+        "source": "01X",
+        "target": "02P",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.058823529",
+        "oldTargetID": "brandon"
+      },
+      {
+        "source": "01X",
+        "target": "03K",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.058823529",
+        "oldTargetID": "gerard"
+      },
+      {
+        "source": "01X",
+        "target": "05A",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.058823529",
+        "oldTargetID": "renata"
+      },
+      {
+        "source": "01Y",
+        "target": "03E",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.171428571",
+        "oldTargetID": "genny"
+      },
+      {
+        "source": "01Z",
+        "target": "02B",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.121212121",
+        "oldTargetID": "booboo"
+      },
+      {
+        "source": "01Z",
+        "target": "03E",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.121212121",
+        "oldTargetID": "genny"
+      },
+      {
+        "source": "01Z",
+        "target": "03T",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.121212121",
+        "oldTargetID": "goliath"
+      },
+      {
+        "source": "02A",
+        "target": "02P",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.060606061",
+        "oldTargetID": "brandon"
+      },
+      {
+        "source": "02A",
+        "target": "03E",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.060606061",
+        "oldTargetID": "genny"
+      },
+      {
+        "source": "02A",
+        "target": "03K",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.060606061",
+        "oldTargetID": "gerard"
+      },
+      {
+        "source": "02B",
+        "target": "02C",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "booboo",
+        "oldTargetID": "0.029411765"
+      },
+      {
+        "source": "02B",
+        "target": "02D",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "booboo",
+        "oldTargetID": "0.057142857"
+      },
+      {
+        "source": "02B",
+        "target": "02E",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "booboo",
+        "oldTargetID": "0.235294118"
+      },
+      {
+        "source": "02B",
+        "target": "02F",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "booboo",
+        "oldTargetID": "0.088235294"
+      },
+      {
+        "source": "02B",
+        "target": "02G",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "booboo",
+        "oldTargetID": "0.225806452"
+      },
+      {
+        "source": "02B",
+        "target": "02H",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "booboo",
+        "oldTargetID": "0.305555556"
+      },
+      {
+        "source": "02B",
+        "target": "02I",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "booboo",
+        "oldTargetID": "0.052631579"
+      },
+      {
+        "source": "02B",
+        "target": "02J",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "booboo",
+        "oldTargetID": "0.054054054"
+      },
+      {
+        "source": "02B",
+        "target": "02K",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "booboo",
+        "oldTargetID": "0.181818182"
+      },
+      {
+        "source": "02B",
+        "target": "02L",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "booboo",
+        "oldTargetID": "0.242424242"
+      },
+      {
+        "source": "02B",
+        "target": "02M",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "booboo",
+        "oldTargetID": "0.2"
+      },
+      {
+        "source": "02B",
+        "target": "02N",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "booboo",
+        "oldTargetID": "0.388888889"
+      },
+      {
+        "source": "02B",
+        "target": "02O",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "booboo",
+        "oldTargetID": "0.15625"
+      },
+      {
+        "source": "02C",
+        "target": "04Y",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.029411765",
+        "oldTargetID": "regina"
+      },
+      {
+        "source": "02D",
+        "target": "03K",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.057142857",
+        "oldTargetID": "gerard"
+      },
+      {
+        "source": "02D",
+        "target": "04M",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.057142857",
+        "oldTargetID": "innocentia"
+      },
+      {
+        "source": "02D",
+        "target": "05Y",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.057142857",
+        "oldTargetID": "claire"
+      },
+      {
+        "source": "02F",
+        "target": "02P",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.088235294",
+        "oldTargetID": "brandon"
+      },
+      {
+        "source": "02F",
+        "target": "03T",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.088235294",
+        "oldTargetID": "goliath"
+      },
+      {
+        "source": "02F",
+        "target": "04D",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.088235294",
+        "oldTargetID": "ilse"
+      },
+      {
+        "source": "02F",
+        "target": "04M",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.088235294",
+        "oldTargetID": "innocentia"
+      },
+      {
+        "source": "02I",
+        "target": "05E",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.052631579",
+        "oldTargetID": "carol"
+      },
+      {
+        "source": "02I",
+        "target": "05Y",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.052631579",
+        "oldTargetID": "claire"
+      },
+      {
+        "source": "02I",
+        "target": "06A",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.052631579",
+        "oldTargetID": "coco"
+      },
+      {
+        "source": "02I",
+        "target": "06U",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.052631579",
+        "oldTargetID": "david"
+      },
+      {
+        "source": "02I",
+        "target": "07G",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.052631579",
+        "oldTargetID": "dolly"
+      },
+      {
+        "source": "02I",
+        "target": "08I",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.052631579",
+        "oldTargetID": "max"
+      },
+      {
+        "source": "02I",
+        "target": "08Q",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.052631579",
+        "oldTargetID": "misha"
+      },
+      {
+        "source": "02I",
+        "target": "08U",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.052631579",
+        "oldTargetID": "nina"
+      },
+      {
+        "source": "02I",
+        "target": "08Y",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.052631579",
+        "oldTargetID": "pippa"
+      },
+      {
+        "source": "02J",
+        "target": "05Y",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.054054054",
+        "oldTargetID": "claire"
+      },
+      {
+        "source": "02J",
+        "target": "06A",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.054054054",
+        "oldTargetID": "coco"
+      },
+      {
+        "source": "02J",
+        "target": "06U",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.054054054",
+        "oldTargetID": "david"
+      },
+      {
+        "source": "02J",
+        "target": "07R",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.054054054",
+        "oldTargetID": "littlejane"
+      },
+      {
+        "source": "02J",
+        "target": "07Y",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.054054054",
+        "oldTargetID": "littlejudy"
+      },
+      {
+        "source": "02J",
+        "target": "08L",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.054054054",
+        "oldTargetID": "maxine"
+      },
+      {
+        "source": "02J",
+        "target": "08X",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.054054054",
+        "oldTargetID": "pan"
+      },
+      {
+        "source": "02K",
+        "target": "02P",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.181818182",
+        "oldTargetID": "brandon"
+      },
+      {
+        "source": "02K",
+        "target": "02V",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.181818182",
+        "oldTargetID": "brenda"
+      },
+      {
+        "source": "02K",
+        "target": "04D",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.181818182",
+        "oldTargetID": "ilse"
+      },
+      {
+        "source": "02K",
+        "target": "08T",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.181818182",
+        "oldTargetID": "nikkie"
+      },
+      {
+        "source": "02M",
+        "target": "03N",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.2",
+        "oldTargetID": "girly"
+      },
+      {
+        "source": "02M",
+        "target": "04W",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.2",
+        "oldTargetID": "pal"
+      },
+      {
+        "source": "02M",
+        "target": "05B",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.2",
+        "oldTargetID": "rita"
+      },
+      {
+        "source": "02M",
+        "target": "06K",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.2",
+        "oldTargetID": "darwin"
+      },
+      {
+        "source": "02M",
+        "target": "06U",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.2",
+        "oldTargetID": "david"
+      },
+      {
+        "source": "02M",
+        "target": "06X",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.2",
+        "oldTargetID": "debbie"
+      },
+      {
+        "source": "02M",
+        "target": "07G",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.2",
+        "oldTargetID": "dolly"
+      },
+      {
+        "source": "02M",
+        "target": "07N",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.2",
+        "oldTargetID": "doug"
+      },
+      {
+        "source": "02M",
+        "target": "08U",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.2",
+        "oldTargetID": "nina"
+      },
+      {
+        "source": "02O",
+        "target": "03E",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.15625",
+        "oldTargetID": "genny"
+      },
+      {
+        "source": "02O",
+        "target": "03N",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.15625",
+        "oldTargetID": "girly"
+      },
+      {
+        "source": "02P",
+        "target": "02Q",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "brandon",
+        "oldTargetID": "0.103448276"
+      },
+      {
+        "source": "02P",
+        "target": "02R",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "brandon",
+        "oldTargetID": "0.161290323"
+      },
+      {
+        "source": "02P",
+        "target": "02S",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "brandon",
+        "oldTargetID": "0.028571429"
+      },
+      {
+        "source": "02P",
+        "target": "02T",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "brandon",
+        "oldTargetID": "0.28125"
+      },
+      {
+        "source": "02P",
+        "target": "02U",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "brandon",
+        "oldTargetID": "0.066666667"
+      },
+      {
+        "source": "02Q",
+        "target": "03N",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.103448276",
+        "oldTargetID": "girly"
+      },
+      {
+        "source": "02Q",
+        "target": "03Y",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.103448276",
+        "oldTargetID": "gonzaga"
+      },
+      {
+        "source": "02R",
+        "target": "03K",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.161290323",
+        "oldTargetID": "gerard"
+      },
+      {
+        "source": "02R",
+        "target": "04M",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.161290323",
+        "oldTargetID": "innocentia"
+      },
+      {
+        "source": "02T",
+        "target": "04D",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.28125",
+        "oldTargetID": "ilse"
+      },
+      {
+        "source": "02T",
+        "target": "05D",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.28125",
+        "oldTargetID": "tara"
+      },
+      {
+        "source": "02U",
+        "target": "04D",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.066666667",
+        "oldTargetID": "ilse"
+      },
+      {
+        "source": "02U",
+        "target": "04N",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.066666667",
+        "oldTargetID": "irene"
+      },
+      {
+        "source": "02U",
+        "target": "04Y",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.066666667",
+        "oldTargetID": "regina"
+      },
+      {
+        "source": "02V",
+        "target": "02W",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "brenda",
+        "oldTargetID": "0.085714286"
+      },
+      {
+        "source": "02V",
+        "target": "02X",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "brenda",
+        "oldTargetID": "0.111111111"
+      },
+      {
+        "source": "02V",
+        "target": "02Y",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "brenda",
+        "oldTargetID": "0.027777778"
+      },
+      {
+        "source": "02V",
+        "target": "02Z",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "brenda",
+        "oldTargetID": "0.363636364"
+      },
+      {
+        "source": "02V",
+        "target": "03A",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "brenda",
+        "oldTargetID": "0.352941176"
+      },
+      {
+        "source": "02V",
+        "target": "03B",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "brenda",
+        "oldTargetID": "0.205882353"
+      },
+      {
+        "source": "02V",
+        "target": "03C",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "brenda",
+        "oldTargetID": "0.117647059"
+      },
+      {
+        "source": "02V",
+        "target": "03D",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "brenda",
+        "oldTargetID": "0.114285714"
+      },
+      {
+        "source": "02W",
+        "target": "03T",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.085714286",
+        "oldTargetID": "goliath"
+      },
+      {
+        "source": "02W",
+        "target": "06A",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.085714286",
+        "oldTargetID": "coco"
+      },
+      {
+        "source": "02W",
+        "target": "07R",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.085714286",
+        "oldTargetID": "littlejane"
+      },
+      {
+        "source": "02X",
+        "target": "03Y",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.111111111",
+        "oldTargetID": "gonzaga"
+      },
+      {
+        "source": "02X",
+        "target": "04T",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.111111111",
+        "oldTargetID": "josephine"
+      },
+      {
+        "source": "02X",
+        "target": "05Y",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.111111111",
+        "oldTargetID": "claire"
+      },
+      {
+        "source": "02X",
+        "target": "06A",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.111111111",
+        "oldTargetID": "coco"
+      },
+      {
+        "source": "02X",
+        "target": "09B",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.111111111",
+        "oldTargetID": "tess"
+      },
+      {
+        "source": "02Y",
+        "target": "05E",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.027777778",
+        "oldTargetID": "carol"
+      },
+      {
+        "source": "02Y",
+        "target": "05S",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.027777778",
+        "oldTargetID": "charity"
+      },
+      {
+        "source": "02Y",
+        "target": "08Q",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.027777778",
+        "oldTargetID": "misha"
+      },
+      {
+        "source": "03A",
+        "target": "04N",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.352941176",
+        "oldTargetID": "irene"
+      },
+      {
+        "source": "03C",
+        "target": "03E",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.117647059",
+        "oldTargetID": "genny"
+      },
+      {
+        "source": "03C",
+        "target": "03K",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.117647059",
+        "oldTargetID": "gerard"
+      },
+      {
+        "source": "03C",
+        "target": "03T",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.117647059",
+        "oldTargetID": "goliath"
+      },
+      {
+        "source": "03C",
+        "target": "04T",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.117647059",
+        "oldTargetID": "josephine"
+      },
+      {
+        "source": "03D",
+        "target": "04T",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.114285714",
+        "oldTargetID": "josephine"
+      },
+      {
+        "source": "03E",
+        "target": "03F",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "genny",
+        "oldTargetID": "0.310344828"
+      },
+      {
+        "source": "03E",
+        "target": "03G",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "genny",
+        "oldTargetID": "0.264705882"
+      },
+      {
+        "source": "03E",
+        "target": "03H",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "genny",
+        "oldTargetID": "0.321428571"
+      },
+      {
+        "source": "03E",
+        "target": "03I",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "genny",
+        "oldTargetID": "0.258064516"
+      },
+      {
+        "source": "03E",
+        "target": "03J",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "genny",
+        "oldTargetID": "0.033333333"
+      },
+      {
+        "source": "03I",
+        "target": "04D",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.258064516",
+        "oldTargetID": "ilse"
+      },
+      {
+        "source": "03I",
+        "target": "04I",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.258064516",
+        "oldTargetID": "ingrid"
+      },
+      {
+        "source": "03K",
+        "target": "03L",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "gerard",
+        "oldTargetID": "0.137931034"
+      },
+      {
+        "source": "03K",
+        "target": "03M",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "gerard",
+        "oldTargetID": "0.151515152"
+      },
+      {
+        "source": "03L",
+        "target": "04V",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.137931034",
+        "oldTargetID": "lionel"
+      },
+      {
+        "source": "03N",
+        "target": "03O",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "girly",
+        "oldTargetID": "0.107142857"
+      },
+      {
+        "source": "03N",
+        "target": "03P",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "girly",
+        "oldTargetID": "0.178571429"
+      },
+      {
+        "source": "03N",
+        "target": "03Q",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "girly",
+        "oldTargetID": "0.384615385"
+      },
+      {
+        "source": "03N",
+        "target": "03R",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "girly",
+        "oldTargetID": "0.193548387"
+      },
+      {
+        "source": "03N",
+        "target": "03S",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "girly",
+        "oldTargetID": "0.148148148"
+      },
+      {
+        "source": "03R",
+        "target": "04D",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.193548387",
+        "oldTargetID": "ilse"
+      },
+      {
+        "source": "03R",
+        "target": "04I",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.193548387",
+        "oldTargetID": "ingrid"
+      },
+      {
+        "source": "03T",
+        "target": "03U",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "goliath",
+        "oldTargetID": "0.210526316"
+      },
+      {
+        "source": "03T",
+        "target": "03V",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "goliath",
+        "oldTargetID": "0.189189189"
+      },
+      {
+        "source": "03T",
+        "target": "03W",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "goliath",
+        "oldTargetID": "0.272727273"
+      },
+      {
+        "source": "03T",
+        "target": "03X",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "goliath",
+        "oldTargetID": "0.333333333"
+      },
+      {
+        "source": "03W",
+        "target": "04V",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.272727273",
+        "oldTargetID": "lionel"
+      },
+      {
+        "source": "03W",
+        "target": "08N",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.272727273",
+        "oldTargetID": "mike"
+      },
+      {
+        "source": "03X",
+        "target": "04I",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.333333333",
+        "oldTargetID": "ingrid"
+      },
+      {
+        "source": "03X",
+        "target": "04W",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.333333333",
+        "oldTargetID": "pal"
+      },
+      {
+        "source": "03X",
+        "target": "04Y",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.333333333",
+        "oldTargetID": "regina"
+      },
+      {
+        "source": "03X",
+        "target": "06K",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.333333333",
+        "oldTargetID": "darwin"
+      },
+      {
+        "source": "03X",
+        "target": "08X",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.333333333",
+        "oldTargetID": "pan"
+      },
+      {
+        "source": "03Y",
+        "target": "03Z",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "gonzaga",
+        "oldTargetID": "0.076923077"
+      },
+      {
+        "source": "03Y",
+        "target": "04A",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "gonzaga",
+        "oldTargetID": "0.071428571"
+      },
+      {
+        "source": "03Y",
+        "target": "04B",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "gonzaga",
+        "oldTargetID": "0.083333333"
+      },
+      {
+        "source": "03Y",
+        "target": "04C",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "gonzaga",
+        "oldTargetID": "0.038461538"
+      },
+      {
+        "source": "03Z",
+        "target": "05S",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.076923077",
+        "oldTargetID": "charity"
+      },
+      {
+        "source": "03Z",
+        "target": "06U",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.076923077",
+        "oldTargetID": "david"
+      },
+      {
+        "source": "03Z",
+        "target": "06X",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.076923077",
+        "oldTargetID": "debbie"
+      },
+      {
+        "source": "03Z",
+        "target": "07B",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.076923077",
+        "oldTargetID": "diz"
+      },
+      {
+        "source": "03Z",
+        "target": "07J",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.076923077",
+        "oldTargetID": "donna"
+      },
+      {
+        "source": "03Z",
+        "target": "07R",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.076923077",
+        "oldTargetID": "littlejane"
+      },
+      {
+        "source": "03Z",
+        "target": "07U",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.076923077",
+        "oldTargetID": "littlejenkins"
+      },
+      {
+        "source": "03Z",
+        "target": "08C",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.076923077",
+        "oldTargetID": "maggie"
+      },
+      {
+        "source": "03Z",
+        "target": "08H",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.076923077",
+        "oldTargetID": "masya"
+      },
+      {
+        "source": "03Z",
+        "target": "08T",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.076923077",
+        "oldTargetID": "nikkie"
+      },
+      {
+        "source": "04A",
+        "target": "06C",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.071428571",
+        "oldTargetID": "daisy"
+      },
+      {
+        "source": "04A",
+        "target": "06U",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.071428571",
+        "oldTargetID": "david"
+      },
+      {
+        "source": "04A",
+        "target": "06X",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.071428571",
+        "oldTargetID": "debbie"
+      },
+      {
+        "source": "04A",
+        "target": "07A",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.071428571",
+        "oldTargetID": "diana"
+      },
+      {
+        "source": "04A",
+        "target": "07B",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.071428571",
+        "oldTargetID": "diz"
+      },
+      {
+        "source": "04A",
+        "target": "07J",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.071428571",
+        "oldTargetID": "donna"
+      },
+      {
+        "source": "04A",
+        "target": "07U",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.071428571",
+        "oldTargetID": "littlejenkins"
+      },
+      {
+        "source": "04A",
+        "target": "07Y",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.071428571",
+        "oldTargetID": "littlejudy"
+      },
+      {
+        "source": "04A",
+        "target": "08A",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.071428571",
+        "oldTargetID": "longjohn"
+      },
+      {
+        "source": "04A",
+        "target": "08E",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.071428571",
+        "oldTargetID": "mary"
+      },
+      {
+        "source": "04A",
+        "target": "08H",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.071428571",
+        "oldTargetID": "masya"
+      },
+      {
+        "source": "04A",
+        "target": "08L",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.071428571",
+        "oldTargetID": "maxine"
+      },
+      {
+        "source": "04A",
+        "target": "09D",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.071428571",
+        "oldTargetID": "tilly"
+      },
+      {
+        "source": "04B",
+        "target": "08C",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.083333333",
+        "oldTargetID": "maggie"
+      },
+      {
+        "source": "04B",
+        "target": "09E",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.083333333",
+        "oldTargetID": "toni"
+      },
+      {
+        "source": "04D",
+        "target": "04E",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "ilse",
+        "oldTargetID": "0.517241379"
+      },
+      {
+        "source": "04D",
+        "target": "04F",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "ilse",
+        "oldTargetID": "0.6875"
+      },
+      {
+        "source": "04D",
+        "target": "04G",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "ilse",
+        "oldTargetID": "0.266666667"
+      },
+      {
+        "source": "04D",
+        "target": "04H",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "ilse",
+        "oldTargetID": "0.1875"
+      },
+      {
+        "source": "04H",
+        "target": "04I",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.1875",
+        "oldTargetID": "ingrid"
+      },
+      {
+        "source": "04I",
+        "target": "04J",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "ingrid",
+        "oldTargetID": "0.03030303"
+      },
+      {
+        "source": "04I",
+        "target": "04K",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "ingrid",
+        "oldTargetID": "0.172413793"
+      },
+      {
+        "source": "04I",
+        "target": "04L",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "ingrid",
+        "oldTargetID": "0.214285714"
+      },
+      {
+        "source": "04J",
+        "target": "04T",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.03030303",
+        "oldTargetID": "josephine"
+      },
+      {
+        "source": "04L",
+        "target": "06K",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.214285714",
+        "oldTargetID": "darwin"
+      },
+      {
+        "source": "04L",
+        "target": "06U",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.214285714",
+        "oldTargetID": "david"
+      },
+      {
+        "source": "04L",
+        "target": "07J",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.214285714",
+        "oldTargetID": "donna"
+      },
+      {
+        "source": "04L",
+        "target": "07N",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.214285714",
+        "oldTargetID": "doug"
+      },
+      {
+        "source": "04L",
+        "target": "07Y",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.214285714",
+        "oldTargetID": "littlejudy"
+      },
+      {
+        "source": "04N",
+        "target": "04O",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "irene",
+        "oldTargetID": "0.05"
+      },
+      {
+        "source": "04N",
+        "target": "04P",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "irene",
+        "oldTargetID": "0.25"
+      },
+      {
+        "source": "04N",
+        "target": "04Q",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "irene",
+        "oldTargetID": "1.0"
+      },
+      {
+        "source": "04N",
+        "target": "04R",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "irene",
+        "oldTargetID": "0.055555556"
+      },
+      {
+        "source": "04N",
+        "target": "04S",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "irene",
+        "oldTargetID": "0.157894737"
+      },
+      {
+        "source": "04O",
+        "target": "05E",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.05",
+        "oldTargetID": "carol"
+      },
+      {
+        "source": "04O",
+        "target": "05S",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.05",
+        "oldTargetID": "charity"
+      },
+      {
+        "source": "04O",
+        "target": "05Y",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.05",
+        "oldTargetID": "claire"
+      },
+      {
+        "source": "04O",
+        "target": "06C",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.05",
+        "oldTargetID": "daisy"
+      },
+      {
+        "source": "04O",
+        "target": "06K",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.05",
+        "oldTargetID": "darwin"
+      },
+      {
+        "source": "04O",
+        "target": "06U",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.05",
+        "oldTargetID": "david"
+      },
+      {
+        "source": "04O",
+        "target": "06X",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.05",
+        "oldTargetID": "debbie"
+      },
+      {
+        "source": "04O",
+        "target": "07A",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.05",
+        "oldTargetID": "diana"
+      },
+      {
+        "source": "04O",
+        "target": "07J",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.05",
+        "oldTargetID": "donna"
+      },
+      {
+        "source": "04O",
+        "target": "07L",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.05",
+        "oldTargetID": "dora"
+      },
+      {
+        "source": "04O",
+        "target": "07R",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.05",
+        "oldTargetID": "littlejane"
+      },
+      {
+        "source": "04O",
+        "target": "07U",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.05",
+        "oldTargetID": "littlejenkins"
+      },
+      {
+        "source": "04O",
+        "target": "07Y",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.05",
+        "oldTargetID": "littlejudy"
+      },
+      {
+        "source": "04O",
+        "target": "08E",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.05",
+        "oldTargetID": "mary"
+      },
+      {
+        "source": "04O",
+        "target": "08H",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.05",
+        "oldTargetID": "masya"
+      },
+      {
+        "source": "04O",
+        "target": "08I",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.05",
+        "oldTargetID": "max"
+      },
+      {
+        "source": "04P",
+        "target": "06K",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.25",
+        "oldTargetID": "darwin"
+      },
+      {
+        "source": "04P",
+        "target": "08I",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.25",
+        "oldTargetID": "max"
+      },
+      {
+        "source": "04P",
+        "target": "09G",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.25",
+        "oldTargetID": "violet"
+      },
+      {
+        "source": "04R",
+        "target": "05A",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.055555556",
+        "oldTargetID": "renata"
+      },
+      {
+        "source": "04S",
+        "target": "04T",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.157894737",
+        "oldTargetID": "josephine"
+      },
+      {
+        "source": "04S",
+        "target": "05Y",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.157894737",
+        "oldTargetID": "claire"
+      },
+      {
+        "source": "04S",
+        "target": "07G",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.157894737",
+        "oldTargetID": "dolly"
+      },
+      {
+        "source": "04S",
+        "target": "07N",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.157894737",
+        "oldTargetID": "doug"
+      },
+      {
+        "source": "04S",
+        "target": "08C",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.157894737",
+        "oldTargetID": "maggie"
+      },
+      {
+        "source": "04S",
+        "target": "08R",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.157894737",
+        "oldTargetID": "moyo"
+      },
+      {
+        "source": "04T",
+        "target": "04U",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "josephine",
+        "oldTargetID": "0.108108108"
+      },
+      {
+        "source": "04U",
+        "target": "05E",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.108108108",
+        "oldTargetID": "carol"
+      },
+      {
+        "source": "04U",
+        "target": "05S",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.108108108",
+        "oldTargetID": "charity"
+      },
+      {
+        "source": "04U",
+        "target": "05Y",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.108108108",
+        "oldTargetID": "claire"
+      },
+      {
+        "source": "04U",
+        "target": "08E",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.108108108",
+        "oldTargetID": "mary"
+      },
+      {
+        "source": "04U",
+        "target": "09A",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.108108108",
+        "oldTargetID": "taylor"
+      },
+      {
+        "source": "04U",
+        "target": "09D",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.108108108",
+        "oldTargetID": "tilly"
+      },
+      {
+        "source": "04W",
+        "target": "04X",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "pal",
+        "oldTargetID": "0.206896552"
+      },
+      {
+        "source": "04Y",
+        "target": "04Z",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "regina",
+        "oldTargetID": "0.375"
+      },
+      {
+        "source": "04Z",
+        "target": "06X",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.375",
+        "oldTargetID": "debbie"
+      },
+      {
+        "source": "04Z",
+        "target": "07R",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.375",
+        "oldTargetID": "littlejane"
+      },
+      {
+        "source": "05E",
+        "target": "05F",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "carol",
+        "oldTargetID": "0.131578947"
+      },
+      {
+        "source": "05E",
+        "target": "05G",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "carol",
+        "oldTargetID": "0.081081081"
+      },
+      {
+        "source": "05E",
+        "target": "05H",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "carol",
+        "oldTargetID": "0.162162162"
+      },
+      {
+        "source": "05E",
+        "target": "05I",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "carol",
+        "oldTargetID": "0.025"
+      },
+      {
+        "source": "05E",
+        "target": "05J",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "carol",
+        "oldTargetID": "0.051282051"
+      },
+      {
+        "source": "05E",
+        "target": "05K",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "carol",
+        "oldTargetID": "0.024390244"
+      },
+      {
+        "source": "05E",
+        "target": "05L",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "carol",
+        "oldTargetID": "0.078947368"
+      },
+      {
+        "source": "05E",
+        "target": "05M",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "carol",
+        "oldTargetID": "0.025641026"
+      },
+      {
+        "source": "05E",
+        "target": "05N",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "carol",
+        "oldTargetID": "0.153846154"
+      },
+      {
+        "source": "05E",
+        "target": "05O",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "carol",
+        "oldTargetID": "0.12195122"
+      },
+      {
+        "source": "05E",
+        "target": "05P",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "carol",
+        "oldTargetID": "0.026315789"
+      },
+      {
+        "source": "05E",
+        "target": "05Q",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "carol",
+        "oldTargetID": "0.048780488"
+      },
+      {
+        "source": "05E",
+        "target": "05R",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "carol",
+        "oldTargetID": "0.146341463"
+      },
+      {
+        "source": "05F",
+        "target": "07G",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.131578947",
+        "oldTargetID": "dolly"
+      },
+      {
+        "source": "05F",
+        "target": "08C",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.131578947",
+        "oldTargetID": "maggie"
+      },
+      {
+        "source": "05F",
+        "target": "08Q",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.131578947",
+        "oldTargetID": "misha"
+      },
+      {
+        "source": "05F",
+        "target": "08R",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.131578947",
+        "oldTargetID": "moyo"
+      },
+      {
+        "source": "05G",
+        "target": "05S",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.081081081",
+        "oldTargetID": "charity"
+      },
+      {
+        "source": "05G",
+        "target": "05Y",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.081081081",
+        "oldTargetID": "claire"
+      },
+      {
+        "source": "05G",
+        "target": "06A",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.081081081",
+        "oldTargetID": "coco"
+      },
+      {
+        "source": "05G",
+        "target": "06X",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.081081081",
+        "oldTargetID": "debbie"
+      },
+      {
+        "source": "05G",
+        "target": "07J",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.081081081",
+        "oldTargetID": "donna"
+      },
+      {
+        "source": "05G",
+        "target": "07R",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.081081081",
+        "oldTargetID": "littlejane"
+      },
+      {
+        "source": "05H",
+        "target": "05Y",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.162162162",
+        "oldTargetID": "claire"
+      },
+      {
+        "source": "05H",
+        "target": "07R",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.162162162",
+        "oldTargetID": "littlejane"
+      },
+      {
+        "source": "05I",
+        "target": "05S",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.025",
+        "oldTargetID": "charity"
+      },
+      {
+        "source": "05I",
+        "target": "06A",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.025",
+        "oldTargetID": "coco"
+      },
+      {
+        "source": "05I",
+        "target": "06U",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.025",
+        "oldTargetID": "david"
+      },
+      {
+        "source": "05I",
+        "target": "06X",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.025",
+        "oldTargetID": "debbie"
+      },
+      {
+        "source": "05I",
+        "target": "07A",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.025",
+        "oldTargetID": "diana"
+      },
+      {
+        "source": "05I",
+        "target": "07J",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.025",
+        "oldTargetID": "donna"
+      },
+      {
+        "source": "05I",
+        "target": "07L",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.025",
+        "oldTargetID": "dora"
+      },
+      {
+        "source": "05I",
+        "target": "07R",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.025",
+        "oldTargetID": "littlejane"
+      },
+      {
+        "source": "05I",
+        "target": "07Y",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.025",
+        "oldTargetID": "littlejudy"
+      },
+      {
+        "source": "05I",
+        "target": "08E",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.025",
+        "oldTargetID": "mary"
+      },
+      {
+        "source": "05I",
+        "target": "08X",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.025",
+        "oldTargetID": "pan"
+      },
+      {
+        "source": "05J",
+        "target": "05S",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.051282051",
+        "oldTargetID": "charity"
+      },
+      {
+        "source": "05J",
+        "target": "05Y",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.051282051",
+        "oldTargetID": "claire"
+      },
+      {
+        "source": "05J",
+        "target": "06A",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.051282051",
+        "oldTargetID": "coco"
+      },
+      {
+        "source": "05J",
+        "target": "06C",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.051282051",
+        "oldTargetID": "daisy"
+      },
+      {
+        "source": "05J",
+        "target": "06U",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.051282051",
+        "oldTargetID": "david"
+      },
+      {
+        "source": "05J",
+        "target": "06X",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.051282051",
+        "oldTargetID": "debbie"
+      },
+      {
+        "source": "05J",
+        "target": "07G",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.051282051",
+        "oldTargetID": "dolly"
+      },
+      {
+        "source": "05J",
+        "target": "07N",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.051282051",
+        "oldTargetID": "doug"
+      },
+      {
+        "source": "05J",
+        "target": "07Y",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.051282051",
+        "oldTargetID": "littlejudy"
+      },
+      {
+        "source": "05J",
+        "target": "08E",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.051282051",
+        "oldTargetID": "mary"
+      },
+      {
+        "source": "05J",
+        "target": "08H",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.051282051",
+        "oldTargetID": "masya"
+      },
+      {
+        "source": "05J",
+        "target": "08Q",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.051282051",
+        "oldTargetID": "misha"
+      },
+      {
+        "source": "05J",
+        "target": "09B",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.051282051",
+        "oldTargetID": "tess"
+      },
+      {
+        "source": "05J",
+        "target": "09F",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.051282051",
+        "oldTargetID": "trixie"
+      },
+      {
+        "source": "05K",
+        "target": "05S",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.024390244",
+        "oldTargetID": "charity"
+      },
+      {
+        "source": "05K",
+        "target": "07A",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.024390244",
+        "oldTargetID": "diana"
+      },
+      {
+        "source": "05K",
+        "target": "07L",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.024390244",
+        "oldTargetID": "dora"
+      },
+      {
+        "source": "05K",
+        "target": "07N",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.024390244",
+        "oldTargetID": "doug"
+      },
+      {
+        "source": "05K",
+        "target": "08H",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.024390244",
+        "oldTargetID": "masya"
+      },
+      {
+        "source": "05K",
+        "target": "08U",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.024390244",
+        "oldTargetID": "nina"
+      },
+      {
+        "source": "05K",
+        "target": "08Y",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.024390244",
+        "oldTargetID": "pippa"
+      },
+      {
+        "source": "05L",
+        "target": "05S",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.078947368",
+        "oldTargetID": "charity"
+      },
+      {
+        "source": "05L",
+        "target": "05Y",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.078947368",
+        "oldTargetID": "claire"
+      },
+      {
+        "source": "05L",
+        "target": "06A",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.078947368",
+        "oldTargetID": "coco"
+      },
+      {
+        "source": "05L",
+        "target": "07G",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.078947368",
+        "oldTargetID": "dolly"
+      },
+      {
+        "source": "05L",
+        "target": "07L",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.078947368",
+        "oldTargetID": "dora"
+      },
+      {
+        "source": "05L",
+        "target": "07R",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.078947368",
+        "oldTargetID": "littlejane"
+      },
+      {
+        "source": "05L",
+        "target": "08C",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.078947368",
+        "oldTargetID": "maggie"
+      },
+      {
+        "source": "05L",
+        "target": "08I",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.078947368",
+        "oldTargetID": "max"
+      },
+      {
+        "source": "05M",
+        "target": "05S",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.025641026",
+        "oldTargetID": "charity"
+      },
+      {
+        "source": "05M",
+        "target": "05Y",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.025641026",
+        "oldTargetID": "claire"
+      },
+      {
+        "source": "05M",
+        "target": "06A",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.025641026",
+        "oldTargetID": "coco"
+      },
+      {
+        "source": "05M",
+        "target": "06U",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.025641026",
+        "oldTargetID": "david"
+      },
+      {
+        "source": "05M",
+        "target": "07A",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.025641026",
+        "oldTargetID": "diana"
+      },
+      {
+        "source": "05M",
+        "target": "07G",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.025641026",
+        "oldTargetID": "dolly"
+      },
+      {
+        "source": "05M",
+        "target": "07R",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.025641026",
+        "oldTargetID": "littlejane"
+      },
+      {
+        "source": "05M",
+        "target": "08C",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.025641026",
+        "oldTargetID": "maggie"
+      },
+      {
+        "source": "05M",
+        "target": "08E",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.025641026",
+        "oldTargetID": "mary"
+      },
+      {
+        "source": "05M",
+        "target": "08I",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.025641026",
+        "oldTargetID": "max"
+      },
+      {
+        "source": "05M",
+        "target": "08Q",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.025641026",
+        "oldTargetID": "misha"
+      },
+      {
+        "source": "05M",
+        "target": "08R",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.025641026",
+        "oldTargetID": "moyo"
+      },
+      {
+        "source": "05N",
+        "target": "05Y",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.153846154",
+        "oldTargetID": "claire"
+      },
+      {
+        "source": "05N",
+        "target": "06X",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.153846154",
+        "oldTargetID": "debbie"
+      },
+      {
+        "source": "05N",
+        "target": "07G",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.153846154",
+        "oldTargetID": "dolly"
+      },
+      {
+        "source": "05N",
+        "target": "07J",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.153846154",
+        "oldTargetID": "donna"
+      },
+      {
+        "source": "05N",
+        "target": "07Y",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.153846154",
+        "oldTargetID": "littlejudy"
+      },
+      {
+        "source": "05N",
+        "target": "08H",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.153846154",
+        "oldTargetID": "masya"
+      },
+      {
+        "source": "05N",
+        "target": "08L",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.153846154",
+        "oldTargetID": "maxine"
+      },
+      {
+        "source": "05N",
+        "target": "08W",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.153846154",
+        "oldTargetID": "noel"
+      },
+      {
+        "source": "05O",
+        "target": "05S",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.12195122",
+        "oldTargetID": "charity"
+      },
+      {
+        "source": "05O",
+        "target": "06K",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.12195122",
+        "oldTargetID": "darwin"
+      },
+      {
+        "source": "05O",
+        "target": "06X",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.12195122",
+        "oldTargetID": "debbie"
+      },
+      {
+        "source": "05O",
+        "target": "07B",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.12195122",
+        "oldTargetID": "diz"
+      },
+      {
+        "source": "05O",
+        "target": "07G",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.12195122",
+        "oldTargetID": "dolly"
+      },
+      {
+        "source": "05O",
+        "target": "07N",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.12195122",
+        "oldTargetID": "doug"
+      },
+      {
+        "source": "05O",
+        "target": "07Y",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.12195122",
+        "oldTargetID": "littlejudy"
+      },
+      {
+        "source": "05O",
+        "target": "08C",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.12195122",
+        "oldTargetID": "maggie"
+      },
+      {
+        "source": "05O",
+        "target": "08E",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.12195122",
+        "oldTargetID": "mary"
+      },
+      {
+        "source": "05O",
+        "target": "08N",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.12195122",
+        "oldTargetID": "mike"
+      },
+      {
+        "source": "05O",
+        "target": "08Q",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.12195122",
+        "oldTargetID": "misha"
+      },
+      {
+        "source": "05O",
+        "target": "08R",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.12195122",
+        "oldTargetID": "moyo"
+      },
+      {
+        "source": "05O",
+        "target": "08T",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.12195122",
+        "oldTargetID": "nikkie"
+      },
+      {
+        "source": "05O",
+        "target": "08U",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.12195122",
+        "oldTargetID": "nina"
+      },
+      {
+        "source": "05O",
+        "target": "09D",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.12195122",
+        "oldTargetID": "tilly"
+      },
+      {
+        "source": "05O",
+        "target": "09E",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.12195122",
+        "oldTargetID": "toni"
+      },
+      {
+        "source": "05P",
+        "target": "05S",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.026315789",
+        "oldTargetID": "charity"
+      },
+      {
+        "source": "05P",
+        "target": "05Y",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.026315789",
+        "oldTargetID": "claire"
+      },
+      {
+        "source": "05P",
+        "target": "06A",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.026315789",
+        "oldTargetID": "coco"
+      },
+      {
+        "source": "05P",
+        "target": "06C",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.026315789",
+        "oldTargetID": "daisy"
+      },
+      {
+        "source": "05P",
+        "target": "07A",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.026315789",
+        "oldTargetID": "diana"
+      },
+      {
+        "source": "05P",
+        "target": "07R",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.026315789",
+        "oldTargetID": "littlejane"
+      },
+      {
+        "source": "05Q",
+        "target": "06C",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.048780488",
+        "oldTargetID": "daisy"
+      },
+      {
+        "source": "05Q",
+        "target": "06K",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.048780488",
+        "oldTargetID": "darwin"
+      },
+      {
+        "source": "05Q",
+        "target": "06U",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.048780488",
+        "oldTargetID": "david"
+      },
+      {
+        "source": "05Q",
+        "target": "06X",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.048780488",
+        "oldTargetID": "debbie"
+      },
+      {
+        "source": "05Q",
+        "target": "07A",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.048780488",
+        "oldTargetID": "diana"
+      },
+      {
+        "source": "05Q",
+        "target": "07B",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.048780488",
+        "oldTargetID": "diz"
+      },
+      {
+        "source": "05Q",
+        "target": "07G",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.048780488",
+        "oldTargetID": "dolly"
+      },
+      {
+        "source": "05Q",
+        "target": "07L",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.048780488",
+        "oldTargetID": "dora"
+      },
+      {
+        "source": "05Q",
+        "target": "07N",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.048780488",
+        "oldTargetID": "doug"
+      },
+      {
+        "source": "05Q",
+        "target": "07U",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.048780488",
+        "oldTargetID": "littlejenkins"
+      },
+      {
+        "source": "05Q",
+        "target": "08A",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.048780488",
+        "oldTargetID": "longjohn"
+      },
+      {
+        "source": "05Q",
+        "target": "08C",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.048780488",
+        "oldTargetID": "maggie"
+      },
+      {
+        "source": "05Q",
+        "target": "08W",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.048780488",
+        "oldTargetID": "noel"
+      },
+      {
+        "source": "05Q",
+        "target": "09B",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.048780488",
+        "oldTargetID": "tess"
+      },
+      {
+        "source": "05R",
+        "target": "06C",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.146341463",
+        "oldTargetID": "daisy"
+      },
+      {
+        "source": "05R",
+        "target": "06K",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.146341463",
+        "oldTargetID": "darwin"
+      },
+      {
+        "source": "05R",
+        "target": "07A",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.146341463",
+        "oldTargetID": "diana"
+      },
+      {
+        "source": "05R",
+        "target": "07J",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.146341463",
+        "oldTargetID": "donna"
+      },
+      {
+        "source": "05R",
+        "target": "07U",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.146341463",
+        "oldTargetID": "littlejenkins"
+      },
+      {
+        "source": "05R",
+        "target": "08A",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.146341463",
+        "oldTargetID": "longjohn"
+      },
+      {
+        "source": "05R",
+        "target": "08C",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.146341463",
+        "oldTargetID": "maggie"
+      },
+      {
+        "source": "05R",
+        "target": "08I",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.146341463",
+        "oldTargetID": "max"
+      },
+      {
+        "source": "05R",
+        "target": "08N",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.146341463",
+        "oldTargetID": "mike"
+      },
+      {
+        "source": "05R",
+        "target": "08Q",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.146341463",
+        "oldTargetID": "misha"
+      },
+      {
+        "source": "05S",
+        "target": "05T",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "charity",
+        "oldTargetID": "0.097560976"
+      },
+      {
+        "source": "05S",
+        "target": "05U",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "charity",
+        "oldTargetID": "0.105263158"
+      },
+      {
+        "source": "05S",
+        "target": "05V",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "charity",
+        "oldTargetID": "0.102564103"
+      },
+      {
+        "source": "05S",
+        "target": "05W",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "charity",
+        "oldTargetID": "0.128205128"
+      },
+      {
+        "source": "05S",
+        "target": "05X",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "charity",
+        "oldTargetID": "0.073170732"
+      },
+      {
+        "source": "05T",
+        "target": "06C",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.097560976",
+        "oldTargetID": "daisy"
+      },
+      {
+        "source": "05T",
+        "target": "06K",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.097560976",
+        "oldTargetID": "darwin"
+      },
+      {
+        "source": "05T",
+        "target": "06U",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.097560976",
+        "oldTargetID": "david"
+      },
+      {
+        "source": "05T",
+        "target": "06X",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.097560976",
+        "oldTargetID": "debbie"
+      },
+      {
+        "source": "05T",
+        "target": "07B",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.097560976",
+        "oldTargetID": "diz"
+      },
+      {
+        "source": "05T",
+        "target": "07G",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.097560976",
+        "oldTargetID": "dolly"
+      },
+      {
+        "source": "05T",
+        "target": "07L",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.097560976",
+        "oldTargetID": "dora"
+      },
+      {
+        "source": "05T",
+        "target": "08A",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.097560976",
+        "oldTargetID": "longjohn"
+      },
+      {
+        "source": "05T",
+        "target": "08C",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.097560976",
+        "oldTargetID": "maggie"
+      },
+      {
+        "source": "05T",
+        "target": "08E",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.097560976",
+        "oldTargetID": "mary"
+      },
+      {
+        "source": "05T",
+        "target": "08I",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.097560976",
+        "oldTargetID": "max"
+      },
+      {
+        "source": "05T",
+        "target": "08Q",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.097560976",
+        "oldTargetID": "misha"
+      },
+      {
+        "source": "05T",
+        "target": "08W",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.097560976",
+        "oldTargetID": "noel"
+      },
+      {
+        "source": "05T",
+        "target": "08X",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.097560976",
+        "oldTargetID": "pan"
+      },
+      {
+        "source": "05U",
+        "target": "05Y",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.105263158",
+        "oldTargetID": "claire"
+      },
+      {
+        "source": "05U",
+        "target": "06X",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.105263158",
+        "oldTargetID": "debbie"
+      },
+      {
+        "source": "05U",
+        "target": "07J",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.105263158",
+        "oldTargetID": "donna"
+      },
+      {
+        "source": "05U",
+        "target": "07R",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.105263158",
+        "oldTargetID": "littlejane"
+      },
+      {
+        "source": "05U",
+        "target": "08I",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.105263158",
+        "oldTargetID": "max"
+      },
+      {
+        "source": "05U",
+        "target": "08Q",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.105263158",
+        "oldTargetID": "misha"
+      },
+      {
+        "source": "05V",
+        "target": "05Y",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.102564103",
+        "oldTargetID": "claire"
+      },
+      {
+        "source": "05V",
+        "target": "06U",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.102564103",
+        "oldTargetID": "david"
+      },
+      {
+        "source": "05V",
+        "target": "06X",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.102564103",
+        "oldTargetID": "debbie"
+      },
+      {
+        "source": "05V",
+        "target": "07G",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.102564103",
+        "oldTargetID": "dolly"
+      },
+      {
+        "source": "05V",
+        "target": "07J",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.102564103",
+        "oldTargetID": "donna"
+      },
+      {
+        "source": "05V",
+        "target": "07U",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.102564103",
+        "oldTargetID": "littlejenkins"
+      },
+      {
+        "source": "05V",
+        "target": "08C",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.102564103",
+        "oldTargetID": "maggie"
+      },
+      {
+        "source": "05V",
+        "target": "08E",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.102564103",
+        "oldTargetID": "mary"
+      },
+      {
+        "source": "05V",
+        "target": "08L",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.102564103",
+        "oldTargetID": "maxine"
+      },
+      {
+        "source": "05V",
+        "target": "08N",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.102564103",
+        "oldTargetID": "mike"
+      },
+      {
+        "source": "05V",
+        "target": "08R",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.102564103",
+        "oldTargetID": "moyo"
+      },
+      {
+        "source": "05V",
+        "target": "09A",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.102564103",
+        "oldTargetID": "taylor"
+      },
+      {
+        "source": "05V",
+        "target": "09D",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.102564103",
+        "oldTargetID": "tilly"
+      },
+      {
+        "source": "05W",
+        "target": "06U",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.128205128",
+        "oldTargetID": "david"
+      },
+      {
+        "source": "05W",
+        "target": "07G",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.128205128",
+        "oldTargetID": "dolly"
+      },
+      {
+        "source": "05W",
+        "target": "07L",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.128205128",
+        "oldTargetID": "dora"
+      },
+      {
+        "source": "05W",
+        "target": "07U",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.128205128",
+        "oldTargetID": "littlejenkins"
+      },
+      {
+        "source": "05W",
+        "target": "07Y",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.128205128",
+        "oldTargetID": "littlejudy"
+      },
+      {
+        "source": "05W",
+        "target": "08H",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.128205128",
+        "oldTargetID": "masya"
+      },
+      {
+        "source": "05W",
+        "target": "08L",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.128205128",
+        "oldTargetID": "maxine"
+      },
+      {
+        "source": "05W",
+        "target": "08Q",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.128205128",
+        "oldTargetID": "misha"
+      },
+      {
+        "source": "05W",
+        "target": "08R",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.128205128",
+        "oldTargetID": "moyo"
+      },
+      {
+        "source": "05W",
+        "target": "08X",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.128205128",
+        "oldTargetID": "pan"
+      },
+      {
+        "source": "05X",
+        "target": "06C",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.073170732",
+        "oldTargetID": "daisy"
+      },
+      {
+        "source": "05X",
+        "target": "06K",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.073170732",
+        "oldTargetID": "darwin"
+      },
+      {
+        "source": "05X",
+        "target": "06X",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.073170732",
+        "oldTargetID": "debbie"
+      },
+      {
+        "source": "05X",
+        "target": "07A",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.073170732",
+        "oldTargetID": "diana"
+      },
+      {
+        "source": "05X",
+        "target": "07B",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.073170732",
+        "oldTargetID": "diz"
+      },
+      {
+        "source": "05X",
+        "target": "07G",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.073170732",
+        "oldTargetID": "dolly"
+      },
+      {
+        "source": "05X",
+        "target": "07J",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.073170732",
+        "oldTargetID": "donna"
+      },
+      {
+        "source": "05X",
+        "target": "07L",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.073170732",
+        "oldTargetID": "dora"
+      },
+      {
+        "source": "05X",
+        "target": "07N",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.073170732",
+        "oldTargetID": "doug"
+      },
+      {
+        "source": "05X",
+        "target": "07Y",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.073170732",
+        "oldTargetID": "littlejudy"
+      },
+      {
+        "source": "05X",
+        "target": "08A",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.073170732",
+        "oldTargetID": "longjohn"
+      },
+      {
+        "source": "05X",
+        "target": "08H",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.073170732",
+        "oldTargetID": "masya"
+      },
+      {
+        "source": "05X",
+        "target": "08I",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.073170732",
+        "oldTargetID": "max"
+      },
+      {
+        "source": "05X",
+        "target": "08L",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.073170732",
+        "oldTargetID": "maxine"
+      },
+      {
+        "source": "05X",
+        "target": "08N",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.073170732",
+        "oldTargetID": "mike"
+      },
+      {
+        "source": "05X",
+        "target": "08R",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.073170732",
+        "oldTargetID": "moyo"
+      },
+      {
+        "source": "05X",
+        "target": "09A",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.073170732",
+        "oldTargetID": "taylor"
+      },
+      {
+        "source": "05X",
+        "target": "09B",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.073170732",
+        "oldTargetID": "tess"
+      },
+      {
+        "source": "05X",
+        "target": "09E",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.073170732",
+        "oldTargetID": "toni"
+      },
+      {
+        "source": "05Y",
+        "target": "05Z",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "claire",
+        "oldTargetID": "0.075"
+      },
+      {
+        "source": "05Z",
+        "target": "06A",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.075",
+        "oldTargetID": "coco"
+      },
+      {
+        "source": "05Z",
+        "target": "06C",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.075",
+        "oldTargetID": "daisy"
+      },
+      {
+        "source": "05Z",
+        "target": "06U",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.075",
+        "oldTargetID": "david"
+      },
+      {
+        "source": "05Z",
+        "target": "07B",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.075",
+        "oldTargetID": "diz"
+      },
+      {
+        "source": "05Z",
+        "target": "07J",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.075",
+        "oldTargetID": "donna"
+      },
+      {
+        "source": "05Z",
+        "target": "07L",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.075",
+        "oldTargetID": "dora"
+      },
+      {
+        "source": "05Z",
+        "target": "07N",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.075",
+        "oldTargetID": "doug"
+      },
+      {
+        "source": "05Z",
+        "target": "07U",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.075",
+        "oldTargetID": "littlejenkins"
+      },
+      {
+        "source": "05Z",
+        "target": "07Y",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.075",
+        "oldTargetID": "littlejudy"
+      },
+      {
+        "source": "05Z",
+        "target": "08C",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.075",
+        "oldTargetID": "maggie"
+      },
+      {
+        "source": "05Z",
+        "target": "08E",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.075",
+        "oldTargetID": "mary"
+      },
+      {
+        "source": "05Z",
+        "target": "08H",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.075",
+        "oldTargetID": "masya"
+      },
+      {
+        "source": "05Z",
+        "target": "08L",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.075",
+        "oldTargetID": "maxine"
+      },
+      {
+        "source": "05Z",
+        "target": "08Q",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.075",
+        "oldTargetID": "misha"
+      },
+      {
+        "source": "06A",
+        "target": "06B",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "coco",
+        "oldTargetID": "0.027027027"
+      },
+      {
+        "source": "06B",
+        "target": "07U",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.027027027",
+        "oldTargetID": "littlejenkins"
+      },
+      {
+        "source": "06C",
+        "target": "06D",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "daisy",
+        "oldTargetID": "0.139534884"
+      },
+      {
+        "source": "06C",
+        "target": "06E",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "daisy",
+        "oldTargetID": "0.119047619"
+      },
+      {
+        "source": "06C",
+        "target": "06F",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "daisy",
+        "oldTargetID": "0.046511628"
+      },
+      {
+        "source": "06C",
+        "target": "06G",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "daisy",
+        "oldTargetID": "0.069767442"
+      },
+      {
+        "source": "06C",
+        "target": "06H",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "daisy",
+        "oldTargetID": "0.023255814"
+      },
+      {
+        "source": "06C",
+        "target": "06I",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "daisy",
+        "oldTargetID": "0.11627907"
+      },
+      {
+        "source": "06C",
+        "target": "06J",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "daisy",
+        "oldTargetID": "0.093023256"
+      },
+      {
+        "source": "06D",
+        "target": "06K",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.139534884",
+        "oldTargetID": "darwin"
+      },
+      {
+        "source": "06D",
+        "target": "07B",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.139534884",
+        "oldTargetID": "diz"
+      },
+      {
+        "source": "06D",
+        "target": "07L",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.139534884",
+        "oldTargetID": "dora"
+      },
+      {
+        "source": "06E",
+        "target": "07A",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.119047619",
+        "oldTargetID": "diana"
+      },
+      {
+        "source": "06E",
+        "target": "07B",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.119047619",
+        "oldTargetID": "diz"
+      },
+      {
+        "source": "06E",
+        "target": "07U",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.119047619",
+        "oldTargetID": "littlejenkins"
+      },
+      {
+        "source": "06E",
+        "target": "08A",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.119047619",
+        "oldTargetID": "longjohn"
+      },
+      {
+        "source": "06E",
+        "target": "08E",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.119047619",
+        "oldTargetID": "mary"
+      },
+      {
+        "source": "06E",
+        "target": "08H",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.119047619",
+        "oldTargetID": "masya"
+      },
+      {
+        "source": "06E",
+        "target": "08T",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.119047619",
+        "oldTargetID": "nikkie"
+      },
+      {
+        "source": "06E",
+        "target": "08U",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.119047619",
+        "oldTargetID": "nina"
+      },
+      {
+        "source": "06E",
+        "target": "08Y",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.119047619",
+        "oldTargetID": "pippa"
+      },
+      {
+        "source": "06F",
+        "target": "06K",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.046511628",
+        "oldTargetID": "darwin"
+      },
+      {
+        "source": "06F",
+        "target": "07A",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.046511628",
+        "oldTargetID": "diana"
+      },
+      {
+        "source": "06F",
+        "target": "08A",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.046511628",
+        "oldTargetID": "longjohn"
+      },
+      {
+        "source": "06F",
+        "target": "08N",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.046511628",
+        "oldTargetID": "mike"
+      },
+      {
+        "source": "06G",
+        "target": "07A",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.069767442",
+        "oldTargetID": "diana"
+      },
+      {
+        "source": "06G",
+        "target": "07L",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.069767442",
+        "oldTargetID": "dora"
+      },
+      {
+        "source": "06G",
+        "target": "07N",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.069767442",
+        "oldTargetID": "doug"
+      },
+      {
+        "source": "06H",
+        "target": "07A",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.023255814",
+        "oldTargetID": "diana"
+      },
+      {
+        "source": "06H",
+        "target": "08A",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.023255814",
+        "oldTargetID": "longjohn"
+      },
+      {
+        "source": "06H",
+        "target": "08U",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.023255814",
+        "oldTargetID": "nina"
+      },
+      {
+        "source": "06I",
+        "target": "06K",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.11627907",
+        "oldTargetID": "darwin"
+      },
+      {
+        "source": "06I",
+        "target": "07A",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.11627907",
+        "oldTargetID": "diana"
+      },
+      {
+        "source": "06I",
+        "target": "07B",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.11627907",
+        "oldTargetID": "diz"
+      },
+      {
+        "source": "06I",
+        "target": "08W",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.11627907",
+        "oldTargetID": "noel"
+      },
+      {
+        "source": "06J",
+        "target": "07A",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.093023256",
+        "oldTargetID": "diana"
+      },
+      {
+        "source": "06J",
+        "target": "07B",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.093023256",
+        "oldTargetID": "diz"
+      },
+      {
+        "source": "06J",
+        "target": "07L",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.093023256",
+        "oldTargetID": "dora"
+      },
+      {
+        "source": "06J",
+        "target": "07N",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.093023256",
+        "oldTargetID": "doug"
+      },
+      {
+        "source": "06J",
+        "target": "08N",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.093023256",
+        "oldTargetID": "mike"
+      },
+      {
+        "source": "06J",
+        "target": "08T",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.093023256",
+        "oldTargetID": "nikkie"
+      },
+      {
+        "source": "06J",
+        "target": "08U",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.093023256",
+        "oldTargetID": "nina"
+      },
+      {
+        "source": "06K",
+        "target": "06L",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "darwin",
+        "oldTargetID": "0.047619048"
+      },
+      {
+        "source": "06K",
+        "target": "06M",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "darwin",
+        "oldTargetID": "0.186046512"
+      },
+      {
+        "source": "06K",
+        "target": "06N",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "darwin",
+        "oldTargetID": "0.195121951"
+      },
+      {
+        "source": "06K",
+        "target": "06O",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "darwin",
+        "oldTargetID": "0.179487179"
+      },
+      {
+        "source": "06K",
+        "target": "06P",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "darwin",
+        "oldTargetID": "0.15"
+      },
+      {
+        "source": "06K",
+        "target": "06Q",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "darwin",
+        "oldTargetID": "0.19047619"
+      },
+      {
+        "source": "06K",
+        "target": "06R",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "darwin",
+        "oldTargetID": "0.170731707"
+      },
+      {
+        "source": "06K",
+        "target": "06S",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "darwin",
+        "oldTargetID": "0.225"
+      },
+      {
+        "source": "06K",
+        "target": "06T",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "darwin",
+        "oldTargetID": "0.184210526"
+      },
+      {
+        "source": "06L",
+        "target": "06U",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.047619048",
+        "oldTargetID": "david"
+      },
+      {
+        "source": "06L",
+        "target": "06X",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.047619048",
+        "oldTargetID": "debbie"
+      },
+      {
+        "source": "06L",
+        "target": "07A",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.047619048",
+        "oldTargetID": "diana"
+      },
+      {
+        "source": "06L",
+        "target": "07B",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.047619048",
+        "oldTargetID": "diz"
+      },
+      {
+        "source": "06L",
+        "target": "07J",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.047619048",
+        "oldTargetID": "donna"
+      },
+      {
+        "source": "06L",
+        "target": "07U",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.047619048",
+        "oldTargetID": "littlejenkins"
+      },
+      {
+        "source": "06L",
+        "target": "07Y",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.047619048",
+        "oldTargetID": "littlejudy"
+      },
+      {
+        "source": "06L",
+        "target": "08A",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.047619048",
+        "oldTargetID": "longjohn"
+      },
+      {
+        "source": "06L",
+        "target": "08L",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.047619048",
+        "oldTargetID": "maxine"
+      },
+      {
+        "source": "06L",
+        "target": "08T",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.047619048",
+        "oldTargetID": "nikkie"
+      },
+      {
+        "source": "06L",
+        "target": "08W",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.047619048",
+        "oldTargetID": "noel"
+      },
+      {
+        "source": "06L",
+        "target": "09A",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.047619048",
+        "oldTargetID": "taylor"
+      },
+      {
+        "source": "06L",
+        "target": "09D",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.047619048",
+        "oldTargetID": "tilly"
+      },
+      {
+        "source": "06M",
+        "target": "07N",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.186046512",
+        "oldTargetID": "doug"
+      },
+      {
+        "source": "06M",
+        "target": "08A",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.186046512",
+        "oldTargetID": "longjohn"
+      },
+      {
+        "source": "06M",
+        "target": "08T",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.186046512",
+        "oldTargetID": "nikkie"
+      },
+      {
+        "source": "06M",
+        "target": "08W",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.186046512",
+        "oldTargetID": "noel"
+      },
+      {
+        "source": "06M",
+        "target": "09H",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.186046512",
+        "oldTargetID": "vis"
+      },
+      {
+        "source": "06N",
+        "target": "06X",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.195121951",
+        "oldTargetID": "debbie"
+      },
+      {
+        "source": "06N",
+        "target": "07J",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.195121951",
+        "oldTargetID": "donna"
+      },
+      {
+        "source": "06N",
+        "target": "08X",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.195121951",
+        "oldTargetID": "pan"
+      },
+      {
+        "source": "06O",
+        "target": "07R",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.179487179",
+        "oldTargetID": "littlejane"
+      },
+      {
+        "source": "06O",
+        "target": "07U",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.179487179",
+        "oldTargetID": "littlejenkins"
+      },
+      {
+        "source": "06O",
+        "target": "08E",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.179487179",
+        "oldTargetID": "mary"
+      },
+      {
+        "source": "06O",
+        "target": "08H",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.179487179",
+        "oldTargetID": "masya"
+      },
+      {
+        "source": "06O",
+        "target": "08I",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.179487179",
+        "oldTargetID": "max"
+      },
+      {
+        "source": "06P",
+        "target": "06U",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.15",
+        "oldTargetID": "david"
+      },
+      {
+        "source": "06P",
+        "target": "07L",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.15",
+        "oldTargetID": "dora"
+      },
+      {
+        "source": "06P",
+        "target": "08Q",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.15",
+        "oldTargetID": "misha"
+      },
+      {
+        "source": "06P",
+        "target": "08R",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.15",
+        "oldTargetID": "moyo"
+      },
+      {
+        "source": "06P",
+        "target": "08Y",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.15",
+        "oldTargetID": "pippa"
+      },
+      {
+        "source": "06Q",
+        "target": "06U",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.19047619",
+        "oldTargetID": "david"
+      },
+      {
+        "source": "06R",
+        "target": "06U",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.170731707",
+        "oldTargetID": "david"
+      },
+      {
+        "source": "06R",
+        "target": "07B",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.170731707",
+        "oldTargetID": "diz"
+      },
+      {
+        "source": "06R",
+        "target": "07G",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.170731707",
+        "oldTargetID": "dolly"
+      },
+      {
+        "source": "06R",
+        "target": "07N",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.170731707",
+        "oldTargetID": "doug"
+      },
+      {
+        "source": "06R",
+        "target": "08H",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.170731707",
+        "oldTargetID": "masya"
+      },
+      {
+        "source": "06R",
+        "target": "08N",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.170731707",
+        "oldTargetID": "mike"
+      },
+      {
+        "source": "06R",
+        "target": "08R",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.170731707",
+        "oldTargetID": "moyo"
+      },
+      {
+        "source": "06R",
+        "target": "08T",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.170731707",
+        "oldTargetID": "nikkie"
+      },
+      {
+        "source": "06T",
+        "target": "09F",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.184210526",
+        "oldTargetID": "trixie"
+      },
+      {
+        "source": "06U",
+        "target": "06V",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "david",
+        "oldTargetID": "0.095238095"
+      },
+      {
+        "source": "06U",
+        "target": "06W",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "david",
+        "oldTargetID": "0.243902439"
+      },
+      {
+        "source": "06V",
+        "target": "06X",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.095238095",
+        "oldTargetID": "debbie"
+      },
+      {
+        "source": "06V",
+        "target": "07B",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.095238095",
+        "oldTargetID": "diz"
+      },
+      {
+        "source": "06V",
+        "target": "07J",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.095238095",
+        "oldTargetID": "donna"
+      },
+      {
+        "source": "06V",
+        "target": "07U",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.095238095",
+        "oldTargetID": "littlejenkins"
+      },
+      {
+        "source": "06V",
+        "target": "08A",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.095238095",
+        "oldTargetID": "longjohn"
+      },
+      {
+        "source": "06V",
+        "target": "08E",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.095238095",
+        "oldTargetID": "mary"
+      },
+      {
+        "source": "06V",
+        "target": "08H",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.095238095",
+        "oldTargetID": "masya"
+      },
+      {
+        "source": "06V",
+        "target": "08N",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.095238095",
+        "oldTargetID": "mike"
+      },
+      {
+        "source": "06V",
+        "target": "08W",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.095238095",
+        "oldTargetID": "noel"
+      },
+      {
+        "source": "06X",
+        "target": "06Y",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "debbie",
+        "oldTargetID": "0.238095238"
+      },
+      {
+        "source": "06X",
+        "target": "06Z",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "debbie",
+        "oldTargetID": "0.261904762"
+      },
+      {
+        "source": "06Y",
+        "target": "07J",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.238095238",
+        "oldTargetID": "donna"
+      },
+      {
+        "source": "06Y",
+        "target": "07N",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.238095238",
+        "oldTargetID": "doug"
+      },
+      {
+        "source": "06Z",
+        "target": "07A",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.261904762",
+        "oldTargetID": "diana"
+      },
+      {
+        "source": "07B",
+        "target": "07C",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "diz",
+        "oldTargetID": "0.162790698"
+      },
+      {
+        "source": "07B",
+        "target": "07D",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "diz",
+        "oldTargetID": "0.068181818"
+      },
+      {
+        "source": "07B",
+        "target": "07E",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "diz",
+        "oldTargetID": "0.113636364"
+      },
+      {
+        "source": "07B",
+        "target": "07F",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "diz",
+        "oldTargetID": "0.045454545"
+      },
+      {
+        "source": "07C",
+        "target": "07N",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.162790698",
+        "oldTargetID": "doug"
+      },
+      {
+        "source": "07D",
+        "target": "08T",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.068181818",
+        "oldTargetID": "nikkie"
+      },
+      {
+        "source": "07D",
+        "target": "08W",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.068181818",
+        "oldTargetID": "noel"
+      },
+      {
+        "source": "07E",
+        "target": "08N",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.113636364",
+        "oldTargetID": "mike"
+      },
+      {
+        "source": "07F",
+        "target": "08A",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.045454545",
+        "oldTargetID": "longjohn"
+      },
+      {
+        "source": "07F",
+        "target": "08W",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.045454545",
+        "oldTargetID": "noel"
+      },
+      {
+        "source": "07G",
+        "target": "07H",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "dolly",
+        "oldTargetID": "0.175"
+      },
+      {
+        "source": "07G",
+        "target": "07I",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "dolly",
+        "oldTargetID": "0.135135135"
+      },
+      {
+        "source": "07H",
+        "target": "07L",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.175",
+        "oldTargetID": "dora"
+      },
+      {
+        "source": "07H",
+        "target": "07R",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.175",
+        "oldTargetID": "littlejane"
+      },
+      {
+        "source": "07H",
+        "target": "07U",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.175",
+        "oldTargetID": "littlejenkins"
+      },
+      {
+        "source": "07H",
+        "target": "07Y",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.175",
+        "oldTargetID": "littlejudy"
+      },
+      {
+        "source": "07H",
+        "target": "08Q",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.175",
+        "oldTargetID": "misha"
+      },
+      {
+        "source": "07I",
+        "target": "08H",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.135135135",
+        "oldTargetID": "masya"
+      },
+      {
+        "source": "07J",
+        "target": "07K",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "donna",
+        "oldTargetID": "0.275"
+      },
+      {
+        "source": "07L",
+        "target": "07M",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "dora",
+        "oldTargetID": "0.30952381"
+      },
+      {
+        "source": "07M",
+        "target": "08N",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.30952381",
+        "oldTargetID": "mike"
+      },
+      {
+        "source": "07M",
+        "target": "08X",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.30952381",
+        "oldTargetID": "pan"
+      },
+      {
+        "source": "07N",
+        "target": "07O",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "doug",
+        "oldTargetID": "0.255813953"
+      },
+      {
+        "source": "07N",
+        "target": "07P",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "doug",
+        "oldTargetID": "0.317073171"
+      },
+      {
+        "source": "07N",
+        "target": "07Q",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "doug",
+        "oldTargetID": "0.23255814"
+      },
+      {
+        "source": "07Q",
+        "target": "08T",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.23255814",
+        "oldTargetID": "nikkie"
+      },
+      {
+        "source": "07Q",
+        "target": "08Y",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.23255814",
+        "oldTargetID": "pippa"
+      },
+      {
+        "source": "07R",
+        "target": "07S",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "littlejane",
+        "oldTargetID": "0.342105263"
+      },
+      {
+        "source": "07R",
+        "target": "07T",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "littlejane",
+        "oldTargetID": "0.447368421"
+      },
+      {
+        "source": "07S",
+        "target": "08I",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.342105263",
+        "oldTargetID": "max"
+      },
+      {
+        "source": "07U",
+        "target": "07V",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "littlejenkins",
+        "oldTargetID": "0.4"
+      },
+      {
+        "source": "07U",
+        "target": "07W",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "littlejenkins",
+        "oldTargetID": "0.285714286"
+      },
+      {
+        "source": "07U",
+        "target": "07X",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "littlejenkins",
+        "oldTargetID": "0.205128205"
+      },
+      {
+        "source": "07X",
+        "target": "07Y",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.205128205",
+        "oldTargetID": "littlejudy"
+      },
+      {
+        "source": "07X",
+        "target": "08X",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "0.205128205",
+        "oldTargetID": "pan"
+      },
+      {
+        "source": "07Y",
+        "target": "07Z",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "littlejudy",
+        "oldTargetID": "0.380952381"
+      },
+      {
+        "source": "08A",
+        "target": "08B",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "longjohn",
+        "oldTargetID": "0.159090909"
+      },
+      {
+        "source": "08C",
+        "target": "08D",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "maggie",
+        "oldTargetID": "0.289473684"
+      },
+      {
+        "source": "08E",
+        "target": "08F",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "mary",
+        "oldTargetID": "0.3"
+      },
+      {
+        "source": "08E",
+        "target": "08G",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "mary",
+        "oldTargetID": "0.023809524"
+      },
+      {
+        "source": "08G",
+        "target": "08L",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.023809524",
+        "oldTargetID": "maxine"
+      },
+      {
+        "source": "08G",
+        "target": "09A",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.023809524",
+        "oldTargetID": "taylor"
+      },
+      {
+        "source": "08I",
+        "target": "08J",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "max",
+        "oldTargetID": "0.282051282"
+      },
+      {
+        "source": "08I",
+        "target": "08K",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "max",
+        "oldTargetID": "0.219512195"
+      },
+      {
+        "source": "08L",
+        "target": "08M",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "maxine",
+        "oldTargetID": "0.256410256"
+      },
+      {
+        "source": "08N",
+        "target": "08O",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "mike",
+        "oldTargetID": "0.136363636"
+      },
+      {
+        "source": "08N",
+        "target": "08P",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "mike",
+        "oldTargetID": "0.279069767"
+      },
+      {
+        "source": "08P",
+        "target": "09G",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "0.279069767",
+        "oldTargetID": "violet"
+      },
+      {
+        "source": "08R",
+        "target": "08S",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "moyo",
+        "oldTargetID": "0.138888889"
+      },
+      {
+        "source": "08U",
+        "target": "08V",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "nina",
+        "oldTargetID": "0.302325581"
+      },
+      {
+        "source": "08Y",
+        "target": "08Z",
+        "weight": "1",
+        "focal.sex": "male",
+        "oldSourceID": "pippa",
+        "oldTargetID": "0.209302326"
+      },
+      {
+        "source": "09B",
+        "target": "09C",
+        "weight": "1",
+        "focal.sex": "female",
+        "oldSourceID": "tess",
+        "oldTargetID": "0.394736842"
+      }
+    ]
+  }
+}
