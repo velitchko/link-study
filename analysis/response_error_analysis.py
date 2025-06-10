@@ -1,6 +1,8 @@
 import pandas as pd
 import ast
 import os
+import warnings
+warnings.simplefilter(action='ignore', category=FutureWarning)
 
 # Paths
 quantitative_path = os.path.join('results', 'parsed', 'quantitative.csv')
@@ -12,15 +14,9 @@ gt_df = pd.read_csv(ground_truth_path)
 
 # Helper: get correct answer for a task/dataset
 def get_correct_answer(task, dataset):
-    print(f"Retrieving correct answer for task {task} on dataset {dataset}")
-    row = gt_df[(gt_df['dataset'] == dataset)]
-    if str(task) in gt_df.columns:
-        row = row[[str(task)]].rename(columns={str(task): 'answer'})
-    else:
-        row = pd.DataFrame()
-    if row.empty:
-        return None
-    return row.iloc[0]['answer']
+    if dataset.endswith('.json'):
+        dataset = dataset[:-5]
+    return gt_df[gt_df["dataset"] == dataset][f"T{task}"].values
 
 # Tagging function
 def tag_row(row):
@@ -29,37 +25,24 @@ def tag_row(row):
     answer = row[5]
     correct = False
 
-    print(f"Processing dataset: {dataset}, task: {task}, answer: {answer}")
 
-    gt_answer = get_correct_answer(task, dataset)
-
-    try:
-        if task in [1, 2]:
-            # Any selected ID matches ground truth
-            user_ids = set(ast.literal_eval(answer))
-            if gt_answer is not None:
-                gt_ids = set(ast.literal_eval(gt_answer))
-                correct = not user_ids.isdisjoint(gt_ids)
-            else:
-                correct = False
-        elif task == 3:
-            correct = str(answer).strip().lower() == 'yes'
-        elif task == 4:
-            expected = 4 if 'high' in dataset else 2
-            correct = int(answer) == expected
-        elif task == 5:
-            if answer is not None and gt_answer is not None:
-                correct = float(answer) == float(gt_answer)
-            else:
-                correct = False
-        elif task == 6:
-            user_list = ast.literal_eval(answer)
-            if gt_answer is not None:
-                correct = len(user_list) == int(gt_answer)
-            else:
-                correct = False
-    except Exception:
-        correct = False
+    gt_answer_raw = get_correct_answer(task, dataset)
+    if task in [1, 2]:
+        gt_answer = gt_answer_raw[0].split(',')
+        gt_answer = [x.strip().upper() for x in gt_answer]
+        answer = ast.literal_eval(answer)
+        answer = [x.strip().upper() for x in answer]
+        correct = len(set(gt_answer) & set(answer)) >= 1
+    elif task == 3:
+        correct = str(answer).strip().lower() == 'yes'
+    elif task == 4:
+        expected = 4 if 'high' in dataset else 2
+        correct = int(answer) == expected
+    elif task == 5:
+        correct = int(answer) == int(gt_answer_raw[0])
+    elif task == 6:
+        user_list = ast.literal_eval(answer)
+        correct = len(user_list) == int(gt_answer_raw[0])
 
     return 'correct' if correct else 'incorrect'
 
