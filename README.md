@@ -1,6 +1,6 @@
-# Impact of Explicit Edge Drawing
+# Impact of Explicit Link Drawing
 
-A study to assess the impact of explicit edge drawing in node-link diagrams.
+A study to assess the impact of explicit link drawing in node-link diagrams.
 
 ## Description
 
@@ -8,7 +8,7 @@ A study to assess the impact of explicit edge drawing in node-link diagrams.
 ## Getting Started
 Clone the repository
 ```console
-foo@bar:~$ git clone https://github.com/velitchko/link-study.git
+foo@bar:~$ git clone https://github.com/user/repository.git
 ```
 
 ### Dependencies
@@ -61,17 +61,4 @@ Start the containers:
 foo@bar:~$ docker compose up
 ```
 
-## Authors
-
-<table>
-<tr>
-    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
-        <a href="https://github.com/velitchko">
-            <img src=https://github.com/velitchko.png width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt="Velitchko Filipov"/>
-            <br />
-            <sub style="font-size:14px"><b>@velitchko</b></sub>
-        </a>
-    </td>
-</tr>
-</table>
 
